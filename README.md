@@ -1,23 +1,29 @@
-# TÍTULO DO PROJETO
+# HireMe
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO`
 
-`SEMESTRE`
+`EIXO 01`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo geral deste projeto é a criação de uma ferramenta que possa facilitar a construção de um currículo e que sirva como uma ponte entre pessoas que buscam uma oportunidade de emprego e organizações que procuram profissionais para compor suas equipes.  
+
+Como objetivos específicos, pode-se ressaltar: 
+- fornecer funcionalidades que permitam ao usuário a criação de um currículo que seja atrativo para o mercado de trabalho; 
+- funcionar como um pool de talentos, onde profissionais possam escolher disponibilizar o seu currículo e onde empresas podem buscar pessoas de acordo com as skills desejadas em suas vagas.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Ana Carolina Nazareth Nogueira
+* Bianca Moreira
+* Gabriela Penaforte
+* Nikita Ceccon
+* Verônica Melo
+* Victor Bastos
 
 ## Orientador
 
-* Nome completo do professor 1
+* Marco Rodrigo Costa
 
 ## Instruções de utilização
 
