@@ -2,9 +2,9 @@
 
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`PROJETO`
+`PROJETO DE DESENVOLVIMENTO WEB`
 
-`EIXO 01`
+`EIXO 01 - 01/2023`
 
 O objetivo geral deste projeto é a criação de uma ferramenta que possa facilitar a construção de um currículo e que sirva como uma ponte entre pessoas que buscam uma oportunidade de emprego e organizações que procuram profissionais para compor suas equipes.  
 
