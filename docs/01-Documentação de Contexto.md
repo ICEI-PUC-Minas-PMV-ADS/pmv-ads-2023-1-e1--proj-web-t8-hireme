@@ -1,46 +1,62 @@
-# Introdução
+# Documentação de contexto
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+
+<div align="justify"> 
+O capital humano é o recurso mais importante das empresas dos mais diversos setores, contratações errôneas podem custar muito caro para as empresas e também são extremamente onerosas para os trabalhadores, visto que estes poderiam estar se dedicando para um processo seletivo de vagas que realmente fazem sentido para a sua carreira. Sendo assim, é importante que os currículos, os quais são o primeiro contato do recrutador com a pessoa interessada na vaga, estejam descritos de forma objetiva e estruturada, e assim despertar o interesse imediato de quem o avalia. </div>
+
+<div align="justify">
+Incialmente, observa-se que, em muitos casos, as pessoas que buscam uma nova oportunidade no mercado de trabalho não conseguem apresentar por meio de seus currículos os objetivos de carreira desejados e tão pouco as experiências relevantes que possuem para a área. A prova disso é relatada em uma entrevista que o BNE (Banco Nacional de Empregos) fez com recrutadores em 2021, na qual os recrutadores relatam que o principal motivo para a eliminação do currículo é a incompatibilidade com a experiência exigida (Blog do BNE, 2021). Ou seja, é fundamental que o currículo esteja bem estruturado, do ponto de vista visual, e seja simples, porém com as informações cruciais bem descritas, pois é necessário, a princípio, chamar a atenção do recrutador. </div>
+
+<div align="justify">
+Ademais, com a facilidade de se buscar empregos de forma online, por meio de grupos de divulgação, sites de busca, página das empresas e outros, é menos complexo se candidatar para uma vaga atualmente do que nos anos 80, que era necessário enviar o currículo físico por meio dos correios ou deixá-lo pessoalmente nas empresas. Posto isso, o volume de currículos recebidos pelos recrutadores é alto e, de acordo com pesquisa realizada pela empresa Catho disponibilizada pelo G1 (2019), 57% dos recrutadores analisam os currículos em até 29 segundos, ou seja, é imprescindível que esses arquivos sejam suscintos e chamem a atenção do recrutador de forma positiva, tanto pelo *layout* quanto pelo conteúdo. </div>
+
+<div align="justify">
+Em suma, é necessário a criação de uma ferramenta que possa viabilizar a criação de currículos bem estruturados, na qual a pessoa possa escolher um *template* moderno, paleta de coloração do arquivo, com opções de frases pré-elaboradas para aqueles que não sabem por onde começar a descrever seus objetivos, habilidade e descrições das vagas já trabalhadas anteriormente, bem como a opção de tradução para outra língua, a fim de maximizar as suas chances de serem aprovados para a próxima etapa dos processos seletivos que desejarem. 
+</div>
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+<div align="justify">
+O problema que se busca resolver com esta proposta é a dificuldade que pessoas podem ter ao tentar elaborar um currículo e buscar uma oportunidade de emprego. E também recrutadores em encontrar determinados perfis de colaboradores das quais estejam buscando.</div>
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+<div align="justify">
+O objetivo geral deste projeto é a criação de uma ferramenta que possa facilitar a construção de um currículo e que sirva como uma ponte entre pessoas que buscam uma oportunidade de emprego e organizações que procuram profissionais para compor suas equipes. </div>
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, pode-se ressaltar: 
+
+<div align="justify">
+<ul>
+<li> fornecer funcionalidades que permitam ao usuário a criação de um currículo que seja atrativo para o mercado de trabalho; </ul></li></div>
+
+<div align="justify">
+<ul>
+<li> funcionar como um pool de talentos, onde profissionais possam escolher disponibilizar o seu currículo e onde empresas podem buscar pessoas de acordo com as skills desejadas em suas vagas.  </ul></li></div>
+
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+<div align="justify">
+Apesar da crescente utilização de plataformas de recrutamento online, o currículo ainda é indispensável. Por isso, ter conhecimento sobre o que chama a atenção dos recrutadores na análise do documento é de extrema importância, uma vez que a falta desse conhecimento pode levar o candidato a ser dispensado sem que tenha demonstrado todo o seu potencial. </div>
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+<div align="justify">
+De acordo com levantamento feito com 400 recrutadores pela empresa Catho, em uma primeira avaliação, um recrutador que recebe 100 currículos analisa em média 15 com maior critério e cautela. Sendo assim, é fundamental que haja uma aplicação que facilite o processo de montagem de currículos para pessoas que buscam um novo emprego, dando destaque às principais informações buscadas pelos recrutadores, e que os disponibilize de forma mais facilitada para organizações que estão buscando contratar profissionais qualificados, pois pode aumentar as chances de o candidato chamar a atenção do avaliador em uma primeira análise. </div>
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Embora qualquer pessoa possa usufruir desta solução, foi determinado como público-alvo: 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+- pessoas que buscam o primeiro emprego ou que estão muito tempo fora do mercado; 
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+<div align="justify">
+<ul>
+<li> profissionais que foram surpreendidos com um desligamento repentino e buscam emprego imediatamente; </li></ul></div>
+
+- recrutadores que buscam profissionais para suprir demandas das organizações.  
+
