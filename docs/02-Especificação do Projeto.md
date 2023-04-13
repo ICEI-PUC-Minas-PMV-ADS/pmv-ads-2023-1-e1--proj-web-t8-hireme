@@ -1,91 +1,117 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição do problema e dos principais pontos a serem discutidos neste projeto foram baseados em informações obtidas em entrevistas com usuários conduzidas pela equipe de trabalho. Os detalhes levantados ao longo desse processo foram consolidados na forma de personas e histórias de usuários. 
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Para ajudar no entendimento do problema e melhor identificar as necessidades dos usuários, foram levantadas as personas a seguir.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+**Quadro 1 – Entrevista com a primeira persona** 
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+|Maria - Recrutadora|
+|--------------------|
+|Psicóloga e com MBA em Gestão de Pessoas. Mais de 10 anos atuando de forma generalista na área de Recursos Humanos. Atualmente trabalha como *Tech Recruiter* em uma multinacional de Tecnologia.  |
+|O maior obstáculo é encontrar profissionais capacitados tecnicamente e que estão disponíveis e interessados em uma nova oportunidade no mercado de trabalho.  |
+|Apesar das diversas ferramentas disponíveis para recrutamento, ainda é possível se deparar com currículos pobres em informações e desorganizados que acabam dificultando o trabalho de triagem. Isso também aumenta a possibilidade de que profissionais que poderiam atender ao perfil/requisitos da posição sejam desconsiderados para um processo seletivo.  |
+|Ferramentas utilizadas para busca de candidatos: *LinkedIn Recruiter, GeekHunter, Revelo.* |
+
+**Fonte:** Elaborado pelos autores. 
+
+
+
+**Quadro 2 – Entrevista com a segunda persona** 
+
+| **Ana – Buscando recolocação**                               |
+| ------------------------------------------------------------ |
+| Formada em Administração com ênfase em RH. Tem 16 anos de experiência na área de Recursos Humanos e Departamento Pessoal. Atualmente, trabalha de forma autônoma. Busca a recolocação profissional na área de RH, a fim de retomar uma rotina e um espaço no mercado de trabalho. A maior dificuldade no momento é a falta de atualização na área profissional, como, por exemplo, sistemas e processos relacionados a área. Já tentou utilizar as ferramentas oferecidas pelo *LinkedIn, Gupy e Sólides*, porém necessita de uma ferramenta mais intuitiva e prática. Gostaria de poder contar com um site de fácil usabilidade e que fosse possível salvar o arquivo do currículo em PDF, pois, em sites como o *Gupy* e *Sólides,* a informação fica retida e, no *LinkedIn,* o layout do arquivo gerado não é muito atrativo. Outros sites que oferecem um serviço mais personalizado, como o *Canva,* são extremamente complicados para usuários com menor domínio da informática. |
+
+**Fonte:** Elaborado pelos autores. 
+
+
+
+**Quadro 3 – Entrevista com a terceira persona** 
+
+| **João - Estudante em busca do primeiro emprego**            |
+| ------------------------------------------------------------ |
+| Estudante de Análise e Desenvolvimento de Sistemas. Ainda não possui experiência profissional, portanto busca sua entrada no mercado de trabalho. Por ser inexperiente, não sabe diferenciar a importância das informações que deve colocar ou não colocar no currículo. E também não compreende como pode modificar seu currículo pra ficar atrativo de acordo com a vaga a qual pretende aplicar. Utiliza ferramentas como *Canva* e *LinkedIn* para confecção de currículo e busca de emprego, mas não consegue navegar com facilidade por esses sites. |
+
+**Fonte:** Elaborado pelos autores. 
+
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir do entendimento das personas identificadas para o projeto, foram estabelecidas as seguintes histórias de usuário. 
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+**Quadro 4 – História de usuários** 
+
+
+
+| **Eu como … **`PERSONA` | **… quero/desejo …**   <br /> `O QUE`                              | **… para ....** <br />`POR QUE`                              |
+| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| JOÃO                    | um site com variedade de modelos de currículos               | ter diferentes opções de acordo com a necessidade do momento |
+| JOÃO                    | ter um currículo atrativo com informações que recrutadores julgam importante | chamar atenção para o meu currículo em uma primeira análise e conseguir uma entrevista |
+| JOÃO                    | compartilhar o currículo                                     | alcançar maior número de pessoas e organizações              |
+| ANA                     | ter orientações de como fazer um currículo de forma didática | facilitar a utilização de ferramentas online                 |
+| MARIA                   | ter acesso a currículos em que as informações estão organizadas e claras | facilitar o processo de triagem de currículos                |
+| MARIA                   | encontrar pessoas que buscam emprego imediatamente           | ter profissionais que vão se dedicar ao processo e que tem disponibilidade rápida para início |
+
+**Fonte:** Elaborado pelos autores. 
+
+
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo do projeto é definido por meio de requisitos funcionais e não funcionais, a fim de descrever todas as funcionalidades que o usuário poderá encontrar, como também os aspectos gerais que precisam ser apresentados pela ferramenta. 
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+Na tabela a seguir estão listados os requisitos funcionais do projeto, bem como a prioridade de entrega de cada item. 
 
+**Quadro 5 – Requisitos funcionais** 
+
+| **ID** | **Descrição**                                                | **Prioridade** |
+| ------ | ------------------------------------------------------------ | -------------- |
+| RF-01  | O site deve apresentar na página inicial as funcionalidades disponíveis para o usuário. | Alta           |
+| RF-02  | O site deve ter separação de telas entre usuários que queiram disponibilizar o currículo e os recrutadores que buscam talentos. | Alta           |
+| RF-03  | O site deve permitir a criação e edição de um currículo pelo usuário. | Alta           |
+| RF-04  | O site deve mostrar os *templates* de currículos disponíveis para a edição do usuário. | Alta           |
+| RF-05  | O site deve oferecer o recurso de selecionar as experiências e habilidades que deseja colocar em cada currículo para a versão de download, de forma a conseguir personalizar para cada tipo de arquivo. | Alta           |
+| RF-06  | O site deve permitir que o recrutador entre em contato com os demais usuários por meio da plataforma. | Média          |
+| RF-07  | O site deve permitir que o recrutador salve currículos em pastas separadas de acordo com perfis diferentes. | Média          |
+| RF-08  | O site deve permitir que os recrutadores façam filtros de busca de pessoas de acordo com as experiências. | Média          |
+| RF-09  | O site deve permitir que o usuário coloque links externos no currículo. | Média          |
+| RF-10  | O site deve ter um botão de dicas em cada campo para preenchimento das informações do currículo. | Baixa          |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+A tabela a seguir especifica os requisitos não funcionais que devem ser atendidos pelo projeto. 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+**Quadro 6 – Requisitos não funcionais** 
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+| **ID** | **Descrição**                                                | **Prioridade** |
+| ------ | ------------------------------------------------------------ | -------------- |
+| RNF-01 | O site deve ser publicado em um ambiente acessível publicamente no GitHub Pages. | Alta           |
+| RNF-02 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | Alta           |
+| RNF-03 | O site deverá ser organizado da melhor forma para facilitar o desempenho do leitor de tela. | Alta           |
+| RNF-04 | O site deve ter opção de cadastro de usuários.               | Alta           |
+| RNF-05 | O site deve ter bom nível de contraste entre os elementos da tela em conformidade. | Média          |
+| RNF-06 | O site deve possuir opção de aumentar sua fonte de acordo com a necessidade visual do usuário. | Baixa          |
+| RNF-07 | O site deve ser responsivo permitindo a visualização tanto em desktops e notebooks, quanto em celulares com telas de variados tamanhos. | Baixa          |
+
+
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que restringem a execução desse projeto e que refletem as obrigações para o desenvolvimento do trabalho, são apresentadas na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+| **ID** | **Restrição**                                                |
+| ------ | ------------------------------------------------------------ |
+| RE-01  | O site deve ser construído usando HTML, CSS e Javascript.    |
+| RE-02  | O sistema deve estar acessível na web.                       |
+| RE-03  | O projeto deve ser entregue no final do semestre letivo, sendo 25/06/2023 a data limite. |
+| RE-04  | A equipe desenvolvedora deve ser composta apenas pelos alunos que fazem parte do projeto. |
+| RE-05  | O sistema deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD). |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
