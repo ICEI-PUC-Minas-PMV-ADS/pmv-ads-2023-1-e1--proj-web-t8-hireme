@@ -1,6 +1,7 @@
 # Especificações do Projeto
 
-A definição do problema e dos principais pontos a serem discutidos neste projeto foram baseados em informações obtidas em entrevistas com usuários conduzidas pela equipe de trabalho. Os detalhes levantados ao longo desse processo foram consolidados na forma de personas e histórias de usuários. 
+<div align="justify"> A definição do problema e dos principais pontos a serem discutidos neste projeto foram baseados em informações obtidas em entrevistas com usuários conduzidas pela equipe de trabalho. Os detalhes levantados ao longo desse processo foram consolidados na forma de personas e histórias de usuários. 
+  </div>
 
 ## Personas
 
@@ -10,10 +11,8 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 |Maria - Recrutadora|
 |--------------------|
-|Psicóloga e com MBA em Gestão de Pessoas. Mais de 10 anos atuando de forma generalista na área de Recursos Humanos. Atualmente trabalha como *Tech Recruiter* em uma multinacional de Tecnologia.  |
-|O maior obstáculo é encontrar profissionais capacitados tecnicamente e que estão disponíveis e interessados em uma nova oportunidade no mercado de trabalho.  |
-|Apesar das diversas ferramentas disponíveis para recrutamento, ainda é possível se deparar com currículos pobres em informações e desorganizados que acabam dificultando o trabalho de triagem. Isso também aumenta a possibilidade de que profissionais que poderiam atender ao perfil/requisitos da posição sejam desconsiderados para um processo seletivo.  |
-|Ferramentas utilizadas para busca de candidatos: *LinkedIn Recruiter, GeekHunter, Revelo.* |
+|<div align="justify"> Psicóloga e com MBA em Gestão de Pessoas. Mais de 10 anos atuando de forma generalista na área de Recursos Humanos. Atualmente trabalha como *Tech Recruiter* em uma multinacional de Tecnologia. O maior obstáculo é encontrar profissionais capacitados tecnicamente e que estão disponíveis e interessados em uma nova oportunidade no mercado de trabalho. Apesar das diversas ferramentas disponíveis para recrutamento, ainda é possível se deparar com currículos pobres em informações e desorganizados que acabam dificultando o trabalho de triagem. Isso também aumenta a possibilidade de que profissionais que poderiam atender ao perfil/requisitos da posição sejam desconsiderados para um processo seletivo. Ferramentas utilizadas para busca de candidatos: *LinkedIn Recruiter, GeekHunter, Revelo.* 
+</div>
 
 **Fonte:** Elaborado pelos autores. 
 
@@ -23,7 +22,8 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 | **Ana – Buscando recolocação**                               |
 | ------------------------------------------------------------ |
-| Formada em Administração com ênfase em RH. Tem 16 anos de experiência na área de Recursos Humanos e Departamento Pessoal. Atualmente, trabalha de forma autônoma. Busca a recolocação profissional na área de RH, a fim de retomar uma rotina e um espaço no mercado de trabalho. A maior dificuldade no momento é a falta de atualização na área profissional, como, por exemplo, sistemas e processos relacionados a área. Já tentou utilizar as ferramentas oferecidas pelo *LinkedIn, Gupy e Sólides*, porém necessita de uma ferramenta mais intuitiva e prática. Gostaria de poder contar com um site de fácil usabilidade e que fosse possível salvar o arquivo do currículo em PDF, pois, em sites como o *Gupy* e *Sólides,* a informação fica retida e, no *LinkedIn,* o layout do arquivo gerado não é muito atrativo. Outros sites que oferecem um serviço mais personalizado, como o *Canva,* são extremamente complicados para usuários com menor domínio da informática. |
+|<div align="justify"> Formada em Administração com ênfase em RH. Tem 16 anos de experiência na área de Recursos Humanos e Departamento Pessoal. Atualmente, trabalha de forma autônoma. Busca a recolocação profissional na área de RH, a fim de retomar uma rotina e um espaço no mercado de trabalho. A maior dificuldade no momento é a falta de atualização na área profissional, como, por exemplo, sistemas e processos relacionados a área. Já tentou utilizar as ferramentas oferecidas pelo *LinkedIn, Gupy e Sólides*, porém necessita de uma ferramenta mais intuitiva e prática. Gostaria de poder contar com um site de fácil usabilidade e que fosse possível salvar o arquivo do currículo em PDF, pois, em sites como o *Gupy* e *Sólides,* a informação fica retida e, no *LinkedIn,* o layout do arquivo gerado não é muito atrativo. Outros sites que oferecem um serviço mais personalizado, como o *Canva,* são extremamente complicados para usuários com menor domínio da informática.
+</div> 
 
 **Fonte:** Elaborado pelos autores. 
 
@@ -33,7 +33,8 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 | **João - Estudante em busca do primeiro emprego**            |
 | ------------------------------------------------------------ |
-| Estudante de Análise e Desenvolvimento de Sistemas. Ainda não possui experiência profissional, portanto busca sua entrada no mercado de trabalho. Por ser inexperiente, não sabe diferenciar a importância das informações que deve colocar ou não colocar no currículo. E também não compreende como pode modificar seu currículo pra ficar atrativo de acordo com a vaga a qual pretende aplicar. Utiliza ferramentas como *Canva* e *LinkedIn* para confecção de currículo e busca de emprego, mas não consegue navegar com facilidade por esses sites. |
+| <div align="justify"> Estudante de Análise e Desenvolvimento de Sistemas. Ainda não possui experiência profissional, portanto busca sua entrada no mercado de trabalho. Por ser inexperiente, não sabe diferenciar a importância das informações que deve colocar ou não colocar no currículo. E também não compreende como pode modificar seu currículo pra ficar atrativo de acordo com a vaga a qual pretende aplicar. Utiliza ferramentas como *Canva* e *LinkedIn* para confecção de currículo e busca de emprego, mas não consegue navegar com facilidade por esses sites. 
+</div> 
 
 **Fonte:** Elaborado pelos autores. 
 
@@ -49,7 +50,7 @@ A partir do entendimento das personas identificadas para o projeto, foram estabe
 
 
 
-| **Eu como … **`PERSONA` | **… quero/desejo …**   <br /> `O QUE`                              | **… para ....** <br />`POR QUE`                              |
+| **Eu como …** <br /> `PERSONA` | **… quero/desejo …**   <br /> `O QUE`                              | **… para ....** <br />`POR QUE`                              |
 | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | JOÃO                    | um site com variedade de modelos de currículos               | ter diferentes opções de acordo com a necessidade do momento |
 | JOÃO                    | ter um currículo atrativo com informações que recrutadores julgam importante | chamar atenção para o meu currículo em uma primeira análise e conseguir uma entrevista |
