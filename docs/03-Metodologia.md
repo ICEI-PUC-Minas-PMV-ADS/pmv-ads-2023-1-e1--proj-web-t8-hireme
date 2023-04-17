@@ -12,25 +12,28 @@
 O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
+- `testing`: versão em teste do software
 - `dev`: versão de desenvolvimento do software
+- `feature-[ID]-[BREVE_DESCRIÇÃO]`: quando forem criadas novas funcionalidades
+- `bugfix-[NOME_ISSUE]`: quando for preciso a melhoria de funcionalidades com problemas
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 
 - `documentation`: melhorias ou acréscimos à documentação
 - `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+<div align="justify"> 
+<p>
+A branch principal é a main, em que estará a versão estável da aplicação. Já na branch dev, serão armazenadas as modificações feitas
+pela equipe de desenvolvimento. Na branch testing, todas as alterações serão enviadas, sem erros, para serem testadas nessa branch.
+</p>
+<p>
+Para a criação de novas features da aplicação, será usada a convenção de <b>feature-[ID]-[BREVE_DESCRIÇÃO]</b> em que o [ID] será o id
+do requerimento funcional ou não funcional e em seguida uma breve descrição para localizar a branch. Já para a correção de bugs, a 
+convenção usada será <b>bugfix-[NOME_ISSUE]</b> que carregará o nome da issue que está sendo resolvida.
+</p>
+</div>
 
 ## Gerenciamento de Projeto
 
@@ -60,16 +63,9 @@ A equipe foi organizada da seguinte maneira:
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código: 
+- Editor de código: Visual Studio Code
 - Ferramentas de comunicação: Trello
 - Ferramentas de desenho de tela: Figma
 
 <div align="justify"> O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
- </div>
-
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+</div>
