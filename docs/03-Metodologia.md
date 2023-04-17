@@ -6,7 +6,7 @@
 
 ## Controle de Versão
 
-<div align="justify"> A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/), sendo que o [Github](https://github.com) foi utilizado para hospedagem do repositório.
+<div align="justify"> A ferramenta de controle de versão adotada no projeto foi o <a href="https://git-scm.com/">Git</a>, sendo que o <a href="https://github.com">Github</a> foi utilizado para hospedagem do repositório.
  </div>
 
 O projeto segue a seguinte convenção para o nome de branches:
