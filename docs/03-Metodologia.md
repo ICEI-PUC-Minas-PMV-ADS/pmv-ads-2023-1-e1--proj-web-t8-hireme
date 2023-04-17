@@ -49,6 +49,7 @@ A equipe foi organizada da seguinte maneira:
 <div align="justify"> Para uma melhor organização, distribuição e acompanhamento das tarefas do projeto, foi utilizado o Trello. A ferramenta foi estruturada com as seguintes listas: 
  </div>
 
+
 - Backlog do produto: lista de requisitos e demais tarefas identificadas no decorrer do projeto.  
 - A Fazer: consta as tarefas que devem ser trabalhadas no momento.  
 - Em andamento: relação de tarefas que estão sendo trabalhadas.  
@@ -65,6 +66,7 @@ As ferramentas empregadas no projeto são:
 
 <div align="justify"> O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
  </div>
+
 
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
  
