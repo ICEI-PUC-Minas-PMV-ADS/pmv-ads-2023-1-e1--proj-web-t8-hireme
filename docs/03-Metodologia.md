@@ -1,13 +1,13 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-A metodologia contempla todas as ferramentas definidas pelos componentes para a manutenção dos códigos e demais artefatos, e para a organização da equipe na execução das tarefas do projeto. 
+<div align="justify"> A metodologia contempla todas as ferramentas definidas pelos componentes para a manutenção dos códigos e demais artefatos, e para a organização da equipe na execução das tarefas do projeto.
+ </div>
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/), sendo que o [Github](https://github.com) foi utilizado para hospedagem do repositório.
+<div align="justify"> A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/), sendo que o [Github](https://github.com) foi utilizado para hospedagem do repositório.
+ </div>
 
 O projeto segue a seguinte convenção para o nome de branches:
 
@@ -46,7 +46,8 @@ A equipe foi organizada da seguinte maneira:
 
 ### Processo
 
-Para uma melhor organização, distribuição e acompanhamento das tarefas do projeto, foi utilizado o Trello. A ferramenta foi estruturada com as seguintes listas:  
+<div align="justify"> Para uma melhor organização, distribuição e acompanhamento das tarefas do projeto, foi utilizado o Trello. A ferramenta foi estruturada com as seguintes listas: 
+ </div>
 
 - Backlog do produto: lista de requisitos e demais tarefas identificadas no decorrer do projeto.  
 - A Fazer: consta as tarefas que devem ser trabalhadas no momento.  
@@ -58,15 +59,12 @@ Para uma melhor organização, distribuição e acompanhamento das tarefas do pr
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código: 
+- Ferramentas de comunicação: Trello
+- Ferramentas de desenho de tela: Figma
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+<div align="justify"> O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+ </div>
 
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
  
