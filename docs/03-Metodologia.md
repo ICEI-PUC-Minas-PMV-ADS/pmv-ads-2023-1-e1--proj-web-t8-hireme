@@ -14,8 +14,8 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `main`: versão estável já testada do software
 - `testing`: versão em teste do software
 - `dev`: versão de desenvolvimento do software
-- `feature-[ID]-[BREVE_DESCRIÇÃO]`: quando forem criadas novas funcionalidades
-- `bugfix-[NOME_ISSUE]`: quando for preciso a melhoria de funcionalidades com problemas
+- `feature`: usadas para criar novas funcionalidades
+- `bugfix`: usadas para ajustar melhorias com problemas
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 
@@ -29,9 +29,8 @@ A branch principal é a main, em que estará a versão estável da aplicação. 
 pela equipe de desenvolvimento. Na branch testing, todas as alterações serão enviadas, sem erros, para serem testadas nessa branch.
 </p>
 <p>
-Para a criação de novas features da aplicação, será usada a convenção de <b>feature-[ID]-[BREVE_DESCRIÇÃO]</b> em que o [ID] será o id
-do requerimento funcional ou não funcional e em seguida uma breve descrição para localizar a branch. Já para a correção de bugs, a 
-convenção usada será <b>bugfix-[NOME_ISSUE]</b> que carregará o nome da issue que está sendo resolvida.
+Para a criação de novas funcionalidades da aplicação, será usada a convenção de <b>feature</b> seguida por uma breve descrição da tarefa pra uma melhor forma de identificar a branch. Já para a correção de bugs, a 
+convenção usada será <b>bugfix</b> que carregará o nome da issue que está sendo resolvida.
 </p>
 </div>
 
