@@ -22,7 +22,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
  
 ### Tela - Página Inicial
 
-<div align="justify"> A tela de Página Inicial dá uma visão geral ao usuário do propósito do sistema e dos serviços oferecidos. As informações são disponibilizadas por meio de um carrossel. Além disso o usuário tem acesso a alguns depoimentos de pessoas que utilizaram o sistema e alcançaram seus objetivos. É também através dessa tela que o usuário pode fazer seu cadastro ou ir diretamente para o Login.
+<div align="justify"> A tela de Página Inicial dá uma visão geral ao usuário do propósito do sistema e dos serviços oferecidos. As informações são disponibilizadas por meio de um carrossel. Além disso, é através dessa tela que o usuário pode fazer seu cadastro ou ir diretamente para o login. Por fim, o usuário também tem acesso a alguns depoimentos de pessoas que utilizaram o sistema e alcançaram seus objetivos.
    </div><br>
 
 ![PaginaInicial1](img/pagina-inicial1.jpg)
