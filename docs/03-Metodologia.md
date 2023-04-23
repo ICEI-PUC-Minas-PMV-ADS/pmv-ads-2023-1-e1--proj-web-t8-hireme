@@ -34,6 +34,20 @@ convenção usada será <b>bugfix</b> que carregará o nome da issue que está s
 </p>
 </div>
 
+### Relação de Ambientes de Trabalho
+
+<p align="justify">
+Foram utilizadas diferentes plataformas na construção dos artefatos do projeto e a relação dos ambientes com seu respectivo propósito é apresentada na tabela a seguir.
+</p>
+
+**Quadro 8 – Ambientes de Trabalho** 
+| Ambiente                          | Plataforma / Link de Acesso                                                                                                                        |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Repositório de código fonte       | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1--proj-web-t8-hireme )                                                         |
+| Documentos do projeto             | [Teams](https://sgapucminasbr.sharepoint.com/:f:/s/team_sga_2418_2023_1_4577108-18_30h-P1/EuAnwYzoDTBNjtwH_XfTICQBJ5vN3_JWSouygeVqHV2pwg?e=r5IGI4) |
+| Projeto de Interface e Wireframes | [Figma](https://www.figma.com/file/26xgkuRFG2tFlLcm2I9TeY/HireMe?node-id=155-631&t=E3KIpwSAFUs5dzEn-0) [LucidChart](https://lucid.app/lucidspark/bd539522-a9a8-42de-b410-01f10499a499/edit?viewport_loc=10810%2C-2990%2C3148%2C1470%2C0_0&invitationId=inv_0a0816cd-1093-44bc-9cf9-0aa5ed1635a4) |
+| Gerenciamento do Projeto          | [Trello](https://trello.com/b/3pwMb5b3/hireme) |
+**Fonte**: Elaborado pelos autores. 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
@@ -48,15 +62,16 @@ A equipe foi organizada da seguinte maneira:
 
 ### Processo
 
-<div align="justify"> Para uma melhor organização, distribuição e acompanhamento das tarefas do projeto, foi utilizado o Trello. A ferramenta foi estruturada com as seguintes listas: 
- </div>
-
+<p align="justify">Para uma melhor organização, distribuição e acompanhamento das tarefas do projeto, foi utilizado o Trello (Figura 1). A ferramenta foi estruturada com as seguintes listas:</p>
 
 - Backlog do produto: lista de requisitos e demais tarefas identificadas no decorrer do projeto.  
 - A Fazer: consta as tarefas que devem ser trabalhadas no momento.  
 - Em andamento: relação de tarefas que estão sendo trabalhadas.  
 - Revisão/Teste: tarefas que estão sendo revisadas, passando por testes e controle de qualidade.  
-- Concluído: tarefas que foram concluídas, aprovadas e estão prontas para serem entregues ao usuário.
+- Concluído: tarefas que foram concluídas, aprovadas e estão prontas para serem entregues ao usuário.  
+
+![Kanban Trello](img/kanban-trello.png)
+**Figura 1** - Tela do kanban utilizada pelo grupo
 
 ### Ferramentas
 
