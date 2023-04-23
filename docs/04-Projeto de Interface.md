@@ -56,7 +56,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 ### Tela - Perfil do profissional
 
-<div align="justify"> Tela de Perfil do profssional é o local onde o profissional vai fazer uma biografia e preencher informações pessoais como e-mail, telefone para contato, endereço e cargo que está atuando.
+<div align="justify"> Tela de Perfil do profssional é o local onde o profissional vai fazer uma biografia, carregar sua foto de perfil e preencher informações pessoais como e-mail, telefone para contato, endereço e cargo que está atuando.
   </div><br>
 
 ![Perfil do Profissional](img/perfil-profissional.jpg)
