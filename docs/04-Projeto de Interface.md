@@ -8,8 +8,8 @@
 
 <div align="justify"> 
 
-  O fluxo de interação do usuário pelas telas do sistema é mostrado no fluxograma visto na Figura 2. Cada uma das telas deste fluxo é detalhada na seção de Wireframes a seguir. Para visualizar o wireframe interativo, acesse o ambiente do projeto no [Figma]
-([https://www.figma.com/file/26xgkuRFG2tFlLcm2I9TeY/HireMe?node-id=0-1&t=E3KIpwSAFUs5dzEn-0](https://www.figma.com/proto/26xgkuRFG2tFlLcm2I9TeY/HireMe?node-id=139-241&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=139%3A241)).
+  O fluxo de interação do usuário pelas telas do sistema é mostrado no fluxograma visto na Figura 2. Cada uma das telas deste fluxo é detalhada na seção de Wireframes a seguir. Para visualizar o wireframe interativo, acesse o ambiente do projeto no
+[Figma](https://www.figma.com/proto/26xgkuRFG2tFlLcm2I9TeY/HireMe?node-id=139-241&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=139%3A241).
   
  </div><br>
  
@@ -22,7 +22,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
  
 ### Tela - Página Inicial
 
-<div align="justify"> A tela de Página Inicial dá uma visão geral ao usuário do propósito do sistema e dos serviços oferecidos. As informações são disponibilizadas por meio de um carrossel. Além disso, é através dessa tela que o usuário pode fazer seu cadastro ou ir diretamente para o login. Por fim, o usuário também tem acesso a alguns depoimentos de pessoas que utilizaram o sistema e alcançaram seus objetivos.
+<div align="justify"> A tela de Página Inicial dá uma visão geral ao usuário do propósito do sistema e dos serviços oferecidos. As informações são disponibilizadas por meio de um carrossel. Além disso o usuário tem acesso a alguns depoimentos de pessoas que utilizaram o sistema e alcançaram seus objetivos. É também através dessa tela que o usuário pode fazer seu cadastro ou ir diretamente para o Login.
    </div><br>
 
 ![PaginaInicial1](img/pagina-inicial1.jpg)
