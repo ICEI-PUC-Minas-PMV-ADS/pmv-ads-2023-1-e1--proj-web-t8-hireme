@@ -1,7 +1,7 @@
 
 # Projeto de Interface
 
-<div align="justify"> Dentre as preocupações para a montagem da interface do sistema, foi estabelecido foco em agilidade e usabilidade para que a ferramenta alcance seu propósito. Sendo assim, nos itens abaixo será possível ter uma visão geral da interação do usuário pelas telas do sistema e o protótipo das telas com as funcionalidades que fazem parte do sistema.
+<div align="justify"> Dentre as preocupações para a montagem da interface do sistema, foi estabelecido foco em agilidade e usabilidade para que a ferramenta alcance seu propósito. Sendo assim, nos itens abaixo, será possível ter uma visão geral da interação do usuário pelas telas do sistema e o protótipo das telas com as funcionalidades que fazem parte do sistema.
   </div><br>
 
 ## User Flow
