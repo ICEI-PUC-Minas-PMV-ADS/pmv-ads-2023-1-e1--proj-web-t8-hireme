@@ -9,7 +9,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![UserFlow](docs/img/Fluxo Usuário.jpg)
+![UserFlow](img/Fluxo Usuário.jpg)
 
 <div align="justify"> Este é o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes a seguir. Para visualizar o wireframe interativo, acesse o ambiente do projeto no Figma.
  </div>
