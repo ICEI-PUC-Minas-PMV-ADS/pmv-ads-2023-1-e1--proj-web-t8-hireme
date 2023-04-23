@@ -56,7 +56,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
   </div>
 
 ![Perfil do Profissional](img/perfil-profissional.jpg)
-**Figura 9** - Tela Perfil do profissional
+**Figura 9** - Tela Meu Perfil (perfil do profissional)
 
 ### Tela - Meus Currículos
 <div align="justify"> Tela onde o profissional poderá ver todos os currículos que criados, visualizando a data de criação e também o título nomeado.
@@ -105,6 +105,11 @@ Tela onde o profissional irá preencher as informações para criar o currículo
 
 ### Tela - Perfil do recrutador
 
+<div align="justify"> ......
+  </div>
+  
+  ![Perfil Recrutador](img/perfil-recrutador.jpg)
+**Figura 17** - Tela Meu Perfil (perfil do recrutador)
 
 ### Tela - Buscar profissionais
 
@@ -112,14 +117,15 @@ Tela onde o profissional irá preencher as informações para criar o currículo
    </div>
   
 ![Buscar Profissionais](img/buscar-profissionais.jpg)
-**Figura 8** - Tela Buscar profissionais
+**Figura 18** - Tela Buscar profissionais
 
 ### Tela - Favoritos
 
 <div align="justify"> .....
   </div>
 
-
+![Favoritos](img/curriculos-favoritados.jpg)
+**Figura 19** - Tela Favoritos
 
 ### Tela - Mensagens
 
@@ -127,7 +133,7 @@ Tela onde o profissional irá preencher as informações para criar o currículo
   </div>
 
 ![Caixa Mensagem Profssional](img/caixa-mensagens-profissional.jpg)
-**Figura 7** - Tela Mensagem (perfil profissional)
+**Figura 20** - Tela Mensagem (perfil profissional)
 
 ![Caixa Mensagem Recrutador](img/caixa-mensagens-recrutador.jpg)
-**Figura 7** - Tela Mensagem (perfil recrutador)
+**Figura 21** - Tela Mensagem (perfil recrutador)
