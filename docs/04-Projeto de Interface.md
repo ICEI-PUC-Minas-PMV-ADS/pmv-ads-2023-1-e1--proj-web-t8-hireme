@@ -37,7 +37,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 ### Tela - Cadastro
 
-<div align="justify"> A tela de cadastro é utilizada para criar o acesso ao sistema. O usuário precisa informar seu email e definir uma senha de acesso. É nessa tela que o usuário define qual o seu objetivo na ferramenta: buscar profissionais (para recrutadores) ou criar e cadastrar o currículo (para profissionais que buscam uma oportunidade no mercado de trabalho). 
+<div align="justify"> A tela de cadastro é utilizada para criar o acesso ao sistema. O usuário precisa informar seu email e definir uma senha de acesso. É nessa tela que o usuário define qual é o seu objetivo na ferramenta: buscar profissionais (para recrutadores) ou criar e cadastrar o currículo (para profissionais que buscam uma oportunidade no mercado de trabalho). 
   </div><br>
 
 ![Cadastro1](img/cadastro1.jpg)
@@ -48,7 +48,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 ### Tela - Login
 
-<div align="justify"> Para os usuários que já possuem uma conta, o acesso é feito pela tela de Login. Para entrar basta informar o email e senha escolhida no momento do cadastro. Caso seja o primeiro acesso do usuário, ele poderá ser direcionado para a tela de cadastro também por essa tela. 
+<div align="justify"> Para os usuários que já possuem uma conta, o acesso é feito pela tela de login. Para entrar, basta informar o email e senha escolhida no momento do cadastro. Caso seja o primeiro acesso do usuário, ele poderá ser direcionado para a tela de cadastro também por essa tela. 
   </div><br>
 
 ![login](img/cadastro3.jpg)
@@ -56,14 +56,14 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 ### Tela - Perfil do profissional
 
-<div align="justify"> Tela de Perfil do profssional é o local onde o profissional vai fazer uma biografia, carregar sua foto de perfil e preencher informações pessoais como e-mail, telefone para contato, endereço e cargo que está atuando.
+<div align="justify"> Tela de Perfil do profssional é o local onde o profissional vai fazer uma biografia, carregar sua foto de perfil e preencher informações pessoais como e-mail, telefone para contato, endereço e o cargo em que está atuando.
   </div><br>
 
 ![Perfil do Profissional](img/perfil-profissional.jpg)
 **Figura 9** - Tela Meu Perfil (perfil do profissional)
 
 ### Tela - Meus Currículos
-<div align="justify"> Tela onde o profissional poderá ver todos os currículos que criados, visualizando a data de criação e também o título nomeado.
+<div align="justify"> Tela onde o profissional poderá ver todos os currículos criados, visualizando a data de criação e também o título nomeado.
   </div><br><br>
 
 ![Meus Currículos](img/meus-curriculos.jpg)
@@ -71,7 +71,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
   
 ### Tela - Fazer um currículo
 
-<div align="justify"> Tela onde o profissional irá escolher o modelo de layout de currículo que irá criar. Nesta página além dos modelos, temos um indicativo de instruções de onde clicar quando selecionar para começar a preencher os dados.
+<div align="justify"> Tela onde o profissional irá escolher o modelo de layout de currículo que irá criar. Nesta página, além dos modelos, temos um botão de ajuda, onde se encontram instruções sobre onde clicar para começar a preencher os dados.
   </div><br>
 
 ![Fazer Currículo1](img/buscar-modelo-curriculos1.jpg)
@@ -84,15 +84,15 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 Tela onde o profissional irá preencher as informações para criar o currículo:
 
-- formação: informar instituição, grau da formação, data de início e data de término.
-- <div align="justify"> experiências profissionais: informar cargo, empresa, data de início e término, ou selecionar se é o trabalho atual, e descrição de atividades.
+- Formação: informar instituição, grau da formação, data de início e data de término.
+- <div align="justify"> Experiências profissionais: informar cargo, empresa, data de início e término, ou selecionar se é o trabalho atual, e descrição de atividades.
   </div>
-- links e sites: indicar sites e links que possam trazer mais informações sobre o profissional.
-- competências: selecionar principais competências para serem destacadas. 
-- <div align="justify"> campos extras: o profissional pode adicionar outros itens como idiomas, cursos, atividades extracurriculares, estágios, além de contar com um campo livre para preencher com outras informações que achar relevante. 
+- Links e sites: indicar sites e links que possam trazer mais informações sobre o profissional, como, por exemplo, um portfólio.
+- Competências: selecionar principais competências para serem destacadas. 
+- <div align="justify"> Campos extras: o profissional pode adicionar outros itens como idiomas, cursos, atividades extracurriculares, estágios, além de contar com um campo livre para preencher com outras informações que achar relevante. 
   </div>
 
-<div align="justify"> O usuário poderá pré-visualizar o seu currículo com todas as informações preenchidas antes de concluir. Por fim, caberá ao usuário  optar em  compartilhar o seu currículo, deixando-o visível para os recrutadores que acessarem o site, ou copiar o link que permitirá acesso ao currículo na versão web ou apenas fazer o download em PDF.
+<div align="justify"> O usuário poderá pré-visualizar o seu currículo com todas as informações preenchidas antes de concluir. Por fim, caberá ao usuário  optar em  compartilhar o seu currículo, deixando-o visível para os recrutadores que acessarem o site, copiar o link que permitirá acesso ao currículo na versão web ou apenas fazer o download em PDF.
   </div><br>
 
 ![Preencher cv1](img/preencher-modelo-curriculo1.jpg)
@@ -109,7 +109,7 @@ Tela onde o profissional irá preencher as informações para criar o currículo
 
 ### Tela - Perfil do recrutador
 
-<div align="justify"> A tela do perfil do recrutador vai funcionar como um cartão de visita do profissional, no qual é possível carregar uma foto, editar seu nome, cargo, infomações de contato, caso deseje, como e-mail e telefone bem como informações da empresa para qual trabalha.
+<div align="justify"> A tela do perfil do recrutador vai funcionar como um cartão de visita do profissional, no qual é possível carregar uma foto, editar seu nome, cargo, infomações de contato caso deseje, como e-mail e telefone, bem como informações da empresa para qual trabalha.
   </div><br>
   
   ![Perfil Recrutador](img/perfil-recrutador.jpg)
@@ -117,7 +117,7 @@ Tela onde o profissional irá preencher as informações para criar o currículo
 
 ### Tela - Buscar profissionais
 
-<div align="justify"> Os recrutadores podem buscar currículos na tela Buscar profissionais. Para isso é possível fazer a busca utilizando palavras-chave por meio de uma pesquisa booleana. Além disso, existe a opção de filtros para que o resultado seja mais assertivo. Todos os currículos que sejam compatíveis com a busca feita pelo recrutador são apresentados de uma forma resumida, cabendo ao recrutador optar em ver o perfil completo e/ou marcar como favorito. 
+<div align="justify"> Os recrutadores podem buscar currículos na tela "Buscar profissionais". Para isso, é possível fazer a busca utilizando palavras-chave, por meio de uma pesquisa booleana. Além disso, existe a opção de filtros para que o resultado seja mais assertivo. Todos os currículos que sejam compatíveis com a busca feita pelo recrutador são apresentados de uma forma resumida, cabendo ao recrutador optar em ver o perfil completo e/ou marcar como favorito. 
    </div><br>
   
 ![Buscar Profissionais](img/buscar-profissionais.jpg)
@@ -125,7 +125,7 @@ Tela onde o profissional irá preencher as informações para criar o currículo
 
 ### Tela - Favoritos
 
-<div align="justify"> Nessa tela será possível que o recrutados salve os currículos favoritos para poder encontrar com mais facilidades as informações daquele profissional em momento posterior. Mesmo que o candidato não seja selecionado para a primeira vaga, o recrutador, caso deseje, pode salvar para futuras oportunidades.
+<div align="justify"> Nessa tela será possível que o recrutador salve os currículos favoritos para poder encontrar com mais facilidade as informações daquele profissional em momento posterior. Mesmo que o candidato não seja selecionado para a primeira vaga, o recrutador, caso deseje, pode salvar para futuras oportunidades.
   </div><br>
 
 ![Favoritos](img/curriculos-favoritados.jpg)
