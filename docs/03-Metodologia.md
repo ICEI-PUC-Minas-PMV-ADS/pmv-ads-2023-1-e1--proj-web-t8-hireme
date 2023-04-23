@@ -47,6 +47,7 @@ Foram utilizadas diferentes plataformas na construção dos artefatos do projeto
 | Documentos do projeto             | [Teams](https://sgapucminasbr.sharepoint.com/:f:/s/team_sga_2418_2023_1_4577108-18_30h-P1/EuAnwYzoDTBNjtwH_XfTICQBJ5vN3_JWSouygeVqHV2pwg?e=r5IGI4) |
 | Projeto de Interface e Wireframes | [Figma](https://www.figma.com/file/26xgkuRFG2tFlLcm2I9TeY/HireMe?node-id=155-631&t=E3KIpwSAFUs5dzEn-0) [LucidChart](https://lucid.app/lucidspark/bd539522-a9a8-42de-b410-01f10499a499/edit?viewport_loc=10810%2C-2990%2C3148%2C1470%2C0_0&invitationId=inv_0a0816cd-1093-44bc-9cf9-0aa5ed1635a4) |
 | Gerenciamento do Projeto          | [Trello](https://trello.com/b/3pwMb5b3/hireme) |
+
 **Fonte**: Elaborado pelos autores. 
 ## Gerenciamento de Projeto
 
