@@ -9,7 +9,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Exemplo de UserFlow] (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1--proj-web-t8-hireme/blob/20de5a02d20fb790b4d9fba936982d6dbf69707c/docs/img/Fluxo%20Usua%CC%81rio.jpg)
+![UserFlow](docs/img/Fluxo Usuário.jpg)
 
 <div align="justify"> Este é o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes a seguir. Para visualizar o wireframe interativo, acesse o ambiente do projeto no Figma.
  </div>
