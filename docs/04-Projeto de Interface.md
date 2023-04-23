@@ -2,7 +2,7 @@
 # Projeto de Interface
 
 <div align="justify"> Dentre as preocupações para a montagem da interface do sistema, foi estabelecido foco em agilidade e usabilidade para que a ferramenta alcance seu propósito. Sendo assim, nos itens abaixo será possível ter uma visão geral da interação do usuário pelas telas do sistema e o protótipo das telas com as funcionalidades que fazem parte do sistema.
-  </div>
+  </div><br>
 
 ## User Flow
 
@@ -133,7 +133,7 @@ Tela onde o profissional irá preencher as informações para criar o currículo
 ### Tela - Mensagens
 
 <div align="justify"> A tela Mensagens é utilizada por todos os tipos de usuários e aqui é possível acessar as mensagens recebidas, bem como enviar uma mensagem. 
-  </div>
+  </div><br>
 
 ![Caixa Mensagem Profssional](img/caixa-mensagens-profissional.jpg)
 **Figura 20** - Tela Mensagem (perfil profissional)
