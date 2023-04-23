@@ -9,7 +9,7 @@
 <div align="justify"> 
 
   O fluxo de interação do usuário pelas telas do sistema é mostrado no fluxograma visto na Figura 2. Cada uma das telas deste fluxo é detalhada na seção de Wireframes a seguir. Para visualizar o wireframe interativo, acesse o ambiente do projeto no [Figma]
-(https://www.figma.com/file/26xgkuRFG2tFlLcm2I9TeY/HireMe?node-id=0-1&t=E3KIpwSAFUs5dzEn-0).
+([https://www.figma.com/file/26xgkuRFG2tFlLcm2I9TeY/HireMe?node-id=0-1&t=E3KIpwSAFUs5dzEn-0](https://www.figma.com/proto/26xgkuRFG2tFlLcm2I9TeY/HireMe?node-id=139-241&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=139%3A241)).
   
  </div><br>
  
