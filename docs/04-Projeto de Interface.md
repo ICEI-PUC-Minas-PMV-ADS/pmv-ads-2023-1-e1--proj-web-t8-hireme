@@ -22,13 +22,13 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
    </div>
 
 ![PaginaInicial1](img/pagina-inicial1.jpg)
-**Figura 3** - Tela Inicial 1
+**Figura 3** - Tela Inicial
 
 ![PaginaInicial1](img/pagina-inicial2.jpg)
-**Figura 4** - Tela Inicial 2
+**Figura 4** - Tela Inicial
 
 ![PaginaInicial1](img/pagina-inicial3.jpg)
-**Figura 5** - Tela Inicial 3
+**Figura 5** - Tela Inicial
    
 
 ### Tela - Cadastro
@@ -52,24 +52,80 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 ### Tela - Perfil do profissional
 
+<div align="justify"> Tela de Perfil do profssional é o local onde o profissional vai fazer uma biografia e preencher informações pessoais como e-mail, telefone para contato, endereço e cargo que está atuando.
+  </div>
 
+![Perfil do Profissional](img/perfil-profissional.jpg)
+**Figura 9** - Tela Perfil do profissional
 
 ### Tela - Meus Currículos
+<div align="justify"> Tela onde o profissional poderá ver todos os currículos que criados, visualizando a data de criação e também o título nomeado.
+  </div>
 
-
+![Meus Currículos](img/meus-curriculos.jpg)
+**Figura 10** - Tela Meus currículos  
+  
 ### Tela - Fazer um currículo
 
-### Tela - Preenchimento currículo
+<div align="justify"> Tela onde o profissional irá escolher o modelo de layout de currículo que irá criar. Nesta página além dos modelos, temos um indicativo de instruções de onde clicar quando selecionar para começar a preencher os dados.
+  </div>
 
+![Fazer Currículo1](img/buscar-modelo-curriculos1.jpg)
+**Figura 11** - Tela Fazer um currículo 
+
+![Meus Currículos2](img/buscar-modelo-curriculos2.jpg)
+**Figura 12** - Tela Fazer um currículo 
+
+### Tela - Preencher modelo de currículo
+
+Tela onde o profissional irá preencher as informações para criar o currículo:
+
+- formação: informar instituição, grau da formação, data de início e data de término.
+- experiências profissionais: informar cargo, empresa, data de início e término, ou selecionar se é o trabalho atual, e descrição de atividades.
+- links e sites: indicar sites e links que possam trazer mais informações sobre o profissional.
+- competências: selecionar principais competências para serem destacadas. 
+- campos extras: o profissional pode adicionar outros itens como idiomas, cursos, atividades extracurriculares, estágios, além de contar com um campo livre para preencher com outras informações que ache relevante. 
+
+<div align="justify"> O usuário poderá pré-visualizar o seu currículo com todas as informações preenchidas antes de concluir. Por fim, caberá ao usuário  optar em  compartilhar o seu currículo, deixando-o visível para os recrutadores que acessarem o site, ou copiar o link que permitirá acesso ao currículo na versão web ou apenas fazer o download em PDF.
+  </div>
+
+![Preencher cv1](img/preencher-modelo-curriculo1.jpg)
+**Figura 13** - Tela Preencher modelo de currículo
+
+![Preencher cv2](img/preencher-modelo-curriculo2.jpg)
+**Figura 14** - Tela Preencher modelo de currículo
+
+![Preencher cv3](img/preencher-modelo-curriculo3.jpg)
+**Figura 15** - Tela Preencher modelo de currículo
+
+![Preencher cv](img/preencher-modelo-curriculo.jpg)
+**Figura 16** - Tela Preencher modelo de currículo
 
 ### Tela - Perfil do recrutador
 
 
 ### Tela - Buscar profissionais
 
+<div align="justify"> Os recrutadores podem buscar currículos na tela Buscar profissionais. Para isso é possível fazer a busca utilizando palavras-chave por meio de uma pesquisa booleana. Além disso, existe a opção de filtros para que o resultado seja mais assertivo. Todos os currículos que sejam compatíveis com a busca feita pelo recrutador são apresentados de uma forma resumida, cabendo ao recrutador optar em ver o perfil completo e/ou marcar como favorito. 
+   </div>
+  
+![Buscar Profissionais](img/buscar-profissionais.jpg)
+**Figura 8** - Tela Buscar profissionais
 
 ### Tela - Favoritos
 
+<div align="justify"> .....
+  </div>
+
+
 
 ### Tela - Mensagens
-### Tela - Fazer um currículo
+
+<div align="justify"> A tela Mensagens é utilizada por todos os tipos de usuários e aqui é possível acessar as mensagens recebidas, bem como enviar uma mensagem. 
+  </div>
+
+![Caixa Mensagem Profssional](img/caixa-mensagens-profissional.jpg)
+**Figura 7** - Tela Mensagem (perfil profissional)
+
+![Caixa Mensagem Recrutador](img/caixa-mensagens-recrutador.jpg)
+**Figura 7** - Tela Mensagem (perfil recrutador)
