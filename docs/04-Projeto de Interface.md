@@ -13,7 +13,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 **Figura 2** - Fluxo de Usuário
 
 <div align="justify"> O fluxo de interação do usuário pelas telas do sistema é mostrado no fluxograma visto na Figura 2. Cada uma das telas deste fluxo é detalhada na seção de Wireframes a seguir. Para visualizar o wireframe interativo, acesse o ambiente do projeto no [Figma](https://www.figma.com/file/26xgkuRFG2tFlLcm2I9TeY/HireMe?node-id=0-1&t=E3KIpwSAFUs5dzEn-0 
-https://lucid.app/lucidspark/bd539522-a9a8-42de-b410-01f10499a499/edit?viewport_loc=10810%2C-2990%2C3148%2C1470%2C0_0&invitationId=inv_0a0816cd-1093-44bc-9cf9-0aa5ed1635a4). 
+https://lucid.app/lucidspark/bd539522-a9a8-42de-b410-01f10499a499/edit?viewport_loc=10810%2C-2990%2C3148%2C1470%2C0_0&invitationId=inv_0a0816cd-1093-44bc-9cf9-0aa5ed1635a4) . 
  </div>
 
 ## Wireframes
