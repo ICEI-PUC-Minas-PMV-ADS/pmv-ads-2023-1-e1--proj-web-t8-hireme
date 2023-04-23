@@ -81,11 +81,11 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 Tela onde o profissional irá preencher as informações para criar o currículo:
 
 - formação: informar instituição, grau da formação, data de início e data de término.
-<div align="justify"> - experiências profissionais: informar cargo, empresa, data de início e término, ou selecionar se é o trabalho atual, e descrição de atividades.
+- <div align="justify"> experiências profissionais: informar cargo, empresa, data de início e término, ou selecionar se é o trabalho atual, e descrição de atividades.
   </div>
 - links e sites: indicar sites e links que possam trazer mais informações sobre o profissional.
 - competências: selecionar principais competências para serem destacadas. 
-<div align="justify"> - campos extras: o profissional pode adicionar outros itens como idiomas, cursos, atividades extracurriculares, estágios, além de contar com um campo livre para preencher com outras informações que ache relevante. 
+- <div align="justify"> campos extras: o profissional pode adicionar outros itens como idiomas, cursos, atividades extracurriculares, estágios, além de contar com um campo livre para preencher com outras informações que ache relevante. 
   </div>
 
 <div align="justify"> O usuário poderá pré-visualizar o seu currículo com todas as informações preenchidas antes de concluir. Por fim, caberá ao usuário  optar em  compartilhar o seu currículo, deixando-o visível para os recrutadores que acessarem o site, ou copiar o link que permitirá acesso ao currículo na versão web ou apenas fazer o download em PDF.
