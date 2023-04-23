@@ -3,16 +3,15 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+<div align="justify"> Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em agilidade e usabilidade para que a ferramenta alcance seu propósito. Sendo assim, nos itens abaixo será possível ter uma visão geral da interação do usuário pelas telas do sistema e o protótipo das telas com as funcionalidades que fazem parte do sistema.
+  </div>
 
 ## User Flow
 
 ![UserFlow](img/Fluxo%20Usua%CC%81rio.jpg)
 **Figura 2** - Fluxo de Usuário
 
-<div align="justify"> O fluxo de interação do usuário pelas telas do sistema é mostrado no fluxograma visto na Figura 2. Cada uma das telas deste fluxo é detalhada na seção de Wireframes a seguir. Para visualizar o wireframe interativo, acesse o ambiente do projeto no [Figma](https://www.figma.com/file/26xgkuRFG2tFlLcm2I9TeY/HireMe?node-id=0-1&t=E3KIpwSAFUs5dzEn-0). 
+<div align="justify"> O fluxo de interação do usuário pelas telas do sistema é mostrado no fluxograma visto na Figura 2. Cada uma das telas deste fluxo é detalhada na seção de Wireframes a seguir. Para visualizar o wireframe interativo, acesse o ambiente do projeto no [Figma](https://www.figma.com/file/26xgkuRFG2tFlLcm2I9TeY/HireMe?node-id=0-1&t=E3KIpwSAFUs5dzEn-0).
  </div>
 
 ## Wireframes
