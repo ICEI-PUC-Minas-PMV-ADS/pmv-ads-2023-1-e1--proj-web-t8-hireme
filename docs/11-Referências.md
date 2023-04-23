@@ -9,5 +9,7 @@ Blog do BNE. **Recrutadores eliminam currículos em até 20 segundos.** [S.I.] [
 Figma. **Figma: the collaborative interface design tool.** Disponível em: https://www.figma.com. Acesso em: 12 de abr. de 2023.
   
 Lucidchart. **Lucidchart: Software online de diagramas e comunicação visual.** Disponível em: https://www.lucidchart.com. Acesso em: 10 de abr. de 2023.
+  
+Trello. **Trello: O Trello reúne as tarefas, colegas de equipe e ferramentas.** Disponível em: https://www.trello.com. Acesso em: 6 de abr. de 2023.
 
 </div>
