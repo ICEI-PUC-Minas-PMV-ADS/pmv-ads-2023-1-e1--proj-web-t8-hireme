@@ -52,7 +52,7 @@ header {
 #galery1 {
     width: 100vw;
     background: url('../pag01/imagens/Rectangle\ 263.svg') center center no-repeat;
-    
+    display: flex;
 }
 
 .descriptiontitle {
@@ -139,7 +139,7 @@ header {
 
 .box p {
     background-color: #BDBDBD;
-    
+        
     Width: 100vw;
     height: 102px;
     top: 1014px;
@@ -155,12 +155,12 @@ header {
     color: #141414;
 }
 
-
 #div1 {
     background-color: #FF7A00;
     width: 25%;
     height: 50%;
     float: left;
+    padding: 1%;
 
     
     position: absolute;
@@ -172,7 +172,7 @@ header {
     font-weight: 400;
     font-size: 25px;
     line-height: 32px;
-
+    
     color: #FFFFFF;
 
     box-sizing: border-box;
@@ -190,6 +190,7 @@ header {
     width: 25%;
     height: 50%;
     margin: 0 auto;
+    padding: 1%;
     
     position: absolute;
     left: 38.01%;
@@ -216,6 +217,7 @@ header {
     width: 25%;
     height: 50%;
     float: right;
+    padding: 1%;
 
     position: absolute;
     left: 68.15%;
