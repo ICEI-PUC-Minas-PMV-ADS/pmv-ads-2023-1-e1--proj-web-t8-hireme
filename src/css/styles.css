@@ -19,8 +19,8 @@ header {
 
 .hireme-logo-container {
     display: flex;
-   
-} 
+    justify-content: space-between;
+}
 
 .hireme-logo-container img {
     width: 82px;
@@ -40,6 +40,10 @@ header {
     margin-left: 200px;
     margin-bottom: 32px;
     font-size: 16px;
+}
+
+.logo {
+    display: flex;
 }
 
 .galery {
