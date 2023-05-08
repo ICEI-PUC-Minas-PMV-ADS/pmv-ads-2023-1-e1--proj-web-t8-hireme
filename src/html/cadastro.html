@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HireMe - Cadastro</title>
+    <link rel="stylesheet" href="../css/pages/cadastro.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <main>
+        <div class="cadastro-container">
+            <h1 id="cadastro-titulo">Cadastre-se</h3>
+            <div class="cadastro-inner-container">
+                <form action="post">
+                    <div class="form-label">
+                        <label for="email">Email</label>
+                        <input type="text" id="email">
+                    </div>
+                    <div class="form-label-nome-sobrenome">
+                        <div class="form-label">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome">
+                        </div>
+                        <div class="form-label">
+                            <label for="sobrenome">Sobrenome</label>
+                            <input type="text" id="sobrenome">
+                        </div>
+                    </div>
+                    <div class="form-label">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha">
+                    </div>
+                    <div class="form-label">
+                        <label for="confirm-senha">Confirmar senha</label>
+                        <input type="password" id="confirm-senha">
+                    </div>
+                    <div class="form-label">
+                        <label for="form-options">Qual é o seu objetivo na plataforma?</label>
+                        <select id="form-options" name="form-options">
+                            <option hidden disabled selected></option>
+                            <option value="cadastrar-profissional">Quero criar e cadastrar meu curriculo</option>
+                            <option value="cadastrar-empresa">Quero buscar profissionais</option>
+                        </select>
+                    </div>
+                    <div class="form-label-termos">
+                        <input type="radio" name="termos" id="termos">
+                        <label for="termos">Concordo com os termos</label>
+                    </div>
+                    <button type="submit">Continuar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
