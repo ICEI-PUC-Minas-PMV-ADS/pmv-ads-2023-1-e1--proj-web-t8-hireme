@@ -11,16 +11,40 @@ body, html {
     color: #fff;
 }
 
-header { 
+#header { 
     height: 101px;
     
    
 }
 
+.header h2 {
+    background-color: #00A878;
+    float: right;
+    padding: 1%;
+
+    position: absolute;
+    left: 68.15%;
+        
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+
+    box-sizing: border-box;
+
+    background: #00A878;
+    mix-blend-mode: lighten;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
 .hireme-logo-container {
     display: flex;
-    justify-content: space-between;
-}
+   
+} 
 
 .hireme-logo-container img {
     width: 82px;
@@ -40,10 +64,6 @@ header {
     margin-left: 200px;
     margin-bottom: 32px;
     font-size: 16px;
-}
-
-.logo {
-    display: flex;
 }
 
 .galery {
@@ -110,7 +130,7 @@ header {
 .galery2 h2 {
     position: absolute;
     left: 325px;
-    top:613px;
+    top:653px;
     
 
     font-family: 'Lora';
@@ -129,7 +149,7 @@ header {
 .galery2 p {
     position: absolute;
     left: 560px;
-    top: 673px;
+    top: 703px;
     
     font-family: 'Lora';
     font-style: normal;
@@ -141,9 +161,11 @@ header {
     color: #FF7A00;
 }
 
-.box p {
+.box {
     background-color: #BDBDBD;
-        
+}
+.box p {
+    
     Width: 100vw;
     height: 102px;
     top: 1014px;
@@ -152,7 +174,7 @@ header {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 51px;
     text-align: center;
 
@@ -162,7 +184,7 @@ header {
 #div1 {
     background-color: #FF7A00;
     width: 25%;
-    height: 50%;
+    height: 40%;
     float: left;
     padding: 1%;
 
@@ -174,7 +196,7 @@ header {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 32px;
     
     color: #FFFFFF;
@@ -188,11 +210,33 @@ header {
     border-radius: 30px;
 }
 
+#div11 {
+    width: 25%;
+    height: 20%;
+    float: left;
+    padding: 1%;
+
+    
+    position: absolute;
+    left: 08.36%;
+    top: 1205px;
+        
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    
+    color: #FFFFFF;
+
+    box-sizing: border-box;
+
+}
 
 #div2 {
     box-sizing: border-box;
     width: 25%;
-    height: 50%;
+    height: 40%;
     margin: 0 auto;
     padding: 1%;
     
@@ -209,17 +253,40 @@ header {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 32px;
 
     color: #FFFFFF;
+}
+
+#div12 {
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    padding: 1%;
+
+    
+    position: absolute;
+    left: 38.01%;
+    top: 1205px;
+        
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    
+    color: #FFFFFF;
+
+    box-sizing: border-box;
+
 }
 
 
 #div3 {
     background-color: #FF7A00;
     width: 25%;
-    height: 50%;
+    height: 40%;
     float: right;
     padding: 1%;
 
@@ -230,7 +297,7 @@ header {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 32px;
 
     color: #FFFFFF;
@@ -243,3 +310,28 @@ header {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
+
+#div13 {
+    width: 25%;
+    height: 20%;
+    float: right;
+    padding: 1%;
+
+    
+    position: absolute;
+    left: 68.15%;
+    top: 1205px;
+        
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    
+    color: #FFFFFF;
+
+    box-sizing: border-box;
+
+}
+
+
