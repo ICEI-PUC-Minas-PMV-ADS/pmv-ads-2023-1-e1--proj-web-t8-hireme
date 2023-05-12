@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HireMe</title>
+    <link rel="stylesheet" href="../css/pages/fazercv.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu-principal">
+            <img src="img/handshakepequeno.png" alt="Logo HireMe">
+            <h1>HireMe</h1>
+            <ul>
+                <li>Fazer um currículo</li>
+                <li>Meus currículos</li>
+                <li>Mensagens</li>
+                <li>Meu Perfil</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Olá! Vamos começar a criar o seu currículo.<br>Primeiro, preencha os itens listados abaixo.</h1>
+        <div class="fazer-curriculo-container">
+            <h2>Formação</h2>
+                Curso: <input class="texto" type="text" name="Curso" required><br>
+                Instituição: <input class="texto" type="text" name="Instituição" required><br>
+                <label for="grau">Grau: </label>
+                <select name="proficiência">
+                    <option value="Selecione">Selecione uma opção</option>
+                    <option value="EnsinoMédio">Ensino Médio</option>
+                    <option value="Técnico">Técnico</option>
+                    <option value="Graduação">Graduação</option>
+                    <option value="Especialização">Especialização</option>
+                    <option value="Mestrado">Mestrado</option>
+                    <option value="Doutorado">Doutorado</option>
+                </select><br>
+                Data de Início: <input type="date" name="Início">
+                Data de Término: <input type="date" name="Término">
+                <input type="radio" name="cursando" value="Cursando">Cursando<br>
+                <p>+ Adicionar formação</p>
+            <br>
+            <h2>Experiências Profissionais</h2>
+                Cargo: <input class="texto" type="text" name="Cargo"><br>
+                Empresa: <input class="texto" type="text" name="Empresa" ><br>
+                Data de Início: <input type="date" name="Início">
+                Data de Saída: <input type="date" name="Saída">
+                <input type="radio" name="atual" value="Atual">Atual<br>
+                Descrição atividades: <br><textarea name="texto" rows="10" cols="80"></textarea>
+                <p>+ Adicionar experiência profissional</p>
+            <br>
+            <h2>Links e Sites</h2>
+                LinkedIn: <input class="texto" type="link" name="LinkedIn"><br>
+                <p>+ Adicionar link</p>
+            <br>
+            <h2>Competências</h2>
+                <input type="text" name="Competência1">
+                <input type="text" name="Competência2">
+                <input type="text" name="Competência3">
+                <input type="text" name="Competência4"><br>
+                <p>+ Adicionar competência</p>
+            <br>
+            <h2>Cursos e Certificações</h2>
+                <input class="texto" type="text" name="Curso ou Certificação" required><br>
+                <p>+ Adicionar curso ou certificação</p>
+            <br>
+            <h2>Idiomas</h2>
+                Idioma: <input type="text" name="Idioma">
+                <label for="proficiência">Proficiência: </label>
+                <select name="proficiência">
+                    <option value="Selecione">Selecione uma opção</option>
+                    <option value="Básico">Básico</option>
+                    <option value="Intermediário">Intermediário</option>
+                    <option value="Avançado">Avançado</option>
+                    <option value="Fluente">Fluente</option>
+                </select>
+                <p>+ Adicionar idioma</p>
+                <br>
+            <button>Salvar</button>
+            <button>Ver modelos de currículo</button>
+        </div>
+    </main>
+</body>
+
+</html>
