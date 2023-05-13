@@ -43,8 +43,12 @@ body, html {
 }
 .hireme-logo-container {
     display: flex;
-   
+    justify-content: space-around;
 } 
+
+.logo {
+    display: flex;
+}
 
 .hireme-logo-container img {
     width: 82px;
