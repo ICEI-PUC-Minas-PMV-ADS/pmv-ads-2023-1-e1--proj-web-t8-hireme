@@ -29,10 +29,10 @@ Tela que disponibiliza todos os campos que devem ser preenchidos pelo usuário p
 ![FazerCV](img/FazerCV.png)
 **Figura 25** - Tela para criar um Currículo
 
-##Tela do Perfil do recrutador
+## Tela do Perfil do recrutador
 **Figura 26** - Tela do Perfil do recrutador
 
-##Tela da Caixa de mensagens do recrutador
+## Tela da Caixa de mensagens do recrutador
 Tela que permite que o recrutador entre em contato com candidatos que possuem um currículo que os interessa.
 **Figura 27** - Tela da Caixa de mensagens do recrutador
 
