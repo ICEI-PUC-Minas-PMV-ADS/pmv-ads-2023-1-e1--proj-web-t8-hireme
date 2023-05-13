@@ -5,7 +5,9 @@ O layout padrão a ser utilizado pelo site tem correspondência ao projeto de In
 O template criado está disponível no site (colocar link GitHub)e é composto pelos seguintes layouts:
 - Tela Inicial
 - Tela de Cadastro
-- Tela para Fazer um Currículo
+- Tela para criar um Currículo
+- Tela do Perfil do recrutador
+- Tela da Caixa de mensagens do recrutador
 
 A responsividade segue o padrão do XXXXXX
 
@@ -21,11 +23,18 @@ Tela que fala sobre o objetivo do site, traz depoimentos de usuários e direcion
 Tela que permite qualquer pessoa que esteja no site faça seu cadastro para usufruir dos serviços disponibilizados. 
 **Figura 24** - Tela de Cadastro
 
-## Tela para Fazer um Currículo
+## Tela para criar um Currículo
 Tela que disponibiliza todos os campos que devem ser preenchidos pelo usuário para criar seu currículo.
 
 ![FazerCV](img/FazerCV.png)
-**Figura 25** - Tela para Fazer um Currículo
+**Figura 25** - Tela para criar um Currículo
+
+##Tela do Perfil do recrutador
+**Figura 26** - Tela do Perfil do recrutador
+
+##Tela da Caixa de mensagens do recrutador
+Tela que permite que o recrutador entre em contato com candidatos que possuem um currículo que os interessa.
+**Figura 27** - Tela da Caixa de mensagens do recrutador
 
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
