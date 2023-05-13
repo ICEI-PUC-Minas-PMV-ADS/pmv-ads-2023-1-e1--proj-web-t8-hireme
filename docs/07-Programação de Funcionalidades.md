@@ -17,7 +17,18 @@ Nesta seção são apresentadas as telas desenvolvidas para algumas das funciona
 ### Estruturas de dados
 
 
+## Caixa de mensagens do recrutador (RF-06)
+<div align="justify"> *******
+</div>
 
+### Requisitos atendidos
+- RF-06
+
+### Artefatos
+- mensagens_recrutador.html
+- mensagens_recrutador.css
+
+### Estruturas de dados
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
 
