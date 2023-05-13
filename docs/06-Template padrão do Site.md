@@ -34,6 +34,7 @@ Tela que disponibiliza todos os campos que devem ser preenchidos pelo usuário p
 
 ## Tela da Caixa de mensagens do recrutador
 Tela que permite que o recrutador entre em contato com candidatos que possuem um currículo que os interessa.
+
 **Figura 27** - Tela da Caixa de mensagens do recrutador
 
 
