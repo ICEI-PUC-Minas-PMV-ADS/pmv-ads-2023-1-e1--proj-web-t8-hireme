@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+/* Gerais */
+html {
+    font-family: 'Gabriela', sans-serif;
+    background-color: #BDBDBD;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 101px;
+    background-color: #141414;
+}
+
+.menu-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-principal img{
+    position: absolute;
+    width: 82px;
+    margin-top: 13px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+.menu-principal h1{
+    margin-top: 29px;
+    margin-bottom: 25px;
+    margin-left: 100px; 
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.menu-principal > ul > li  {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-principal > ul >li:hover {
+    color: #00A878;
+}
+
+main h1{
+    color:#FF7A00;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fazer-curriculo-container {
+    margin: 12px;
+    font-family: 'Lora';
+}
+
+.fazer-curriculo-container p {
+    color: #FF7A00;
+}
+
+input {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin: 5px;
+    border-color: #d9d9d9;
+    padding: 5px;
+}
+
+.texto {
+    width: 500px;
+}
+
+textarea {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    border-color: #d9d9d9;
+    padding: 5px;
+}
+
+select {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    border-color: #d9d9d9;
+    height: 25px;
+}
+
+button {
+    width: 133px;
+    height: 51px;
+    left: 184px;
+    top: 400px;
+    border: none;
+    background: #FF7A008A;
+    border-radius: 62px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.quad-cinza{
+    width: 1145px;
+    height: 272px;
+    left: 109px;
+    top: 191px;
+    background:#dedede;   
+    border-radius: 20px;
+    margin-left: -7%;
+    margin-bottom: 4%;
+
+}
+.quad-cinza-sec{
+    width: 1145px;
+    height: 272px;
+    left: 109px;
+    top: 191px;
+    background: #dedede;
+    border-radius: 20px;
+    margin-left: -7%;
+    margin-bottom: 4%;
+\}
