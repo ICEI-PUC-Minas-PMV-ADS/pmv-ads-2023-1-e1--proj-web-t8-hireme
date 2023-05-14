@@ -31,12 +31,11 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 ### Instruções de acesso
 
 
-## Fazer um currículo (RF-02 e RF-03)
+## Fazer um currículo (RF-03)
 <div align="justify"> Quando o usuário acessa o site com o objetivo de fazer um currículo, ele terá acesso a um menu de navegação personalizado a esse tipo de usuário. Entre as opções, está a que possibilita fazer um currículo. Nessa tela, o usuário encontrará uma série de campos que deverão ser preenchimendos para posteriormente compor o currículo. Os dados serão armazenados XXXXXXXXXXXXXXX
 </div>
 
 ### Requisitos atendidos
-- RF-02 - O site deve ter separação de telas entre usuários que queiram disponibilizar o currículo e os recrutadores que buscam talentos. 
 - RF-03 - O site deve permitir a criação e edição de um currículo pelo usuário.
 
 ### Artefatos
