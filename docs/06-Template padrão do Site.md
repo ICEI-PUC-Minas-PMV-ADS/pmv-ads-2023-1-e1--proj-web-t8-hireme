@@ -12,7 +12,6 @@ O template criado está disponível no site (https://github.com/ICEI-PUC-Minas-P
 A responsividade segue o padrão do XXXXXX
 
 ![LayoutPadrão](img/LayoutPadrão.png)
-<img src="img/LayoutPadrão.png" width="100px"/>
 **Figura 22** - Layout Padrão
 
 
