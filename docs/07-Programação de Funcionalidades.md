@@ -16,6 +16,9 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 
 ### Instruções de acesso
 
+- Abra um navegador de Internet e informe a seguinte URL: 
+- A página inicial é a primeira funcionalidade exibida pelo site.
+
 ## Cadastro de usuários (RNF-04)
 <div align="justify"> *****
 </div>
@@ -84,3 +87,4 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 
 ### Instruções de acesso
 - Abra um navegador de Internet e informe a seguinte URL: file:///C:/projeto/pmv-ads-2023-1-e1--proj-web-t8-hireme/src/html/mensagens_recrutador.html
+- A Caixa de mensagens do recrutador pode ser acessado através do menu principal.
