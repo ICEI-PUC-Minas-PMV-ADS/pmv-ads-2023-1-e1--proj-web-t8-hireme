@@ -15,7 +15,7 @@
  
  <div align="center">
 <img src="img/Flowcharts (1).jpeg" width="50%"><br>
-**Figura 2** - Fluxo de Usuário
+Figura 2 - Fluxo de Usuário
   </div>
 
 ## Wireframes
@@ -27,14 +27,20 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 <div align="justify"> A tela de Página Inicial dá uma visão geral ao usuário do propósito do sistema e dos serviços oferecidos. As informações são disponibilizadas por meio de um carrossel. Além disso o usuário tem acesso a alguns depoimentos de pessoas que utilizaram o sistema e alcançaram seus objetivos. É também através dessa tela que o usuário pode fazer seu cadastro ou ir diretamente para o Login.
    </div><br>
 
-![PaginaInicial1](img/pagina-inicial1.jpg)
-**Figura 3** - Tela Inicial
+<div align="center">
+<img src="img/pagina-inicial1.jpg" width="50%"><br>
+Figura 3 - Tela Inicial
+  </div>
 
-![PaginaInicial1](img/pagina-inicial2.jpg)
-**Figura 4** - Tela Inicial
+<div align="center">
+<img src="img/pagina-inicial2.jpg" width="50%"><br>
+Figura 4 - Tela Inicial
+  </div>
 
-![PaginaInicial1](img/pagina-inicial3.jpg)
-**Figura 5** - Tela Inicial
+<div align="center">
+<img src="img/pagina-inicial3.jpg" width="50%"><br>
+Figura 5 - Tela Inicial
+  </div>
    
 
 ### Tela - Cadastro
@@ -42,45 +48,59 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 <div align="justify"> A tela de cadastro é utilizada para criar o acesso ao sistema. O usuário precisa informar seu email e definir uma senha de acesso. É nessa tela que o usuário define qual é o seu objetivo na ferramenta: buscar profissionais (para recrutadores) ou criar e cadastrar o currículo (para profissionais que buscam uma oportunidade no mercado de trabalho). 
   </div><br>
 
-![Cadastro1](img/cadastro1.jpg)
-**Figura 6** - Tela Cadastro
+<div align="center">
+<img src="img/cadastro1.jpg" width="50%"><br>
+Figura 6 - Tela Cadastro
+</div>
 
-![Cadastro2](img/cadastro2.jpg)
-**Figura 7** - Tela Cadastro
+<div align="center">
+<img src="img/cadastro2.jpg" width="50%"><br>
+Figura 7 - Tela Cadastro
+  </div>
 
 ### Tela - Login
 
 <div align="justify"> Para os usuários que já possuem uma conta, o acesso é feito pela tela de login. Para entrar, basta informar o email e senha escolhida no momento do cadastro. Caso seja o primeiro acesso do usuário, ele poderá ser direcionado para a tela de cadastro também por essa tela. 
   </div><br>
 
-![login](img/cadastro3.jpg)
-**Figura 8** - Tela Login/Entrar
+<div align="center">
+<img src="img/cadastro3.jpg" width="50%"><br>
+Figura 8 - Tela Login/Entrar
+  </div>
 
 ### Tela - Perfil do profissional
 
 <div align="justify"> Tela de Perfil do profssional é o local onde o profissional vai fazer uma biografia, carregar sua foto de perfil e preencher informações pessoais como e-mail, telefone para contato, endereço e o cargo em que está atuando.
   </div><br>
 
-![Perfil do Profissional](img/perfil-profissional.jpg)
-**Figura 9** - Tela Meu Perfil (perfil do profissional)
+<div align="center">
+<img src="img/perfil-profissional.jpg" width="50%"><br>
+Figura 9 - Tela Meu Perfil (perfil do profissional)
+  </div>
 
 ### Tela - Meus Currículos
 <div align="justify"> Tela onde o profissional poderá ver todos os currículos criados, visualizando a data de criação e também o título nomeado.
   </div><br><br>
 
-![Meus Currículos](img/meus-curriculos.jpg)
-**Figura 10** - Tela Meus currículos  
+<div align="center">
+<img src="img/meus-curriculos.jpg" width="50%"><br>
+Figura 10 - Tela Meus currículos 
+  </div>
   
 ### Tela - Fazer um currículo
 
 <div align="justify"> Tela onde o profissional irá escolher o modelo de layout de currículo que irá criar. Nesta página, além dos modelos, temos um botão de ajuda, onde se encontram instruções sobre onde clicar para começar a preencher os dados.
   </div><br>
 
-![Fazer Currículo1](img/buscar-modelo-curriculos1.jpg)
-**Figura 11** - Tela Fazer um currículo 
+<div align="center">
+<img src="img/buscar-modelo-curriculos1.jpg" width="50%"><br>
+Figura 11 - Tela Fazer um currículo 
+  </div>
 
-![Meus Currículos2](img/buscar-modelo-curriculos2.jpg)
-**Figura 12** - Tela Fazer um currículo 
+<div align="center">
+<img src="img/buscar-modelo-curriculos2.jpg" width="50%"><br>
+Figura 12 - Tela Fazer um currículo 
+  </div>
 
 ### Tela - Preencher modelo de currículo
 
@@ -97,49 +117,68 @@ Tela onde o profissional irá preencher as informações para criar o currículo
 <div align="justify"> O usuário poderá pré-visualizar o seu currículo com todas as informações preenchidas antes de concluir. Por fim, caberá ao usuário  optar em  compartilhar o seu currículo, deixando-o visível para os recrutadores que acessarem o site, copiar o link que permitirá acesso ao currículo na versão web ou apenas fazer o download em PDF.
   </div><br>
 
-![Preencher cv1](img/preencher-modelo-curriculo1.jpg)
-**Figura 13** - Tela Preencher modelo de currículo
+<div align="center">
+<img src="img/preencher-modelo-curriculo1.jpg" width="50%"><br>
+Figura 13 - Tela Preencher modelo de currículo
+  </div>
 
-![Preencher cv2](img/preencher-modelo-curriculo2.jpg)
-**Figura 14** - Tela Preencher modelo de currículo
+<div align="center">
+<img src="img/preencher-modelo-curriculo2.jpg" width="50%"><br>
+Figura 14 - Tela Preencher modelo de currículo
+  </div>
 
-![Preencher cv3](img/preencher-modelo-curriculo3.jpg)
-**Figura 15** - Tela Preencher modelo de currículo
+<div align="center">
+<img src="img/preencher-modelo-curriculo3.jpg" width="50%"><br>
+Figura 15 - Tela Preencher modelo de currículo
+  </div>
 
-![Preencher cv](img/preencher-modelo-curriculo.jpg)
-**Figura 16** - Tela Preencher modelo de currículo
+<div align="center">
+<img src="img/preencher-modelo-curriculo.jpg" width="50%"><br>
+Figura 16 - Tela Preencher modelo de currículo
+  </div>
 
 ### Tela - Perfil do recrutador
 
 <div align="justify"> A tela do perfil do recrutador vai funcionar como um cartão de visita do profissional, no qual é possível carregar uma foto, editar seu nome, cargo, infomações de contato caso deseje, como e-mail e telefone, bem como informações da empresa para qual trabalha.
   </div><br>
   
-  ![Perfil Recrutador](img/perfil-recrutador.jpg)
-**Figura 17** - Tela Meu Perfil (perfil do recrutador)
+  <div align="center">
+<img src="img/perfil-recrutador.jpg" width="50%"><br>
+Figura 17 - Tela Meu Perfil (perfil do recrutador)
+  </div>
 
 ### Tela - Buscar profissionais
 
 <div align="justify"> Os recrutadores podem buscar currículos na tela "Buscar profissionais". Para isso, é possível fazer a busca utilizando palavras-chave, por meio de uma pesquisa booleana. Além disso, existe a opção de filtros para que o resultado seja mais assertivo. Todos os currículos que sejam compatíveis com a busca feita pelo recrutador são apresentados de uma forma resumida, cabendo ao recrutador optar em ver o perfil completo e/ou marcar como favorito. 
    </div><br>
   
-![Buscar Profissionais](img/buscar-profissionais.jpg)
-**Figura 18** - Tela Buscar profissionais
+   
+<div align="center">
+<img src="img/buscar-profissionais.jpg" width="50%"><br>
+Figura 18 - Tela Buscar profissionais
+  </div>
 
 ### Tela - Favoritos
 
 <div align="justify"> Nessa tela será possível que o recrutador salve os currículos favoritos para poder encontrar com mais facilidade as informações daquele profissional em momento posterior. Mesmo que o candidato não seja selecionado para a primeira vaga, o recrutador, caso deseje, pode salvar para futuras oportunidades.
   </div><br>
 
-![Favoritos](img/curriculos-favoritados.jpg)
-**Figura 19** - Tela Favoritos
+<div align="center">
+<img src="img/curriculos-favoritados.jpg" width="50%"><br>
+Figura 19 - Tela Favoritos
+  </div>
 
 ### Tela - Mensagens
 
 <div align="justify"> A tela Mensagens é utilizada por todos os tipos de usuários e aqui é possível acessar as mensagens recebidas, bem como enviar uma mensagem. 
   </div><br>
 
-![Caixa Mensagem Profssional](img/caixa-mensagens-profissional.jpg)
-**Figura 20** - Tela Mensagem (perfil profissional)
+<div align="center">
+<img src="img/caixa-mensagens-profissional.jpg" width="50%"><br>
+Figura 20 - Tela Mensagem (perfil profissional)
+  </div>
 
-![Caixa Mensagem Recrutador](img/caixa-mensagens-recrutador.jpg)
-**Figura 21** - Tela Mensagem (perfil recrutador)
+<div align="center">
+<img src="img/caixa-mensagens-recrutador.jpg" width="50%"><br>
+Figura 21 - Tela Mensagem (perfil recrutador)
+  </div>
