@@ -13,8 +13,10 @@
   
  </div><br>
  
-![UserFlow](img/Fluxo%20Usua%CC%81rio.jpg)
+ <div align="center">
+<img src="img/userflow.jpg" width="50%"><br>
 **Figura 2** - Fluxo de Usuário
+  </div>
 
 ## Wireframes
 
