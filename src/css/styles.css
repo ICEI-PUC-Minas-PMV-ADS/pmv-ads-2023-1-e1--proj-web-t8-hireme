@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 *{
     font-family: "Gabriela", sans-serif;
@@ -11,63 +12,60 @@ body, html {
     color: #fff;
 }
 
-#header { 
-    height: 101px;
-    
-   
+header { 
+    height: 70px;
 }
-
-.header h2 {
-    background-color: #00A878;
-    float: right;
-    padding: 1%;
-
-    position: absolute;
-    left: 68.15%;
-        
-    font-family: 'Gabriela';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-
-    color: #FFFFFF;
-
-    box-sizing: border-box;
-
-    background: #00A878;
-    mix-blend-mode: lighten;
-    border: 1px solid #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-}
-.hireme-logo-container {
-    display: flex;
-    justify-content: space-around;
-} 
 
 .logo {
+    width: 97.91px;
+    height: 90px;
+    left: 80px;
+    top: 20px;
     display: flex;
 }
 
-.hireme-logo-container img {
-    width: 82px;
+.menu_principal img {
     margin-top: 13px;
-    margin-left: 15px;
-    margin-bottom: 8px;
+    margin-left: 30px;
+    margin-bottom: 35px;
 }
 
-.hireme-logo-container h1 {
+.menu_principal h1 {
+    width: 190px;
+    height: 43px;
+    left: 174px;
+    top: 30px;
     margin-top: 29px;
     margin-bottom: 25px;
-    font-size: 36px;
+    font-size: 25px;
+    font-family: "Gabriela", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    color: #fff;
 }
 
-.hireme-logo-container h2 {
-    margin-top: 38px;
-    margin-left: 200px;
+.menu_principal > ul > li {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 30px;
     margin-bottom: 32px;
-    font-size: 16px;
+    font-family: "Gabriela", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 0px;
+    cursor: pointer;
+}
+
+.menu_principal{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.menu_principal > ul >li:hover {
+    color: #00A878;
 }
 
 .galery {
@@ -78,8 +76,7 @@ body, html {
 }
 
 #galery1 {
-    width: 100vw;
-    background: url('../pag01/imagens/Rectangle\ 263.svg') center center no-repeat;
+    width: 100%;
     display: flex;
 }
 
@@ -124,9 +121,45 @@ body, html {
    
 }
 
+
+.title {
+    position: absolute;
+    left: 65%;
+    top: 20%;
+    
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+
+    color: #FFFFFF;
+
+}
+
+.text {
+
+    position: absolute;
+    left: 65%;
+    right: 4%;
+    top: 30%;
+    
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+
+    color: #FFFFFF;
+
+}
+
 .galery2 {
-    width: 100vw;
-    height: 200px;
+    width: 100%;
+    height: 300px;
     border: 1px solid grey;
     margin: auto;
 }
@@ -134,13 +167,13 @@ body, html {
 .galery2 h2 {
     position: absolute;
     left: 325px;
-    top:653px;
+    top:630px;
     
 
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 36px;
     line-height: 51px;
     text-align: center;
 
@@ -153,32 +186,66 @@ body, html {
 .galery2 p {
     position: absolute;
     left: 560px;
-    top: 703px;
+    top: 680px;
     
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 32px;
     text-align: center;
 
     color: #FF7A00;
 }
 
+.galery2 ul li {
+    width: 25%;
+    height: 20%;
+    float: right;
+    padding: 1%;
+
+    
+    position: absolute;
+    left: 70%;
+    top: 750px;
+
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    font-family: "Gabriela", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 0px;
+    cursor: pointer;
+      
+}
+
+.galery2{
+    display: flex;
+    
+} 
+
+.galery2 ul li:hover {
+    color: #00A878;
+}
+
 .box {
     background-color: #BDBDBD;
 }
+
 .box p {
     
-    Width: 100vw;
+    Width: 100%;
     height: 102px;
-    top: 1014px;
+    top: 1215px;
     left: 332px;
 
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 51px;
     text-align: center;
 
@@ -195,12 +262,12 @@ body, html {
     
     position: absolute;
     left: 08.36%;
-    top: 1000px;
+    top: 1020px;
         
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 32px;
     
     color: #FFFFFF;
@@ -223,12 +290,12 @@ body, html {
     
     position: absolute;
     left: 08.36%;
-    top: 1205px;
+    top: 1230px;
         
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 32px;
     
     color: #FFFFFF;
@@ -246,7 +313,7 @@ body, html {
     
     position: absolute;
     left: 38.01%;
-    top: 1000px;
+    top: 1020px;
     
     background: #00A878;
     mix-blend-mode: lighten;
@@ -257,7 +324,7 @@ body, html {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 32px;
 
     color: #FFFFFF;
@@ -272,12 +339,12 @@ body, html {
     
     position: absolute;
     left: 38.01%;
-    top: 1205px;
+    top: 1230px;
         
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 32px;
     
     color: #FFFFFF;
@@ -296,12 +363,12 @@ body, html {
 
     position: absolute;
     left: 68.15%;
-    top: 1000px;
+    top: 1020px;
     
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 32px;
 
     color: #FFFFFF;
@@ -324,12 +391,12 @@ body, html {
     
     position: absolute;
     left: 68.15%;
-    top: 1205px;
+    top: 1230px;
         
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 32px;
     
     color: #FFFFFF;
@@ -337,5 +404,3 @@ body, html {
     box-sizing: border-box;
 
 }
-
-
