@@ -11,7 +11,7 @@ O template criado está disponível no site (https://github.com/ICEI-PUC-Minas-P
 
 <div align="center">
 <img src="img/LayoutPadrão.png" width="50%"><br>
-**Figura 22** - Layout Padrão
+** Figura 22 ** - Layout Padrão
 </div>
 
 ## Tela Inicial
