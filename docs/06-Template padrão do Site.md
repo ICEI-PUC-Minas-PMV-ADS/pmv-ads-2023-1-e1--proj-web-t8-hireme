@@ -2,7 +2,7 @@
 
 O layout padrão a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente, conforme Figura X.
 
-O template criado está disponível no site (colocar link GitHub)e é composto pelos seguintes layouts:
+O template criado está disponível no site ([colocar link GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1--proj-web-t8-hireme/tree/main))e é composto pelos seguintes layouts:
 - Tela Inicial
 - Tela de Cadastro
 - Tela para criar um Currículo
