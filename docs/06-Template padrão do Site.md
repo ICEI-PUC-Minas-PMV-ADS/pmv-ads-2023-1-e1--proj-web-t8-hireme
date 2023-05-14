@@ -10,9 +10,9 @@ O template criado está disponível no site (https://github.com/ICEI-PUC-Minas-P
 - Tela da Caixa de mensagens do recrutador
 
 <div align="center">
-<img src="img/LayoutPadrão.png" width="50%"><br>
-** Figura 22 ** - Layout Padrão
-</div>
+<img src="img/LayoutPadrão.png" width="50%"><br></div>
+**Figura 22** - Layout Padrão
+
 
 ## Tela Inicial
 Tela que fala sobre o objetivo do site, traz depoimentos de usuários e direciona ao cadastro ou ao login.
