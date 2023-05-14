@@ -28,7 +28,7 @@ Tela que permite qualquer pessoa que esteja no site faça seu cadastro para usuf
 ## Tela para criar um Currículo
 Tela que disponibiliza todos os campos que devem ser preenchidos pelo usuário para criar seu currículo.
 
-![FazerCV](img/FazerCV.png)
+![fazerCV](img/fazerCV.png)
 **Figura 25** - Tela para criar um Currículo
 
 ## Tela do Perfil do recrutador
