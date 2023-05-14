@@ -93,7 +93,4 @@ Nesta seção são apresentadas as telas desenvolvidas para algumas das funciona
 ### Estruturas de dados
 
 ### Instruções de acesso
-- Abra um navegador de Internet e informe a seguinte URL: (file:///C:/projeto/pmv-ads-2023-1-e1--proj-web-t8-hireme/src/html/mensagens_recrutador.html)
-
-
-<
+- Abra um navegador de Internet e informe a seguinte URL: file:///C:/projeto/pmv-ads-2023-1-e1--proj-web-t8-hireme/src/html/mensagens_recrutador.html
