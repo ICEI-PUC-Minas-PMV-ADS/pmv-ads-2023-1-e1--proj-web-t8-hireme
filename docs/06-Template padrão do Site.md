@@ -17,10 +17,12 @@ A responsividade segue o padrão do XXXXXX
 
 ## Tela Inicial
 Tela que fala sobre o objetivo do site, traz depoimentos de usuários e direciona ao cadastro ou ao login.
+
 **Figura 23** - Tela Inicial
 
 ## Tela de Cadastro
 Tela que permite qualquer pessoa que esteja no site faça seu cadastro para usufruir dos serviços disponibilizados. 
+
 **Figura 24** - Tela de Cadastro
 
 ## Tela para criar um Currículo
@@ -30,6 +32,7 @@ Tela que disponibiliza todos os campos que devem ser preenchidos pelo usuário p
 **Figura 25** - Tela para criar um Currículo
 
 ## Tela do Perfil do recrutador
+
 **Figura 26** - Tela do Perfil do recrutador
 
 ## Tela da Caixa de mensagens do recrutador
@@ -37,13 +40,3 @@ Tela que permite que o recrutador entre em contato com candidatos que possuem um
 
 ![mensagens-recrutador](img/mensagens-recrutador.png)
 **Figura 27** - Tela da Caixa de mensagens do recrutador
-
-
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
-
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
