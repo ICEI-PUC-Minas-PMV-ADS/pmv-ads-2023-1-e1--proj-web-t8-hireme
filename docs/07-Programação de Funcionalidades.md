@@ -15,8 +15,9 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 - handshakepequeno.png
 
 ### Instruções de acesso
-- Abra um navegador de Internet e informe a seguinte URL: 
-- A página inicial é a primeira funcionalidade exibida pelo site.
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+- Descompacte o arquivo em uma pasta específica;
+- Abra o Visual Studio Code e execute o Live Server.
 
 ## Cadastro de usuários (RNF-04)
 <div align="justify"> *****
@@ -31,8 +32,9 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 - handshakepequeno.png
 
 ### Instruções de acesso
-- Abra um navegador de Internet e informe a seguinte URL: 
-- O Cadastro de usuários pode ser acessado através de um botão presente na página inicial.
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+- Descompacte o arquivo em uma pasta específica;
+- Abra o Visual Studio Code e execute o Live Server.
 
 ## Fazer um currículo (RF-03)
 <div align="justify"> Quando o usuário acessa o site com o objetivo de fazer um currículo, ele terá acesso a um menu de navegação personalizado a esse tipo de usuário. Entre as opções, está a que possibilita fazer um currículo. Nessa tela, o usuário encontrará uma série de campos que deverão ser preenchimendos para posteriormente compor o currículo. Os dados serão armazenados XXXXXXXXXXXXXXX
@@ -48,8 +50,9 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 
 
 ### Instruções de acesso
-- Abra um navegador de Internet e informe a seguinte URL: 
-- A página de fazer um currículo pode ser acessada através do menu principal.
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+- Descompacte o arquivo em uma pasta específica;
+- Abra o Visual Studio Code e execute o Live Server.
 
 ## Perfil do recrutador (RF-02)
 <div align="justify"> *****
@@ -66,8 +69,9 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 - recruit-name.png
 
 ### Instruções de acesso
-- Abra um navegador de Internet e informe a seguinte URL: 
-- O perfil do recrutador pode ser acessado através do login realizado pelo usuário.
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+- Descompacte o arquivo em uma pasta específica;
+- Abra o Visual Studio Code e execute o Live Server.
 
 
 ## Caixa de mensagens do recrutador (RF-06)
@@ -89,5 +93,7 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 - search.png
 
 ### Instruções de acesso
-- Abra um navegador de Internet e informe a seguinte URL: file:///C:/projeto/pmv-ads-2023-1-e1--proj-web-t8-hireme/src/html/mensagens_recrutador.html
-- A Caixa de mensagens do recrutador pode ser acessado através do menu principal.
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+- Descompacte o arquivo em uma pasta específica;
+- Abra o Visual Studio Code e execute o Live Server.
+
