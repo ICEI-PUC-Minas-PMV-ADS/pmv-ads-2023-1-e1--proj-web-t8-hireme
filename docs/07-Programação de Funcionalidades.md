@@ -73,7 +73,7 @@ Nesta seção são apresentadas as telas desenvolvidas para algumas das funciona
 
 
 ## Caixa de mensagens do recrutador (RF-06)
-<div align="justify"> *******
+<div align="justify"> Quando o usuário, em seu perfil de recrutador, entrar na opção "Buscar profissionais", irão aparecer diversos currículos de acordo com os filtros de buscar escolhidos. Para facilitar a comunicação entre recrutador e candidato, terá um botão de "Enviar mensagem" em cada currículo que, ao ser clicado, fará com que o recrutador seja redirecionado para uma conversa privada diretamente com o candidato. Além disso, no menu principal, existe um botão chamado "Mensagens" que também redireciona o recrutador para sua Caixa de mensagens, onde ele poderá escolher qual conversa quer abrir. Dentro da Caixa de mensagens, o recrutador pode colocar conversas mais importantes na aba de "Principais" clicando na estrela presente em cada chat ao lado do nome do candidato. Caso não clique na estrela, a conversa permanece na aba de "Outras".  
 </div>
 
 ### Requisitos atendidos
