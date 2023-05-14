@@ -9,7 +9,6 @@ O template criado está disponível no site (https://github.com/ICEI-PUC-Minas-P
 - Tela do Perfil do recrutador
 - Tela da Caixa de mensagens do recrutador
 
-![LayoutPadrão](img/LayoutPadrão.png)
 <img src="img/LayoutPadrão.png" width="50%">
 
 **Figura 22** - Layout Padrão
