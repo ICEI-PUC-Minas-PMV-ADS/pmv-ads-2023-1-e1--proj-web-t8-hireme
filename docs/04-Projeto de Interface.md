@@ -14,7 +14,7 @@
  </div><br>
  
  <div align="center">
-<img src="img/Flowcharts (1).jpg" width="50%"><br>
+<img src="img/Flowcharts (1).jpeg" width="50%"><br>
 **Figura 2** - Fluxo de Usuário
   </div>
 
