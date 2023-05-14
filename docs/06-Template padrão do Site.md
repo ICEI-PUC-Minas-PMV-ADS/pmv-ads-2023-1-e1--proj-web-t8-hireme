@@ -24,7 +24,7 @@ Tela que fala sobre o objetivo do site, traz depoimentos de usuários e direcion
 Tela que permite qualquer pessoa que esteja no site faça seu cadastro para usufruir dos serviços disponibilizados. 
 
 <div align="center">
-<img src="img/cadastro-layout.png" width="50%"><br>
+<img src="img/cadastro-layout.PNG " width="50%"><br>
 <b>Figura 25</b> - Tela de cadastro
 </div>
 
