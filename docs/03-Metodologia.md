@@ -71,8 +71,10 @@ A equipe foi organizada da seguinte maneira:
 - Revisão/Teste: tarefas que estão sendo revisadas, passando por testes e controle de qualidade.  
 - Concluído: tarefas que foram concluídas, aprovadas e estão prontas para serem entregues ao usuário.  
 
-![Kanban Trello](img/kanban-trello.png)
+<div align="center">
+<img src="img/kanban-trello.png" width="50%"><br>
 **Figura 1** - Tela do kanban utilizada pelo grupo
+ </div>
 
 ### Ferramentas
 
