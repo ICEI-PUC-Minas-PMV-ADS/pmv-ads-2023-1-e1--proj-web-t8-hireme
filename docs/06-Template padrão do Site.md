@@ -40,5 +40,7 @@ Figura 25 - Tela para criar um Currículo
 ## Tela da Caixa de mensagens do recrutador
 Tela que permite que o recrutador entre em contato com candidatos que possuem um currículo que os interessa.
 
-![mensagens-recrutador](img/mensagens-recrutador.png)
-**Figura 27** - Tela da Caixa de mensagens do recrutador
+<div align="center">
+<img src="img/mensagens-recrutador.png" width="50%"><br>
+Figura 27 - Tela da Caixa de mensagens do recrutador
+</div>
