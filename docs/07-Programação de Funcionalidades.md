@@ -3,7 +3,7 @@
 Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcionalidades do sistema. 
 
 ## Página inicial (RF-01)
-<div align="justify"> *******
+<div align="justify"> Ao entrar no site, através de um link, a página inicial é a primeira funcionalidade que o usuário terá contato. A página inicial terá a apresentação do site e da empresa HireMe, além de depoimentos de usuários que utilizaram a plataforma e aprovam o serviço. Ademais, haverá um botão de cadastro para os usuários que estão acessando o site pela primeira vez, ele irá redirecionar para a página de cadastro. Também haverá um botão de "Entrar" para usuários já cadastrados, onde, ao clicar, o site será redirecionado para a página de login do usuário.
 </div>
 
 ### Requisitos atendidos
@@ -91,6 +91,8 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 - search.png
 
 ### Estruturas de dados
+
+
 
 ### Instruções de acesso
 - Abra um navegador de Internet e informe a seguinte URL: file:///C:/projeto/pmv-ads-2023-1-e1--proj-web-t8-hireme/src/html/mensagens_recrutador.html
