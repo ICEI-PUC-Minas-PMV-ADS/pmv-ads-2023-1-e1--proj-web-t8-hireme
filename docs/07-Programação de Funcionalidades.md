@@ -14,8 +14,6 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 - style.css
 - handshakepequeno.png
 
-### Estruturas de dados
-
 ### Instruções de acesso
 
 ## Cadastro de usuários (RNF-04)
@@ -29,8 +27,6 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 - cadastro.html
 - cadastro.css
 - handshakepequeno.png
-
-### Estruturas de dados
 
 ### Instruções de acesso
 
@@ -48,7 +44,6 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 - fazercv.css
 - handshakepequeno.png
 
-### Estruturas de dados
 
 ### Instruções de acesso
 
@@ -66,8 +61,6 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 - handshakepequeno.png
 - recruit-info.png
 - recruit-name.png
-
-### Estruturas de dados
 
 ### Instruções de acesso
 
@@ -89,10 +82,6 @@ Nesta seção, são apresentadas as telas desenvolvidas para algumas das funcion
 - new.png
 - principal.png
 - search.png
-
-### Estruturas de dados
-
-
 
 ### Instruções de acesso
 - Abra um navegador de Internet e informe a seguinte URL: file:///C:/projeto/pmv-ads-2023-1-e1--proj-web-t8-hireme/src/html/mensagens_recrutador.html
