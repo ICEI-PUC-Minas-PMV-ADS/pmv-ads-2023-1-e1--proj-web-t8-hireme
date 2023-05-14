@@ -18,14 +18,22 @@ O template criado está disponível no site (https://github.com/ICEI-PUC-Minas-P
 ## Tela Inicial
 Tela que fala sobre o objetivo do site, traz depoimentos de usuários e direciona ao cadastro ou ao login.
 
-**Figura 23** - Tela Inicial
+<div align="center">
+<img src="img/Tela Inicial.jpg" width="50%"><br>
+<b>Figura 23.1</b> - Tela de cadastro
+</div>
+
+<div align="center">
+<img src="img/Tela inicial 2.jpg" width="50%"><br>
+<b>Figura 23.2</b> - Tela de cadastro
+</div>
 
 ## Tela de Cadastro
 Tela que permite qualquer pessoa que esteja no site faça seu cadastro para usufruir dos serviços disponibilizados. 
 
 <div align="center">
 <img src="img/cadastro-layout.PNG " width="50%"><br>
-<b>Figura 25</b> - Tela de cadastro
+<b>Figura 24</b> - Tela de cadastro
 </div>
 
 ## Tela para criar um Currículo
