@@ -11,7 +11,7 @@ O template criado está disponível no site (https://github.com/ICEI-PUC-Minas-P
 
 <div align="center">
 <img src="img/LayoutPadrão.png" width="50%"><br>
-Figura 22 - Layout Padrão
+<b>Figura 22</b> - Layout Padrão
 </div>
 
 
@@ -23,14 +23,17 @@ Tela que fala sobre o objetivo do site, traz depoimentos de usuários e direcion
 ## Tela de Cadastro
 Tela que permite qualquer pessoa que esteja no site faça seu cadastro para usufruir dos serviços disponibilizados. 
 
-**Figura 24** - Tela de Cadastro
+<div align="center">
+<img src="img/cadastro-layout.png" width="50%"><br>
+<b>Figura 25</b> - Tela de cadastro
+</div>
 
 ## Tela para criar um Currículo
 Tela que disponibiliza todos os campos que devem ser preenchidos pelo usuário para criar seu currículo.
 
 <div align="center">
 <img src="img/fazerCV.png" width="50%"><br>
-Figura 25 - Tela para criar um Currículo
+<b>Figura 25</b> - Tela para criar um Currículo
 </div>
 
 ## Tela do Perfil do recrutador
@@ -42,5 +45,5 @@ Tela que permite que o recrutador entre em contato com candidatos que possuem um
 
 <div align="center">
 <img src="img/mensagens-recrutador.png" width="50%"><br>
-Figura 27 - Tela da Caixa de mensagens do recrutador
+<b>Figura 27</b> - Tela da Caixa de mensagens do recrutador
 </div>
