@@ -10,7 +10,7 @@ O template criado está disponível no site (https://github.com/ICEI-PUC-Minas-P
 - Tela da Caixa de mensagens do recrutador
 
 <div align="center">
-<img src="img/LayoutPadrão.png" width="50%">
+<img src="img/LayoutPadrão.png" width="50%"><br>
 Figura 22 - Layout Padrão
 </div>
 
@@ -29,7 +29,7 @@ Tela que permite qualquer pessoa que esteja no site faça seu cadastro para usuf
 Tela que disponibiliza todos os campos que devem ser preenchidos pelo usuário para criar seu currículo.
 
 <div align="center">
-<img src="img/fazerCV.png" width="50%">
+<img src="img/fazerCV.png" width="50%"><br>
 Figura 25 - Tela para criar um Currículo
 </div>
 
