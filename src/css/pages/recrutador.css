@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
 }
 
-.menu-principal img{
+.menu-principal img {
     position: absolute;
     width: 82px;
     margin-top: 13px;
@@ -30,7 +30,7 @@ header {
     margin-bottom: 8px;
 }
 
-.menu-principal h1{
+.menu-principal h1 {
     margin-top: 29px;
     margin-bottom: 25px;
     margin-left: 100px; 
@@ -47,8 +47,8 @@ header {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.menu-principal > ul >li:hover {
-    color: #00A878;
+.menu-principal > ul > li:hover {
+    color: #ff7a00;
 }
 
 main h1{
@@ -92,23 +92,6 @@ select {
     height: 25px;
 }
 
-button {
-    width: 133px;
-    height: 51px;
-    left: 184px;
-    top: 400px;
-    border: none;
-    background: #FF7A008A;
-    border-radius: 62px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-top: 3%;
-    cursor: pointer;
-}
 
 .quad-cinza{
     width: 1145px;
@@ -130,4 +113,4 @@ button {
     border-radius: 20px;
     margin-left: -7%;
     margin-bottom: 4%;
-\}
+}
