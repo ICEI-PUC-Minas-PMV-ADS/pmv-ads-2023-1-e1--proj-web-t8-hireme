@@ -13,6 +13,7 @@ Nesta seção são apresentadas as telas desenvolvidas para algumas das funciona
 - index.html
 - style.css
 - handshakepequeno.png
+- carrossel1.jpg
 
 ### Instruções de acesso
 - Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
@@ -37,7 +38,7 @@ Nesta seção são apresentadas as telas desenvolvidas para algumas das funciona
 - Abra o Visual Studio Code e execute o Live Server.
 
 ## Fazer um currículo (RF-03)
-<div align="justify"> Quando o usuário acessa o site com o objetivo de fazer um currículo, ele terá acesso a um menu de navegação personalizado a esse tipo de usuário. Entre as opções, está a que possibilita fazer um currículo. Nessa tela, o usuário encontrará uma série de campos que deverão ser preenchimendos para posteriormente compor o currículo. Os dados serão armazenados XXXXXXXXXXXXXXX
+<div align="justify"> Quando o usuário acessa o site com o objetivo de fazer um currículo, ele terá acesso a um menu de navegação personalizado a esse tipo de usuário. Entre as opções, está a que possibilita fazer um currículo. Nessa tela, o usuário encontrará uma série de campos que deverão ser preenchimendos para posteriormente compor o currículo. 
 </div>
 
 ### Requisitos atendidos
@@ -55,7 +56,7 @@ Nesta seção são apresentadas as telas desenvolvidas para algumas das funciona
 - Abra o Visual Studio Code e execute o Live Server.
 
 ## Perfil do recrutador (RF-02)
-<div align="justify"> *****
+<div align="justify"> Ao criar uma conta na plataforma e/ou fazer login, o recrutador será direcionado para essa página, o seu perfil no site, onde devem ser adicionadas informações sobre o recrutador que serão vistas pelos candidatos que estarão em contato com esse profissional. Nessa página, haverá um menu principal com as opções de "Buscar profissionais", entrar na sua pasta de "Favoritos" a qual irá armazenar os currículos favoritados pelo recrutador, e a opção "Mensagens" para entrar na Caixa de mensagens.
 </div>
 
 ### Requisitos atendidos
