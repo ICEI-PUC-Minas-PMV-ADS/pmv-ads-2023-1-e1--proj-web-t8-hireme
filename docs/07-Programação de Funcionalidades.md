@@ -20,7 +20,7 @@ Nesta seção são apresentadas as telas desenvolvidas para algumas das funciona
 - Abra o Visual Studio Code e execute o Live Server.
 
 ## Cadastro de usuários (RNF-04)
-<div align="justify"> *****
+<div align="justify"> Quando o usuário acessar a pagina, inserir seus dados no formulário e clicar no botão de enviar, seus dados serão salvos e ele poderar usa-los para entrar na aplicação por meio do login. Seus dados serão salvos no formato JSON e por sua vez, será salvo em um array de usuários do mesmo formato.
 </div>
 
 ### Requisitos atendidos
