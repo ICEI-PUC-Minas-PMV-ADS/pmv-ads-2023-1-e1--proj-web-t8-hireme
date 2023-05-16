@@ -28,6 +28,7 @@ header {
     margin-top: 13px;
     margin-left: 30px;
     margin-bottom: 35px;
+    cursor: pointer;
 }
 
 .menu_principal h1 {
@@ -43,6 +44,7 @@ header {
     font-weight: 400;
     line-height: 10px;
     color: #fff;
+    cursor: pointer;
 }
 
 .menu_principal > ul > li {
@@ -56,6 +58,7 @@ header {
     font-size: 15px;
     color: #FFFFFF;
     line-height: 0px;
+    cursor: pointer;
 }
 
 .menu_principal{
@@ -167,6 +170,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     height: 30px;
     left: 330px;
     top: 20px;
+    cursor: pointer;
 }
 
 
@@ -188,6 +192,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     line-height: 32px;
 
     color: #141414;
+    cursor: pointer;
 }
 
 .menu-mensagens h2 {
@@ -208,6 +213,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     line-height: 32px;
 
     color: #141414;
+    cursor: pointer;
 }
 
 .menu-mensagens h1:hover {
@@ -232,6 +238,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     line-height: 32px;
 
     color: #141414;
+    cursor: pointer;
 }
 
 .area-mensagens h5 {
@@ -280,6 +287,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     line-height: 32px;
 
     color: #141414;
+    cursor: pointer;
 }
 
 .area-mensagens h8 {
@@ -378,6 +386,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     line-height: 26px;
     
     color: #141414;
+    cursor: pointer;
 }
 
 .mainchat img {
@@ -391,6 +400,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     height: 30px;
     left: 1000px;
     top: -15px;
+    cursor: pointer;
 }
 
 #caixa-de-pesquisa .caixapesquisa {
@@ -414,6 +424,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     height: 30px;
     left: 475px;
     top: 103px;
+    cursor: pointer;
 }
 
 #caixa-de-texto {
@@ -438,6 +449,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
 
     background: #ff7a00;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .camerabutton {
@@ -449,6 +461,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     
     background: #ff7a00;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .camera img {
@@ -462,6 +475,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     height: 18px;
     left: 530px;
     top: 561px;
+    cursor: pointer;
 }
 
 .filesbutton {
@@ -473,6 +487,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     
     background: #ff7a00;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .files img{
@@ -486,7 +501,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     height: 19px;
     left: 638px;
     top: 561px;
-
+    cursor: pointer;
 }
 
 .emojibutton {
@@ -498,6 +513,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     
     background: #ff7a00;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .emoji img {
@@ -511,6 +527,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     height: 19px;
     left: 746px;
     top: 561px;
+    cursor: pointer;
 }
 
 .messagesent {
