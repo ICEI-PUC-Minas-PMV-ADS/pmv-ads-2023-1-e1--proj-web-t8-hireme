@@ -1,3 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+header { 
+    background-color: #141414;
+    height: 80px;
+}
+
+
+.logo {
+    width: 97.91px;
+    height: 90px;
+    left: 80px;
+    top: 20px;
+    display: flex;
+}
+
+.logo img {
+    margin-top: 13px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+}
+
+.logo h1 {
+    width: 190px;
+    height: 43px;
+    left: 174px;
+    top: 30px;
+    margin-top: 29px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-family: "Gabriela", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    color: #fff;
+}
+
+.header-nav > ul > li {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    margin-right: 60px;
+    font-family: "Gabriela", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 0px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.header-nav > ul > li:hover {
+    color: #00A878;
+}
+
+#line {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 63px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
 .cadastro-container {
     color: white;
     display: flex;
@@ -56,6 +127,10 @@
 
 #cadastro-titulo {
     color: #D8F1A0;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
 }
 
 button {
@@ -65,6 +140,8 @@ button {
     padding: 12px;
     color: white;
     font-size: large;
+    font-family: 'Lora';
+    font-style: normal;
     justify-content: center;
     background-color: #FF7A00;
 }

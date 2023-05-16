@@ -7,11 +7,12 @@
     padding: 0;
 }
 
-header, html {
-    background-color: #141414; 
+html {
+    background-color: #BDBDBD; 
 }
 
 header { 
+    background-color: #141414;
     height: 70px;
 }
 
