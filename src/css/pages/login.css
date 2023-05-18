@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+body{
+    background-color: #141414;
+}
 
 header { 
-    background-color: #141414;
     height: 70px;
 }
 
@@ -11,7 +13,7 @@ header {
 .logo {
     width: 97.91px;
     height: 90px;
-    left: 80px;
+    left: 70px;
     top: 10px;
     display: flex;
 }
@@ -34,17 +36,17 @@ header {
     font-family: "Gabriela", sans-serif;
     font-style: normal;
     font-weight: 400;
-    line-height: 10px;
+    line-height: 0px;
     color: #fff;
     cursor: pointer;
 }
 
 .header-nav > ul > li {
     display: inline-block;
-    padding: 20px;
-    margin-top: 30px;
+    padding: 0px;
+    margin-top: 25px;
     margin-bottom: 32px;
-    margin-right: 60px;
+    margin-right: 100px;
     font-family: "Gabriela", sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -57,13 +59,13 @@ header {
 .header-nav {
     display: flex;
     justify-content: space-between;
-} 
+}
 
 .header-nav > ul > li:hover {
     color: #00A878;
 }
 
-#line {
+#line1 {
     position: absolute;
     left: 0%;
     right: 0%;
@@ -72,15 +74,15 @@ header {
     border: 1px solid rgba(255, 255, 255, 0.5);
     }
 
-.cadastro-container {
-    color: white;
+.login-container {
+    color: #141414;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.cadastro-inner-container {
+.login-inner-container {
     margin-bottom: 1rem;
 }
 
@@ -94,7 +96,7 @@ header {
     font-size: large;
 }
 
-.form-label > input, select {
+.form-label > input{
     margin-top: 0.5rem;
     border-width: 0 0 2px;
     outline: 0px;
@@ -104,31 +106,8 @@ header {
     color: white;
 }
 
-.form-label > select {
-    color: white;
-}
 
-.form-label > select > option {
-    color: black;
-}
-
-.form-label-nome-sobrenome {
-    display: flex;
-}
-
-.form-label-termos {
-    border-radius: 10px;
-    margin: 24px;
-    display: flex;
-    align-items: baseline;
-}
-
-.form-label-termos > label {
-    margin-left: 0.5rem;
-    font-size: larger;
-}
-
-#cadastro-titulo {
+#login-titulo {
     color: #D8F1A0;
     font-family: 'Lora';
     font-style: normal;
@@ -136,7 +115,28 @@ header {
     font-size: 30px;
 }
 
-button {
+#line2 {
+    position: absolute;
+    left: 25.74%;
+    right: 25.74%;
+    top: 70%;
+    bottom: 30%;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#atalho-cadastro {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.form-label-senha button {
     border: none;
     border-radius: 12px;
     width: 100%;
@@ -147,5 +147,18 @@ button {
     font-style: normal;
     justify-content: center;
     background-color: #FF7A00;
-    cursor: pointer;
+}
+
+.line2 button {
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+    padding: 12px;
+    top: 300px;
+    color: white;
+    font-size: large;
+    font-family: 'Lora';
+    font-style: normal;
+    justify-content: center;
+    background-color: #00A878; 
 }
