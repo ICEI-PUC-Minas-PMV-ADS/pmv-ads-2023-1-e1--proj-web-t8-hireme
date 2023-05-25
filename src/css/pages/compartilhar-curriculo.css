@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #000; 
+}
+
+header { 
+    background-color: #000;
+    height: 70px;
+}
+
+.logo {
+    width: 97.91px;
+    height: 90px;
+    left: 80px;
+    top: 20px;
+    display: flex;
+}
+
+.menu_principal img {
+    margin-top: 13px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.menu_principal h1 {
+    width: 190px;
+    height: 43px;
+    left: 174px;
+    top: 30px;
+    margin-top: 29px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-family: "Gabriela", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu_principal > ul > li {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    font-family: "Gabriela", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 0px;
+    cursor: pointer;
+}
+
+.menu_principal{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.menu_principal > ul >li:hover {
+    color: #00A878;
+}
+
+#line{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 70px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+main h1{
+    position: absolute;
+    width: 600px;
+    height: 43px;
+    left: 340px;
+    top: 120px;
+
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 51px;
+    text-align: center;
+    color:#FF7A00;
+}
+
+.compartilhar img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 250px;
+    left: 300px;
+    cursor: pointer;
+}
+
+.compartilhar h1{
+    position: absolute;
+    width: 321px;
+    height: 66px;
+    left: 190px;
+    top: 380px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 49px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+
+}
+
+.compartilhar h2 {
+    position: absolute;
+    width: 248px;
+    height: 66px;
+    left: 230px;
+    top: 480px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.compartilhar h1:hover{
+    color:  #FF7A00;
+}
+
+
+.copiarlink img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 250px;
+    left: 600px;
+    cursor: pointer;
+}
+
+.copiarlink h1{
+    position: absolute;
+    width: 321px;
+    height: 66px;
+    left: 500px;
+    top: 380px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 49px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+
+}
+
+.copiarlink h2{
+    position: absolute;
+    width: 248px;
+    height: 66px;
+    left: 530px;
+    top: 480px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.copiarlink h1:hover{
+    color:  #FF7A00;
+}
+
+.download img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 250px;
+    left: 900px;
+    cursor: pointer;
+}
+
+.download h1{
+    position: absolute;
+    width: 321px;
+    height: 66px;
+    left: 800px;
+    top: 380px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 49px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.download h2{
+    position: absolute;
+    width: 248px;
+    height: 66px;
+    left: 835px;
+    top: 480px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.download h1:hover{
+    color:  #FF7A00;
+}
