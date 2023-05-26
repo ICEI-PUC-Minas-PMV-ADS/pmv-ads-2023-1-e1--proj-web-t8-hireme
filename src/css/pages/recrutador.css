@@ -18,6 +18,16 @@ header {
     background-color: #141414;
 }
 
+a{
+
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #FF7A00;
+}
+
 .menu-principal {
     display: flex;
     justify-content: space-between;
@@ -58,9 +68,6 @@ header {
     cursor: pointer;
 }
 
-.menu-principal > ul > li:hover {
-    color: #FF7A00;
-}
 
 #container {
     background-color: #BDBDBD;
