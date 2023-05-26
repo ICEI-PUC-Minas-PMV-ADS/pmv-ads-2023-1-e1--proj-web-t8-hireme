@@ -8,10 +8,6 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="../css/pages/cadastro.css">
     <link rel="stylesheet" href="../css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" 
-    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
-    crossorigin="anonymous"></script>
-    <script src="../js/modules/load-header.js"></script>
 </head>
 <body>
     <header>
@@ -35,7 +31,7 @@
         <div class="cadastro-container">
             <br><h1 id="cadastro-titulo">Cadastre-se</h3><br>
             <div class="cadastro-inner-container">
-                <form action="post">
+                <form action="javascript:void(0)">
                     <div class="form-label">
                         <label for="email">Email</label>
                         <input type="text" id="email">
@@ -62,18 +58,20 @@
                         <label for="form-options">Qual é o seu objetivo na plataforma?</label>
                         <select id="form-options" name="form-options">
                             <option hidden disabled selected></option>
-                            <option value="cadastrar-profissional">Quero criar e cadastrar meu currículo</option>
-                            <option value="cadastrar-empresa">Quero buscar profissionais</option>
+                            <option value="candidato">Quero criar e cadastrar meu currículo</option>
+                            <option value="recrutador">Quero buscar profissionais</option>
                         </select>
                     </div> 
                     <div class="form-label-termos">
                         <input type="radio" name="termos" id="termos">
                         <label for="termos">Concordo com os termos</label>
                     </div>
-                    <button type="submit">Continuar</button>
+                    <button type="submit" id="btn-cadastrar">Continuar</button>
                 </form>
             </div>
         </div>
     </main>
+    <script src="../js/main.js"></script>
+    <script src="../js/modules/cadastro.js"></script>
 </body>
 </html>
