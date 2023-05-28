@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HireMe - Cadastro</title>
+    <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
+    <title>Cadastro</title>
     <link rel="stylesheet" href="../css/pages/cadastro.css">
     <link rel="stylesheet" href="../css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" 
-    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
-    crossorigin="anonymous"></script>
-    <script src="../js/modules/load-header.js"></script>
 </head>
 <body>
     <header>
-        <div id="header-nav"></div>
+        <div class="header-nav">
+                <div class="logo">
+                    <img src="imagens/handshakepequeno.png" alt="Logo do HireMe">
+                    <h1>HireMe</h1>
+                </div>
+                <ul>
+                    <li>Voltar</li>
+                    <li>Entrar</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="line">
+
+        </div>
     </header>
     <main>
         <div class="cadastro-container">
-            <h1 id="cadastro-titulo">Cadastre-se</h3>
+            <br><h1 id="cadastro-titulo">Cadastre-se</h3><br>
             <div class="cadastro-inner-container">
-                <form action="post">
+                <form action="javascript:void(0)">
                     <div class="form-label">
                         <label for="email">Email</label>
                         <input type="text" id="email">
@@ -47,18 +58,20 @@
                         <label for="form-options">Qual é o seu objetivo na plataforma?</label>
                         <select id="form-options" name="form-options">
                             <option hidden disabled selected></option>
-                            <option value="cadastrar-profissional">Quero criar e cadastrar meu curriculo</option>
-                            <option value="cadastrar-empresa">Quero buscar profissionais</option>
+                            <option value="candidato">Quero criar e cadastrar meu currículo</option>
+                            <option value="recrutador">Quero buscar profissionais</option>
                         </select>
                     </div> 
                     <div class="form-label-termos">
                         <input type="radio" name="termos" id="termos">
                         <label for="termos">Concordo com os termos</label>
                     </div>
-                    <button type="submit">Continuar</button>
+                    <button type="submit" id="btn-cadastrar">Continuar</button>
                 </form>
             </div>
         </div>
     </main>
+    <script src="../js/main.js"></script>
+    <script src="../js/modules/cadastro.js"></script>
 </body>
 </html>

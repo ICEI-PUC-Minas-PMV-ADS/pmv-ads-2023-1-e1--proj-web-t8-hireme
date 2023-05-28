@@ -25,7 +25,7 @@ a{
 }
 
 a:hover {
-    color: #FF7A00;
+    color: #00a878;
 }
 
 .menu-principal {
@@ -64,7 +64,6 @@ a:hover {
     margin-bottom: 32px;
     font-size: 15px;
     line-height: 0px;
-    color: #FFFFFF;
     cursor: pointer;
 }
 
@@ -95,7 +94,8 @@ a:hover {
     font-weight: 700;
     font-size: 30px;
     line-height: 45px;
-    color: #00a878;
+
+    color: #FF7A00;
 }
 
 .bio h2{
@@ -148,7 +148,7 @@ a:hover {
     height: 25px;
     left: 945px;
     top: 20px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .informaçao {
@@ -172,7 +172,8 @@ a:hover {
     font-weight: 800;
     font-size: 30px;
     line-height: 38px;
-    color: #00a878;
+
+    color: #FF7A00;
 }
 
 .edit2 img {
@@ -186,7 +187,7 @@ a:hover {
     height: 25px;
     left: 945px;
     top: 20px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .informaçao h2{
@@ -219,7 +220,7 @@ a:hover {
 .informaçao h3 {
     position: absolute;
     left: 90px;
-    top: 170px;
+    top: 240px;
 
     font-family: 'Lora';
     font-style: normal;
@@ -230,7 +231,7 @@ a:hover {
     color: #141414;
 }
 
-.empresa img{
+.emprego img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -240,7 +241,7 @@ a:hover {
     width: 30px;
     height: 30px;
     left: 50px;
-    top: 80px;
+    top: 150px;
 }
 
 .informaçao h4{
@@ -273,7 +274,7 @@ a:hover {
 .informaçao h5{
     position: absolute;
     left: 540px;
-    top: 155px;
+    top: 220px;
 
     font-family: 'Lora';
     font-style: normal;
@@ -284,69 +285,15 @@ a:hover {
     color: #141414;
 }
 
-.cnpj img{
+.residencia img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
 
     position: relative;
-    width: 30px;
+    width: 25px;
     height: 30px;
     left: 500px;
-    top: 20px;
-}
-
-.informaçao h6{
-    position: absolute;
-    left: 90px;
-    top: 245px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-
-    color: #141414;
-}
-
-.linkedin img{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: relative;
-    width: 30px;
-    height: 30px;
-    left: 50px;
-    top: 150px;
-}
-
-.informaçao h7{
-    position: absolute;
-    left: 540px;
-    top: 290px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-
-    color: #141414;
-}
-
-.site img{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: relative;
-    width: 30px;
-    height: 30px;
-    left: 500px;
-    top: 215px;
+    top: 175px;
 }

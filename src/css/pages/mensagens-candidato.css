@@ -22,9 +22,8 @@ a{
 }
 
 a:hover {
-    color: #ff7a00;
+    color: #00A878;
 }
-
 
 .logo {
     width: 97.91px;
@@ -65,7 +64,6 @@ a:hover {
     font-family: "Gabriela", sans-serif;
     font-style: normal;
     font-weight: 300;
-    color: #FFFFFF;
     font-size: 15px;
     line-height: 0px;
     cursor: pointer;
@@ -224,11 +222,11 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
 }
 
 .menu-mensagens h1:hover {
-    background-color: #00A878;
+    background-color: #ff7a00;
 }
 
 .menu-mensagens h2:hover {
-    background-color: #00A878;
+    background-color: #ff7a00;
 }
 
 .area-mensagens h4 {
@@ -366,7 +364,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     position: absolute;
     width: 98px;
     height: 26px;
-    left: 835px;
+    left: 500px;
     top: 282px;
     
     font-family: 'Lora';
@@ -454,7 +452,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     left: 1064px;
     top: 626px;
 
-    background: #00A878;
+    background: #ff7a00;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -466,7 +464,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     left: 570px;
     top: 626px;
     
-    background: #00A878;
+    background: #ff7a00;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -492,7 +490,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     left: 660px;
     top: 626px;
     
-    background: #00A878;
+    background: #ff7a00;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -518,7 +516,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     left: 750px;
     top: 626px;
     
-    background: #00A878;
+    background: #ff7a00;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -541,7 +539,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     position: absolute;
     width: 120px;
     height: 40px;
-    left: 965px;
+    left: 620px;
     top: 375px;
 
     background: #FFFFFF;
@@ -553,7 +551,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     position: absolute;
     width: 48px;
     height: 48px;
-    left: 1100px;
+    left: 560px;
     top: 395px;
 
     background: #141414;
@@ -564,7 +562,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 1104px;
+    left: 564px;
     top: 399px;
 
     background: #d9d9d9;

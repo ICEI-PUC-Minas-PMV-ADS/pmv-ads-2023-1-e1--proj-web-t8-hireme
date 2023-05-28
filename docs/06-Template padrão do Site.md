@@ -41,8 +41,12 @@ Tela que disponibiliza todos os campos que devem ser preenchidos pelo usuário p
 </div>
 
 ## Tela do Perfil do recrutador
+Tela que disponibiliza todos os campos que devem ser preenchidos pelo recrutador para criar um perfil confiável na plataforma.
 
-**Figura 26** - Tela do Perfil do recrutador
+<div align="center">
+<img src="img/recrutador.png" width="50%"><br>
+<b>Figura 26</b> - Tela do Perfil do recrutador
+</div>
 
 ## Tela da Caixa de mensagens do recrutador
 Tela que permite que o recrutador entre em contato com candidatos que possuem um currículo que os interessa.

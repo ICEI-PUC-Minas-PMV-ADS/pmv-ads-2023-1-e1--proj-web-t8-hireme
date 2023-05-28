@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 /* Gerais */
 html {
@@ -13,7 +14,7 @@ html, body {
 }
 
 header {
-    height: 101px;
+    height: 70px;
     background-color: #141414;
 }
 
@@ -22,29 +23,39 @@ header {
     justify-content: space-between;
 }
 
-.menu-principal img{
+.menu-principal img {
     position: absolute;
-    width: 82px;
-    margin-top: 13px;
-    margin-left: 15px;
-    margin-bottom: 8px;
+    width: 42px;
+    left: 30px;
+    top: 2px;
+    margin-top: 10px;
+    margin-left: 30x;
+    margin-bottom: 42px;
+    cursor: pointer;
+    display: flex;
 }
 
-.menu-principal h1{
-    margin-top: 29px;
-    margin-bottom: 25px;
-    margin-left: 100px; 
-    font-size: 36px;
-    color: #FFFFFF;
+.menu-principal h1 {
+    margin-top: 23px;
+    margin-bottom: 22px;
+    margin-left: 72px; 
+    font-size: 25px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    color: #FFFFFF
 }
 
-.menu-principal > ul > li {
+.menu-principal > ul > li  {
     display: inline-block;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 14px;
     margin-bottom: 32px;
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 0px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .menu-principal > ul >li:hover {
@@ -93,7 +104,8 @@ select {
 }
 
 button {
+    font-family: 'Lora';
     background-color: #00A878;
     border-radius: 10px;
-    border-color: #00A878
+    border-color: #00A878;
 }

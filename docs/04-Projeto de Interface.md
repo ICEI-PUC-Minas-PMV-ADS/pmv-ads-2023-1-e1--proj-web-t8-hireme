@@ -15,7 +15,7 @@
  
  <div align="center">
 <img src="img/Flowcharts (1).jpeg" width="50%"><br>
-Figura 2 - Fluxo de Usuário
+  <b>Figura 2</b> - Fluxo de Usuário
   </div>
 
 ## Wireframes
@@ -29,17 +29,17 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 <div align="center">
 <img src="img/pagina-inicial1.jpg" width="50%"><br>
-Figura 3 - Tela Inicial
+<b>Figura 3</b> - Tela Inicial
   </div>
 
 <div align="center">
 <img src="img/pagina-inicial2.jpg" width="50%"><br>
-Figura 4 - Tela Inicial
+<b>Figura 4</b> - Tela Inicial
   </div>
 
 <div align="center">
 <img src="img/pagina-inicial3.jpg" width="50%"><br>
-Figura 5 - Tela Inicial
+<b>Figura 5</b> - Tela Inicial
   </div>
    
 
@@ -50,12 +50,12 @@ Figura 5 - Tela Inicial
 
 <div align="center">
 <img src="img/cadastro1.jpg" width="50%"><br>
-Figura 6 - Tela Cadastro
+<b>Figura 6</b> - Tela Cadastro
 </div>
 
 <div align="center">
 <img src="img/cadastro2.jpg" width="50%"><br>
-Figura 7 - Tela Cadastro
+<b>Figura 7</b> - Tela Cadastro
   </div>
 
 ### Tela - Login
@@ -65,7 +65,7 @@ Figura 7 - Tela Cadastro
 
 <div align="center">
 <img src="img/cadastro3.jpg" width="50%"><br>
-Figura 8 - Tela Login/Entrar
+<b>Figura 8</b> - Tela Login/Entrar
   </div>
 
 ### Tela - Perfil do profissional
@@ -75,7 +75,7 @@ Figura 8 - Tela Login/Entrar
 
 <div align="center">
 <img src="img/perfil-profissional.jpg" width="50%"><br>
-Figura 9 - Tela Meu Perfil (perfil do profissional)
+<b>Figura 9</b> - Tela Meu Perfil (perfil do profissional)
   </div>
 
 ### Tela - Meus Currículos
@@ -84,7 +84,7 @@ Figura 9 - Tela Meu Perfil (perfil do profissional)
 
 <div align="center">
 <img src="img/meus-curriculos.jpg" width="50%"><br>
-Figura 10 - Tela Meus currículos 
+<b>Figura 10</b> - Tela Meus currículos 
   </div>
   
 ### Tela - Fazer um currículo
@@ -94,12 +94,12 @@ Figura 10 - Tela Meus currículos
 
 <div align="center">
 <img src="img/buscar-modelo-curriculos1.jpg" width="50%"><br>
-Figura 11 - Tela Fazer um currículo 
+<b>Figura 11</b> - Tela Fazer um currículo 
   </div>
 
 <div align="center">
 <img src="img/buscar-modelo-curriculos2.jpg" width="50%"><br>
-Figura 12 - Tela Fazer um currículo 
+<b>Figura 12</b> - Tela Fazer um currículo 
   </div>
 
 ### Tela - Preencher modelo de currículo
@@ -119,22 +119,22 @@ Tela onde o profissional irá preencher as informações para criar o currículo
 
 <div align="center">
 <img src="img/preencher-modelo-curriculo1.jpg" width="50%"><br>
-Figura 13 - Tela Preencher modelo de currículo
+<b>Figura 13</b> - Tela Preencher modelo de currículo
   </div>
 
 <div align="center">
 <img src="img/preencher-modelo-curriculo2.jpg" width="50%"><br>
-Figura 14 - Tela Preencher modelo de currículo
+<b>Figura 14</b> - Tela Preencher modelo de currículo
   </div>
 
 <div align="center">
 <img src="img/preencher-modelo-curriculo3.jpg" width="50%"><br>
-Figura 15 - Tela Preencher modelo de currículo
+<b>Figura 15</b> - Tela Preencher modelo de currículo
   </div>
 
 <div align="center">
 <img src="img/preencher-modelo-curriculo.jpg" width="50%"><br>
-Figura 16 - Tela Preencher modelo de currículo
+<b>Figura 16</b> - Tela Preencher modelo de currículo
   </div>
 
 ### Tela - Perfil do recrutador
@@ -144,7 +144,7 @@ Figura 16 - Tela Preencher modelo de currículo
   
   <div align="center">
 <img src="img/perfil-recrutador.jpg" width="50%"><br>
-Figura 17 - Tela Meu Perfil (perfil do recrutador)
+<b>Figura 17</b> - Tela Meu Perfil (perfil do recrutador)
   </div>
 
 ### Tela - Buscar profissionais
@@ -155,7 +155,7 @@ Figura 17 - Tela Meu Perfil (perfil do recrutador)
    
 <div align="center">
 <img src="img/buscar-profissionais.jpg" width="50%"><br>
-Figura 18 - Tela Buscar profissionais
+<b>Figura 18</b> - Tela Buscar profissionais
   </div>
 
 ### Tela - Favoritos
@@ -165,7 +165,7 @@ Figura 18 - Tela Buscar profissionais
 
 <div align="center">
 <img src="img/curriculos-favoritados.jpg" width="50%"><br>
-Figura 19 - Tela Favoritos
+<b>Figura 19</b> - Tela Favoritos
   </div>
 
 ### Tela - Mensagens
@@ -175,10 +175,10 @@ Figura 19 - Tela Favoritos
 
 <div align="center">
 <img src="img/caixa-mensagens-profissional.jpg" width="50%"><br>
-Figura 20 - Tela Mensagem (perfil profissional)
+<b>Figura 20</b> - Tela Mensagem (perfil profissional)
   </div>
 
 <div align="center">
 <img src="img/caixa-mensagens-recrutador.jpg" width="50%"><br>
-Figura 21 - Tela Mensagem (perfil recrutador)
+<b>Figura 21</b> - Tela Mensagem (perfil recrutador)
   </div>
