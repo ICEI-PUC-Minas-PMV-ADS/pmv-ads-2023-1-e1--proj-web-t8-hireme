@@ -7,9 +7,6 @@
     <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
     <title>Login</title>
     <link rel="stylesheet" href="../css/pages/login.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" 
-    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
-    crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -34,24 +31,23 @@
                 <form action="post">
                     <div class="form-label">
                         <label for="email">Email</label>
-                        <input type="text" id="email">
+                        <input type="text" id="email" required>
                     </div>
                     <div class="form-label">
                         <label for="senha">Senha</label>
-                        <input type="password" id="senha">
+                        <input type="password" id="senha" required>
                     </div>
                     <div class="form-label-senha">
-                        <label for="esqueceu-senha">Esqueceu sua senha?</label>
-                        <button type="entrar">Continuar</button><br>
+                        <button type="submit">Continuar</button><br>
                     </div>
-                
                 </form>
             </div>
             <div id="line2">
-            <br><br><h1 id="atalho-cadastro">Ainda não tem uma conta?</h3><br>
-                <button type="cadastro">Cadastrar grátis</button>
+                <h1 id="atalho-cadastro">Ainda não tem uma conta?</h3><br>
+                <a>Cadastrar grátis</a>
             </div>
         </div>
     </main>
+    <script src="../js/main.js"></script>
 </body>
 </html>
