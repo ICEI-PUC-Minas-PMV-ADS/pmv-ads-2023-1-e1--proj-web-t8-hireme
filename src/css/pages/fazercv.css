@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
-/* Gerais */
-html {
-    font-family: 'Gabriela', sans-serif;
-    background-color: #BDBDBD;
+*{
     box-sizing: border-box;
-}
-
-html, body {
     margin: 0;
     padding: 0;
+}
+
+html {
+    background-color: #BDBDBD;
 }
 
 header {
@@ -18,44 +16,54 @@ header {
     background-color: #141414;
 }
 
-.menu-principal {
+.logo {
+    width: 97.91px;
+    height: 90px;
+    left: 80px;
+    top: 20px;
     display: flex;
-    justify-content: space-between;
 }
 
 .menu-principal img {
-    position: absolute;
-    width: 42px;
-    left: 30px;
-    top: 2px;
-    margin-top: 10px;
-    margin-left: 30x;
-    margin-bottom: 42px;
+    margin-top: 13px;
+    margin-left: 30px;
+    margin-bottom: 35px;
     cursor: pointer;
-    display: flex;
 }
 
-.menu-principal h1 {
-    margin-top: 23px;
-    margin-bottom: 22px;
-    margin-left: 72px; 
+.menu-principal h1{
+    width: 190px;
+    height: 43px;
+    left: 174px;
+    top: 30px;
+    margin-top: 29px;
+    margin-bottom: 25px;
     font-size: 25px;
-    line-height: 20px;
+    font-family: "Gabriela", sans-serif;
     font-style: normal;
     font-weight: 400;
+    line-height: 10px;
+    color: #fff;
     cursor: pointer;
-    color: #FFFFFF
 }
 
-.menu-principal > ul > li  {
+.menu-principal > ul > li {
     display: inline-block;
     padding: 20px;
-    margin-top: 14px;
+    margin-top: 30px;
     margin-bottom: 32px;
+    font-family: "Gabriela", sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 15px;
-    line-height: 0px;
     color: #FFFFFF;
+    line-height: 0px;
     cursor: pointer;
+}
+
+.menu-principal {
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu-principal > ul >li:hover {
@@ -66,6 +74,8 @@ main h1{
     color:#FF7A00;
     text-align: center;
     font-size: 30px;
+    font-family: "Gabriela", sans-serif;
+    margin-top: 15px;
 }
 
 .fazer-curriculo-container {
@@ -75,6 +85,7 @@ main h1{
 
 .fazer-curriculo-container p {
     color: #FF7A00;
+    font-weight: bold;
 }
 
 input {
@@ -83,6 +94,7 @@ input {
     margin: 5px;
     border-color: #d9d9d9;
     padding: 5px;
+    font-family: 'Lora';
 }
 
 .texto {
@@ -107,5 +119,6 @@ button {
     font-family: 'Lora';
     background-color: #00A878;
     border-radius: 10px;
-    border-color: #00A878;
+    border-color: #00A878
 }
+
