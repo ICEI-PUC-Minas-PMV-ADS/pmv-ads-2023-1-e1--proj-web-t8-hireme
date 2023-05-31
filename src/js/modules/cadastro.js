@@ -1,4 +1,4 @@
-const LOGIN_URL = "/src/html/login.html";
+const LOGIN_URL = "../html/login.html";
 
 const formCadastro = document.getElementById('form-cadastro');
 const email = document.getElementById('nome');

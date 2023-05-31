@@ -20,10 +20,10 @@ formLogin.addEventListener('submit', function() {
     sessionStorage.setItem('usuario', JSON.stringify(usuarioLogado));
 
     if (usuarioLogado.tipoUsuario == "candidato") {
-        const perfilCandidato = "/src/html/perfil-candidato.html";
+        const perfilCandidato = "../html/perfil-candidato.html";
         window.location.replace(perfilCandidato)
     } else {
-        const perfilRecrutador = "/src/html/recrutador.html";
+        const perfilRecrutador = "../html/recrutador.html";
         window.location.replace(perfilRecrutador);
     }
 });

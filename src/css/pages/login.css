@@ -165,4 +165,9 @@ a:hover {
     font-style: normal;
     justify-content: center;
     background-color: #FF7A00;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.04)
 }
