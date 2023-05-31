@@ -23,15 +23,17 @@ const dadosIniciais = {
             "email": "email@email.com.br",
             "nome": "adminCandidato",
             "sobrenome": "admin",
-            "senha": "admin123",
-            "curriculos": [] 
+            "senha": "candidato123",
+            "tipoUsuario": "candidato",
+            "curriculos": []
         },
         {
             "id": generateUUID(),
             "email": "email@email.com.br",
             "nome": "adminRecrutador",
             "sobrenome": "admin",
-            "senha": "admin123"
+            "senha": "recrutador123",
+            "tipoUsuario": "recrutador",
         }
     ]
 };

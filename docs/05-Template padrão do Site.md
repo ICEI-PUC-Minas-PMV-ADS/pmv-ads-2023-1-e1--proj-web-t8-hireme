@@ -1,6 +1,6 @@
 # Template padrão do site
 
-O layout padrão a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente, conforme Figura X.
+O layout padrão a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente, conforme Figura 22.
 
 O template criado está disponível no site (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1--proj-web-t8-hireme/tree/main) e é composto pelos seguintes layouts:
 - Tela Inicial

@@ -3,6 +3,7 @@
 
 body{
     background-color: #141414;
+    color: white;
 }
 
 header { 
@@ -41,6 +42,18 @@ header {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 0px;
+    cursor: pointer;
+  }
+
+a:hover {
+    color: #00A878;
+
+} 
+
 .header-nav > ul > li {
     display: inline-block;
     padding: 0px;
@@ -69,17 +82,18 @@ header {
     position: absolute;
     left: 0%;
     right: 0%;
-    top: 70px;
+    top: 90px;
 
     border: 1px solid rgba(255, 255, 255, 0.5);
     }
 
 .login-container {
-    color: #141414;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 3rem;
 }
 
 .login-inner-container {
@@ -116,13 +130,16 @@ header {
 }
 
 #line2 {
-    position: absolute;
-    left: 25.74%;
-    right: 25.74%;
-    top: 70%;
-    bottom: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#line2 > a {
+    margin-top: -10px;
 }
 
 #atalho-cadastro {
@@ -141,24 +158,16 @@ header {
     border-radius: 12px;
     width: 100%;
     padding: 12px;
+    margin-top: 12px;
     color: white;
     font-size: large;
     font-family: 'Lora';
     font-style: normal;
     justify-content: center;
     background-color: #FF7A00;
+    cursor: pointer;
 }
 
-.line2 button {
-    border: none;
-    border-radius: 12px;
-    width: 100%;
-    padding: 12px;
-    top: 300px;
-    color: white;
-    font-size: large;
-    font-family: 'Lora';
-    font-style: normal;
-    justify-content: center;
-    background-color: #00A878; 
+button:hover {
+    transform: scale(1.05)
 }

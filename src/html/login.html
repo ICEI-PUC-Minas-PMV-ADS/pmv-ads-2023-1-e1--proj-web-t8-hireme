@@ -7,19 +7,16 @@
     <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
     <title>Login</title>
     <link rel="stylesheet" href="../css/pages/login.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" 
-    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
-    crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div class="header-nav">
                 <div class="logo">
                     <img src="imagens/handshakepequeno.png" alt="Logo do HireMe">
-                    <h1>HireMe</h1>
+                    <h1><a href="index.html">HireMe</a></h1>
                 </div>
                 <ul>
-                    <li>Voltar</li>
+                    <li> <a href="index.html"> Voltar </a> </li>
                 </ul>
             </div>
         </div>
@@ -31,27 +28,27 @@
         <div class="login-container">
             <br><h1 id="login-titulo">Entrar</h3><br>
             <div class="login-inner-container">
-                <form action="post">
+                <form action="javascript:void(0)" id="form-login">
                     <div class="form-label">
                         <label for="email">Email</label>
-                        <input type="text" id="email">
+                        <input type="text" id="email" required>
                     </div>
                     <div class="form-label">
                         <label for="senha">Senha</label>
-                        <input type="password" id="senha">
+                        <input type="password" id="senha" required>
                     </div>
                     <div class="form-label-senha">
-                        <label for="esqueceu-senha">Esqueceu sua senha?</label>
-                        <button type="entrar">Continuar</button><br>
+                        <button type="submit">Continuar</button><br>
                     </div>
-                
                 </form>
             </div>
             <div id="line2">
-            <br><br><h1 id="atalho-cadastro">Ainda não tem uma conta?</h3><br>
-                <button type="cadastro">Cadastrar grátis</button>
+                <h1 id="atalho-cadastro">Ainda não tem uma conta?</h3><br>
+                <a href="cadastro.html">Cadastrar grátis</a>
             </div>
         </div>
     </main>
+    <script src="../js/main.js"></script>
+    <script src="../js/modules/login.js"></script>
 </body>
 </html>

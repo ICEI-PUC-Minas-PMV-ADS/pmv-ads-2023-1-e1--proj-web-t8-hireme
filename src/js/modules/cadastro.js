@@ -1,19 +1,27 @@
-const LOGIN_URL = "/src/html/login.html";
+const LOGIN_URL = "../html/login.html";
 
-const btnCadastro = document.getElementById('btn-cadastrar');
-
+const formCadastro = document.getElementById('form-cadastro');
 const email = document.getElementById('nome');
 const nome = document.getElementById('nome');
 const sobrenome = document.getElementById('sobrenome');
 const senha = document.getElementById('senha');
 const confirmaSenha = document.getElementById('confirm-senha');
 const usuarioOpts = document.getElementById('form-options');
+const termosRadio = document.getElementById('termos');
 
-btnCadastro.addEventListener('click', function() {
+formCadastro.addEventListener('submit', function() {
     let novoId = generateUUID();
     let novoUsuario = {};
 
-    if (senha.value != confirmaSenha.value) return;
+    if (senha.value != confirmaSenha.value) {
+        alert("As senhas precisam ser iguais");
+        return;
+    }
+
+    if (!termosRadio.checked) {
+        alert("Aceite os termos");
+        return;
+    }
     
     if (usuarioOpts.value == "candidato") {
         novoUsuario = {
@@ -40,4 +48,5 @@ btnCadastro.addEventListener('click', function() {
     localStorage.setItem('db_usuarios', JSON.stringify(db_usuarios));
 
     window.location.replace(LOGIN_URL);
+    
 });
