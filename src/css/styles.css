@@ -270,17 +270,21 @@ header {
     color: #FFFFFF;
     line-height: 0px;
     cursor: pointer;
+
+    display: flex;
       
 }
 
-.galery2{
-    display: flex;
-    
-} 
+
 
 .galery2 ul li:hover {
     color: #00A878;
 }
+
+.galery3 {
+    display: flex;
+    flex-direction: column;
+  }
 
 .box {
     background-color: #BDBDBD;
