@@ -48,4 +48,5 @@ formCadastro.addEventListener('submit', function() {
     localStorage.setItem('db_usuarios', JSON.stringify(db_usuarios));
 
     window.location.replace(LOGIN_URL);
+    
 });
