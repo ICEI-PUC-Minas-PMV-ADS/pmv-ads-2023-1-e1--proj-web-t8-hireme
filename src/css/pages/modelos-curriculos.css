@@ -122,16 +122,7 @@ button {
 }
 
 .modelo1:hover{
-    background-color:  rgba(255, 122, 0, 0.54);;
-}
-
-.modelo1 img{
-    position: absolute;
-    width: 250px;
-    height: 300px;
-    top: 45px;
-    left:0px;
-    cursor: pointer;
+    background-color:  rgba(255, 122, 0, 0.54);
 }
 
 .modelo2{

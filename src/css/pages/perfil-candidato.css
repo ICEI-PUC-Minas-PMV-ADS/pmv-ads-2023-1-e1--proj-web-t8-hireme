@@ -15,6 +15,7 @@ html, body {
 
 header {
     height: 70px;
+    width: 100%;
     background-color: #141414;
 }
 
@@ -74,8 +75,9 @@ a:hover {
 
 .bio {
     position: absolute;
-    width: 1000px;
-    height: 272px;
+    width: 75%;
+    align-self: center;
+    height: 40%;
     left: 150px;
     top: 115px;
     
@@ -143,7 +145,7 @@ a:hover {
     align-items: flex-start;
     padding: 0px;
 
-    position: relative;
+    position: absolute;
     width: 25px;
     height: 25px;
     left: 945px;
@@ -153,8 +155,9 @@ a:hover {
 
 .informaçao {
     position: absolute;
-    width: 1000px;
-    height: 400px;
+    width: 75%;
+    align-self: center;
+    height: 50%;
     left: 150px;
     top: 480px;
 
