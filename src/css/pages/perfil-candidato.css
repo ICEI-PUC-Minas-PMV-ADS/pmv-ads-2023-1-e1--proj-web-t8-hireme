@@ -93,8 +93,8 @@ a:hover {
 
     font-family: 'Gabriela';
     font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 20px;
     line-height: 45px;
 
     color: #FF7A00;
@@ -108,7 +108,7 @@ a:hover {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 32px;
     
     
@@ -148,16 +148,20 @@ a:hover {
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 945px;
+    left: 935px;
     top: 20px;
     cursor: pointer
+}
+
+.edit1 img:hover {
+    transform: scale(1.11)
 }
 
 .informaçao {
     position: absolute;
     width: 75%;
     align-self: center;
-    height: 50%;
+    height: 48%;
     left: 150px;
     top: 480px;
 
@@ -173,7 +177,7 @@ a:hover {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 38px;
 
     color: #FF7A00;
@@ -188,13 +192,9 @@ a:hover {
     position: relative;
     width: 25px;
     height: 25px;
-    left: 945px;
+    left: 935px;
     top: 20px;
     cursor: pointer
-}
-
-.edit1 img:hover {
-    transform: scale(1.11)
 }
 
 .edit2 img:hover {
@@ -204,12 +204,12 @@ a:hover {
 .informaçao h2{
     position: absolute;
     left: 90px;
-    top: 77px;
+    top: 71px;
 
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 32px;
 
     color: #141414;
@@ -222,21 +222,21 @@ a:hover {
     padding: 0px;
 
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
     left: 50px;
-    top: 70px;
+    top: 63px;
 }
 
 .informaçao h3 {
     position: absolute;
     left: 90px;
-    top: 240px;
+    top: 182px;
 
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 32px;
 
     color: #141414;
@@ -249,10 +249,10 @@ a:hover {
     padding: 0px;
 
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
     left: 50px;
-    top: 150px;
+    top: 110px;
 }
 
 .informaçao h4{
@@ -263,7 +263,7 @@ a:hover {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 32px;
 
     color: #141414;
@@ -276,21 +276,21 @@ a:hover {
     padding: 0px;
 
     position: relative;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     left: 500px;
-    top: 40px;
+    top: 43px;
 }
 
 .informaçao h5{
     position: absolute;
     left: 540px;
-    top: 220px;
+    top: 167px;
 
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 32px;
 
     color: #141414;
@@ -303,8 +303,8 @@ a:hover {
     padding: 0px;
 
     position: relative;
-    width: 25px;
-    height: 30px;
+    width: 18px;
+    height: 23px;
     left: 500px;
-    top: 175px;
+    top: 128px;
 }
