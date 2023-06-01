@@ -18,6 +18,16 @@ header {
     background-color: #141414;
 }
 
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #00a878;
+}
+
+
 .menu-principal {
     display: flex;
     justify-content: space-between;
@@ -54,12 +64,7 @@ header {
     margin-bottom: 32px;
     font-size: 15px;
     line-height: 0px;
-    color: #FFFFFF;
     cursor: pointer;
-}
-
-.menu-principal > ul >li:hover {
-    color: #00A878;
 }
 
 .topo-da-pagina h1{
@@ -103,6 +108,15 @@ button {
     cursor: pointer;
 }
 
+.topo-da-pagina a{
+    text-decoration: none;
+    color: #141414;
+}
+
+.topo-da-pagina a:hover {
+    color: #FFFFFF;
+}
+
 #container{
     width: 1310px;
     height: 1100px;
@@ -124,6 +138,16 @@ button {
 .modelo1:hover{
     background-color:  rgba(255, 122, 0, 0.54);
 }
+
+.modelo1 img{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    top: 45px;
+    left:0px;
+    cursor: pointer;
+}
+
 
 .modelo2{
     position:absolute;
