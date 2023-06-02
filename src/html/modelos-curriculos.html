@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
     <title>Modelos de currículos</title>
     <link rel="stylesheet" href="../css/pages/modelos-curriculos.css">
+    <script src="../js/modelos-curriculos.js"></script>
 </head>
 
 <body>
@@ -25,9 +26,12 @@
     </header>
     <main>
         <div class="topo-da-pagina">
-        <h1>Agora, escolha um modelo.</h1>
-        <img src="imagens/dica.png" alt="dica">
-        <button><a href="compartilhar-curriculo.html">Próximo</a></button>
+            <h1>Agora, escolha um modelo.</h1>
+            <div class="botao-dica" >
+                <img src="imagens/dica.png" alt="dica" onmouseover="showConteudo()" onmouseout="hideConteudo()">
+                <p class="conteudo">Navegue entre os layouts com a seta e, ao se decidir sobre o modelo que mais te agrada, clique em cima dele para selecionar. Após isso, clique em próximo para seguir para o compartilhamento do currículo.</p>
+            </div>
+            <button><a href="compartilhar-curriculo.html">Próximo</a></button>
         </div>
 
         <div id="container">
@@ -49,12 +53,14 @@
             <div class="modelo6">
                 <img src="imagens/curriculos.png" alt="curriculo">
             </div>
-                
+
         </div>
     </main>
 
     <footer id="passar-pag">
-        <p> < 1  > </p>
+        <p>
+            <1>
+        </p>
     </footer>
 </body>
 
