@@ -1,7 +1,7 @@
 const LOGIN_URL = "../html/login.html";
 
 const formCadastro = document.getElementById('form-cadastro');
-const email = document.getElementById('nome');
+const email = document.getElementById('email');
 const nome = document.getElementById('nome');
 const sobrenome = document.getElementById('sobrenome');
 const senha = document.getElementById('senha');
