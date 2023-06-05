@@ -86,7 +86,7 @@ a:hover {
     display: flex;
 }
 
-#caixa-de-mensagem{
+.caixa-de-mensagem{
     position:absolute;
     border-radius: 20px;
     width: 1050px;
@@ -97,7 +97,7 @@ a:hover {
     margin: 0 auto;
 }
 
-#line1 {
+.line1 {
     position: absolute;
     width: 1050px;
     height: 0px;
@@ -107,7 +107,7 @@ a:hover {
     border: 1px solid rgba(50, 50, 50, 0.5);;
 }
 
-#line2 { 
+.line2 { 
     position: absolute;
     width: 570px;
     height: 0px;
@@ -118,7 +118,7 @@ a:hover {
     transform: rotate(90deg);
 }
 
-#line3 {
+.line3 {
     position: absolute;
     width: 385px;
     height: 0px;
@@ -129,7 +129,7 @@ a:hover {
     transform: rotate(90deg);
 }
 
-#line4 {
+.line4 {
     position: absolute;
     width: 385px;
     height: 0px;
@@ -139,7 +139,7 @@ a:hover {
     border: 1px solid rgba(50, 50, 50, 0.5);;
 }
 
-#line5 {
+.line5 {
     position: absolute;
 width: 385px;
 height: 0px;
