@@ -8,7 +8,6 @@
     <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
     <title>HireMe</title>
     <link rel="stylesheet" href="../css/pages/fazercv.css">
-    <script src="../js/fazercv.js"></script>
 </head>
 
 <body>
@@ -32,7 +31,7 @@
     <main>
         <h1>Olá! Vamos começar a criar o seu currículo.<br>Primeiro, preencha os itens listados abaixo.</h1>
         <br>
-        <form id="fazer-curriculo-container">
+        <form id="fazer-curriculo-container" action="javascript:void(0)">
             
             <div id="formacao-container">
                 <h2>Formação</h2><br>
@@ -123,11 +122,13 @@
             <div>
                 <label for="salvar"></label>
                 <button type="submit" id="salvar">Salvar</button>
-                <button>Ver modelos de currículo</button>
             </div>        
           
         </form>
     </main>
+    <script src="../js/fazercv.js"></script>
+    <script src="../js/main.js"></script>
+
 </body>
 
 </html>

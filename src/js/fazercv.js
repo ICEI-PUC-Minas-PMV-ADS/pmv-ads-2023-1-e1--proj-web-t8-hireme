@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var adicionarFormacaoButton = document.querySelector("#adicionar-formacao");
     var formacaoContainer = document.querySelector("#formacao-container");
+    var contadorFormacao = 1;
     adicionarFormacaoButton.addEventListener("click", function() {
         var novaFormacao = document.createElement("div");
         novaFormacao.innerHTML = `
@@ -23,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
         `;
         formacaoContainer.appendChild(novaFormacao);
+        contadorFormacao++;
     });
 });
 
@@ -30,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
     var adicionarExperienciaButton = document.querySelector("#adicionar-experiencia");
     var experienciaContainer = document.querySelector("#experiencia-container");
+    var contadorExperiencias = 1;
     adicionarExperienciaButton.addEventListener("click", function() {
         var novaExperiencia = document.createElement("div");
         novaExperiencia.innerHTML = `     
@@ -42,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <br>
         `;
         experienciaContainer.appendChild(novaExperiencia);
+        contadorExperiencias++;
     });
 });
 
@@ -49,6 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
     var adicionarLinkButton = document.querySelector("#adicionar-link");
     var linkContainer = document.querySelector("#link-container");
+    var contadorLinks = 1;
     adicionarLinkButton.addEventListener("click", function() {
         var novoLink = document.createElement("div");
         novoLink.innerHTML = `
@@ -57,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
         `;
         linkContainer.appendChild(novoLink);
+        contadorLinks++;
     });
 });
 
@@ -64,6 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
     var adicionarCompetenciaButton = document.querySelector("#adicionar-competencia");
     var competenciaContainer = document.querySelector("#competencia-container");
+    var contadorCompetencias = 1;
     adicionarCompetenciaButton.addEventListener("click", function() {
         var novaCompetencia = document.createElement("div");
         novaCompetencia.innerHTML = `
@@ -76,6 +83,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
         `;
         competenciaContainer.appendChild(novaCompetencia);
+        contadorCompetencias++;
     });
 });
 
@@ -83,6 +91,7 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
     var adicionarCursoButton = document.querySelector("#adicionar-curso");
     var cursoContainer = document.querySelector("#curso-container");
+    var contadorCursos = 1;
     adicionarCursoButton.addEventListener("click", function() {
         var novoCurso = document.createElement("div");
         novoCurso.innerHTML = `
@@ -91,6 +100,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
         `;
         cursoContainer.appendChild(novoCurso);
+        contadorCursos++;
     });
 });
 
@@ -98,6 +108,7 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
     var adicionarIdiomaButton = document.querySelector("#adicionar-idioma");
     var idiomaContainer = document.querySelector("#idioma-container");
+    var contadorIdioma = 1;
     adicionarIdiomaButton.addEventListener("click", function() {
         var novoIdioma = document.createElement("div");
         novoIdioma.innerHTML = `
@@ -114,6 +125,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
         `;
         idiomaContainer.appendChild(novoIdioma);
+        contadorIdioma++;
     });
 });
 
@@ -121,25 +133,71 @@ document.addEventListener("DOMContentLoaded", function() {
 // DADOS FORMULÁRIO
 const formCV = document.getElementById('fazer-curriculo-container');
 const curso = document.getElementById('curso');
-const instituição = document.getElementById('instituição');
+const instituicao = document.getElementById('instituição');
 const grau = document.getElementById('grau');
-const início = document.getElementById('início');
-const término = document.getElementById('término');
+const inicio = document.getElementById('início');
+const termino = document.getElementById('término');
 const cursando = document.getElementById('cursando');
 const cargo = document.getElementById('cargo');
 const empresa = document.getElementById('empresa');
-const começo = document.getElementById('começo');
-const saída = document.getElementById('saída');
+const comeco = document.getElementById('começo');
+const saida = document.getElementById('saída');
 const atual = document.getElementById('atual');
-const descrição = document.getElementById('descrição');
+const descricao = document.getElementById('descrição');
 const linkedin = document.getElementById('linkedin');
 const links = document.getElementById('links');
-const competência1 = document.getElementById('competência1');
-const competência2 = document.getElementById('competência2');
-const competência3 = document.getElementById('competência3');
-const competência4 = document.getElementById('competência4');
-const competência5 = document.getElementById('competência5');
+const competencia1 = document.getElementById('competência1');
+const competencia2 = document.getElementById('competência2');
+const competencia3 = document.getElementById('competência3');
+const competencia4 = document.getElementById('competência4');
+const competencia5 = document.getElementById('competência5');
 const cursos = document.getElementById('cursos');
 const idioma = document.getElementById('idioma');
-const proficiência = document.getElementById('proficiência');
+const proficiencia = document.getElementById('proficiência');
 
+const btsalvar = document.getElementById('salvar');
+
+formCV.addEventListener('submit', function() {
+    let usuarioString = sessionStorage.getItem('usuario');
+    let usuariojson = JSON.parse(usuarioString);
+
+    console.log(usuariojson);
+
+    const curriculoJson = {
+        "curso": curso.value,
+        "instituicao": instituicao.value,
+        "grau": grau.value,
+        "inicio": inicio.value,
+        "termino": termino.value,
+        "cursando": cursando.checked,
+        "empresa": empresa.value,
+        "cargo": cargo.value,
+        "comeco": comeco.value,
+        "saida": saida.value,
+        "atual": atual.checked,
+        "descricao": descricao.value,
+        "linkedin": linkedin.value,
+        "links": links.value,
+        "competencia1": competencia1.value,
+        "competencia2": competencia2.value,
+        "competencia3": competencia3.value,
+        "competencia4": competencia4.value,
+        "competencia5": competencia5.value,
+        "curso": curso.value,
+        "idioma": idioma.value,
+        "proficiencia": proficiencia.value
+    }
+    usuariojson.curriculos.push(curriculoJson)
+    console.log(usuariojson)
+    sessionStorage.setItem('usuario', JSON.stringify(usuariojson))
+
+    let usuariosJson = JSON.parse(localStorage.getItem('db_usuarios'))
+    usuariosJson.usuarios.forEach(usuario => {
+        if (usuario.email == usuariojson.email && usuario.senha == usuariojson.senha){
+            usuario.curriculos.push(curriculoJson)
+        }
+    })
+
+    localStorage.setItem('db_usuarios', JSON.stringify(usuariosJson));
+    console.log (usuariojson)
+});
