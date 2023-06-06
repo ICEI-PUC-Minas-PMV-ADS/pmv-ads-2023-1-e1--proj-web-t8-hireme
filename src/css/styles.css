@@ -44,7 +44,7 @@ header {
 }
 
 .menu_principal h1 {
-    width: 190px;
+    width: 100vw;
     height: 43px;
     left: 174px;
     top: 30px;
@@ -87,7 +87,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px 0px;
+    
 }
 
 .name {
@@ -292,7 +292,7 @@ header {
 
 .box p {
     
-    Width: 100%;
+    Width: 90%;
     height: 102px;
     top: 1215px;
     left: 332px;
