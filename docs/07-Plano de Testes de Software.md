@@ -11,11 +11,3 @@
 | Critérios de Êxito        | Após a Página inicial carregar, deve ser possível clicar no botão 'Entrar' no cabeçalho, onde o usuário será redirecionado para a página de Login. Além disso, descendo a página, haverá o botão 'Cadastre-se gratuitamente', o qual, ao ser clicado, deverá redirecionar o usuário para a página de cadastro.                                                |
 </br>
 </br>
-| Caso de teste        | CT02 - Separação de telas                                                                                                      |
-| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | 
-| Requisitos Associados        | RF-02  O site deve ter separação de telas entre usuários que queiram disponibilizar o currículo e os recrutadores que buscam talentos.                                                                                                             |
-| Objetivo do Teste        |                                                                  |
-| Passos        |1)                                                                                                                  |
-|               |2)                                                                                                                    |
-|               |3) 
-| Critérios de Êxito        |                                              |
