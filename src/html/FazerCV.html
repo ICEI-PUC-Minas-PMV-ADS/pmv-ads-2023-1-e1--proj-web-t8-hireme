@@ -8,22 +8,21 @@
     <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
     <title>HireMe</title>
     <link rel="stylesheet" href="../css/pages/fazercv.css">
-    <script src="../js/fazercv.js"></script>
 </head>
 
 <body>
     <header>
         <nav class="menu-principal">
             <div class="logo">
-                <img src="handshakepequeno.png" alt="Logo HireMe">
+                <img src="imagens/handshakepequeno.png" alt="Logo HireMe">
                 <h1>HireMe</h1>
             </div> 
              
             <ul>
-                <li>Criar currículo</li>
-                <li>Meus currículos</li>
-                <li>Mensagens</li>
-                <li>Meu Perfil</li>
+                <li><a href="FazerCV.html">Criar currículo</a></li>
+                <li><a href="curriculos-candidato.html">Meus currículos</a></li>
+                <li><a href="mensagens-candidato.html"> Mensagens </a></li>
+                <li><a href="perfil-candidato.html"> Meu perfil </a></li>
             </ul>
 
         </nav>
@@ -31,10 +30,11 @@
     
     <main>
         <h1>Olá! Vamos começar a criar o seu currículo.<br>Primeiro, preencha os itens listados abaixo.</h1>
-        <div class="fazer-curriculo-container">
+        <br>
+        <form id="fazer-curriculo-container" action="javascript:void(0)">
             
-            <div class="formacao-container">
-                <h2>Formação</h2>
+            <div id="formacao-container">
+                <h2>Formação</h2><br>
                 Curso: <input class="texto" type="text" id="curso" name="curso"><br>
                 Instituição: <input class="texto" type="text" id="instituição" name="instituição"><br>
                 Grau: <select name="grau" id="grau">
@@ -48,56 +48,62 @@
                         </select><br>
                 Data de Início: <input type="date" id="início" name="início">
                 Data de Término: <input type="date" id="término" name="término">
-                <input type="radio" id="cursando" name="cursando" value="Cursando">Cursando<br>
-                <p class="adicionar-formacao">+ Adicionar formação</p><br>
+                <input type="checkbox" id="cursando" name="cursando" value="Cursando">Cursando<br>
             </div>
+            <br>
+            <button type="button" id="adicionar-formacao">+ Adicionar formação</button>
             
-            <br><br> 
-
-            <div class="experiencia-container">
-                <h2>Experiência Profissional</h2>
-                Cargo: <input class="texto" type="text" name="Cargo"><br>
-                Empresa: <input class="texto" type="text" name="Empresa"><br>
-                Data de Início: <input type="date" name="Início">
-                Data de Saída: <input type="date" name="Saída">
-                <input type="radio" name="atual" value="Atual">Atual<br>
-                Descrição das atividades: <br><textarea name="texto" rows="10" cols="80"></textarea>
-                <p class="adicionar-experiencia">+ Adicionar experiência profissional</p>
-            </div>
+            <br><br><br>
             
-            <br><br> 
-
-            <div class="link-container">
-                <h2>Links</h2>
-                Linkedin: <input class="texto" type="url" id="links" name="links"><br>
-                Outro: <input class="texto" type="url" id="links" name="links"><br>
-                <p class="adicionar-link">+Adicionar Link</p>    
+            <div id="experiencia-container">
+                <h2>Experiência Profissional</h2><br>
+                Cargo: <input class="texto" type="text" id="cargo" name="Cargo"><br>
+                Empresa: <input class="texto" type="text" id="empresa" name="Empresa"><br>
+                Data de Início: <input type="date" id="começo" name="Início">
+                Data de Saída: <input type="date" id="saída" name="Saída">
+                <input type="checkbox" id="atual" name="atual" value="Atual">Atual<br>
+                Descrição das atividades:<br><br>
+                <textarea id="descrição" name="texto" rows="10" cols="80"></textarea>
             </div>
+            <br>
+            <button type="button" id="adicionar-experiencia">+ Adicionar experiência profissional</button>
+            
+            <br><br><br>
 
-            <br><br>
+            <div id="link-container">
+                <h2>Links</h2><br>
+                Linkedin: <input class="texto" type="url" id="linkedin" name="links"><br>
+                Outro: <input class="texto" type="url" id="links" name="links"><br> 
+            </div>
+            <br>
+            <button type="button" id="adicionar-link">+Adicionar Link</button>   
 
-            <div class="competencia-container">
-                <h2>Competências</h2>
+            <br><br><br>
+
+            <div id="competencia-container">
+                <h2>Competências</h2><br>
                 <input type="text" id="competência1" name="competência1">
                 <input type="text" id="competência2" name="competência2">
                 <input type="text" id="competência3" name="competência3">
                 <input type="text" id="competência4" name="competência4">
                 <input type="text" id="competência5" name="competência5"><br>
-                <p class="adicionar-competencia">+ Adicionar competência</p>
             </div>
+            <br>
+            <button type="button" id="adicionar-competencia">+ Adicionar competência</button>
 
-            <br><br>
+            <br><br><br>
 
-            <div class="curso-container">
-                <h2>Cursos e Certificações</h2>
+            <div id="curso-container">
+                <h2>Cursos e Certificações</h2><br>
                 <input class="texto" type="text" id="cursos" name="cursos"><br>
-                <p class="adicionar-curso">+ Adicionar curso ou certificação</p>
             </div>
+            <br>
+            <button type="button" id="adicionar-curso">+ Adicionar curso ou certificação</button>
 
-            <br><br>
+            <br><br><br>
                 
-            <div class="idioma-container">
-                <h2>Idiomas</h2>
+            <div id="idioma-container">
+                <h2>Idiomas</h2><br>
                 Idioma: <input type="text" id="idioma" name="idioma">
                 Proficiência:
                 <select name="proficiência" id="proficiência">
@@ -107,19 +113,22 @@
                     <option value="Avançado">Avançado</option>
                     <option value="Fluente">Fluente</option>
                 </select>
-                <p class="adicionar-idioma">+ Adicionar idioma</p>
             </div>
+            <br>
+            <button type="button" id="adicionar-idioma">+ Adicionar idioma</button>
                 
-            <br><br>
+            <br><br><br>
 
             <div>
                 <label for="salvar"></label>
-                <input type="submit" id="salvar" name="Salvar">
-                <button>Ver modelos de currículo</button>
+                <button type="submit" id="salvar">Salvar</button>
             </div>        
           
-        </div>
+        </form>
     </main>
+    <script src="../js/fazercv.js"></script>
+    <script src="../js/main.js"></script>
+
 </body>
 
 </html>

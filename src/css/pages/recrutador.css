@@ -75,8 +75,9 @@ a:hover {
 
 .bio {
     position: absolute;
-    width: 1000px;
-    height: 272px;
+    width: 75%;
+    align-self: center;
+    height: 40%;
     left: 150px;
     top: 115px;
     
@@ -92,8 +93,8 @@ a:hover {
 
     font-family: 'Gabriela';
     font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 20px;
     line-height: 45px;
     color: #00a878;
 }
@@ -106,7 +107,7 @@ a:hover {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 32px;
     
     
@@ -146,15 +147,20 @@ a:hover {
     position: relative;
     width: 25px;
     height: 25px;
-    left: 945px;
+    left: 935px;
     top: 20px;
     cursor: pointer;
 }
 
+.edit1 img:hover {
+    transform: scale(1.11)
+}
+
 .informaçao {
     position: absolute;
-    width: 1000px;
-    height: 400px;
+    width: 75%;
+    align-self: center;
+    height: 55%;
     left: 150px;
     top: 480px;
 
@@ -170,7 +176,7 @@ a:hover {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 38px;
     color: #00a878;
 }
@@ -184,20 +190,24 @@ a:hover {
     position: relative;
     width: 25px;
     height: 25px;
-    left: 945px;
+    left: 935px;
     top: 20px;
     cursor: pointer;
+}
+
+.edit2 img:hover {
+    transform: scale(1.11)
 }
 
 .informaçao h2{
     position: absolute;
     left: 90px;
-    top: 77px;
+    top: 71px;
 
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 32px;
 
     color: #141414;
@@ -210,21 +220,21 @@ a:hover {
     padding: 0px;
 
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
     left: 50px;
-    top: 70px;
+    top: 63px;
 }
 
 .informaçao h3 {
     position: absolute;
     left: 90px;
-    top: 170px;
+    top: 162px;
 
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 32px;
 
     color: #141414;
@@ -237,10 +247,10 @@ a:hover {
     padding: 0px;
 
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
     left: 50px;
-    top: 80px;
+    top: 90px;
 }
 
 .informaçao h4{
@@ -251,7 +261,7 @@ a:hover {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 32px;
 
     color: #141414;
@@ -264,10 +274,10 @@ a:hover {
     padding: 0px;
 
     position: relative;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     left: 500px;
-    top: 40px;
+    top: 43px;
 }
 
 .informaçao h5{
@@ -278,7 +288,7 @@ a:hover {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 32px;
 
     color: #141414;
@@ -291,21 +301,21 @@ a:hover {
     padding: 0px;
 
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
     left: 500px;
-    top: 20px;
+    top: 50px;
 }
 
 .informaçao h6{
     position: absolute;
     left: 90px;
-    top: 245px;
+    top: 230px;
 
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 32px;
 
     color: #141414;
@@ -318,21 +328,21 @@ a:hover {
     padding: 0px;
 
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
     left: 50px;
-    top: 150px;
+    top: 158px;
 }
 
 .informaçao h7{
     position: absolute;
     left: 540px;
-    top: 290px;
+    top: 268px;
 
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 32px;
 
     color: #141414;
@@ -345,8 +355,8 @@ a:hover {
     padding: 0px;
 
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
     left: 500px;
-    top: 215px;
+    top: 206px;
 }

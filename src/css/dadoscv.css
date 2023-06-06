@@ -79,59 +79,23 @@ a:hover {
     color: #00A878;
 }
 
-main h1{
-    color:#FF7A00;
-    text-align: center;
-    font-size: 30px;
-    font-family: "Gabriela", sans-serif;
-    margin-top: 15px;
+.container {
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 145px; 
 }
 
-#fazer-curriculo-container {
-    margin: 12px;
-    font-family: 'Lora';
-}
-
-input {
-    background-color: #d9d9d9;
-    border-radius: 10px;
-    margin: 5px;
-    border-color: #d9d9d9;
-    padding: 5px;
-    font-family: 'Lora';
-}
-
-.texto {
-    width: 500px;
-}
-
-textarea {
-    background-color: #d9d9d9;
-    border-radius: 10px;
-    border-color: #d9d9d9;
+#dados-pequenos {
+    background-color: #00A878;
+    width: 250px;
+    height: 100vh;
+    float: left;
     padding: 5px;
 }
 
-select {
-    background-color: #d9d9d9;
-    border-radius: 10px;
-    border-color: #d9d9d9;
-    height: 30px;
+#dados-principais {
+    background-color: #fff;
+    width: 900px;
+    height: 100vh;
+    padding-left: 255px;
 }
-
-button {
-    font-family: 'Lora';
-    background-color: #BDBDBD;
-    border-radius: 10px;
-    border-color: #FF7A00;
-    height: 30px;
-    padding: 5px;
-    cursor: pointer;
-}
-
-.salvar {
-    background-color: #FF7A00;
-}footer a:hover{
-    color: #FFFFFF;
-}
-

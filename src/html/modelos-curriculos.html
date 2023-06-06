@@ -6,28 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
-    <title>Modelos de currículo</title>
+    <title>Modelos de currículos</title>
     <link rel="stylesheet" href="../css/pages/modelos-curriculos.css">
+    <script src="../js/modelos-curriculos.js"></script>
 </head>
 
 <body>
     <header>
         <nav class="menu-principal">
-            <img src="handshakepequeno.png" alt="Logo HireMe">
+            <img src="imagens/handshakepequeno.png" alt="Logo HireMe">
             <h1>HireMe</h1>
             <ul>
-                <li>Criar um currículo</li>
-                <li>Meus currículos</li>
-                <li>Mensagens</li>
-                <li>Meu Perfil</li>
+                <li><a href="FazerCV.html"> Criar um currículo </a></li>
+                <li><a href="curriculos-candidato.html">Meus currículos</a></li>
+                <li><a href="mensagens-candidato.html">Mensagens</a></li>
+                <li><a href="perfil-candidato.html">Meu Perfil</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="topo-da-pagina">
-        <h1>Agora, escolha um modelo.</h1>
-        <img src="imagens/dica.png" alt="dica">
-        <button>Próximo</button>
+            <h1>Agora, escolha um modelo.</h1>
+            <div class="botao-dica" >
+                <img src="imagens/dica.png" alt="dica" onmouseover="showConteudo()" onmouseout="hideConteudo()">
+                <p class="conteudo">Navegue entre os layouts com a seta e, ao se decidir sobre o modelo que mais te agrada, clique em cima dele para selecionar. Após isso, clique em próximo para seguir para o compartilhamento do currículo.</p>
+            </div>
+            <button><a href="compartilhar-curriculo.html">Próximo</a></button>
         </div>
 
         <div id="container">
@@ -49,12 +53,14 @@
             <div class="modelo6">
                 <img src="imagens/curriculos.png" alt="curriculo">
             </div>
-                
+
         </div>
     </main>
 
     <footer id="passar-pag">
-        <p> < 1  > </p>
+        <p>
+            <1>
+        </p>
     </footer>
 </body>
 
