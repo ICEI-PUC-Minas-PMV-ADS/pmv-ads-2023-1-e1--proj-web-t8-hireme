@@ -9,7 +9,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="img/Teste-página inicial.png" width="50%"><br>
   </div>
  <div align="center">
-<img src="img/Teste-Login.jpg" width="50%"><br>
+<img src="img/Teste-Login.jpg" width="50%"><br><br>
   </div>
 
 - Testar o link para o Cadastro.
@@ -17,6 +17,6 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="img/Teste-página inicial2.png" width="50%"><br>
   </div>
  <div align="center">
-<img src="img/Teste-Cadastro.jpg" width="50%"><br>
+<img src="img/Teste-Cadastro.jpg" width="50%"><br><br>
   </div>
 
