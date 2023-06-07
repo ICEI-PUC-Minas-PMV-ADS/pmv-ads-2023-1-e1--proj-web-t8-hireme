@@ -50,8 +50,7 @@
 | Requisitos Associados        | RF-08  O site deve permitir que os recrutadores façam filtros de busca de pessoas de acordo com as experiências. |        
 | Objetivo do Teste        | Verificar se o site oferece a opção de filtrar currículos de acordo com o que o recrutador está procurando.                                                                   |
 | Passos        |1) Acessar a página Buscar profissionais                                                                                                                     |
-|               |2) Digitar no campo de pesquisa a característica principal da vaga a ser preenchida e clicar Enter para pesquisar currículos                                                                                                                  |
-|               |3) Escolher nos filtros de busca palavras-chave para aquela vaga
+|               |2) Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para selecionar                                                                                                              |
 | Critérios de Êxito        | Após escolher todos os filtros de busca que achar necessário, o site deve atualizar a página de pesquisa para mostrar apenas currículos com aquelas características selecionadas.                         |
 </br>
 </br>
@@ -61,7 +60,7 @@
 | Requisitos Associados        | RF-06  O site deve permitir que o recrutador entre em contato com os demais usuários por meio da plataforma. |        
 | Objetivo do Teste        | Verificar se o site oferece a opção do recrutador entrar em contato com os candidatos no qual o currículo chamou atenção.                                                                    |
 | Passos        |1) Acessar a página Buscar profissionais                                                                                                                     |
-|               |2) Digitar no campo de pesquisa a característica principal da vaga a ser preenchida e clicar Enter para pesquisar currículos                                                                                                                  |
+|               |2) Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para pesquisar currículos                                                                                                              |
 |               |3) Ao escolher um currículo, clicar no botão Enviar mensagem
 | Critérios de Êxito        | Após clicar em Enviar mensagem, o site deve ser redirecionado para uma Caixa de mensagens, onde a conversa com o candidato que teve seu currículo escolhido na pesquisa já esteja aberta para iniciar o diálogo.                           |
 </br>
@@ -72,7 +71,7 @@
 | Requisitos Associados        | RF-07  O site deve permitir que o recrutador salve currículos em pastas separadas de acordo com perfis diferentes. |        
 | Objetivo do Teste        | Verificar se o site fornece a opção de favoritar os currículos que mais chamam a atenção do recrutador durante a pequisa.                                                                    |
 | Passos        |1) Acessar a página Buscar profissionais                                                                                                                     |
-|               |2) Digitar no campo de pesquisa a característica principal da vaga a ser preenchida e clicar Enter para pesquisar currículos                                                                                                                  |
+|               |2) Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para pesquisar currículos                                                                                                                  |
 |               |3) Quando um currículo chamar atenção, clicar no botão de favoritar, em forma de coração, presente no box do currículo
 | Critérios de Êxito        | Após clicar no botão de favoritar, o currículo deve ser encaminhado para a página de Favoritos na conta do recrutador, para que ele possa revisitar currículos que mais o agradaram e também possa guardar para o caso de que apareça outra vaga que combine mais com aquele perfil.                          |
 </br>
