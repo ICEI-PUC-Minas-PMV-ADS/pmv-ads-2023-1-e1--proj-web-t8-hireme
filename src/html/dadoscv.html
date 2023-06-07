@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
     <title>HireMe</title>
-    <link rel="stylesheet" href="../css/dadoscv.css">
+    <link rel="stylesheet" href="/src/css/dadoscv.css">
 </head>
 
 <body>
@@ -39,21 +39,21 @@
                 <div id="skills">
                     <h2>SKILLS</h2>
                 </div>
-                    <script>
-                        let divSkills = document.querySelector("#skills")
-
-                        fetch("fazercv.js").then((response)) => {
-                            response.json().then((dados)) => {
-                                dados.skills.map(skill) => {
-                                    divSkills.innerHTML += 
-                                }
-                            }
-                        }
-
-                    </script>
                 <br><br>
                 <div id="idiomas">
                     <h2>IDIOMAS</h2>
+                    <p id="pIdioma"></p>
+                    <script>
+                        var xmlhttpIdioma = new XMLHttpRequest();
+                        xmlhttpIdioma.onreadystatechange = function () {
+                            if (this.readyState == 3 && this.status == 200) {
+                                var meuObjeto = JSON.parse(this.responseText);
+                                document.getElementById("pIdioma").innerHTML = meuObjeto.idioma;
+                            }
+                        };
+                        xmlhttpIdioma.open("GET", "meuJSON.txt", true);
+                        xmlhttpIdioma.send();
+                    </script>
                 </div>
             </div>
             <div id="dados-principais">
@@ -70,6 +70,5 @@
     </main>
     <script src="../js/fazercv.js"></script>
     <script src="../js/main.js"></script>
-        
 </body>
 </html>

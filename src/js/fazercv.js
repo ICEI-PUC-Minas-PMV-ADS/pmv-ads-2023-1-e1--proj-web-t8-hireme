@@ -1,48 +1,55 @@
-// FORMAÇÃO
+let contador = 1; 
+function generateUniqueId(prefix) { 
+    const uniqueId = prefix + contador; contador++; return uniqueId; }
+
+//FORMAÇÃO
 document.addEventListener("DOMContentLoaded", function() {
     var adicionarFormacaoButton = document.querySelector("#adicionar-formacao");
     var formacaoContainer = document.querySelector("#formacao-container");
     var contadorFormacao = 1;
+  
     adicionarFormacaoButton.addEventListener("click", function() {
         var novaFormacao = document.createElement("div");
         novaFormacao.innerHTML = `
-        <div class="formacao-container">
-        Curso: <input class="texto" type="text" id="curso" name="curso"><br>
-        Instituição: <input class="texto" type="text" id="instituição" name="instituição"><br>
-        Grau: <select name="grau" id="grau">
-                <option value="" disabled selected>Selecione uma opção</option>
-                <option value="EnsinoMédio">Ensino Médio</option>
-                <option value="Técnico">Técnico</option>
-                <option value="Graduação">Graduação</option>
-                <option value="Especialização">Especialização</option>
-                <option value="Mestrado">Mestrado</option>
-                <option value="Doutorado">Doutorado</option>
-                </select><br>
-        Data de Início: <input type="date" id="início" name="início">
-        Data de Término: <input type="date" id="término" name="término">
-        <input type="checkbox" id="cursando" name="cursando" value="Cursando">Cursando<br>
-    </div>
+            <div id="formacao-container">
+                Curso: <input class="texto" type="text" id="curso${contadorFormacao}" name="curso${contadorFormacao}"><br>
+                Instituição: <input class="texto" type="text" id="instituição${contadorFormacao}" name="instituição${contadorFormacao}"><br>
+                Grau: <select name="grau${contadorFormacao}" id="grau${contadorFormacao}">
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="EnsinoMédio">Ensino Médio</option>
+                    <option value="Técnico">Técnico</option>
+                    <option value="Graduação">Graduação</option>
+                    <option value="Especialização">Especialização</option>
+                    <option value="Mestrado">Mestrado</option>
+                    <option value="Doutorado">Doutorado</option>
+                    </select><br>
+                Data de Início: <input type="date" id="início${contadorFormacao}" name="início${contadorFormacao}">
+                Data de Término: <input type="date" id="término${contadorFormacao}" name="término${contadorFormacao}">
+                <input type="checkbox" id="cursando${contadorFormacao}" name="cursando${contadorFormacao}" value="Cursando">Cursando<br>
+            </div>
         `;
         formacaoContainer.appendChild(novaFormacao);
         contadorFormacao++;
     });
-});
+  
+  });
 
 //EXPERIÊNCIA
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var adicionarExperienciaButton = document.querySelector("#adicionar-experiencia");
     var experienciaContainer = document.querySelector("#experiencia-container");
     var contadorExperiencias = 1;
-    adicionarExperienciaButton.addEventListener("click", function() {
+    adicionarExperienciaButton.addEventListener("click", function () {
         var novaExperiencia = document.createElement("div");
-        novaExperiencia.innerHTML = `     
-                Cargo: <input class="texto" type="text" id="cargo" name="Cargo"><br>
-                Empresa: <input class="texto" type="text" id="empresa" name="Empresa"><br>
-                Data de Início: <input type="date" id="começo" name="Início">
-                Data de Saída: <input type="date" id="saída" name="Saída">
-                <input type="checkbox" id="atual" name="atual" value="Atual">Atual<br>
-                Descrição das atividades: <br><textarea id="descrição" name="texto" rows="10" cols="80"></textarea>
-            <br>
+        novaExperiencia.innerHTML = `    
+            <div id="experiencia-container"> 
+                Cargo: <input class="texto" type="text" id="cargo${contadorExperiencias}" name="Cargo${contadorExperiencias}"><br>
+                Empresa: <input class="texto" type="text" id="empresa${contadorExperiencias}" name="Empresa${contadorExperiencias}"><br>
+                Data de Início: <input type="date" id="começo${contadorExperiencias}" name="Início${contadorExperiencias}">
+                Data de Saída: <input type="date" id="saída${contadorExperiencias}" name="Saída${contadorExperiencias}">
+                <input type="checkbox" id="atual${contadorExperiencias}" name="atual${contadorExperiencias}" value="Atual">Atual<br>
+                Descrição das atividades: <br><textarea id="descrição${contadorExperiencias}" name="texto${contadorExperiencias}" rows="10" cols="80"></textarea><br>
+            </div>
         `;
         experienciaContainer.appendChild(novaExperiencia);
         contadorExperiencias++;
@@ -50,15 +57,15 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // LINKS
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var adicionarLinkButton = document.querySelector("#adicionar-link");
     var linkContainer = document.querySelector("#link-container");
     var contadorLinks = 1;
-    adicionarLinkButton.addEventListener("click", function() {
+    adicionarLinkButton.addEventListener("click", function () {
         var novoLink = document.createElement("div");
         novoLink.innerHTML = `
             <div class="link-container">
-                Outro: <input class="texto" type="url" id="links" name="links"><br>   
+                Outro: <input class="texto" type="url" id="links${contadorLinks}" name="links${contadorLinks}"><br>   
             </div>
         `;
         linkContainer.appendChild(novoLink);
@@ -67,19 +74,19 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //COMPETÊNCIAS
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var adicionarCompetenciaButton = document.querySelector("#adicionar-competencia");
     var competenciaContainer = document.querySelector("#competencia-container");
     var contadorCompetencias = 1;
-    adicionarCompetenciaButton.addEventListener("click", function() {
+    adicionarCompetenciaButton.addEventListener("click", function () {
         var novaCompetencia = document.createElement("div");
         novaCompetencia.innerHTML = `
         <div class="competencia-container">
-            <input type="text" id="competência1" name="competência1">
-            <input type="text" id="competência2" name="competência2">
-            <input type="text" id="competência3" name="competência3">
-            <input type="text" id="competência4" name="competência4">
-            <input type="text" id="competência5" name="competência5"><br>
+            <input type="text" id="competência1${contadorCompetencias}" name="competência1${contadorCompetencias}">
+            <input type="text" id="competência2${contadorCompetencias}" name="competência2${contadorCompetencias}">
+            <input type="text" id="competência3${contadorCompetencias}" name="competência3${contadorCompetencias}">
+            <input type="text" id="competência4${contadorCompetencias}" name="competência4${contadorCompetencias}">
+            <input type="text" id="competência5${contadorCompetencias}" name="competência5${contadorCompetencias}"><br>
         </div>
         `;
         competenciaContainer.appendChild(novaCompetencia);
@@ -88,15 +95,15 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //CURSOS E CERTIFICAÇÕES
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var adicionarCursoButton = document.querySelector("#adicionar-curso");
     var cursoContainer = document.querySelector("#curso-container");
     var contadorCursos = 1;
-    adicionarCursoButton.addEventListener("click", function() {
+    adicionarCursoButton.addEventListener("click", function () {
         var novoCurso = document.createElement("div");
         novoCurso.innerHTML = `
             <div clas="curso-container">
-                <input class="texto" type="text" id="cursos" name="cursos"><br>
+                <input class="texto" type="text" id="cursos${contadorCursos}" name="cursos${contadorCursos}"><br>
             </div>
         `;
         cursoContainer.appendChild(novoCurso);
@@ -105,17 +112,17 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // IDIOMA
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var adicionarIdiomaButton = document.querySelector("#adicionar-idioma");
     var idiomaContainer = document.querySelector("#idioma-container");
     var contadorIdioma = 1;
-    adicionarIdiomaButton.addEventListener("click", function() {
+    adicionarIdiomaButton.addEventListener("click", function () {
         var novoIdioma = document.createElement("div");
         novoIdioma.innerHTML = `
             <div class="idioma-container">
-                Idioma: <input type="text" id="idioma" name="idioma">
+                Idioma: <input type="text" id="idioma${contadorIdioma}" name="idioma${contadorIdioma}">
                 Proficiência:
-                <select name="proficiência" id="proficiência">
+                <select name="proficiência${contadorIdioma}" id="proficiência${contadorIdioma}">
                     <option value="" disabled selected>Selecione uma opção</option>
                     <option value="Básico">Básico</option>
                     <option value="Intermediário">Intermediário</option>
@@ -157,7 +164,7 @@ const proficiencia = document.getElementById('proficiência');
 
 const btsalvar = document.getElementById('salvar');
 
-formCV.addEventListener('submit', function() {
+formCV.addEventListener('submit', function () {
     let usuarioString = sessionStorage.getItem('usuario');
     let usuariojson = JSON.parse(usuarioString);
 
@@ -187,17 +194,17 @@ formCV.addEventListener('submit', function() {
         "idioma": idioma.value,
         "proficiencia": proficiencia.value
     }
-    usuariojson.curriculos.push(curriculoJson)
+    usuariojson.curriculos.push(curriculoJson) 
     console.log(usuariojson)
     sessionStorage.setItem('usuario', JSON.stringify(usuariojson))
 
     let usuariosJson = JSON.parse(localStorage.getItem('db_usuarios'))
     usuariosJson.usuarios.forEach(usuario => {
-        if (usuario.email == usuariojson.email && usuario.senha == usuariojson.senha){
+        if (usuario.email == usuariojson.email && usuario.senha == usuariojson.senha) {
             usuario.curriculos.push(curriculoJson)
         }
     })
 
     localStorage.setItem('db_usuarios', JSON.stringify(usuariosJson));
-    console.log (usuariojson)
+    console.log(usuariojson)
 });
