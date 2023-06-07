@@ -33,7 +33,7 @@
 |                             | RF-04  O site deve mostrar os templates de currículos disponíveis para a edição do usuário. |    
 |                             | RF-05  O site deve oferecer o recurso de selecionar as experiências e habilidades que deseja colocar em cada currículo para a versão de download, de forma a conseguir personalizar para cada tipo de arquivo. |    
 |                             | RF-09  O site deve permitir que o usuário coloque links externos no currículo. |    
-| Objetivo do Teste        | Verificar se o site oferece dois ambientes diferentes. Um para quem quer criar e compartilhar seu currículo e outro para quem está em busca de um profissional para a vaga que tem disponível.                                                                      |
+| Objetivo do Teste        | Verificar se o site permite a criação e edição de um currículo, se disponibiliza templates para escolha do usuário e se oferece opções de compartilhamento adequadas dentro e fora da plataforma.                                                          |
 | Passos        |1) Fazer Login e acessar a página de Perfil do candidato.                                                                                                            |
 |               |2) Clicar no menu principal na opção Criar um currículo.                                                                                                                  |
 |               |3) Preencher as informações pedidas para o currículo, como habilidades e experiências.
@@ -41,6 +41,67 @@
 |               |5) Escolher um modelo de currículo, clicar em cima dele e clicar em próximo para ser redirecionado para a página de Compartilhamento do currículo.
 |               |6) Escolher se irá compartilhar o currículo na plataforma HireMe, fazer download do currículo com o layout escolhido e/ou copiar o link do currículo.
 | Critérios de Êxito        | Após clicar em Criar um currículo e preencher todas as informações pedidas, o site deve ser redirecionado para a página de Modelos de currículos para que o usuário possa escolher um layout que mais o agrada. Na página de Modelos de currículos, o usuário deve conseguir clicar em cima do layout para selecioná-lo e, ao clicar no botão de Próximo, o site deve ser redirecionado para a página de compartilhamento. Por fim, na página de compartilhamento, o site deve permitir que o usuário faça download do currículo com o layout escolhido, além de permitir que ele copie o link do currículo criado e que consiga compartilhar seu currículo dentro da plataforma para recrutadores cadastrados.                             |
+</br>
+</br>
+
+
+| Caso de teste        | CT04 - Testar filtros de busca de pessoas de acordo com as experiências                                                                                               |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | 
+| Requisitos Associados        | RF-08  O site deve permitir que os recrutadores façam filtros de busca de pessoas de acordo com as experiências. |        
+| Objetivo do Teste        | Verificar se o site oferece a opção de filtrar currículos de acordo com o que o recrutador está procurando.                                                                   |
+| Passos        |1) Acessar a página Buscar profissionais.                                                                                                                     |
+|               |2) Digitar no campo de pesquisa a característica principal da vaga a ser preenchida e clicar Enter para pesquisar currículos.                                                                                                                  |
+|               |3) Escolher nos filtros de busca palavras-chave para aquela vaga.
+| Critérios de Êxito        | Após escolher todos os filtros de busca que achar necessário, o site deve atualizar a página de pesquisa para mostrar apenas currículos com aquelas características selecionadas.                         |
+</br>
+</br>
+
+| Caso de teste        | CT05 - Caixa de mensagens                                                                                                    |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | 
+| Requisitos Associados        | RF-06  O site deve permitir que o recrutador entre em contato com os demais usuários por meio da plataforma. |        
+| Objetivo do Teste        | Verificar se o site oferece a opção do recrutador entrar em contato com os candidatos no qual o currículo chamou atenção.                                                                    |
+| Passos        |1) Acessar a página Buscar profissionais.                                                                                                                     |
+|               |2) Digitar no campo de pesquisa a característica principal da vaga a ser preenchida e clicar Enter para pesquisar currículos.                                                                                                                  |
+|               |3) Ao escolher um currículo, clicar no botão Enviar mensagem.
+| Critérios de Êxito        | Após clicar em Enviar mensagem, o site deve ser redirecionado para uma Caixa de mensagens, onde a conversa com o candidato que teve seu currículo escolhido na pesquisa já esteja aberta para iniciar o diálogo.                           |
+</br>
+</br>
+
+| Caso de teste        | CT06 - Currículos favoritados                                                                                                    |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | 
+| Requisitos Associados        | RF-07  O site deve permitir que o recrutador salve currículos em pastas separadas de acordo com perfis diferentes. |        
+| Objetivo do Teste        | Verificar se o site fornece a opção de favoritar os currículos que mais chamam a atenção do recrutador durante a pequisa.                                                                    |
+| Passos        |1) Acessar a página Buscar profissionais.                                                                                                                     |
+|               |2) Digitar no campo de pesquisa a característica principal da vaga a ser preenchida e clicar Enter para pesquisar currículos.                                                                                                                  |
+|               |3) Quando um currículo chamar atenção, clicar no botão de favoritar, em forma de coração, presente no box do currículo.
+| Critérios de Êxito        | Após clicar no botão de favoritar, o currículo deve ser encaminhado para a página de Favoritos na conta do recrutador, para que ele possa revisitar currículos que mais o agradaram e também possa guardar para o caso de que apareça outra vaga que combine mais com aquele perfil.                          |
+</br>
+</br>
+
+
+| Caso de teste        | CT07 - Botão de dicas                                                                                                   |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | 
+| Requisitos Associados        | RF-10  O site deve ter um botão de dicas em cada campo para preenchimento das informações do currículo. |        
+| Objetivo do Teste        | Verificar se o botão de Dica presente em algumas páginas durante a criação e edição do currículo funciona e aparece a mensagem adequada para cada página.                                                                  |
+| Passos        |1) Acessar a Criar um currículo.                                                                                                                   |
+|               |2) Passar o mouse por cima das imagens com o símbolo de interrogação.                                                                                                             |
+|               |3) Seguir para a página de Modelos de currículos.
+|               |4) Passar o mouse por cima da imagem com o símbolo de interrogação.  
+| Critérios de Êxito        | Ao passar o mouse por cima do icon de Dica, deve aparecer um card com um texto que irá ajudar o usuário a navegar pelas funcionalidades do site.                         |
+</br>
+</br>
+
+
+| Caso de teste        | CT08 - Compatibilidade e Responsividade                                                                                                 |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | 
+| Requisitos Associados        | RNF-02  O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |   
+|                              | RNF-07  O site deve ser responsivo permitindo a visualização tanto em desktops e notebooks, quanto em celulares com telas de variados tamanhos. |        
+| Objetivo do Teste        | Verificar se o site abre normalmente nos principais navegadores do mercado e se ele se adequa a diferentes tamanhos de telas.                                                                |
+| Passos        |1) Acessar o site pelo link (colocar o link da página inicial do site aqui) em cada um dos seguintes navegadores: Google Chrome, Firefox e Microsoft Edge.                                                                                                                  |
+|               |2) Acessar o site no desktop e testar diminuir e aumentar a tela do navegador.                                                                                                           |
+|               |3) Acessar o site no tablet.
+|               |4) Acessar o site no celular 
+| Critérios de Êxito        | O site deve se apresentar compatível aos diferentes navegadores e se apresentar responsivo aos diferentes tipos de tela.                  |
 </br>
 </br>
 
