@@ -15,7 +15,8 @@
 
 | Caso de teste        | CT02 - Separação de telas entre candidatos e recrutadores                                                                                                     |
 | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | 
-| Requisitos Associados        | RF-02  O site deve ter separação de telas entre usuários que queiram disponibilizar o currículo e os recrutadores que buscam talentos.             |                              | RNF-04 O site deve ter opção de cadastro de usuários.                                                              |
+| Requisitos Associados        | RF-02  O site deve ter separação de telas entre usuários que queiram disponibilizar o currículo e os recrutadores que buscam talentos. |     
+|                              | RNF-04  O site deve ter opção de cadastro de usuários. |     
 | Objetivo do Teste        | Verificar se o site oferece dois ambientes diferentes. Um para quem quer criar e compartilhar seu currículo e outro para quem está em busca de um profissional para a vaga que tem disponível.                                                                      |
 | Passos        |1) Acessar a página de cadastro através da página inicial.                                                                                                                       |
 |               |2) Preencher os dados pedidos no cadastro e, no final, escolher a opção "Quero criar e cadastrar meu currículo" ou a opção "Quero buscar profissionais".                                                                                                                  |
