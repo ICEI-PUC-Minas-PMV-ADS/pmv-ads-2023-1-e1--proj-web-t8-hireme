@@ -19,7 +19,8 @@
 | Objetivo do Teste        | Verificar se o site oferece dois ambientes diferentes. Um para quem quer criar e compartilhar seu currículo e outro para quem está em busca de um profissional para a vaga que tem disponível.                                                                      |
 | Passos        |1) Acessar a página de cadastro através da página inicial.                                                                                                                       |
 |               |2) Preencher os dados pedidos no cadastro e, no final, escolher a opção "Quero criar e cadastrar meu currículo" ou a opção "Quero buscar profissionais".                                                                                                                  |
-|               |3) Clicar em Continuar.
-| Critérios de Êxito        | Após clicar em Continuar, caso tenha escolhido "Quero criar e cadastrar meu currículo", o site deve ser redirecionado para o Perfil do candidato. Caso tenha escolhido "Quero buscar profissionais", o site deve ser redirecionado para o Perfil do recrutador.                             |
+|               |3) Clicar em Continuar para ser redirecionado para a página de Login.
+|               |4) Realizar o Login com o e-mail e senha escolhidos.
+| Critérios de Êxito        | Após clicar em Continuar na página de Login, caso tenha escolhido "Quero criar e cadastrar meu currículo", o site deve ser redirecionado para o Perfil do candidato. Caso tenha escolhido "Quero buscar profissionais", o site deve ser redirecionado para o Perfil do recrutador.                             |
 </br>
 </br>
