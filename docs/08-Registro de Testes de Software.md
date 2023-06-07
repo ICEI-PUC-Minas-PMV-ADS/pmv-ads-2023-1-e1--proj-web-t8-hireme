@@ -19,4 +19,12 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
  <div align="center">
 <img src="img/Teste-Cadastro.jpg" width="50%"><br><br>
   </div>
+  
+  ## CT02 - Separação de telas 
+  
+  - Cadastro e Login do candidato
+  - Cadastro e Login do recrutador
+
+
+
 
