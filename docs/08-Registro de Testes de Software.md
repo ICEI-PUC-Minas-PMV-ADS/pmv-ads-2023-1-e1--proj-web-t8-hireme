@@ -20,7 +20,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="img/Teste-Cadastro.jpg" width="50%"><br><br>
   </div>
   
-  ## CT02 - Separação de telas entre candidatos e recrutadores
+## CT02 - Separação de telas entre candidatos e recrutadores
   
   - Cadastro e Login do candidato
   <div align="center">
@@ -43,7 +43,18 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
  <div align="center">
 <img src="img/teste-perfil-recrutador.jpg" width="50%"><br><br>
   </div>
+  
+## CT03 - Criação, edição e compartilhamento de currículo
 
+## CT04 - Testar filtros de busca de pessoas de acordo com as experiências
+
+## CT05 - Caixa de mensagens
+
+## CT06 - Currículos favoritados
+
+## CT07 - Botão de dicas
+
+## CT08 - Compatibilidade e Responsividade
 
 
 
