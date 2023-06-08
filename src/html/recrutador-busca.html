@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
+    <title> Buscar profissionais</title>
+
+    <link rel="stylesheet" href="../css/pages/recrutador-busca.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu_principal">
+            <div class="logo">
+                <img src="imagens/handshakepequeno.png" alt="Logo do HireMe">
+                <h1>HireMe</h1>
+            </div>
+            <ul>
+                <li><a href="recrutador-busca.html">Buscar profissionais</a></li>
+                <li><a href="curriculos-favoritados-recrutador.html">Favoritos</a></li>
+                <li><a href="mensagens_recrutador.html">Mensagens</a></li>
+                <li><a href="recrutador.html">Meu Perfil</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div id="container">
+            <div class="filtros">
+                <h1>Filtre profissionais</h1>
+                <form class="pesquisa" method="get">
+                    <input type="text" id="Busca" name="Busca" placeholder="Palavras-chave de busca" required>
+                </form>
+
+                <div class="itens">
+                    <p>Foco de carreira</p>
+                    <p>Skills</p>
+                    <p>Tempo de experiência</p>
+                    <p>Idiomas</p>
+                    <p>Pretensão salarial</p>
+                    <p>Tipo de contrato</p>
+                    <p>Local de trabalho</p>
+                    <p>Reside em</p>
+                </div>
+            </div>
+
+            <div class="resultados">
+                <h1>Exibindo todos os perfis cadastrados</h1>
+            </div>
+
+            <div class="perfil">
+                <div class="foto"></div>
+                <div class="dados">
+                    José da Silva
+                    <p>Desenvolvedor</p>
+                    <p>Mora em Belo Horizonte/MG | R$10.000 (CLT) ou R$12.000,00</p>
+                </div>
+
+                <button class="botaoMensagem"><a href="mensagens_recrutador.html">Enviar mensagem</a></button>
+                <button class="botaoPerfil"><a href="">Ver perfil completo</a></button>
+
+
+                <div class="corpo">
+                    Atualmente atuo como Desenvolvedor fullstack que ja trabalhou em diversas áreas do
+                    mercado de tecnologia sendo eles desde consultoria de desenvolvimento de CRMs para empresas do ramo
+                    de investimentos, construção civil e venda de varejo. Sempre almejando o crescimento na carreira e
+                    me desafiando, principalmente vendo meu trabalho auxiliando meus clientes e causando impacto na
+                    empresa, é isso que é o que me motiva a seguir em frente e sempre me manter disposto a novos
+                    desafios e tecnologias a serem aprendidas.
+                    <p>Skills</p>
+                    <ul>
+                        <li>Java</li>
+                        <li>React</li>
+                        <li>Spring boot</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>
