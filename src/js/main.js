@@ -23,6 +23,9 @@ const dadosIniciais = {
             "email": "email@email.com.br",
             "nome": "adminCandidato",
             "sobrenome": "admin",
+            "biografia": null,
+            "telefone": null,
+            "endereco": null,
             "senha": "candidato123",
             "tipoUsuario": "candidato",
             "curriculos": []
@@ -32,6 +35,12 @@ const dadosIniciais = {
             "email": "email@email.com.br",
             "nome": "adminRecrutador",
             "sobrenome": "admin",
+            "biografia": null,
+            "telefone": null,
+            "nomeEmpresa": null,
+            "siteEmpresa": null,
+            "cnpf": null,
+            "linkedin": null,
             "senha": "recrutador123",
             "tipoUsuario": "recrutador",
         }

@@ -26,9 +26,12 @@ formCadastro.addEventListener('submit', function() {
     if (usuarioOpts.value == "candidato") {
         novoUsuario = {
             "id" : novoId,
-            "email": email.value,
+            "email": email.value.toLowerCase(),
             "nome": nome.value,
             "sobrenome": sobrenome.value,
+            "biografia": null,
+            "telefone": null,
+            "endereco": null,
             "senha": senha.value,
             "tipoUsuario": usuarioOpts.value, 
             "curriculos": []
@@ -39,6 +42,12 @@ formCadastro.addEventListener('submit', function() {
             "email": email.value,
             "nome": nome.value,
             "sobrenome": sobrenome.value,
+            "biografia": null,
+            "telefone": null,
+            "nomeEmpresa": null,
+            "siteEmpresa": null,
+            "cnpf": null,
+            "linkedin": null,
             "senha": senha.value,
             "tipoUsuario": usuarioOpts.value
         }
