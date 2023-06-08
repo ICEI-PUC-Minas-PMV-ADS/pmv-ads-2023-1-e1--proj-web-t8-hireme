@@ -13,6 +13,7 @@ html {
 
 header { 
     background-color: #141414;
+    box-shadow: 0px 3px 10px #3b3b3b;
     height: 70px;
 }
 
@@ -75,6 +76,13 @@ a:hover {
     justify-content: space-between;
 } 
 
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
 
 #container {
     width: 1310px;
@@ -89,9 +97,8 @@ a:hover {
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
-    left: 450px;
+    left: 35%;
     top: 100px;
-    text-align: center;
 }
 
 .curriculo1{
@@ -99,7 +106,7 @@ a:hover {
     border-radius: 20px;
     width: 250px;
     height: 390px;
-    left: 110px;
+    left: 12%;
     top: 200px;
     background: rgba(0, 0, 0, 0.25);
     margin: 0 auto;
@@ -134,7 +141,6 @@ a:hover {
     cursor: pointer;
 }
 
-
 .curriculo1 h2{
     position: absolute;
     left: 105px;
@@ -153,13 +159,12 @@ a:hover {
 .favorito1 img{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 0px;
 
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 320px;
+    left: 28%;
     top: 560px;
 }
 
@@ -168,15 +173,11 @@ a:hover {
     border-radius: 20px;
     width: 250px;
     height: 390px;
-    left: 530px;
+    left: 40%;
     top: 200px;
     background: rgba(0, 0, 0, 0.25);
     margin: 0 auto;
     cursor: pointer;
-}
-
-.curriculo2:hover {
-    background-color: rgba(0, 168, 120, 0.49);
 }
 
 .curriculo2 img{
@@ -186,6 +187,10 @@ a:hover {
     top: 25px;
     left:25px;
     cursor: pointer;
+}
+
+.curriculo2:hover {
+    background-color: rgba(0, 168, 120, 0.49);
 }
 
 .curriculo2 h1{
@@ -203,6 +208,7 @@ a:hover {
     cursor: pointer;
 }
 
+
 .curriculo2 h2{
     position: absolute;
     left: 105px;
@@ -218,16 +224,15 @@ a:hover {
     cursor: pointer;
 }
 
-.favorito2 img {
+.favorito2 img{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 0px;
 
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 740px;
+    left: 56%;
     top: 560px;
 }
 
@@ -236,15 +241,11 @@ a:hover {
     border-radius: 20px;
     width: 250px;
     height: 390px;
-    left: 950px;
+    left: 68%;
     top: 200px;
     background: rgba(0, 0, 0, 0.25);
     margin: 0 auto;
     cursor: pointer;
-}
-
-.curriculo3:hover {
-    background-color: rgba(0, 168, 120, 0.49);
 }
 
 .curriculo3 img{
@@ -254,6 +255,10 @@ a:hover {
     top: 25px;
     left:25px;
     cursor: pointer;
+}
+
+.curriculo3:hover {
+    background-color: rgba(0, 168, 120, 0.49);
 }
 
 .curriculo3 h1{
@@ -289,219 +294,13 @@ a:hover {
 .favorito3 img{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 0px;
 
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 1160px;
+    left: 84%;
     top: 560px;
-}
-
-
-.curriculo4{
-    position:absolute;
-    border-radius: 20px;
-    width: 250px;
-    height: 390px;
-    left: 110px;
-    top: 670px;
-    background: rgba(0, 0, 0, 0.25);
-    margin: 0 auto;
-    cursor: pointer;
-}
-
-.curriculo4:hover {
-    background-color: rgba(0, 168, 120, 0.49);
-}
-
-.curriculo4 img{
-    position: absolute;
-    width: 200px;
-    height: 270px;
-    top: 25px;
-    left:25px;
-    cursor: pointer;
-}
-
-.curriculo4 h1{
-    position: absolute;
-    width: 300px;
-    left: 43px;
-    top: 310px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-
-    color: #0B0500;
-    cursor: pointer;
-}
-
-.curriculo4 h2{
-    position: absolute;
-    left: 105px;
-    top: 340px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 32px;
-
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-.favorito4 img {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 320px;
-    top: 1030px;
-}
-
-.curriculo5{
-    position:absolute;
-    border-radius: 20px;
-    width: 250px;
-    height: 390px;
-    left: 530px;
-    top: 670px;
-    background: rgba(0, 0, 0, 0.25);
-    margin: 0 auto;
-    cursor: pointer;
-}
-
-.curriculo5:hover {
-    background-color: rgba(0, 168, 120, 0.49);
-}
-
-.curriculo5 img{
-    position: absolute;
-    width: 200px;
-    height: 270px;
-    top: 25px;
-    left:25px;
-    cursor: pointer;
-}
-
-.curriculo5 h1{
-    position: absolute;
-    width: 300px;
-    left: 43px;
-    top: 310px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-
-    color: #0B0500;
-    cursor: pointer;
-}
-
-.curriculo5 h2{
-    position: absolute;
-    left: 105px;
-    top: 340px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 32px;
-
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-.favorito5 img{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 740px;
-    top: 1030px;
-}
-
-.curriculo6{
-    position:absolute;
-    border-radius: 20px;
-    width: 250px;
-    height: 390px;
-    left: 950px;
-    top: 670px;
-    background: rgba(0, 0, 0, 0.25);
-    margin: 0 auto;
-    cursor: pointer;
-}
-
-.curriculo6:hover {
-    background-color: rgba(0, 168, 120, 0.49);
-}
-
-.curriculo6 img{
-    position: absolute;
-    width: 200px;
-    height: 270px;
-    top: 25px;
-    left:25px;
-    cursor: pointer;
-}
-
-.curriculo6 h1{
-    position: absolute;
-    width: 300px;
-    left: 43px;
-    top: 310px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-
-    color: #0B0500;
-    cursor: pointer;
-}
-
-.curriculo6 h2{
-    position: absolute;
-    left: 105px;
-    top: 340px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 32px;
-
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-.favorito6 img {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 1160px;
-    top: 1030px;
 }
 
 footer{
@@ -529,13 +328,222 @@ footer{
 }
 
 @media screen and (max-width:767px) {
+    header {
+        width: 100%;
+    }
+
+    .menu_principal{
+       padding: 1.5rem 4rem; 
+    }
+
+    .logo {
+        z-index: 0;
+        position: absolute;
+        width: 97.91px;
+        height: 90px;
+        left: 0px;
+        top: 5px;
+        display: flex;
+    }
     
+    .menu_principal img {
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 35px;
+        cursor: pointer;
+    }
+    
+    .menu_principal h1 {
+        width: 190px;
+        height: 43px;
+        left: 174px;
+        top: 30px;
+        margin-top: 29px;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+    .menu_principal > ul > li{
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 2%;
+        left: 85%;
+    }
+
+    .mobile-menu-icon button:hover {
+        transform: scale(1.11)
+    }
+
+    .mobile-menu ul {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #141414;
+        box-shadow: 0px 3px 10px #3b3b3b;
+    }
+
+    .mobile-menu > ul > li {
+        z-index: 1;
+        display: block;
+        padding-top: 1.2rem;
+        font-family: "Gabriela", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    .open{
+        display: block;
+    }
+
+    #container {
+        width: 767px;
+        height: 1600px;
+    }
+
+    #curriculos-titulo {
+        font-size: 28px;
+        align-self: center;
+        top: 100px;
+    }
+    
+    .curriculo1{
+        z-index: 0;
+        width: 220px;
+        height: 360px;
+        left: 26%;
+        top: 220px;
+    }
+    
+    .curriculo1 img{
+        width: 180px;
+        height: 250px;
+        left: 22px;
+    }
+    
+    .curriculo1 h1{
+        top: 290px;
+        font-size: 14px;
+        left: 45px;
+    }
+    
+    .curriculo1 h2{
+        left: 95px;
+        top: 310px;
+        font-size: 11px;
+    }
+    
+    .favorito1 img{
+        width: 45px;
+        height: 45px;
+        left: 68%;
+        top: 555px;
+    }
+
+    .curriculo2{
+        width: 220px;
+        height: 360px;
+        left: 26%;
+        top: 700px;
+    }
+    
+    .curriculo2 img{
+        width: 180px;
+        height: 250px;
+        left: 22px;
+    }
+    
+    .curriculo2 h1{
+        top: 290px;
+        font-size: 14px;
+        left: 45px;
+    }
+    
+    .curriculo2 h2{
+        left: 95px;
+        top: 310px;
+        font-size: 11px;
+    }
+    
+    .favorito2 img{
+        width: 45px;
+        height: 45px;
+        left: 68%;
+        top: 1035px;
+    }
+
+    .curriculo3{
+        width: 220px;
+        height: 360px;
+        left: 25%;
+        top: 1180px;
+    }
+    
+    .curriculo3 img{
+        width: 180px;
+        height: 250px;
+        left: 22px;
+    }
+    
+    .curriculo3 h1{
+        top: 290px;
+        font-size: 14px;
+        left: 45px;
+    }
+    
+    
+    .curriculo3 h2{
+        left: 95px;
+        top: 310px;
+        font-size: 11px;
+    }
+    
+    .favorito3 img{
+        width: 45px;
+        height: 45px;
+        left: 68%;
+        top: 1515px;
+    }
+    
+    footer{
+        position: relative;
+        height: 40px;
+        left: 0%;
+        right: 0%;
+        top: 100%;
+        bottom: 0%; 
+        width: 100%;
+        text-align: center;
+    
+    }
+    
+    #passar-pag p {
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 0.5em;
+        color: #fff;
+        cursor: pointer;
+    }
 }
 
 @media screen and (min-width:767px) and (max-width:1023px){
     
 }
 
-@media  and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     
 }
