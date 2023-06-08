@@ -86,7 +86,8 @@ a:hover {
 }
 
 #dados-pequenos {
-    background-color: #00A878;
+    background-color: #0C5943;
+    color: #fff;
     width: 250px;
     height: 100vh;
     float: left;
