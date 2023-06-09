@@ -12,6 +12,7 @@ html {
 }
 
 header { 
+    width: 100%;
     background-color: #141414;
     box-shadow: 0px 3px 10px #3b3b3b;
     height: 70px;
@@ -75,20 +76,24 @@ a:hover {
     justify-content: space-between;
 } 
 
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
 
 #container {
-    background-color: #BDBDBD;
-    width: 1310px;
+    width: auto;
     height: 700px;
-    left: 0px;
-    top: 139px;
-    display: flex;
+    margin-bottom: 40px;
 }
 
 .caixa-de-mensagem{
     position:absolute;
     border-radius: 20px;
-    width: 1050px;
+    width: 80%;
     height: 570px;
     left: 147px;
     top: 100px;
@@ -98,7 +103,7 @@ a:hover {
 
 .line1 {
     position: absolute;
-    width: 1050px;
+    width: 100%;
     height: 0px;
     left: 0px;
     top: 60px;
@@ -140,12 +145,12 @@ a:hover {
 
 .line5 {
     position: absolute;
-width: 385px;
-height: 0px;
-left: -1px;
-top: -102px;
+    width: 385px;
+    height: 0px;
+    left: -1px;
+    top: -102px;
 
-border: 1px solid rgba(50, 50, 50, 0.5);;
+    border: 1px solid rgba(50, 50, 50, 0.5);;
 }
 
 .mensagem-header h1 {
@@ -395,6 +400,10 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     cursor: pointer;
 }
 
+.chat img {
+    display: none;
+}
+
 .mainchat img {
     display: flex;
     flex-direction: column;
@@ -404,7 +413,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     position: relative;
     width: 30px;
     height: 30px;
-    left: 1000px;
+    left: 95%;
     top: -15px;
     cursor: pointer;
 }
@@ -435,14 +444,13 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
 
 #caixa-de-texto {
     position: absolute;
-    width: 600px;
+    width: 60%;
     height: 150px;
     left: 563px;
     top: 465px;
 }
 
-#caixa-de-texto .caixatexto{
-    
+#caixa-de-texto .caixatexto{  
     border-radius: 10px;
 }
 
@@ -450,7 +458,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     position: absolute;
     width: 100px;
     height: 30px;
-    left: 1064px;
+    left: 81%;
     top: 626px;
 
     background: #ff7a00;
@@ -462,7 +470,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     position: absolute;
     width: 70px;
     height: 30px;
-    left: 570px;
+    left: 44%;
     top: 626px;
     
     background: #ff7a00;
@@ -479,8 +487,8 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     position: relative;
     width: 20px;
     height: 18px;
-    left: 530px;
-    top: 561px;
+    left: 600px;
+    top: 495px;
     cursor: pointer;
 }
 
@@ -488,7 +496,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     position: absolute;
     width: 70px;
     height: 30px;
-    left: 660px;
+    left: 51%;
     top: 626px;
     
     background: #ff7a00;
@@ -505,8 +513,8 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     position: relative;
     width: 17px;
     height: 19px;
-    left: 638px;
-    top: 561px;
+    left: 695px;
+    top: 512px;
     cursor: pointer;
 }
 
@@ -514,7 +522,7 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     position: absolute;
     width: 70px;
     height: 30px;
-    left: 750px;
+    left: 58%;
     top: 626px;
     
     background: #ff7a00;
@@ -531,8 +539,8 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     position: relative;
     width: 19px;
     height: 19px;
-    left: 746px;
-    top: 561px;
+    left: 785px;
+    top: 532px;
     cursor: pointer;
 }
 
@@ -568,5 +576,636 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
 
     background: #d9d9d9;
     border-radius: 50px;
+}
+
+@media screen and (max-width:767px) {
+    header {
+        width: 100%;
+    }
+
+    .menu_principal{
+       padding: 1.5rem 4rem; 
+    }
+
+    .logo {
+        position: absolute;
+        width: 97.91px;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+    }
+    
+    .menu_principal img {
+        margin-top: 13px;
+        margin-left: 30px;
+        margin-bottom: 35px;
+    }
+
+    .menu_principal h1 {
+        font-size: 21px;
+    }
+
+    .menu_principal > ul > li{
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 0.8%;
+        left: 85%;
+        z-index: 2;
+    }
+
+    .mobile-menu-icon button:hover {
+        transform: scale(1.11)
+    }
+
+    .mobile-menu ul {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #141414;
+        box-shadow: 0px 3px 10px #3b3b3b;
+    }
+
+    .mobile-menu > ul > li {
+        z-index: 2;
+        display: block;
+        padding-top: 1.2rem;
+        font-family: "Gabriela", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .open{
+        display: block;
+    }
+    
+    #container {
+        width: auto;
+        height: 700px;
+        display: flex;
+    }
+
+    .caixa-de-mensagem{
+        position:absolute;
+        width: 80%;
+        left: 10%;
+    }
+    
+    .line1 {
+        position: absolute;
+        width: 100%;
+        top: 50px;
+    }
+    
+    .line2 { 
+    display: none;
+    }
+    
+    .line3 {
+     display: none;
+    }
+    
+    .line4 {
+      display: none;
+    }
+    
+    .line5 {
+     display: none;
+    }
+    
+    .mensagem-header h1 {
+        display: none;
+    }
+    
+    .newmessage img {
+        display: none;
+    }
+    
+    .menu-mensagens h1 {
+        display: none;
+    }
+    
+    .menu-mensagens h2 {
+        display: none;
+    }
+    
+    .area-mensagens h4 {
+        display: none;
+    }
+    
+    .area-mensagens h5 {
+        display: none;
+    }
+    
+    .area-mensagens h6 {
+        display: none;
+    }
+    
+    .area-mensagens h7 {
+        display: none;
+    }
+    
+    .area-mensagens h8 {
+        display: none;
+    }
+    
+    .area-mensagens h9 {
+        display: none;
+    }
+    
+    .chat h1{
+        position: absolute;
+        left: 70px;
+        top: 0px;
+        font-size: 18px;
+    }
+    
+    .chat h2{
+        position: absolute;
+        left: 70px;
+        top: 25px;
+        font-size: 11px;
+    }
+    
+    .chat h3{
+        position: absolute;
+        left: 30%;
+        top: 325px;
+        font-size: 13px;
+    }
+    
+    .chat h4{
+        position: absolute;
+        left: 78%;
+        top: 525px;
+        font-size: 14px;
+    }
+
+    .chat img {
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 20px;
+        top: 10px;
+        cursor: pointer;
+    }
+    
+    .mainchat img {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        left: 88%;
+        top: 10px;
+    }
+    
+    #caixa-de-pesquisa .caixapesquisa {
+        display: none;
+    }
+    
+    .searchicon img {
+        display: none;
+    }
+    
+    #caixa-de-texto .caixatexto{
+        position: absolute;
+        width: 55%;
+        height: 75%;
+        left: -505px;
+        top: 35px;
+    }
+    
+    .sendbutton {
+        position: absolute;
+        width: 75px;
+        height: 30px;
+        left: 68%;
+        top: 625px;
+    }
+    
+    .camerabutton {
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        left: 15%;
+        top: 625px;
+    }
+    
+    .camera img {
+        position: relative;
+        width: 17px;
+        height: 15px;
+        left: 58px;
+        top: 562px;
+    }
+    
+    .filesbutton {
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        left: 30%;
+        top: 625px;
+    }
+    
+    .files img{
+        z-index: 1;
+        position: relative;
+        width: 15px;
+        height: 15px;
+        left: 140px;
+        top: 562px;
+    }
+    
+    .emojibutton {
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        left: 45%;
+        top: 625px;
+    }
+    
+    .emoji img {
+        z-index: 1;
+        position: relative;
+        width: 15px;
+        height: 15px;
+        left: 220px;
+        top: 562px;
+    }
+    
+    .messagesent {
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        left: 28%;
+        top: 422px;
+    }
+    
+    .icon1 {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 16%;
+        top: 440px;  
+    }
+    
+    .icon2 {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 17%;
+        top: 444px;
+    }
+
+
+}
+
+@media screen and (min-width:767px) and (max-width:960px){
+    header {
+        width: 100%;
+    }
+
+    .menu_principal{
+       padding: 1.5rem 4rem; 
+    }
+
+    .logo {
+        position: absolute;
+        width: 97.91px;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+    }
+    
+    .menu_principal img {
+        margin-top: 13px;
+        margin-left: 30px;
+        margin-bottom: 35px;
+    }
+
+    .menu_principal h1 {
+        font-size: 23px;
+    }
+
+    .menu_principal > ul > li{
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 0.8%;
+        left: 85%;
+        z-index: 2;
+    }
+
+    .mobile-menu-icon button:hover {
+        transform: scale(1.11)
+    }
+
+    .mobile-menu ul {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #141414;
+        box-shadow: 0px 3px 10px #3b3b3b;
+    }
+
+    .mobile-menu > ul > li {
+        z-index: 2;
+        display: block;
+        padding-top: 1.2rem;
+        font-family: "Gabriela", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .open{
+        display: block;
+    }
+    
+    #container {
+        width: auto;
+        height: 700px;
+        display: flex;
+    }
+
+    .caixa-de-mensagem{
+        position:absolute;
+        width: 80%;
+        left: 10%;
+    }
+    
+    .line1 {
+        position: absolute;
+        width: 100%;
+        top: 50px;
+    }
+    
+    .line2 { 
+        position: absolute;
+        left: 0px;
+        top: 233px;
+    }
+    
+    .line3 {
+        position: absolute;
+        width: 285px;
+        left: 0px;
+        top: 142px;
+    }
+    
+    .line4 {
+        position: absolute;
+        width: 285px;
+    }
+    
+    .line5 {
+        position: absolute;
+        width: 285px;
+    }
+    
+    .mensagem-header h1 {
+        position: absolute;
+        top: 10px;
+        font-size: 19px;
+    }
+    
+    .newmessage img {
+        z-index: 1;
+        position: relative;
+        width: 25px;
+        height: 25px;
+        left: 250px;
+    }
+    
+    
+    .menu-mensagens h1 {
+        position: absolute;
+        width: 142px;
+        height: 30px;
+        border-radius: 10px;
+        left: 0px;
+        top: 110px;
+        font-size: 17px;
+    }
+    
+    .menu-mensagens h2 {
+        position: absolute;
+        width: 142px;
+        height: 30px;
+        border-radius: 10px;
+        left: 143px;
+        top: 110px;
+        font-size: 17px;
+    }
+    
+    .area-mensagens h4 {
+        position: absolute;
+        left: 20px;
+        top: 150px;
+        font-size: 15px;
+    }
+    
+    .area-mensagens h5 {
+        position: absolute;
+        left: 200px;
+        top: 150px;
+        font-size: 15px;
+    }
+    
+    .area-mensagens h6 {
+        position: absolute;
+        left: 20px;
+        top: 180px;
+        font-size: 12px;
+    }
+    
+    .area-mensagens h7 {
+        position: absolute;
+        left: 20px;
+        top: 250px;
+        font-size: 15px;
+    }
+    
+    .area-mensagens h8 {
+        position: absolute;
+        left: 200px;
+        top: 250px;
+        font-size: 15px;
+    }
+    
+    .area-mensagens h9 {
+        position: absolute;
+        left: 20px;
+        top: 280px;
+        font-size: 12px;
+    }
+    
+    .chat h1{
+        position: absolute;
+        left: 310px;
+        top: 0px;
+        font-size: 19px;
+    }
+    
+    .chat h2{
+        position: absolute;
+        left: 310px;
+        top: 25px;
+        font-size: 12px;
+    }
+    
+    .chat h3{
+        position: absolute;
+        left: 400px;
+        top: 308px;
+        font-size: 13px;
+    }
+    
+    .chat h4{
+        position: absolute;
+        left: 88%;
+        top: 535px;
+        font-size: 14px;
+    }
+    
+    .mainchat img {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        left: 92%;
+        top: -15px;
+    }
+    
+    #caixa-de-pesquisa .caixapesquisa {
+        position: absolute;
+        width: 250px;
+        height: 30px;
+        left: 110px;
+        top: 160px;
+    }
+    
+    .searchicon img {
+        position: relative;
+        width: 25px;
+        height: 25px;
+        left: 330px;
+        top: 93px;
+    }
+    
+    #caixa-de-texto .caixatexto{
+        position: absolute;
+        width: 60%;
+        height: 140px;
+        left: -160px;
+        top: 20px;
+    }
+    
+    .sendbutton {
+        position: absolute;
+        width: 80px;
+        height: 25px;
+        left: 78%;
+        top: 635px;
+    }
+    
+    .camerabutton {
+        position: absolute;
+        width: 60px;
+        height: 25px;
+        left: 48%;
+        top: 635px;
+    }
+    
+    .camera img {
+        position: relative;
+        width: 17px;
+        height: 15px;
+        left: 385px;
+        top: 570px;
+    }
+    
+    .filesbutton {
+        position: absolute;
+        width: 60px;
+        height: 25px;
+        left: 56%;
+        top: 635px;
+    }
+    
+    .files img{
+        position: relative;
+        width: 15px;
+        height: 15px;
+        left: 470px;
+        top: 570px;
+    }
+    
+    .emojibutton {
+        position: absolute;
+        width: 60px;
+        height: 25px;
+        left: 64%;
+        top: 635px;
+    }
+    
+    .emoji img {
+        position: relative;
+        width: 15px;
+        height: 15px;
+        left: 555px;
+        top: 570px;
+    }
+    
+    .messagesent {
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        left: 470px;
+        top: 405px;
+    }
+    
+    
+    .icon1 {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 420px;
+        top: 420px;    }
+    
+    .icon2 {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 424px;
+        top: 424px;
+    }
+
 }
 

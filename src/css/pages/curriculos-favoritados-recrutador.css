@@ -408,7 +408,6 @@ footer{
         width: auto;
         height: 1600px;
         display: flex;
-        flex-direction: column;
     }
 
     #curriculos-titulo {
