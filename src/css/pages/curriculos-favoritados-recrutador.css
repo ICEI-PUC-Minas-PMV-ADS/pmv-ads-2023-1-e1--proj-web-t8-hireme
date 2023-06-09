@@ -107,7 +107,7 @@ a:hover {
     border-radius: 20px;
     width: 250px;
     height: 390px;
-    left: 12%;
+    left: 10%;
     top: 200px;
     background: rgba(0, 0, 0, 0.25);
     margin: 0 auto;
@@ -371,7 +371,7 @@ footer{
         cursor: pointer;
         position: absolute;
         top: 0.8%;
-        left: 88%;
+        left: 85%;
         z-index: 2;
     }
 
@@ -422,7 +422,7 @@ footer{
         width: 220px;
         height: 360px;
         left: 30%;
-        top: 220px;
+        top: 200px;
     }
     
     .curriculo1 img{
@@ -455,7 +455,7 @@ footer{
         width: 220px;
         height: 360px;
         left: 30%;
-        top: 700px;
+        top: 680px;
     }
     
     .curriculo2 img{
@@ -488,7 +488,7 @@ footer{
         width: 220px;
         height: 360px;
         left: 30%;
-        top: 1180px;
+        top: 1160px;
     }
     
     .curriculo3 img{
@@ -611,7 +611,7 @@ footer{
         width: 235px;
         height: 375px;
         left: 20%;
-        top: 220px;
+        top: 200px;
     }
     
     .curriculo1 img{
@@ -644,7 +644,7 @@ footer{
         width: 235px;
         height: 375px;
         left: 60%;
-        top: 220px;
+        top: 200px;
     }
     
     .curriculo2 img{
@@ -677,7 +677,7 @@ footer{
         width: 235px;
         height: 375px;
         left: 40%;
-        top: 700px;
+        top: 680px;
     }
     
     .curriculo3 img{

@@ -12,6 +12,7 @@ html {
 }
 
 header { 
+    width: 100%;
     background-color: #141414;
     box-shadow: 0px 3px 10px #3b3b3b;
     height: 70px;
@@ -75,10 +76,22 @@ a:hover {
     justify-content: space-between;
 } 
 
+.menu_principal{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
 
 #container {
-    width: 1310px;
-    height: 1000px;
+    width: auto;
+    height: 900px;
     margin-bottom: 40px;
 }
 
@@ -89,9 +102,8 @@ a:hover {
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
-    left: 500px;
+    left: 38%;
     top: 100px;
-    text-align: center;
 }
 
 .curriculo1{
@@ -99,7 +111,7 @@ a:hover {
     border-radius: 20px;
     width: 250px;
     height: 390px;
-    left: 110px;
+    left: 10%;
     top: 200px;
     background: rgba(0, 0, 0, 0.25);
     margin: 0 auto;
@@ -128,7 +140,6 @@ a:hover {
     font-style: normal;
     font-weight: 900;
     font-size: 22px;
-    line-height: 32px;
 
     color: #0B0500;
     cursor: pointer;
@@ -155,7 +166,7 @@ a:hover {
     border-radius: 20px;
     width: 250px;
     height: 390px;
-    left: 530px;
+    left: 40%;
     top: 200px;
     background: rgba(0, 0, 0, 0.25);
     margin: 0 auto;
@@ -184,7 +195,6 @@ a:hover {
     font-style: normal;
     font-weight: 900;
     font-size: 22px;
-    line-height: 32px;
 
     color: #0B0500;
     cursor: pointer;
@@ -211,7 +221,7 @@ a:hover {
     border-radius: 20px;
     width: 250px;
     height: 390px;
-    left: 950px;
+    left: 70%;
     top: 200px;
     background: rgba(0, 0, 0, 0.25);
     margin: 0 auto;
@@ -240,7 +250,6 @@ a:hover {
     font-style: normal;
     font-weight: 900;
     font-size: 22px;
-    line-height: 32px;
 
     color: #0B0500;
     cursor: pointer;
@@ -261,170 +270,6 @@ a:hover {
     cursor: pointer;
 }
 
-.curriculo4{
-    position:absolute;
-    border-radius: 20px;
-    width: 250px;
-    height: 390px;
-    left: 110px;
-    top: 670px;
-    background: rgba(0, 0, 0, 0.25);
-    margin: 0 auto;
-    cursor: pointer;
-}
-
-.curriculo4:hover {
-    background-color: rgba(255, 122, 0, 0.54);
-}
-
-.curriculo4 img{
-    position: absolute;
-    width: 200px;
-    height: 270px;
-    top: 25px;
-    left:25px;
-    cursor: pointer;
-}
-
-.curriculo4 h1{
-    position: absolute;
-    left: 95px;
-    top: 310px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 22px;
-    line-height: 32px;
-
-    color: #0B0500;
-    cursor: pointer;
-}
-
-.curriculo4 h2{
-    position: absolute;
-    left: 65px;
-    top: 340px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 32px;
-
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-.curriculo5{
-    position:absolute;
-    border-radius: 20px;
-    width: 250px;
-    height: 390px;
-    left: 530px;
-    top: 670px;
-    background: rgba(0, 0, 0, 0.25);
-    margin: 0 auto;
-    cursor: pointer;
-}
-
-.curriculo5:hover {
-    background-color: rgba(255, 122, 0, 0.54);
-}
-
-.curriculo5 img{
-    position: absolute;
-    width: 200px;
-    height: 270px;
-    top: 25px;
-    left:25px;
-    cursor: pointer;
-}
-
-.curriculo5 h1{
-    position: absolute;
-    left: 95px;
-    top: 310px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 22px;
-    line-height: 32px;
-
-    color: #0B0500;
-    cursor: pointer;
-}
-
-.curriculo5 h2{
-    position: absolute;
-    left: 65px;
-    top: 340px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 32px;
-
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-.curriculo6{
-    position:absolute;
-    border-radius: 20px;
-    width: 250px;
-    height: 390px;
-    left: 950px;
-    top: 670px;
-    background: rgba(0, 0, 0, 0.25);
-    margin: 0 auto;
-    cursor: pointer;
-}
-
-.curriculo6:hover {
-    background-color: rgba(255, 122, 0, 0.54);
-}
-
-.curriculo6 img{
-    position: absolute;
-    width: 200px;
-    height: 270px;
-    top: 25px;
-    left:25px;
-    cursor: pointer;
-}
-
-.curriculo6 h1{
-    position: absolute;
-    left: 95px;
-    top: 310px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 22px;
-    line-height: 32px;
-
-    color: #0B0500;
-    cursor: pointer;
-}
-
-.curriculo6 h2{
-    position: absolute;
-    left: 65px;
-    top: 340px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 32px;
-
-    color: #FFFFFF;
-    cursor: pointer;
-}
 
 footer{
     position: relative;
@@ -448,4 +293,343 @@ footer{
     letter-spacing: 0.5em;
     color: #fff;
     cursor: pointer;
+}
+
+@media screen and (max-width:767px) {
+    header {
+        width: 100%;
+    }
+
+    .menu_principal{
+       padding: 1.5rem 4rem; 
+    }
+
+    .logo {
+        position: absolute;
+        width: 97.91px;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+    }
+    
+    .menu_principal img {
+        margin-top: 13px;
+        margin-left: 30px;
+        margin-bottom: 35px;
+    }
+    
+    .menu_principal h1 {
+        font-size: 21px;
+    }
+
+    .menu_principal > ul > li{
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 0.8%;
+        left: 85%;
+        z-index: 2;
+    }
+
+    .mobile-menu-icon button:hover {
+        transform: scale(1.11)
+    }
+
+    .mobile-menu ul {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #141414;
+        box-shadow: 0px 3px 10px #3b3b3b;
+    }
+
+    .mobile-menu > ul > li {
+        z-index: 1;
+        display: block;
+        padding-top: 1.2rem;
+        font-family: "Gabriela", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .open{
+        display: block;
+    }
+
+    #container {
+        width: auto;
+        height: 1600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #curriculos-titulo {
+        position: absolute;
+        font-size: 32px;
+        left: 28%;
+        top: 100px;
+    }
+    
+    .curriculo1{
+        width: 220px;
+        height: 360px;
+        left: 30%;
+        top: 200px;
+    }
+    
+    .curriculo1 img{
+        width: 180px;
+        height: 250px;
+        left: 22px;
+    }
+    
+    .curriculo1 h1{
+        top: 290px;
+        font-size: 16px;
+        left: 85px;
+    }
+    
+    .curriculo1 h2{
+        left: 65px;
+        top: 310px;
+        font-size: 12px;
+    }
+
+    .curriculo2{
+        width: 220px;
+        height: 360px;
+        left: 30%;
+        top: 680px;
+    }
+    
+    .curriculo2 img{
+        width: 180px;
+        height: 250px;
+        left: 22px;
+    }
+    
+    .curriculo2 h1{
+        top: 290px;
+        font-size: 16px;
+        left: 85px;
+    }
+    
+    .curriculo2 h2{
+        left: 65px;
+        top: 310px;
+        font-size: 12px;
+    }
+
+    .curriculo3{
+        width: 220px;
+        height: 360px;
+        left: 30%;
+        top: 1160px;
+    }
+    
+    .curriculo3 img{
+        width: 180px;
+        height: 250px;
+        left: 22px;
+    }
+    
+    .curriculo3 h1{
+        top: 290px;
+        font-size: 16px;
+        left: 85px;
+    }
+    
+    .curriculo3 h2{
+        left: 65px;
+        top: 310px;
+        font-size: 12px;
+    }
+    
+    footer{
+        width: 100%;
+    }
+
+    #passar-pag p {
+        position: relative;
+        left: 20px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:960px){
+    header {
+        width: 100%;
+    }
+    .menu_principal{
+        padding: 1.5rem 4rem; 
+    }
+ 
+    .logo {
+        position: absolute;
+        width: 97.91px;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+    }
+ 
+    .menu_principal h1 {
+        font-size: 23px;
+    }
+
+    .menu_principal > ul > li{
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        z-index: 2;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 1%;
+        left: 85%;
+    }
+
+    .mobile-menu-icon button:hover {
+        transform: scale(1.11)
+    }
+
+    .mobile-menu ul {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #141414;
+        box-shadow: 0px 3px 10px #3b3b3b;
+    }
+
+    .mobile-menu > ul > li {
+        z-index: 1;
+        display: block;
+        padding-top: 1.2rem;
+        font-family: "Gabriela", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .open{
+        display: block;
+    }
+
+    #container {
+        width: auto;
+        height: 1200px;
+    }
+
+    #curriculos-titulo {
+        font-size: 36px;
+        align-self: center;
+        top: 100px;
+    }
+    
+    .curriculo1{
+        width: 235px;
+        height: 375px;
+        left: 20%;
+        top: 200px;
+    }
+    
+    .curriculo1 img{
+        width: 190px;
+        height: 260px;
+        left: 22px;
+    }
+    
+    .curriculo1 h1{
+        top: 290px;
+        font-size: 18px;
+        left: 90px;
+    }
+    
+    .curriculo1 h2{
+        left: 60px;
+        top: 310px;
+        font-size: 14px;
+    }
+
+    .curriculo2{
+        width: 235px;
+        height: 375px;
+        left: 60%;
+        top: 200px;
+    }
+    
+    .curriculo2 img{
+        width: 190px;
+        height: 260px;
+        left: 22px;
+    }
+    
+    .curriculo2 h1{
+        top: 290px;
+        font-size: 18px;
+        left: 90px;
+    }
+    
+    .curriculo2 h2{
+        left: 60px;
+        top: 310px;
+        font-size: 14px;
+    }
+
+    .curriculo3{
+        width: 235px;
+        height: 375px;
+        left: 40%;
+        top: 680px;
+    }
+    
+    .curriculo3 img{
+        width: 190px;
+        height: 260px;
+        left: 22px;
+    }
+    
+    .curriculo3 h1{
+        top: 290px;
+        font-size: 18px;
+        left: 90px;
+    }
+    
+    .curriculo3 h2{
+        left: 60px;
+        top: 310px;
+        font-size: 14px;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    #passar-pag p {
+        position: relative;
+        left: 20px;
+    }
+
 }

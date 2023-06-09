@@ -10,15 +10,30 @@
     <title>Meus currículos</title>
 
     <link rel="stylesheet" href="../css/pages/curriculos-candidato.css">
+    <script src="../js/curriculos-candidato.js"></script>
 </head>
 
 <body>
     <header>
-        <div class="menu_principal">
+        <nav class="menu_principal">
             <div class="logo">
                 <img src="imagens/handshakepequeno.png" alt="Logo do HireMe">
                 <h1>HireMe</h1>
             </div>
+            <ul>
+                <li><a href="FazerCV.html">Criar um currículo</a></li>
+                <li><a href="curriculos-candidato.html">Meus currículos</a></li>
+                <li><a href="mensagens-candidato.html">Mensagens</a></li>
+                <li><a href="perfil-candidato.html">Meu Perfil</a></li>
+                <li><a id="logout">Sair</a></li>
+            </ul>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="imagens/menu_white_36dp.svg"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
             <ul>
                 <li><a href="FazerCV.html">Criar um currículo</a></li>
                 <li><a href="curriculos-candidato.html">Meus currículos</a></li>
@@ -47,22 +62,6 @@
                 <h1>Título</h1>
                 <h2>Data que foi feito</h2>
             </div>
-            <div class="curriculo4">
-                <img src="imagens/curriculos.png" alt="curriculo">
-                <h1>Título</h1>
-                <h2>Data que foi feito</h2>
-            </div>
-            <div class="curriculo5">
-                <img src="imagens/curriculos.png" alt="curriculo">
-                <h1>Título</h1>
-                <h2>Data que foi feito</h2>
-            </div>
-            <div class="curriculo6">
-                <img src="imagens/curriculos.png" alt="curriculo">
-                <h1>Título</h1>
-                <h2>Data que foi feito</h2>
-            </div>
-                
         </div>
 
     </main>
