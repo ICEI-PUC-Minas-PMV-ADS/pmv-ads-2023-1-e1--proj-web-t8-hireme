@@ -24,6 +24,7 @@
                 <li><a href="curriculos-favoritados-recrutador.html">Favoritos</a></li>
                 <li><a href="mensagens_recrutador.html">Mensagens</a></li>
                 <li><a href="recrutador.html">Meu Perfil</a></li>
+                <li><a id="logout">Sair</a></li>
             </ul>
         </nav>
     </header>
@@ -50,41 +51,13 @@
 
             <div class="resultados">
                 <h1>Exibindo todos os perfis cadastrados</h1>
-            </div>
-
-            <div class="perfil">
-                <div class="foto"></div>
-                <div class="dados">
-                    José da Silva
-                    <p>Desenvolvedor</p>
-                    <p>Mora em Belo Horizonte/MG | R$10.000 (CLT) ou R$12.000,00</p>
-                </div>
-
-                <button class="botaoMensagem"><a href="mensagens_recrutador.html">Enviar mensagem</a></button>
-                <button class="botaoPerfil"><a href="">Ver perfil completo</a></button>
-
-
-                <div class="corpo">
-                    Atualmente atuo como Desenvolvedor fullstack que ja trabalhou em diversas áreas do
-                    mercado de tecnologia sendo eles desde consultoria de desenvolvimento de CRMs para empresas do ramo
-                    de investimentos, construção civil e venda de varejo. Sempre almejando o crescimento na carreira e
-                    me desafiando, principalmente vendo meu trabalho auxiliando meus clientes e causando impacto na
-                    empresa, é isso que é o que me motiva a seguir em frente e sempre me manter disposto a novos
-                    desafios e tecnologias a serem aprendidas.
-                    <p>Skills</p>
-                    <ul>
-                        <li>Java</li>
-                        <li>React</li>
-                        <li>Spring boot</li>
-                    </ul>
-
-                </div>
-
+                <div id="perfis-cadastrados"></div>
             </div>
 
         </div>
     </main>
-
+    <script src="../js/modules/logout.js"></script>
+    <script src="../js/recrutador-busca-perfis.js"></script>
 </body>
 
 </html>
