@@ -12,6 +12,7 @@ html {
 }
 
 header { 
+    width: 100%;
     background-color: #141414;
     box-shadow: 0px 3px 10px #3b3b3b;
     height: 70px;
@@ -85,8 +86,8 @@ a:hover {
 }
 
 #container {
-    width: 1310px;
-    height: 1000px;
+    width: auto;
+    height: 900px;
     margin-bottom: 40px;
 }
 
@@ -156,7 +157,7 @@ a:hover {
     cursor: pointer;
 }
 
-.favorito1 img{
+.curriculo1 .favorito1 img{
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -164,8 +165,8 @@ a:hover {
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 28%;
-    top: 560px;
+    left: 210px;
+    top: 360px;
 }
 
 .curriculo2{
@@ -224,7 +225,7 @@ a:hover {
     cursor: pointer;
 }
 
-.favorito2 img{
+.curriculo2 .favorito2 img{
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -232,8 +233,8 @@ a:hover {
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 56%;
-    top: 560px;
+    left: 210px;
+    top: 360px;
 }
 
 .curriculo3{
@@ -291,7 +292,7 @@ a:hover {
     cursor: pointer;
 }
 
-.favorito3 img{
+.curriculo3 .favorito3 img{
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -299,8 +300,8 @@ a:hover {
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 84%;
-    top: 560px;
+    left: 210px;
+    top: 360px;
 }
 
 footer{
@@ -327,6 +328,7 @@ footer{
     cursor: pointer;
 }
 
+
 @media screen and (max-width:767px) {
     header {
         width: 100%;
@@ -337,30 +339,22 @@ footer{
     }
 
     .logo {
-        z-index: 0;
         position: absolute;
         width: 97.91px;
         height: 90px;
         left: 0px;
-        top: 5px;
+        top: 0px;
         display: flex;
     }
     
     .menu_principal img {
-        margin-top: 10px;
+        margin-top: 13px;
         margin-left: 30px;
         margin-bottom: 35px;
-        cursor: pointer;
     }
     
     .menu_principal h1 {
-        width: 190px;
-        height: 43px;
-        left: 174px;
-        top: 30px;
-        margin-top: 29px;
-        margin-bottom: 25px;
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .menu_principal > ul > li{
@@ -376,8 +370,9 @@ footer{
         border: none;
         cursor: pointer;
         position: absolute;
-        top: 2%;
-        left: 85%;
+        top: 0.8%;
+        left: 88%;
+        z-index: 2;
     }
 
     .mobile-menu-icon button:hover {
@@ -385,6 +380,7 @@ footer{
     }
 
     .mobile-menu ul {
+        position: relative;
         z-index: 1;
         display: flex;
         flex-direction: column;
@@ -401,6 +397,7 @@ footer{
         font-family: "Gabriela", sans-serif;
         font-style: normal;
         font-weight: 300;
+        cursor: pointer;
     }
 
     .open{
@@ -408,21 +405,23 @@ footer{
     }
 
     #container {
-        width: 767px;
+        width: auto;
         height: 1600px;
+        display: flex;
+        flex-direction: column;
     }
 
     #curriculos-titulo {
-        font-size: 28px;
-        align-self: center;
+        position: absolute;
+        font-size: 32px;
+        left: 35%;
         top: 100px;
     }
     
     .curriculo1{
-        z-index: 0;
         width: 220px;
         height: 360px;
-        left: 26%;
+        left: 30%;
         top: 220px;
     }
     
@@ -444,17 +443,18 @@ footer{
         font-size: 11px;
     }
     
-    .favorito1 img{
+    .curriculo1 .favorito1 img{
+        position: absolute;
         width: 45px;
         height: 45px;
-        left: 68%;
-        top: 555px;
+        left: 185px;
+        top: 335px;
     }
 
     .curriculo2{
         width: 220px;
         height: 360px;
-        left: 26%;
+        left: 30%;
         top: 700px;
     }
     
@@ -476,17 +476,18 @@ footer{
         font-size: 11px;
     }
     
-    .favorito2 img{
+    .curriculo2 .favorito2 img{
+        position: absolute;
         width: 45px;
         height: 45px;
-        left: 68%;
-        top: 1035px;
+        left: 185px;
+        top: 335px;
     }
 
     .curriculo3{
         width: 220px;
         height: 360px;
-        left: 25%;
+        left: 30%;
         top: 1180px;
     }
     
@@ -502,48 +503,217 @@ footer{
         left: 45px;
     }
     
-    
     .curriculo3 h2{
         left: 95px;
         top: 310px;
         font-size: 11px;
     }
     
-    .favorito3 img{
+    .curriculo3 .favorito3 img{
+        position: absolute;
         width: 45px;
         height: 45px;
-        left: 68%;
-        top: 1515px;
+        left: 185px;
+        top: 335px;
     }
-    
+
     footer{
-        position: relative;
-        height: 40px;
-        left: 0%;
-        right: 0%;
-        top: 100%;
-        bottom: 0%; 
         width: 100%;
-        text-align: center;
-    
     }
-    
+
     #passar-pag p {
-        font-family: 'Lora';
+        position: relative;
+        left: 20px;
+    }
+
+}
+
+@media screen and (min-width:767px) and (max-width:960px){
+    header {
+        width: 100%;
+    }
+    .menu_principal{
+        padding: 1.5rem 4rem; 
+    }
+ 
+    .logo {
+        position: absolute;
+        width: 97.91px;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+    }
+ 
+    .menu_principal h1 {
+        font-size: 23px;
+    }
+
+    .menu_principal > ul > li{
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        z-index: 2;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 1%;
+        left: 85%;
+    }
+
+    .mobile-menu-icon button:hover {
+        transform: scale(1.11)
+    }
+
+    .mobile-menu ul {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #141414;
+        box-shadow: 0px 3px 10px #3b3b3b;
+    }
+
+    .mobile-menu > ul > li {
+        z-index: 1;
+        display: block;
+        padding-top: 1.2rem;
+        font-family: "Gabriela", sans-serif;
         font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 40px;
-        letter-spacing: 0.5em;
-        color: #fff;
+        font-weight: 300;
         cursor: pointer;
     }
-}
 
-@media screen and (min-width:767px) and (max-width:1023px){
-    
-}
+    .open{
+        display: block;
+    }
 
-@media screen and (min-width: 1024px) {
+    #container {
+        width: auto;
+        height: 1200px;
+    }
+
+    #curriculos-titulo {
+        font-size: 36px;
+        align-self: center;
+        top: 100px;
+    }
     
+    .curriculo1{
+        width: 235px;
+        height: 375px;
+        left: 20%;
+        top: 220px;
+    }
+    
+    .curriculo1 img{
+        width: 190px;
+        height: 260px;
+        left: 22px;
+    }
+    
+    .curriculo1 h1{
+        top: 290px;
+        font-size: 16px;
+        left: 45px;
+    }
+    
+    .curriculo1 h2{
+        left: 100px;
+        top: 310px;
+        font-size: 13px;
+    }
+    
+    .curriculo1 .favorito1 img{
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        left: 195px;
+        top: 345px;
+    }
+
+    .curriculo2{
+        width: 235px;
+        height: 375px;
+        left: 60%;
+        top: 220px;
+    }
+    
+    .curriculo2 img{
+        width: 190px;
+        height: 260px;
+        left: 22px;
+    }
+    
+    .curriculo2 h1{
+        top: 290px;
+        font-size: 16px;
+        left: 45px;
+    }
+    
+    .curriculo2 h2{
+        left: 100px;
+        top: 310px;
+        font-size: 13px;
+    }
+    
+    .curriculo2 .favorito2 img{
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        left: 195px;
+        top: 345px;
+    }
+
+    .curriculo3{
+        width: 235px;
+        height: 375px;
+        left: 40%;
+        top: 700px;
+    }
+    
+    .curriculo3 img{
+        width: 190px;
+        height: 260px;
+        left: 22px;
+    }
+    
+    .curriculo3 h1{
+        top: 290px;
+        font-size: 16px;
+        left: 45px;
+    }
+    
+    
+    .curriculo3 h2{
+        left: 100px;
+        top: 310px;
+        font-size: 13px;
+    }
+    
+    .curriculo3 .favorito3 img{
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        left: 195px;
+        top: 345px;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    #passar-pag p {
+        position: relative;
+        left: 20px;
+    }
+
 }
