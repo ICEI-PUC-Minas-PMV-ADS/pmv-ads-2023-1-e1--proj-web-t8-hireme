@@ -66,12 +66,12 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 - Testar compatibilidade com os principais navegadores do mercado.
 <div align="center">
-<img src="img/teste-compatibilidade-edge.png" width="50%"><br><br>
-  <b>Microsoft Edge</b>
+<img src="img/teste-compatibilidade-edge.png" width="50%"><br>
+  <b>Microsoft Edge</b><br><br>
   </div>
  <div align="center">
 <img src="img/teste-compatibilidade-chrome.png" width="50%"><br><br>
-  <b>Google Chrome</b>
+  <b>Google Chrome</b><br><br>
   </div>
 
 
