@@ -27,7 +27,7 @@ a{
 }
 
 a:hover {
-    color: #00a878;
+    color: #FF7A00;
 }
 
 .menu-principal {
@@ -79,9 +79,8 @@ a:hover {
     width: 75%;
     align-self: center;
     height: 40%;
-    left: 150px;
+    left: 250px;
     top: 115px;
-    
     background: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
 }
@@ -89,7 +88,7 @@ a:hover {
 .bio h1{
     z-index: 1;
     position: absolute;
-    left: 230px;
+    left: 380px;
     top: 20px;
 
     font-family: 'Gabriela';
@@ -97,7 +96,6 @@ a:hover {
     font-weight: bold;
     font-size: 20px;
     line-height: 45px;
-
     color: #FF7A00;
 }
 
@@ -128,6 +126,29 @@ a:hover {
     border-radius: 70px;
 }
 
+
+ 
+.edit1{
+    z-index: 1;
+    position: absolute;
+    left: 280px;
+    top: 100px;
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+ 
+.edit1 .editP{
+
+    position: absolute;
+    left: 988px;
+    top: -50px;
+    line-height: 10px;
+}
+
 .bio .icon2 {
     position: absolute;
     width: 125px;
@@ -146,43 +167,71 @@ a:hover {
     align-items: flex-start;
     padding: 0px;
 
-    position: absolute;
+    position: relative;
     width: 25px;
     height: 25px;
     left: 935px;
     top: 20px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .edit1 img:hover {
     transform: scale(1.11)
 }
 
+
 .informaçao {
     position: absolute;
     width: 75%;
     align-self: center;
-    height: 48%;
-    left: 150px;
-    top: 480px;
-
+    height: 55%;
+    left: 250px;
+    top: 580px;
     background: rgba(255, 255, 255, 0.51);
     border-radius: 20px;
 }
 
-.informaçao h1{
+
+.bio h1{
+    z-index: 1;
     position: absolute;
-    left: 50px;
-    top: 0px;
+    left: 230px;
+    top: 20px;
 
-    font-family: 'Lora';
+    font-family: 'Gabriela';
     font-style: normal;
-    font-weight: 800;
+    font-weight: bold;
     font-size: 20px;
-    line-height: 38px;
-
+    line-height: 45px;
     color: #FF7A00;
 }
+
+
+
+.informaçao h1{
+    z-index: 1;
+    position: absolute;
+    left: 230px;
+    top: 20px;
+
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 45px;
+    color: #FF7A00;
+}
+
+
+ 
+.edit2{
+
+    position: absolute;
+    left: 1180px;
+    top: 50px;
+    line-height: 10px;
+}
+
 
 .edit2 img {
     display: flex;
@@ -195,7 +244,7 @@ a:hover {
     height: 25px;
     left: 935px;
     top: 20px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .edit2 img:hover {
@@ -216,17 +265,29 @@ a:hover {
     color: #141414;
 }
 
+.email{
+    z-index: 1;
+    position: absolute;
+    left: 280px;
+    top: 100px;
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 45px;
+    color: #FF7A00;
+}
+
 .email img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
-    position: relative;
+    position: absolute;
     width: 22px;
-    height: 22px;
-    left: 50px;
-    top: 63px;
+    height: px;
+    left: -55px;
+    top: 10px;
 }
 
 .informaçao h3 {
@@ -242,6 +303,7 @@ a:hover {
 
     color: #141414;
 }
+
 
 .emprego img{
     display: flex;
@@ -269,6 +331,21 @@ a:hover {
 
     color: #141414;
 }
+.email{
+    z-index: 1;
+    position: absolute;
+    left: 280px;
+    top: 100px;
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 45px;
+    color: #FF7A00;
+}
+
+
+
 
 .phone img {
     display: flex;

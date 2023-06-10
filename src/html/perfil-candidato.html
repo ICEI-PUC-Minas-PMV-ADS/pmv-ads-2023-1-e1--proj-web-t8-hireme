@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<!--
+
+    ESSA É A PERFIL DO CANDIDATO
+-->
 
 <head>
     <meta charset="UTF-8">
@@ -18,7 +22,7 @@
 <body>
     <header>
         <nav class="menu-principal">
-           <img src="imagens/handshakepequeno.png" alt="Logo HireMe">
+            <img src="imagens/handshakepequeno.png" alt="Logo HireMe">
             <h1> HireMe</h1>
             <ul>
                 <li><a href="FazerCV.html">Criar um currículo</a></li>
@@ -32,45 +36,71 @@
     <div id="container">
         <br> </br>
         <div class="bio">
-            <h1 id="nome"></h1>
-            <h2 id="biografia"></h2>
+            <h1>Nome</h1>
+            <h2 id="cargo"></h2>
+            <div class="icon2"> </div>
+            <form class="edit1" action="javascript:void(0)">
+                <div>
+                    <input type="text" id="nome" required>
 
-            <div class="icon1"></div>
-            <div class="icon2"></div>
-            <div class="edit1">
-                <img src="imagens/edit.png" alt="Icon de edição1">
-                
-            </div>
+                    <input class="editP" type="image" src="imagens/greenedit.png" /></input>
+                </div>
+            </form>
+        </div>
+        <div>
+
+            <br></br>
+            <br></br>
+            <br></br>
+
 
         </div>
-        <br></br>
-        <br></br>
+
         <div class="informaçao">
             <h1>Informações</h1>
-            <h2 id="email"></h2>
-            <h3 id="cargo"></h3>
-            <h4 id="telefone"></h4>
-            <h5 id="endereco"></h5>
+            <br> </br>
+            <h2 id="cargo"></h2>
+            <div class="icon2"> </div>
+            <form class="edit2" action="javascript:void(0)">
+                <div>
+                    <input class="editP" type="image" src="imagens/greenedit.png" /></input>
+                </div>
+            </form>
 
-            <div class="edit2">
-                <img src="imagens/edit.png" alt="Icon de edição2">
-            </div>
+            <!--
+                Dados de contato
+            -->
             <div class="email">
                 <img src="imagens/email.png" alt="Icon de email">
-            </div>
+            </div>    
+                <form class="email" action="javascript:void(0)">
+                    <input type="text" id="email" required>
+                </form>
+           
+     
             <div class="phone">
-                <img src="imagens/phone.png" alt="Icon de telefone">
+                    <img src="imagens/phone.png" alt="Icon de telefone">
             </div>
+                    <form class="phone" action="javascript:void(0)">
+                        <input type="text" id="phone" required>
+                    </form>
+
             <div class="residencia">
-                <img src="imagens/residencia.png" alt="Icon de residência">
+                    <img src="imagens/residencia.png" alt="Icon de residencia">
             </div>
+                    <form action="javascript:void(0)">
+                        <input type="text" id="residencia" required>
+                    </form>
+               
             <div class="emprego">
-                <img src="imagens/emprego.png" alt="Icon de emprego">
-            </div>
-        </div>
-    </div>
-    <script src="../js/modules/logout.js"></script>
-    <script src="../js/modules/consulta-usuario.js"></script>
+                    <img src="imagens/emprego.png" alt="Icon de emprego">
+                </div>
+                    <form action="javascript:void(0)">
+                        <input type="text" id="emprego" required>
+                    </form>
+
+        <script src="../js/modules/logout.js"></script>
+        <script src="../js/modules/consulta-usuario.js"></script>
 </body>
 
 
