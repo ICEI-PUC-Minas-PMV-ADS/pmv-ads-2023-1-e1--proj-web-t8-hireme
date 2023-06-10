@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
     <title>HireMe</title>
-    <link rel="stylesheet" href="../css/dadoscv.css"> 
+    <link rel="stylesheet" href="/src/css/dadoscv.css">
 </head>
 
 <body>
@@ -22,8 +22,23 @@
                 <li><a href="curriculos-candidato.html">Meus currículos</a></li>
                 <li><a href="mensagens-candidato.html"> Mensagens </a></li>
                 <li><a href="perfil-candidato.html"> Meu perfil </a></li>
+                <li><a id="logout">Sair</a></li>
             </ul>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="imagens/menu_white_36dp.svg"></button>
+            </div>
         </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="FazerCV.html">Criar um currículo</a></li>
+                <li><a href="curriculos-candidato.html">Meus currículos</a></li>
+                <li><a href="mensagens-candidato.html">Mensagens</a></li>
+                <li><a href="perfil-candidato.html">Meu Perfil</a></li>
+                <li><a id="logout">Sair</a></li>
+            </ul>
+        </div>  
     </header>
 
     <main>
@@ -123,5 +138,6 @@
     </main>
     <script src="../js/main.js"></script>
     <script src="../js/dadoscv.js"></script>
+    <script src="../js/modules/logout.js"></script>
 </body>
 </html>
