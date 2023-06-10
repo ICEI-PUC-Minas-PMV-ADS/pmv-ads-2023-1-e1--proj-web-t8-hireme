@@ -73,6 +73,17 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="img/teste-compatibilidade-chrome.png" width="50%"><br>
   <b>Google Chrome</b><br><br>
   </div>
-
+ - Testar responsividade em diferentes tamanhos de telas, usando como exemplo as páginas de Cadastro e de (escolher outra página com o menu responsivo).
+<div align="center">
+<img src="img/teste-compatibilidade-edge.png" width="50%"><br>
+  <b>Tela desktop</b><br><br>
+  </div>
+ <div align="center">
+<img src="img/teste-compatibilidade-chrome.png" width="50%"><br>
+  <b>Tela tablet</b><br><br>
+  </div>
+  <img src="img/teste-compatibilidade-chrome.png" width="50%"><br>
+  <b>Tela mobile</b><br><br>
+  </div>
 
 
