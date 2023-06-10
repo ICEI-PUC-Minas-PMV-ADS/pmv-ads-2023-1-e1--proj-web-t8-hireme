@@ -387,7 +387,7 @@ a:hover {
     position: absolute;
     width: 98px;
     height: 26px;
-    left: 945px;
+    left: 90%;
     top: 528px;
     
     font-family: 'Lora';
@@ -487,7 +487,7 @@ a:hover {
     position: relative;
     width: 20px;
     height: 18px;
-    left: 600px;
+    left: 46%;
     top: 495px;
     cursor: pointer;
 }
@@ -513,7 +513,7 @@ a:hover {
     position: relative;
     width: 17px;
     height: 19px;
-    left: 695px;
+    left: 53%;
     top: 512px;
     cursor: pointer;
 }
@@ -539,7 +539,7 @@ a:hover {
     position: relative;
     width: 19px;
     height: 19px;
-    left: 785px;
+    left: 60%;
     top: 532px;
     cursor: pointer;
 }
