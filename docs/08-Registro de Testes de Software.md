@@ -70,7 +70,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
   <b>Microsoft Edge</b><br><br>
   </div>
  <div align="center">
-<img src="img/teste-compatibilidade-chrome.png" width="50%"><br><br>
+<img src="img/teste-compatibilidade-chrome.png" width="50%"><br>
   <b>Google Chrome</b><br><br>
   </div>
 
