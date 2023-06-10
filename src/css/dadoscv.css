@@ -32,7 +32,6 @@ header {
 }
 
 a {
-
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -86,17 +85,68 @@ a:hover {
 }
 
 #dados-pequenos {
-    background-color: #0C5943;
-    color: #fff;
-    width: 250px;
+    background-color: #BBD8CF;
+    width: 350px;
     height: 100vh;
     float: left;
-    padding: 5px;
+    padding: 10px;
+    font-family: 'Lora';
 }
 
 #dados-principais {
     background-color: #fff;
-    width: 900px;
+    width: 1050px;
     height: 100vh;
-    padding-left: 255px;
+    padding-left: 360px;
+    font-family: 'Lora';
+}
+
+hr {
+    width: 99%;
+    height: 2px;
+    background-color: #BBD8CF;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: hidden;
+}
+
+#nome-cargo {
+    font-size: 25px;
+    color: #BBD8CF;
+    text-transform: capitalize;
+}
+
+span {
+    color: #292727;
+    font-size: 15px;
+    font-family: 'Lora';
+}
+
+p {
+    color: #292727;
+    font-size: 15px;
+    font-family: 'Lora'; 
+}
+
+h2 {
+    color: #000000;
+    font-size: 23px;
+    font-family: 'Lora'; 
+}
+
+button {
+    font-family: 'Lora';
+    font-size: 15px;
+    background-color: #BDBDBD;
+    border-radius: 10px;
+    border-color: #00a878;
+    height: 35px;
+    padding: 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 15px;
+}
+
+#avançar {
+    color: #000000;
 }

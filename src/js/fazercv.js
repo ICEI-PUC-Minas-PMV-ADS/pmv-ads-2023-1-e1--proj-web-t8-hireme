@@ -136,7 +136,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
 // DADOS FORMULÁRIO
 const formCV = document.getElementById('fazer-curriculo-container');
 const curso = document.getElementById('curso');

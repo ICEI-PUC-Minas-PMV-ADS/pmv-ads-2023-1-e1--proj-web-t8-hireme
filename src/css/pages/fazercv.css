@@ -32,7 +32,6 @@ header {
 }
 
 a {
-
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -131,7 +130,8 @@ button {
 
 .salvar {
     background-color: #FF7A00;
-}footer a:hover{
-    color: #FFFFFF;
 }
 
+footer a:hover{
+    color: #FFFFFF;
+}
