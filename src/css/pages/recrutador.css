@@ -79,9 +79,8 @@ a:hover {
     width: 75%;
     align-self: center;
     height: 40%;
-    left: 150px;
+    left: 250px;
     top: 115px;
-    
     background: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
 }
@@ -127,6 +126,29 @@ a:hover {
     border-radius: 70px;
 }
 
+
+ 
+.edit1{
+    z-index: 1;
+    position: absolute;
+    left: 230px;
+    top: 100px;
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+ 
+.edit1 .editP{
+
+    position: absolute;
+    left: 988px;
+    top: -50px;
+    line-height: 10px;
+}
+
 .bio .icon2 {
     position: absolute;
     width: 125px;
@@ -157,30 +179,59 @@ a:hover {
     transform: scale(1.11)
 }
 
+
 .informaçao {
     position: absolute;
     width: 75%;
     align-self: center;
     height: 55%;
-    left: 150px;
-    top: 480px;
-
+    left: 250px;
+    top: 580px;
     background: rgba(255, 255, 255, 0.51);
     border-radius: 20px;
 }
 
-.informaçao h1{
-    position: absolute;
-    left: 50px;
-    top: 0px;
 
-    font-family: 'Lora';
+.bio h1{
+    z-index: 1;
+    position: absolute;
+    left: 230px;
+    top: 20px;
+
+    font-family: 'Gabriela';
     font-style: normal;
-    font-weight: 800;
+    font-weight: bold;
     font-size: 20px;
-    line-height: 38px;
+    line-height: 45px;
     color: #00a878;
 }
+
+
+
+.informaçao h1{
+    z-index: 1;
+    position: absolute;
+    left: 230px;
+    top: 20px;
+
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 45px;
+    color: #00a878;
+}
+
+
+ 
+.edit2{
+
+    position: absolute;
+    left: 1180px;
+    top: 50px;
+    line-height: 10px;
+}
+
 
 .edit2 img {
     display: flex;
