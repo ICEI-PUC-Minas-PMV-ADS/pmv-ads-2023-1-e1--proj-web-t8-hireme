@@ -75,14 +75,14 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
   </div>
  - Testar responsividade em diferentes tamanhos de telas, usando como exemplo as páginas de Cadastro e de (escolher outra página com o menu responsivo).
 <div align="center">
-<img src="img/teste-compatibilidade-edge.png" width="50%"><br>
+<img src="img/teste-responsividade-cadastro-desktop.jpg" width="50%"><br>
   <b>Tela desktop</b><br><br>
   </div>
  <div align="center">
-<img src="img/teste-compatibilidade-chrome.png" width="50%"><br>
+<img src="img/teste-responsividade-cadastro-tablet.jpg" width="50%"><br>
   <b>Tela tablet</b><br><br>
   </div>
-  <img src="img/teste-compatibilidade-chrome.png" width="50%"><br>
+  <img src="img/teste-responsividade-cadastro-mobile.jpg" width="50%"><br>
   <b>Tela mobile</b><br><br>
   </div>
 
