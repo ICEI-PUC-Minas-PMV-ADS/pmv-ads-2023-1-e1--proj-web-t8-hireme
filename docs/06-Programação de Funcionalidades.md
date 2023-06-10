@@ -13,7 +13,9 @@ Nesta seção são apresentadas as telas desenvolvidas para algumas das funciona
 - index.html
 - style.css
 - handshakepequeno.png
-- carrossel1.jpg
+- carrossel1.png
+- carrossel2.jpg
+- carrossel3.jpg
 
 ### Instruções de acesso
 - Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;

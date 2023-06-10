@@ -7,7 +7,6 @@ header {
     height: 70px;
 }
 
-
 .logo {
     width: 97.91px;
     height: 90px;
@@ -52,10 +51,10 @@ a:hover {
 
 .header-nav > ul > li {
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
     margin-top: 30px;
     margin-bottom: 32px;
-    margin-right: 60px;
+    margin-right: 40px;
     font-family: "Gabriela", sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -73,15 +72,6 @@ a:hover {
 .header-nav > ul > li:hover {
     color: #00A878;
 }
-
-#line {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 70px;
-
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    }
 
 .cadastro-container {
     color: white;
@@ -163,4 +153,52 @@ button {
 
 button:hover {
     transform: scale(1.05)
+}
+
+@media screen and (max-width:767px) {
+    header {
+        width: 100%;
+    }
+
+    .logo h1{
+        font-size: 21px;
+    }
+
+    .header-nav > ul > li {
+        margin-top: 25px;
+        margin-right: 10px;
+    }
+
+    #cadastro-titulo {
+        font-size: 25px;
+    }
+
+    .form-label{
+        position: relative;
+        left: 10%;
+        width: 80%;
+    }
+
+    .form-label-nome-sobrenome{
+        position: relative;
+        left: 5%;
+        width: 48.5%;
+    }
+
+    .form-label-termos{
+        position: relative;
+        left: 10%;
+    }
+
+    button{
+        position: relative;
+        left: 12%;
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:1023px){
+    .logo h1{
+        font-size: 23px;
+    }
 }

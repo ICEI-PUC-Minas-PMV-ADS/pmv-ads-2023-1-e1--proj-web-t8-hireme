@@ -6,7 +6,7 @@
 
 # Material de Apoio sobre a Apresentação de um Produto
 
-## Título do Projeto
+## HireMe
 
 Nome e marca do projeto
 

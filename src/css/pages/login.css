@@ -10,8 +10,6 @@ header {
     height: 70px;
 }
 
-
-
 .logo img {
     position: absolute;
     width: 42px;
@@ -162,4 +160,21 @@ a:hover {
 
 button:hover {
     transform: scale(1.05)
+}
+
+@media screen and (max-width:767px) {
+    .header-nav > ul > li{
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    .logo h1{
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:1023px){
+    .logo h1{
+        font-size: 23px;
+    }
 }

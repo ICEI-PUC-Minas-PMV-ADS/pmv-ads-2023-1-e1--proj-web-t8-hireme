@@ -54,7 +54,39 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 ## CT07 - Botão de dicas
 
+- Testar o botão de dicas na página de Modelos de currículos.
+<div align="center">
+<img src="img/teste-dicas.png" width="50%"><br><br>
+  </div>
+ <div align="center">
+<img src="img/teste-dicas2.png" width="50%"><br><br>
+  </div>
+
 ## CT08 - Compatibilidade e Responsividade
 
+- Testar compatibilidade com os principais navegadores do mercado.
+<div align="center">
+<img src="img/teste-compatibilidade-edge.png" width="50%"><br>
+  <b>Microsoft Edge</b><br><br>
+  </div>
+ <div align="center">
+<img src="img/teste-compatibilidade-chrome.png" width="50%"><br>
+  <b>Google Chrome</b><br><br>
+  </div>
+  
+- Testar responsividade em diferentes tamanhos de telas.
+   - Ex: Página de Cadastro.
+<div align="center">
+<img src="img/teste-responsividade-cadastro-desktop.jpg" width="50%"><br>
+  <b>Tela desktop</b><br><br>
+  </div>
+ <div align="center">
+<img src="img/teste-responsividade-cadastro-tablet.jpg" width="50%"><br>
+  <b>Tela tablet</b><br><br>
+  </div>
+   <div align="center">
+  <img src="img/teste-responsividade-cadastro-mobile.jpg" width="50%"><br>
+  <b>Tela mobile</b><br><br>
+  </div>
 
 
