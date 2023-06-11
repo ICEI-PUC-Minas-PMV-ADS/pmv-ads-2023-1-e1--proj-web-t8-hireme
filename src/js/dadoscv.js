@@ -27,12 +27,10 @@ window.addEventListener('load', function(){
     document.getElementById("cursando").innerHTML = curriculo.cursando;
     document.getElementById("cursos").innerHTML = curriculo.cursos;
     document.getElementById("resumo").innerHTML = curriculo.resumo;
-    
-    /* 
     document.getElementById("nome").innerHTML = curriculo.nome;
     document.getElementById("cargo").innerHTML = curriculo.cargo;
-    document.getElementById("telefone").innerHTML = curriculo.telefone;
-    document.getElementById("email").innerHTML = curriculo.email; */
+    document.getElementById("phone").innerHTML = curriculo.phone;
+    document.getElementById("email").innerHTML = curriculo.email;
 })
 });
 
