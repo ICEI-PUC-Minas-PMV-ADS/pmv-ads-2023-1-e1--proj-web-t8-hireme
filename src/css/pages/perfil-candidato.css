@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@media only screen and (max-width: 768px) { }
+@media (min-width: 1200px) {}
 
+/* Usando mobile firts responsive*/
 /* Gerais */
 html {
     font-family: 'Gabriela', sans-serif;
