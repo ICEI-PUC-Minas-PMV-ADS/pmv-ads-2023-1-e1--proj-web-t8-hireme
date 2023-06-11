@@ -75,6 +75,13 @@ a:hover {
     justify-content: space-between;
 } 
 
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
 
 #line{
     position: absolute;
@@ -85,11 +92,17 @@ a:hover {
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+#container {
+    width: auto;
+    height: 900px;
+    margin-bottom: 40px;
+}
+
 main h1{
     position: absolute;
     width: 600px;
     height: 43px;
-    left: 340px;
+    left: 25%;
     top: 120px;
 
     font-family: 'Gabriela';
@@ -106,7 +119,7 @@ main h1{
     width: 120px;
     height: 120px;
     top: 250px;
-    left: 300px;
+    left: 22%;
     cursor: pointer;
 }
 
@@ -114,7 +127,7 @@ main h1{
     position: absolute;
     width: 321px;
     height: 66px;
-    left: 190px;
+    left: 14%;
     top: 380px;
 
     font-family: 'Lora';
@@ -132,7 +145,7 @@ main h1{
     position: absolute;
     width: 248px;
     height: 66px;
-    left: 230px;
+    left: 16%;
     top: 480px;
 
     font-family: 'Lora';
@@ -156,7 +169,7 @@ main h1{
     width: 120px;
     height: 120px;
     top: 250px;
-    left: 600px;
+    left: 46%;
     cursor: pointer;
 }
 
@@ -164,7 +177,7 @@ main h1{
     position: absolute;
     width: 321px;
     height: 66px;
-    left: 500px;
+    left: 38%;
     top: 380px;
 
     font-family: 'Lora';
@@ -182,7 +195,7 @@ main h1{
     position: absolute;
     width: 248px;
     height: 66px;
-    left: 530px;
+    left: 41%;
     top: 480px;
 
     font-family: 'Lora';
@@ -204,7 +217,7 @@ main h1{
     width: 120px;
     height: 120px;
     top: 250px;
-    left: 900px;
+    left: 68%;
     cursor: pointer;
 }
 
@@ -212,7 +225,7 @@ main h1{
     position: absolute;
     width: 321px;
     height: 66px;
-    left: 800px;
+    left: 61%;
     top: 380px;
 
     font-family: 'Lora';
@@ -229,7 +242,7 @@ main h1{
     position: absolute;
     width: 248px;
     height: 66px;
-    left: 835px;
+    left: 64%;
     top: 480px;
 
     font-family: 'Lora';
@@ -245,4 +258,316 @@ main h1{
 
 .download h1:hover{
     color:  #FF7A00;
+}
+
+@media screen and (max-width:767px) {
+    header {
+        width: 100%;
+    }
+
+    .menu_principal{
+       padding: 1.5rem 4rem; 
+    }
+
+    .logo {
+        position: absolute;
+        width: 97.91px;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+    }
+    
+    .menu_principal h1 {
+        font-size: 21px;
+    }
+
+    .menu_principal > ul > li{
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 0.8%;
+        left: 85%;
+        z-index: 2;
+    }
+
+    .mobile-menu-icon button:hover {
+        transform: scale(1.11)
+    }
+
+    .mobile-menu ul {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #000;
+        box-shadow: 0px 3px 10px #141414;
+    }
+
+    .mobile-menu > ul > li {
+        z-index: 1;
+        display: block;
+        padding-top: 1.2rem;
+        font-family: "Gabriela", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .open{
+        display: block;
+    }
+
+    main {
+        width: auto;
+    }
+
+    #container {
+        width: auto;
+        height: 1200px;
+        display: flex;
+    }
+
+    main h1{
+        position: absolute;
+        left: 3%;
+        font-size: 33px;
+    }
+
+    .compartilhar img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 45%;
+    }
+    
+    .compartilhar h1{
+        position: absolute;
+        width: 300px;
+        left: 27%;
+        top: 360px;
+        font-size: 28px;
+    }
+    
+    .compartilhar h2 {
+        position: absolute;
+        width: 220px;
+        left: 33%;
+        top: 460px;
+        font-size: 12px;
+    }
+    
+    .copiarlink img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 550px;
+        left: 42%;
+    }
+    
+    .copiarlink h1{
+        position: absolute;
+        width: 300px;
+        left: 25%;
+        top: 650px;
+        font-size: 28px;
+    }
+    
+    .copiarlink h2{
+        position: absolute;
+        width: 220px;
+        left: 32%;
+        top: 760px;
+        font-size: 12px;
+    }
+    
+    .download img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 40%;
+        top: 850px;
+    }
+    
+    .download h1{
+        position: absolute;
+        width: 300px;
+        left: 24%;
+        top: 950px;
+        font-size: 28px;
+    }
+    
+    .download h2{
+        position: absolute;
+        width: 220px;
+        left: 31%;
+        top: 1060px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:960px) {
+    header {
+        width: 100%;
+    }
+    .menu_principal{
+        padding: 1.5rem 4rem; 
+    }
+ 
+    .logo {
+        position: absolute;
+        width: 97.91px;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+    }
+
+    .menu_principal h1 {
+        font-size: 23px;
+    }
+
+    .menu_principal > ul > li{
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        z-index: 2;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 1%;
+        left: 85%;
+    }
+
+    .mobile-menu-icon button:hover {
+        transform: scale(1.11)
+    }
+
+    .mobile-menu ul {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #000;
+        box-shadow: 0px 3px 10px #141414;
+    }
+
+    .mobile-menu > ul > li {
+        z-index: 1;
+        display: block;
+        padding-top: 1.2rem;
+        font-family: "Gabriela", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .open{
+        display: block;
+    }
+
+    main {
+        width: auto;
+    }
+
+    #container {
+        width: auto;
+        height: 900px;
+        display: flex;
+    }
+
+    main h1{
+        position: absolute;
+        left: 20%;
+        font-size: 33px;
+    }
+    
+    .compartilhar img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 25%;
+    }
+    
+    .compartilhar h1{
+        position: absolute;
+        width: 300px;
+        left: 14%;
+        top: 380px;
+        font-size: 28px;
+    }
+    
+    .compartilhar h2 {
+        position: absolute;
+        width: 220px;
+        left: 19%;
+        top: 480px;
+        font-size: 12px;
+    }
+    
+    .copiarlink img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 70%;
+    }
+    
+    .copiarlink h1{
+        position: absolute;
+        width: 300px;
+        left: 60%;
+        top: 380px;
+        font-size: 28px;
+    }
+    
+    .copiarlink h2{
+        position: absolute;
+        width: 220px;
+        left: 65%;
+        top: 480px;
+        font-size: 12px;
+    }
+    
+    .download img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 45%;
+        top: 600px;
+    }
+    
+    .download h1{
+        position: absolute;
+        width: 300px;
+        left: 35%;
+        top: 720px;
+        font-size: 28px;
+    }
+    
+    .download h2{
+        position: absolute;
+        width: 220px;
+        left: 39%;
+        top: 830px;
+        font-size: 12px;
+    }
 }
