@@ -131,7 +131,7 @@ a:hover {
 .edit1{
     z-index: 1;
     position: absolute;
-    left: 230px;
+    left: 280px;
     top: 100px;
     font-family: 'Gabriela';
     font-style: normal;
@@ -270,13 +270,13 @@ a:hover {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: relative;
     width: 22px;
     height: 22px;
-    left: 50px;
-    top: 63px;
+    left: 225px;
+    top: 130px;
 }
+
 
 .informaçao h3 {
     position: absolute;
@@ -319,23 +319,104 @@ a:hover {
     color: #141414;
 }
 
-.phone img {
+.email2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: relative;
-    width: 20px;
-    height: 20px;
-    left: 500px;
-    top: 43px;
+    width: 22px;
+    height: 22px;
+    left: 285px;
+    top: 100px;
 }
+
+
+.emprego img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 225px;
+    top: 130px;
+}
+
+
+.informaçao h4{
+    position: absolute;
+    left: 540px;
+    top: 65px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+
+    color: #141414;
+}
+
+
+
+
+.phone img {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 225px;
+    top: 130px;
+}
+.phone2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 285px;
+    top: 100px;
+}
+.residencia2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 285px;
+    top: 100px;
+}
+
+.emprego2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 285px;
+    top: 100px;
+}
+
 
 .informaçao h5{
     position: absolute;
     left: 540px;
-    top: 155px;
+    top: 167px;
 
     font-family: 'Lora';
     font-style: normal;
@@ -346,69 +427,14 @@ a:hover {
     color: #141414;
 }
 
-.cnpj img{
+.residencia img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: relative;
     width: 22px;
     height: 22px;
-    left: 500px;
-    top: 50px;
-}
-
-.informaçao h6{
-    position: absolute;
-    left: 90px;
-    top: 230px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 32px;
-
-    color: #141414;
-}
-
-.linkedin img{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: relative;
-    width: 22px;
-    height: 22px;
-    left: 50px;
-    top: 158px;
-}
-
-.informaçao h7{
-    position: absolute;
-    left: 540px;
-    top: 268px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 32px;
-
-    color: #141414;
-}
-
-.site img{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: relative;
-    width: 22px;
-    height: 22px;
-    left: 500px;
-    top: 206px;
+    left: 225px;
+    top: 130px;
 }
