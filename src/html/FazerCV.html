@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
-    <title>HireMe</title>
+    <title>Criar currículo</title>
     <link rel="stylesheet" href="../css/pages/fazercv.css">
 </head>
 
@@ -19,10 +19,10 @@
             </div> 
              
             <ul>
-                <li><a href="FazerCV.html">Criar currículo</a></li>
+                <li><a href="FazerCV.html">Criar um currículo</a></li>
                 <li><a href="curriculos-candidato.html">Meus currículos</a></li>
                 <li><a href="mensagens-candidato.html"> Mensagens </a></li>
-                <li><a href="perfil-candidato.html"> Meu perfil </a></li>
+                <li><a href="perfil-candidato.html"> Meu Perfil </a></li>
                 <li><a id="logout">Sair</a></li>
             </ul>
 
@@ -43,7 +43,13 @@
     </header>
     
     <main>
+        <div class="topo-da-pagina">
         <h1>Olá! Vamos começar a criar o seu currículo.<br>Primeiro, preencha os itens listados abaixo.</h1>
+        <div class="botao-dica" >
+            <img src="imagens/dica.png" alt="dica" onmouseover="showConteudo()" onmouseout="hideConteudo()">
+            <p class="conteudo">Preencha todos os campos com as informações pedidas e, no final, clique em "Salvar e ver currículo" para usar o modelo de currículo padrão do site. Caso deseje um modelo diferente, clique em Ver outros modelos de currículos.</p>
+        </div>
+        </div>
         <br>
         <form class ="fazerCV" id="fazer-curriculo-container" action="javascript:void(0)">
             
@@ -136,7 +142,9 @@
             <div>
                 <label for="salvar"></label>
                 <button type="submit" id="salvar" formaction="/src/html/dadoscv.html">Salvar e ver currículo</button>
-            </div>        
+                <button type="button"><a href="modelos-curriculos.html">Ver outros modelos de currículos</a></button>
+            </div>
+              
           
         </form>
     </main>
