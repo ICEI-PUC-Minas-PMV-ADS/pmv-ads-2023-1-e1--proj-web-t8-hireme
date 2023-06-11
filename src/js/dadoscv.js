@@ -2,8 +2,12 @@ let usuarioString = sessionStorage.getItem('usuario');
 let usuariojson = JSON.parse(usuarioString);
 
 window.addEventListener('load', function(){
+    document.getElementById("cargo").innerHTML = usuariojson.cargo;
+    document.getElementById("telefone").innerHTML = usuariojson.telefone;
+    document.getElementById("email").innerHTML = usuariojson.email;
+    document.getElementById("nome").innerHTML = usuariojson.nome;
+
     usuariojson.curriculos.forEach(curriculo => {
-        console.log(curriculo)
     document.getElementById("idioma" ).innerHTML  = curriculo.idioma ;
     document.getElementById("proficiencia").innerHTML = curriculo.proficiencia;
     document.getElementById("curso").innerHTML = curriculo.curso;
@@ -27,11 +31,7 @@ window.addEventListener('load', function(){
     document.getElementById("cursando").innerHTML = curriculo.cursando;
     document.getElementById("cursos").innerHTML = curriculo.cursos;
     document.getElementById("resumo").innerHTML = curriculo.resumo;
-    document.getElementById("nome").innerHTML = curriculo.nome;
-    document.getElementById("cargo").innerHTML = curriculo.cargo;
-    document.getElementById("phone").innerHTML = curriculo.phone;
-    document.getElementById("email").innerHTML = curriculo.email;
-})
+    })
 });
 
 // RESPONSIVIDADE
