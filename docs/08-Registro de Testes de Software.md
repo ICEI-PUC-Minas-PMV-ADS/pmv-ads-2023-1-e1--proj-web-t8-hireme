@@ -54,6 +54,14 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 ## CT07 - Botão de dicas
 
+- Testar o botão de dicas na página de Criar um currículo.
+<div align="center">
+<img src="img/teste-dica-curriculo.png" width="50%"><br><br>
+  </div>
+ <div align="center">
+<img src="img/teste-dica-curriculo2.png" width="50%"><br><br>
+  </div>
+
 - Testar o botão de dicas na página de Modelos de currículos.
 <div align="center">
 <img src="img/teste-dicas.png" width="50%"><br><br>
