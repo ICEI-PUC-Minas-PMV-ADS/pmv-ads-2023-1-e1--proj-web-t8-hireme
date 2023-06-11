@@ -26,8 +26,9 @@ window.addEventListener('load', function(){
     document.getElementById("atual").innerHTML = curriculo.atual;
     document.getElementById("cursando").innerHTML = curriculo.cursando;
     document.getElementById("cursos").innerHTML = curriculo.cursos;
+    document.getElementById("resumo").innerHTML = curriculo.resumo;
     
-    /* document.getElementById("resumo").innerHTML = curriculo.resumo;
+    /* 
     document.getElementById("nome").innerHTML = curriculo.nome;
     document.getElementById("cargo").innerHTML = curriculo.cargo;
     document.getElementById("telefone").innerHTML = curriculo.telefone;

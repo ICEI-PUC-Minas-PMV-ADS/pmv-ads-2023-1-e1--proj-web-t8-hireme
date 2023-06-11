@@ -160,6 +160,7 @@ const competencia5 = document.getElementById('competência5');
 const cursos = document.getElementById('cursos');
 const idioma = document.getElementById('idioma');
 const proficiencia = document.getElementById('proficiência');
+const resumo = document.getElementById('resumo');
 
 const btsalvar = document.getElementById('salvar');
 
@@ -170,6 +171,7 @@ formCV.addEventListener('submit', function () {
     console.log(usuariojson);
 
     const curriculoJson = {
+        "resumo": resumo.value,
         "curso": curso.value,
         "instituicao": instituicao.value,
         "grau": grau.value,
@@ -189,7 +191,7 @@ formCV.addEventListener('submit', function () {
         "competencia3": competencia3.value,
         "competencia4": competencia4.value,
         "competencia5": competencia5.value,
-        "curso": curso.value,
+        "cursos": cursos.value,
         "idioma": idioma.value,
         "proficiencia": proficiencia.value
     }
