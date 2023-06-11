@@ -96,5 +96,19 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
   <img src="img/teste-responsividade-cadastro-mobile.jpg" width="50%"><br>
   <b>Tela mobile</b><br><br>
   </div>
+  
+  - Ex: Página para criar um currículo.
+<div align="center">
+<img src="img/teste-responsividade-curriculo-desktop.jpg" width="50%"><br>
+  <b>Tela desktop</b><br><br>
+  </div>
+ <div align="center">
+<img src="img/teste-responsividade-curriculo-tablet.jpg" width="50%"><br>
+  <b>Tela tablet</b><br><br>
+  </div>
+   <div align="center">
+  <img src="img/teste-responsividade-curriculo-mobile.jpg" width="50%"><br>
+  <b>Tela mobile</b><br><br>
+  </div>
 
 
