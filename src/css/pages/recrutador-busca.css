@@ -77,6 +77,15 @@ a:hover {
     justify-content: space-between;
 } 
 
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
 #container {
     width: auto;
     height: 900px;
@@ -310,5 +319,322 @@ textarea {
     color: #797979;
     cursor: pointer;
 }
-   
+
+@media screen and (max-width:767px) {
+    header {
+        width: 100%;
+    }
+
+    .menu_principal{
+       padding: 1.5rem 4rem; 
+    }
+
+    .logo {
+        position: absolute;
+        width: 97.91px;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+    }
+    
+    .menu_principal img {
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom: 35px;
+    }
+    
+    .menu_principal h1 {
+        font-size: 21px;
+    }
+
+    .menu_principal > ul > li{
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 0.8%;
+        left: 85%;
+        z-index: 2;
+    }
+
+    .mobile-menu-icon button:hover {
+        transform: scale(1.11)
+    }
+
+    .mobile-menu ul {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #141414;
+        box-shadow: 0px 3px 10px #3b3b3b;
+    }
+
+    .mobile-menu > ul > li {
+        z-index: 1;
+        display: block;
+        padding-top: 1.2rem;
+        font-family: "Gabriela", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .open{
+        display: block;
+    }
+
+    #container{
+        width: auto;
+        height: 1200px;
+        display: flex;
+    }
+
+    .filtros {
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        width: 80%;
+        height: 50%;
+    }
+    
+    .filtros h1{
+        position: absolute;
+        font-size: 14px;
+        top: 12px;
+        left: 20px;
+    }
+    
+    input[type=text],
+    textarea {
+        height: 30px;
+        position: absolute;
+        font-size: 12px;
+        top: 14%;
+    }
+    
+    .itens p {
+        display: inline-block;
+        font-size: 13px;
+        margin-top: 5px;
+        padding: 8px;
+    }
+    
+    .resultados h1 {
+        font-size: 13px;
+        position: absolute;
+        top: 440px;
+        width: 300px;
+        left: 10%;
+    }
+    
+    
+    .perfil {
+        height: 350px;
+        width: 80%;
+        left: 10%;
+        position: absolute;
+        top: 520px;
+    }
+    
+    .dados {
+        position: absolute;
+        left: 15%;
+        top: 5%;
+        font-size: 15px;
+    }
+    
+    .dados p {
+        font-size: 11px;
+    }
+    
+    .botaoMensagem{
+        position: absolute;
+        left: 40%;
+        width: 100px;
+        height: 40px;
+        font-size: 11px;
+    }
+      
+    .botaoPerfil {
+        position: absolute;
+        left: 70%;
+        width: 100px;
+        height: 40px;
+        font-size: 11px;
+    }
+                
+    .corpo p {
+        font-size: 12px;
+    }
+     
+    .corpo> ul > li { 
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+    header {
+        width: 100%;
+    }
+
+    .menu_principal{
+       padding: 1.5rem 4rem; 
+    }
+
+    .logo {
+        position: absolute;
+        width: 97.91px;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+    }
+    
+    .menu_principal img {
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom: 35px;
+    }
+    
+    .menu_principal h1 {
+        font-size: 23px;
+    }
+
+    .menu_principal > ul > li{
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 0.8%;
+        left: 85%;
+        z-index: 2;
+    }
+
+    .mobile-menu-icon button:hover {
+        transform: scale(1.11)
+    }
+
+    .mobile-menu ul {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #141414;
+        box-shadow: 0px 3px 10px #3b3b3b;
+    }
+
+    .mobile-menu > ul > li {
+        z-index: 1;
+        display: block;
+        padding-top: 1.2rem;
+        font-family: "Gabriela", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .open{
+        display: block;
+    }
+
+    #container{
+        width: auto;
+        height: 900px;
+        display: flex;
+    }
+
+    .filtros {
+        position: absolute;
+        left: 4%;
+        top: 25%;
+        width: 18%;
+        height: 60%;
+    }
+    
+    .filtros h1{
+        position: absolute;
+        font-size: 15px;
+        top: 15px;
+        left: 20px;
+    }
+    
+    input[type=text],
+    textarea {
+        height: 30px;
+        position: absolute;
+        font-size: 12px;
+    }
+    
+    .itens p {
+        font-size: 12px;
+    }
+    
+    
+    .resultados h1 {
+        font-size: 14px;
+    }
+    
+    
+    .perfil {
+        height: 250px;
+        width: 60%;
+    }
+    
+    .dados {
+        position: absolute;
+        left: 15%;
+        top: 5%;
+        font-size: 18px;
+    }
+    
+    .dados p {
+        font-size: 13px;
+    }
+    
+    .botaoMensagem{
+        position: absolute;
+        left: 52%;
+        width: 130px;
+        font-size: 13px;
+    }
+      
+    .botaoPerfil {
+        position: absolute;
+        left: 75%;
+        top: 5%;
+        width: 130px;
+        font-size: 13px;
+
+    }
+                
+    .corpo p {
+        font-size: 14px;
+    }
+     
+    .corpo> ul > li { 
+        font-size: 14px;
+    }
+}
 
