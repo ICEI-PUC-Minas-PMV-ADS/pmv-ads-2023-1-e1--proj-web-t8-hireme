@@ -265,29 +265,17 @@ a:hover {
     color: #141414;
 }
 
-.email{
-    z-index: 1;
-    position: absolute;
-    left: 280px;
-    top: 100px;
-    font-family: 'Gabriela';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 45px;
-    color: #FF7A00;
-}
 
 .email img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    position: absolute;
+    position: relative;
     width: 22px;
-    height: px;
-    left: -55px;
-    top: 10px;
+    height: 22px;
+    left: 225px;
+    top: 130px;
 }
 
 .informaçao h3 {
@@ -304,19 +292,31 @@ a:hover {
     color: #141414;
 }
 
+.email2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 285px;
+    top: 100px;
+}
+
 
 .emprego img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: relative;
     width: 22px;
     height: 22px;
-    left: 50px;
-    top: 110px;
+    left: 225px;
+    top: 130px;
 }
+
 
 .informaçao h4{
     position: absolute;
@@ -331,34 +331,60 @@ a:hover {
 
     color: #141414;
 }
-.email{
-    z-index: 1;
-    position: absolute;
-    left: 280px;
-    top: 100px;
-    font-family: 'Gabriela';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 45px;
-    color: #FF7A00;
-}
 
 
 
 
 .phone img {
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: relative;
-    width: 20px;
-    height: 20px;
-    left: 500px;
-    top: 43px;
+    width: 22px;
+    height: 22px;
+    left: 225px;
+    top: 130px;
 }
+.phone2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 285px;
+    top: 100px;
+}
+.residencia2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 285px;
+    top: 100px;
+}
+
+.emprego2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 285px;
+    top: 100px;
+}
+
 
 .informaçao h5{
     position: absolute;
@@ -379,10 +405,9 @@ a:hover {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: relative;
-    width: 18px;
-    height: 23px;
-    left: 500px;
-    top: 128px;
+    width: 22px;
+    height: 22px;
+    left: 225px;
+    top: 130px;
 }
