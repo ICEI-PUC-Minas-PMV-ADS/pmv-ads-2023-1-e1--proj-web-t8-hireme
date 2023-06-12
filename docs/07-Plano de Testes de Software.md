@@ -44,13 +44,13 @@
 </br>
 
 
-| Caso de teste        | CT04 - Testar filtros de busca de pessoas de acordo com as experiências                                                                                               |
+| Caso de teste        | CT04 - Testar busca de profissionais de acordo com as experiências                                                                                               |
 | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | 
 | Requisitos Associados        | RF-08  O site deve permitir que os recrutadores façam filtros de busca de pessoas de acordo com as experiências. |        
 | Objetivo do Teste        | Verificar se o site oferece a opção de filtrar currículos de acordo com o que o recrutador está procurando.                                                                   |
 | Passos        |1) Acessar a página Buscar profissionais;                                                                                                                     |
 |               |2) Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para selecionar;                                                                                                              |
-| Critérios de Êxito        | Após escolher todos os filtros de busca que achar necessário, o site deve atualizar a página de pesquisa para mostrar apenas currículos com aquelas características selecionadas.                         |
+| Critérios de Êxito        | Após escolher, o site deve atualizar a página de pesquisa para mostrar apenas currículos com aquelas características selecionadas.                         |
 </br>
 </br>
 
