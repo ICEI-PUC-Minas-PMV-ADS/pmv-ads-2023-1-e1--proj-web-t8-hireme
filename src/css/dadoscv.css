@@ -89,6 +89,8 @@ a:hover {
     display: none;
 }
 
+/* currículo */ 
+
 .container {
    margin-top: 20px;
    margin-left: 20px;
@@ -100,7 +102,8 @@ a:hover {
     width: 350px;
     height: 100vh;
     float: left;
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
     font-family: 'Lora';
 }
 
@@ -160,167 +163,4 @@ button {
 
 #avançar {
     color: #000000;
-}
-
-@media screen and (max-width:767px) {
-    header {
-        width: 100%;
-    }
-
-    .menu-principal{
-       padding: 1.5rem 4rem; 
-    }
-
-    .logo {
-        position: absolute;
-        width: 97.91px;
-        height: 90px;
-        left: 0px;
-        top: 0px;
-        display: flex;
-    }
-    
-    .menu-principal img {
-        margin-top: 13px;
-        margin-left: 30px;
-        margin-bottom: 35px;
-    }
-
-    .menu-principal h1 {
-        font-size: 21px;
-    }
-
-    .menu-principal > ul > li{
-        display: none;
-    }
-
-    .mobile-menu-icon {
-        display: block;
-    }
-
-    .mobile-menu-icon button{
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        position: absolute;
-        top: 0.8%;
-        left: 85%;
-        z-index: 2;
-    }
-
-    .mobile-menu-icon button:hover {
-        transform: scale(1.11)
-    }
-
-    .mobile-menu ul {
-        position: relative;
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-        background-color: #141414;
-        box-shadow: 0px 3px 10px #3b3b3b;
-    }
-
-    .mobile-menu > ul > li {
-        z-index: 1;
-        display: block;
-        padding-top: 1.2rem;
-        font-family: "Gabriela", sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        cursor: pointer;
-    }
-
-    .open{
-        display: block;
-    }
-
-    main {
-        width: auto;
-    }
-    
-}
-
-
-@media screen and (min-width:767px) and (max-width:1023px) {
-    header {
-        width: 100%;
-    }
-
-    .menu-principal{
-       padding: 1.5rem 4rem; 
-    }
-
-    .logo {
-        position: absolute;
-        width: 97.91px;
-        height: 90px;
-        left: 0px;
-        top: 0px;
-        display: flex;
-    }
-    
-    .menu-principal img {
-        margin-top: 13px;
-        margin-left: 30px;
-        margin-bottom: 35px;
-    }
-
-    .menu-principal h1 {
-        font-size: 23px;
-    }
-
-    .menu-principal > ul > li{
-        display: none;
-    }
-
-    .mobile-menu-icon {
-        display: block;
-    }
-
-    .mobile-menu-icon button{
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        position: absolute;
-        top: 0.8%;
-        left: 85%;
-        z-index: 2;
-    }
-
-    .mobile-menu-icon button:hover {
-        transform: scale(1.11)
-    }
-
-    .mobile-menu ul {
-        position: relative;
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-        background-color: #141414;
-        box-shadow: 0px 3px 10px #3b3b3b;
-    }
-
-    .mobile-menu > ul > li {
-        z-index: 1;
-        display: block;
-        padding-top: 1.2rem;
-        font-family: "Gabriela", sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        cursor: pointer;
-    }
-
-    .open{
-        display: block;
-    }
-
-    main {
-        width: auto;
-    }
-    
 }

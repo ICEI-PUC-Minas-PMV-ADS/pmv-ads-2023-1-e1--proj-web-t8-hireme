@@ -55,7 +55,14 @@
             
             <div id="resumo-container">
                 <h2>Resumo Profissional</h2><br>
-                <textarea id="resumo" name="resumo" rows="10" cols="80"></textarea>
+                <textarea id="resumo" name="resumo" rows="10" cols="80" placeholder="Síntese sobre suas experiências, realizações, qualificações, habilidades e objetivos."></textarea>
+            </div>
+
+            <br><br>
+
+            <div id="funcao-container">
+                <h2>Cargo ou Área de atuação</h2><br>
+                <input class="texto" type="text" id="funcao" name="funcao" required>
             </div>
 
             <br><br>
@@ -90,7 +97,7 @@
                 Data de Saída: <input type="date" id="saída" name="Saída">
                 <input type="checkbox" id="atual" name="atual" value="Atual">Atual<br>
                 Descrição das atividades:<br><br>
-                <textarea id="descrição" name="texto" rows="10" cols="80"></textarea>
+                <textarea id="descrição" name="texto" rows="10" cols="80" placeholder="Cite as atividades mais relevantes que eram executadas."></textarea>
             </div>
             <br>
             <button type="button" id="adicionar-experiencia">+ Adicionar experiência profissional</button>
@@ -159,5 +166,4 @@
     <script src="../js/main.js"></script>
     <script src="../js/modules/logout.js"></script>
 </body>
-
 </html>

@@ -31,6 +31,7 @@ window.addEventListener('load', function(){
         document.getElementById("cursando").innerHTML = curriculo.cursando;
         document.getElementById("cursos").innerHTML = curriculo.cursos;
         document.getElementById("resumo").innerHTML = curriculo.resumo;
+        document.getElementById("funcao").innerHTML = curriculo.funcao;
     })
 });
 

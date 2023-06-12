@@ -37,7 +37,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
    <div align="center">
 <img src="img/teste-cadastro-recrutador.jpg" width="50%"><br><br>
   </div>
-    <div align="center">
+  <div align="center">
 <img src="img/teste-login-recrutador.jpg" width="50%"><br><br>
   </div>
  <div align="center">
@@ -46,11 +46,77 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
   
 ## CT03 - Criação, edição e compartilhamento de currículo
 
+- Fazer Login e acessar a página de Perfil do candidato.
+
+<div align="center">
+<img src="img\CT03-01.jpg" width="50%"><br><br>
+</div>
+
+- Clicar no menu principal na opção Criar um currículo.
+
+<div align="center">
+<img src="img\CT03-02.jpg" width="50%"><br><br>
+</div>
+
+- Preencher as informações pedidas para o currículo, como habilidades e experiências
+
+<div align="center">
+<img src="img\CT03-03-1.png" width="50%"><br><br>
+<img src="img\CT03-03-2.png" width="50%"><br><br>
+</div>
+ 
+- Clicar em Salvar e ver currículo para ser redirecionado para a página com as informações do seu currículo
+
+<div align="center">
+<img src="img\CT03-04.png" width="50%"><br><br>
+</div>
+  
+- Escolher se irá compartilhar o currículo na plataforma HireMe, fazer download do currículo com o layout escolhido e/ou copiar o link do currículo.
+
+<div align="center">
+<img src="img\preencher-modelo-curriculo.jpg" width="50%"><br><br>
+</div>
+
 ## CT04 - Testar filtros de busca de pessoas de acordo com as experiências
+- Acessar a página Buscar profissionais
+
+<div align="center">
+<img src="img/teste-perfil-recrutador.jpg" width="50%"><br><br>
+</div>
+
+- Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para selecionar
+
+<div align="center">
+<img src="img\CT04-02.jpg" width="50%"><br><br>
+</div>
 
 ## CT05 - Caixa de mensagens
 
+- Acessar a página Buscar profissionais.
+- Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para pesquisar currículos.
+
+<div align="center">
+<img src="img\CT04-02.jpg" width="50%"><br><br>
+</div>
+  
+
+- Ao escolher um currículo, clicar no botão Enviar mensagem.
+<div align="center">
+<img src="img\CT05-03.png" width="50%"><br><br>
+</div>
+  
+
 ## CT06 - Currículos favoritados
+- Acessar a página Buscar profissionais.
+- Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para pesquisar currículos.
+<div align="center">
+<img src="img\CT04-02.jpg" width="50%"><br><br>
+</div>
+  
+- Quando um currículo chamar atenção, clicar no botão de favoritar, em forma de coração, presente no box do currículo.
+<div align="center">
+<img src="img\CT06-03.png" width="50%"><br><br>
+</div>
 
 ## CT07 - Botão de dicas
 
@@ -58,7 +124,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <div align="center">
 <img src="img/teste-dica-curriculo.png" width="50%"><br><br>
   </div>
- <div align="center">
+<div align="center">
 <img src="img/teste-dica-curriculo2.png" width="50%"><br><br>
   </div>
 
@@ -66,7 +132,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <div align="center">
 <img src="img/teste-dicas.png" width="50%"><br><br>
   </div>
- <div align="center">
+<div align="center">
 <img src="img/teste-dicas2.png" width="50%"><br><br>
   </div>
 
@@ -77,7 +143,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="img/teste-compatibilidade-edge.png" width="50%"><br>
   <b>Microsoft Edge</b><br><br>
   </div>
- <div align="center">
+<div align="center">
 <img src="img/teste-compatibilidade-chrome.png" width="50%"><br>
   <b>Google Chrome</b><br><br>
   </div>
