@@ -110,7 +110,7 @@ a:hover {
 #dados-principais {
     background-color: #fff;
     width: 1050px;
-    height: auto;
+    height: 100vh;
     padding-left: 360px;
     font-family: 'Lora';
 }
