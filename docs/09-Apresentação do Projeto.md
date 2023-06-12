@@ -8,7 +8,10 @@
 
 ## HireMe
 
-Nome e marca do projeto
+<div> 
+            <img align="top"  height="30px" width="30px" src="imagens/handshakepequeno.png">
+            <a href="">HireMe</a>
+</div><br>
 
 ## Identidade Visual (Marca, Design)
 
