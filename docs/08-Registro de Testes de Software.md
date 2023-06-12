@@ -37,7 +37,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
    <div align="center">
 <img src="img/teste-cadastro-recrutador.jpg" width="50%"><br><br>
   </div>
-    <div align="center">
+  <div align="center">
 <img src="img/teste-login-recrutador.jpg" width="50%"><br><br>
   </div>
  <div align="center">
@@ -62,7 +62,6 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
   <div align="center">
 <img src="img\CT03-03-1.jpg" width="50%"><br><br>
-
 <img src="img\CT03-03-2.jpg" width="50%"><br><br>
   </div>
  
@@ -130,7 +129,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
   </div>
 
 - Testar o botão de dicas na página de Modelos de currículos.
-<div align="center">
+  <div align="center">
 <img src="img/teste-dicas.png" width="50%"><br><br>
   </div>
  <div align="center">
@@ -140,11 +139,11 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 ## CT08 - Compatibilidade e Responsividade
 
 - Testar compatibilidade com os principais navegadores do mercado.
-<div align="center">
+  <div align="center">
 <img src="img/teste-compatibilidade-edge.png" width="50%"><br>
   <b>Microsoft Edge</b><br><br>
   </div>
- <div align="center">
+  <div align="center">
 <img src="img/teste-compatibilidade-chrome.png" width="50%"><br>
   <b>Google Chrome</b><br><br>
   </div>
