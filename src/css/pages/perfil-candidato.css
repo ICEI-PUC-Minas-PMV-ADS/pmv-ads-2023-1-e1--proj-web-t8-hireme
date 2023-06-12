@@ -72,9 +72,20 @@ a:hover {
     cursor: pointer;
 }
 
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
 
 #container {
+    width: auto;
     background-color: #BDBDBD;
+    width: auto;
+    height: 900px;
+    margin-bottom: 40px;
 }
 
 .bio {
@@ -82,7 +93,7 @@ a:hover {
     width: 75%;
     align-self: center;
     height: 40%;
-    left: 250px;
+    left: 12%;
     top: 115px;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
@@ -117,20 +128,6 @@ a:hover {
     color: #141414;
 }
 
-
-.bio .icon1{
-    position: absolute;
-    width: 140px;
-    height: 140px;
-    left: 60px;
-    top: 30px;
-
-    background: rgba(0, 0, 0, 0.25);
-    border-radius: 70px;
-}
-
-
- 
 .edit1{
     z-index: 1;
     position: absolute;
@@ -145,21 +142,22 @@ a:hover {
 
  
 .edit1 .editP{
-
     position: absolute;
-    left: 988px;
-    top: -50px;
+    width: 30px;
+    height: 30px;
+    left: 260%;
+    top: -75px;
     line-height: 10px;
 }
 
-.bio .icon2 {
+.bio .icon {
     position: absolute;
     width: 125px;
     height: 125px;
     left: 67px;
     top: 37px;
 
-    background: #D9D9D9;
+    background: #3b3b3b;
     border-radius: 70px;
 
 }
@@ -188,7 +186,7 @@ a:hover {
     width: 75%;
     align-self: center;
     height: 55%;
-    left: 250px;
+    left: 12%;
     top: 580px;
     background: rgba(255, 255, 255, 0.51);
     border-radius: 20px;
@@ -214,8 +212,8 @@ a:hover {
 .informaçao h1{
     z-index: 1;
     position: absolute;
-    left: 230px;
-    top: 20px;
+    left: 5%;
+    top: 5px;
 
     font-family: 'Gabriela';
     font-style: normal;
@@ -226,12 +224,12 @@ a:hover {
 }
 
 
- 
-.edit2{
-
+.edit2 .editP{
     position: absolute;
-    left: 1180px;
-    top: 50px;
+    width: 30px;
+    height: 30px;
+    left: 93%;
+    top: 30px;
     line-height: 10px;
 }
 
@@ -245,7 +243,7 @@ a:hover {
     position: relative;
     width: 25px;
     height: 25px;
-    left: 935px;
+    left: 100%;
     top: 20px;
     cursor: pointer;
 }
@@ -413,4 +411,188 @@ a:hover {
     height: 22px;
     left: 225px;
     top: 130px;
+}
+
+@media screen and (max-width:767px) {
+    header {
+        width: 100%;
+    }
+
+    .menu-principal{
+       padding: 1.5rem 4rem; 
+    }
+
+    .logo {
+        position: absolute;
+        width: 97.91px;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+    }
+    
+    .menu-principal img {
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom: 35px;
+    }
+    
+    .menu-principal h1 {
+        font-size: 21px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .menu-principal > ul > li{
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 0.8%;
+        left: 85%;
+        z-index: 2;
+    }
+
+    .mobile-menu-icon button:hover {
+        transform: scale(1.11)
+    }
+
+    .mobile-menu ul {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #141414;
+        box-shadow: 0px 3px 10px #3b3b3b;
+    }
+
+    .mobile-menu > ul > li {
+        z-index: 1;
+        display: block;
+        padding-top: 1.2rem;
+        font-family: "Gabriela", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .open{
+        display: block;
+    }
+
+    #container {
+        width: auto;
+    }
+
+    .edit1 .editP{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 90%;
+        top: -75px;
+        line-height: 10px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+    header {
+        width: 100%;
+    }
+
+    .menu-principal{
+       padding: 1.5rem 4rem; 
+    }
+
+    .logo {
+        position: absolute;
+        width: 97.91px;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+    }
+    
+    .menu-principal img {
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom: 35px;
+    }
+    
+    .menu-principal h1 {
+        font-size: 23px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .menu-principal > ul > li{
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 0.8%;
+        left: 85%;
+        z-index: 2;
+    }
+
+    .mobile-menu-icon button:hover {
+        transform: scale(1.11)
+    }
+
+    .mobile-menu ul {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #141414;
+        box-shadow: 0px 3px 10px #3b3b3b;
+    }
+
+    .mobile-menu > ul > li {
+        z-index: 1;
+        display: block;
+        padding-top: 1.2rem;
+        font-family: "Gabriela", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .open{
+        display: block;
+    }
+
+    #container {
+        width: auto;
+    }
+
+    .edit1 .editP{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 150%;
+        top: -75px;
+        line-height: 10px;
+    }
 }
