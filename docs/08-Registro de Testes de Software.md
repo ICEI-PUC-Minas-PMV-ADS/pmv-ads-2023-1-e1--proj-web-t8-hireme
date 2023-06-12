@@ -93,11 +93,12 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 ## CT05 - Caixa de mensagens
 
 - Acessar a página Buscar profissionais.
+- Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para pesquisar currículos.
+
 <div align="center">
 <img src="img\CT04-02.jpg" width="50%"><br><br>
 </div>
   
-- Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para pesquisar currículos.
 
 - Ao escolher um currículo, clicar no botão Enviar mensagem.
 <div align="center">
@@ -107,7 +108,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 ## CT06 - Currículos favoritados
 - Acessar a página Buscar profissionais.
-- - Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para pesquisar currículos.
+- Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para pesquisar currículos.
 <div align="center">
 <img src="img\CT04-02.jpg" width="50%"><br><br>
 </div>
@@ -123,7 +124,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <div align="center">
 <img src="img/teste-dica-curriculo.png" width="50%"><br><br>
   </div>
- <div align="center">
+<div align="center">
 <img src="img/teste-dica-curriculo2.png" width="50%"><br><br>
   </div>
 
@@ -138,11 +139,11 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 ## CT08 - Compatibilidade e Responsividade
 
 - Testar compatibilidade com os principais navegadores do mercado.
-  <div align="center">
+<div align="center">
 <img src="img/teste-compatibilidade-edge.png" width="50%"><br>
   <b>Microsoft Edge</b><br><br>
   </div>
-  <div align="center">
+<div align="center">
 <img src="img/teste-compatibilidade-chrome.png" width="50%"><br>
   <b>Google Chrome</b><br><br>
   </div>
