@@ -37,9 +37,8 @@
 | Passos        |1) Fazer Login e acessar a página de Perfil do candidato;                                                                                                            |
 |               |2) Clicar no menu principal na opção Criar um currículo;                                                                                                                  |
 |               |3) Preencher as informações pedidas para o currículo, como habilidades e experiências;
-|               |4) Clicar em Modelos de currículos para ser redirecionado para a página com os modelos de currículos;
-|               |5) Escolher um modelo de currículo, clicar em cima dele e clicar em próximo para ser redirecionado para a página de Compartilhamento do currículo;
-|               |6) Escolher se irá compartilhar o currículo na plataforma HireMe, fazer download do currículo com o layout escolhido e/ou copiar o link do currículo.
+|               |4) Clicar em Salvar e ver currículo para ser redirecionado para a página com as informações do seu currículo;
+|               |5) Escolher se irá compartilhar o currículo na plataforma HireMe, fazer download do currículo com o layout escolhido e/ou copiar o link do currículo.
 | Critérios de Êxito        | Após clicar em Criar um currículo e preencher todas as informações pedidas, o site deve ser redirecionado para a página de Modelos de currículos para que o usuário possa escolher um layout que mais o agrada. Na página de Modelos de currículos, o usuário deve conseguir clicar em cima do layout para selecioná-lo e, ao clicar no botão de Próximo, o site deve ser redirecionado para a página de compartilhamento. Por fim, na página de compartilhamento, o site deve permitir que o usuário faça download do currículo com o layout escolhido, além de permitir que ele copie o link do currículo criado e que consiga compartilhar seu currículo dentro da plataforma para recrutadores cadastrados.                             |
 </br>
 </br>
