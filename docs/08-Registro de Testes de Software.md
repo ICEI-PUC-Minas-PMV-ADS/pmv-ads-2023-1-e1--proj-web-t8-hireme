@@ -112,11 +112,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="img\CT04-02.jpg" width="50%"><br><br>
 </div>
   
-
-
 - Quando um currículo chamar atenção, clicar no botão de favoritar, em forma de coração, presente no box do currículo.
 <div align="center">
-<img src="img\CT06-03.jpg" width="50%"><br><br>
+<img src="img\CT06-03.png" width="50%"><br><br>
 </div>
 
 ## CT07 - Botão de dicas
@@ -130,10 +128,10 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
   </div>
 
 - Testar o botão de dicas na página de Modelos de currículos.
-  <div align="center">
+<div align="center">
 <img src="img/teste-dicas.png" width="50%"><br><br>
   </div>
- <div align="center">
+<div align="center">
 <img src="img/teste-dicas2.png" width="50%"><br><br>
   </div>
 
