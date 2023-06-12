@@ -1,122 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
-    <title>Meu perfil</title>
+        <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
+        <title>Meu perfil</title>
 
-    <link rel="stylesheet" href="../css/pages/recrutador.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+        <link rel="stylesheet" href="../css/pages/recrutador.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
 
-<body>
-    <header>
-        <nav class="menu-principal">
-            <img src="imagens/handshakepequeno.png" alt="Logo HireMe">
-            <h1>HireMe</h1>
-            <ul>
-                <li><a href="recrutador-busca.html">Buscar profissionais</a></li>
-                <li><a href="curriculos-favoritados-recrutador.html">Favoritos</a></li>
-                <li><a href="mensagens_recrutador.html">Mensagens </a></li> 
-                <li><a href="recrutador.html">Meu Perfil </a></li> 
-                <li><a id="logout">Sair</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="container">
-        <br> </br>
-        <div class="bio">
-            <h1>Nome</h1>
-            <h2 id="cargo"></h2>
-            <div class="icon2"> </div>
-            <form class="edit1" action="javascript:void(0)">
-                <div>
-                    <input type="text" id="nome"  style="rgba(255, 255, 255, 0.5)"; required>
-                    <input class="editP" type="image" src="imagens/greenedit.png"/></input>
+    <body>
+        <header>
+            <nav class="menu-principal">
+                <img src="imagens/handshakepequeno.png" alt="Logo HireMe">
+                <h1>HireMe</h1>
+                <ul>
+                    <li><a href="recrutador-busca.html">Buscar profissionais</a></li>
+                    <li><a href="curriculos-favoritados-recrutador.html">Favoritos</a></li>
+                    <li><a href="mensagens_recrutador.html">Mensagens </a></li> 
+                    <li><a href="recrutador.html">Meu Perfil </a></li> 
+                    <li><a id="logout">Sair</a></li>
+                </ul>
+                            
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="imagens/menu_white_36dp.svg"></button>
                 </div>
-            </form>
+            </nav>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="recrutador-busca.html">Buscar profissionais</a></li>
+                    <li><a href="curriculos-favoritados-recrutador.html">Favoritos</a></li>
+                    <li><a href="mensagens_recrutador.html">Mensagens </a></li> 
+                    <li><a href="recrutador.html">Meu Perfil </a></li> 
+                    <li><a id="logout">Sair</a></li>
+                </ul>
+            </div>
+        </header>
+        <div id="container">
+            <br> </br>
+            <div class="bio">
+                <h1>Nome</h1>
+                <h2 id="cargo"></h2>
+                <div class="icon2"> </div>
+                <form class="edit1" action="javascript:void(0)">
+                    <div>
+                        <input type="text" id="nome"  style="rgba(255, 255, 255, 0.5)"; required></input>
+                        <input class="editP" type="image" src="imagens/greenedit.png"></input>
+                    </div>
+                </form>
+            </div>
+ 
+
+            <br></br>
+            <br></br>
+            <br></br>
         </div>
-  <div>
+  
 
-    <br></br>
-    <br></br>
-    <br></br>
-
-</div>
-
-<div class="informaçao">
-    <h1>Informações</h1>
-    <br> </br>
-        <h2 id="cargo"></h2>
-        <div class="icon2"> </div>
-        <form class="edit2" action="javascript:void(0)">
-            <div>
-                <input class="editP" type="image" src="imagens/greenedit.png"/></input>
-            </div>
-        </form>
-
-
-           <!--
-                Dados de contato
-            -->
-            <div class="email">
-                <img src="imagens/email.png" alt="Icon de email">
-            </div>
-            <div class="email2">
-                <form action="javascript:void(0)">
-                    <input type="text" id="email" required>
+        <div class="informaçao">
+            <h1>Informações</h1>
+            <br> </br>
+                <h2 id="cargo"></h2>
+                <div class="icon2"> </div>
+                <form class="edit2" action="javascript:void(0)">
+                    <div>
+                        <input class="editP" type="image" src="imagens/greenedit.png"/></input>
+                    </div>
                 </form>
-            </div>
-
-            <div class="phone">
-                <img src="imagens/phone.png" alt="Icon de telefone">
-            </div>
-
-            <div class="phone2">
-                <form action="javascript:void(0)">
-                    <input type="text" id="phone" required>
-                </form>
-            </div>
-
-            <div class="residencia">
-                <img src="imagens/residencia.png" alt="Icon de residencia">
-            </div>
-
-            <div class=residencia2>
-                <form action="javascript:void(0)">
-                    <input type="text" id="residencia" required>
-                </form>
-            </div>
-
-            <div class="emprego">
-                <img src="imagens/emprego.png" alt="Icon de emprego">
-            </div>
-            <div class="emprego2">
-                <form action="javascript:void(0)">
-                    <input type="text" id="emprego" required>
-                </form>
-            </div>
-
-<br></br>
-<br></br>
-<br></br>
-
-</div>
 
 
-  </div>
-       
-      <script src="../js/modules/logout.js"></script>
-      <script src="../js/modules/consulta-usuario.js"></script>
-</body>
+                <!--
+                        Dados de contato
+                    -->
+                    <div class="email">
+                        <img src="imagens/email.png" alt="Icon de email">
+                    </div>
+                    <div class="email2">
+                        <form action="javascript:void(0)">
+                            <input type="text" id="email" required>
+                        </form>
+                    </div>
 
+                    <div class="phone">
+                        <img src="imagens/phone.png" alt="Icon de telefone">
+                    </div>
 
+                    <div class="phone2">
+                        <form action="javascript:void(0)">
+                            <input type="text" id="phone" required>
+                        </form>
+                    </div>
 
+                    <div class="residencia">
+                        <img src="imagens/residencia.png" alt="Icon de residencia">
+                    </div>
 
+                    <div class=residencia2>
+                        <form action="javascript:void(0)">
+                            <input type="text" id="residencia" required>
+                        </form>
+                    </div>
+
+                    <div class="emprego">
+                        <img src="imagens/emprego.png" alt="Icon de emprego">
+                    </div>
+                    <div class="emprego2">
+                        <form action="javascript:void(0)">
+                            <input type="text" id="emprego" required>
+                        </form>
+                    </div>
+
+            <br></br>
+            <br></br>
+            <br></br>
+
+        </div>
+        <script src="../js/modules/logout.js"></script>
+        <script src="../js/modules/consulta-usuario.js"></script>
+        <script src="../js/recrutador.js"></script>
+    </body>
 </html>
