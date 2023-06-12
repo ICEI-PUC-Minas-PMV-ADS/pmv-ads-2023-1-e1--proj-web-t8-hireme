@@ -161,6 +161,7 @@ const cursos = document.getElementById('cursos');
 const idioma = document.getElementById('idioma');
 const proficiencia = document.getElementById('proficiência');
 const resumo = document.getElementById('resumo');
+const funcao = document.getElementById('funcao');
 
 const btsalvar = document.getElementById('salvar');
 
@@ -172,6 +173,7 @@ formCV.addEventListener('submit', function () {
 
     const curriculoJson = {
         "resumo": resumo.value,
+        "funcao": funcao.value,
         "curso": curso.value,
         "instituicao": instituicao.value,
         "grau": grau.value,
