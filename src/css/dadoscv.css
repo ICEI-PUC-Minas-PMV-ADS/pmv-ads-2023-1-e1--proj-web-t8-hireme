@@ -102,14 +102,15 @@ a:hover {
     width: 350px;
     height: 100vh;
     float: left;
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
     font-family: 'Lora';
 }
 
 #dados-principais {
     background-color: #fff;
     width: 1050px;
-    height: 100vh;
+    height: auto;
     padding-left: 360px;
     font-family: 'Lora';
 }
