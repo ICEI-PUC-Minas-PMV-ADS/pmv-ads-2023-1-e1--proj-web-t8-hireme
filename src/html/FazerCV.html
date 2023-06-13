@@ -45,10 +45,6 @@
     <main>
         <div class="topo-da-pagina">
         <h1>Olá! Vamos começar a criar o seu currículo.<br>Primeiro, preencha os itens listados abaixo.</h1>
-        <div class="botao-dica" >
-            <img src="imagens/dica.png" alt="dica" onmouseover="showConteudo()" onmouseout="hideConteudo()">
-            <p class="conteudo">Preencha todos os campos com as informações pedidas e, no final, clique em "Salvar e ver currículo" para usar o modelo de currículo padrão do site. Caso deseje um modelo diferente, clique em Ver outros modelos de currículos.</p>
-        </div>
         </div>
         <br>
         <form class ="fazerCV" id="fazer-curriculo-container" action="javascript:void(0)">
@@ -97,7 +93,7 @@
                 Data de Saída: <input type="date" id="saída" name="Saída">
                 <input type="checkbox" id="atual" name="atual" value="Atual">Atual<br>
                 Descrição das atividades:<br><br>
-                <textarea id="descrição" name="texto" rows="10" cols="80" placeholder="Cite as atividades mais relevantes que eram executadas."></textarea>
+                <textarea id="descrição" name="texto" rows="10" cols="80" placeholder="Cite as atividades executadas mais relevantes."></textarea>
             </div>
             <br>
             <button type="button" id="adicionar-experiencia">+ Adicionar experiência profissional</button>
@@ -113,6 +109,12 @@
             <button type="button" id="adicionar-link">+Adicionar Link</button>   
 
             <br><br><br>
+            
+            <!-- 
+            <div class="botao-dica" >
+                <img src="imagens/dica.png" alt="dica" onmouseover="showConteudo()" onmouseout="hideConteudo()">
+                <p class="conteudo">Preencha todos os campos com as informações pedidas e, no final, clique em "Salvar e ver currículo" para usar o modelo de currículo padrão do site. Caso deseje um modelo diferente, clique em Ver outros modelos de currículos.</p>
+            </div> -->
 
             <div id="competencia-container">
                 <h2>Competências</h2><br>
@@ -156,7 +158,6 @@
             <div>
                 <label for="salvar"></label>
                 <button type="submit" id="salvar" formaction="/src/html/dadoscv.html">Salvar e ver currículo</button>
-                <button type="button"><a href="modelos-curriculos.html">Ver outros modelos de currículos</a></button>
             </div>
               
           
