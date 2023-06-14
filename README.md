@@ -1,5 +1,5 @@
 
-# <img src="./docs/img/handshake_pequeno.png"> HireMe
+# <img src="./docs/img/handshake_transparente.png"> HireMe
 
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
