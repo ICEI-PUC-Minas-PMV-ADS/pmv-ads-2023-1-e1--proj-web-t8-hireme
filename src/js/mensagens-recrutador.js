@@ -1,3 +1,4 @@
+//RESPONSIVIDADE
 function menuShow(){
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')){
@@ -6,3 +7,4 @@ function menuShow(){
         menuMobile.classList.add('open');
     }
 }
+
