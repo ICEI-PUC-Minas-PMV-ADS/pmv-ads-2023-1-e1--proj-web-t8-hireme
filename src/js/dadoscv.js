@@ -44,3 +44,17 @@ function menuShow(){
         menuMobile.classList.add('open');
     }
 }
+
+// DOWNLOAD
+const btnGenerate = document.querySelector("#generate-pdf");
+
+btnGenerate.addEventListener("click", () => {
+    const container = document.querySelector("#container")
+    const options = {
+        margin: [0, 0, 0, 0],
+        filename: "currículo.pdf",
+        jsPDF: {unit: "mm", format: "a4", orientation: "portrait"},
+    };
+
+    html2pdf().set(options).from(container).save();
+});

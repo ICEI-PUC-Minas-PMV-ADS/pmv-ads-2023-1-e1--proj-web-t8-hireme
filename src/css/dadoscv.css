@@ -91,7 +91,7 @@ a:hover {
 
 /* currículo */ 
 
-.container {
+#container {
    margin-top: 20px;
    margin-left: 20px;
    margin-right: 145px; 
@@ -159,8 +159,14 @@ button {
     cursor: pointer;
     float: right;
     margin-right: 15px;
+    color: #000000;
 }
 
-#avançar {
-    color: #000000;
+.download {
+    background: none;
+    border: none;
+    float: right;
+    margin-right: 15px;
+    padding: 10px;
+    font-size: 1px;
 }
