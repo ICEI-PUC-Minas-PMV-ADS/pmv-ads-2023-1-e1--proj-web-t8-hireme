@@ -27,7 +27,6 @@ a:hover {
     color: #ff7a00;
 }
 
-
 .logo {
     width: 97.91px;
     height: 90px;
@@ -88,22 +87,376 @@ a:hover {
 
 #container {
     width: auto;
-    height: 700px;
+    height: 100vh;
     margin-bottom: 40px;
 }
 
 .caixa-de-mensagem{
     position:absolute;
     border-radius: 20px;
-    width: 80%;
+    width: 25%;
     height: 570px;
-    left: 147px;
+    left: 10%;
     top: 100px;
     background-color: rgba(0, 0, 0, 0.25);
     margin: 0 auto;
+    box-shadow: 0px 3px 10px #3b3b3b;
 }
 
-.line1 {
+.mensagem-header h1 {
+    position: absolute;
+    width: 156px;
+    height: 38px;
+    left: 25px;
+    top: 12px;
+    
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 38px;
+    
+    color: #141414;
+}
+
+.newmessage img {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 280px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.caixa-de-mensagem hr{
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    border: 1px solid rgba(50, 50, 50, 0.5);
+}
+
+#caixa-de-pesquisa .caixapesquisa {
+    position: absolute;
+    width: 90%;
+    height: 35px;
+    left: 5%;
+    top: 60px;
+    border-radius: 10px;
+}
+
+.searchicon img {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 82%;
+    top: 62px;
+    cursor: pointer;
+}
+
+.menu-mensagens h1 {
+    position: absolute;
+    width: 163px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    left: 0%;
+    top: 130px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #141414;
+    cursor: pointer;
+}
+
+.menu-mensagens h2 {
+    position: absolute;
+    width: 163px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    top: 130px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #141414;
+    cursor: pointer;
+}
+
+.menu-mensagens h1:hover {
+    background-color: #00A878;
+}
+
+.menu-mensagens h2:hover {
+    background-color: #00A878;
+}
+
+.menu-mensagens hr{
+    position: absolute;
+    width: 100%;
+    top: 160px;
+    border: 1px solid rgba(50, 50, 50, 0.5);
+}
+
+.area-mensagens h1 {
+    position: absolute;
+    width: 128px;
+    height: 23px;
+    left: 5%;
+    top: 170px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 32px;
+
+    color: #141414;
+    cursor: pointer;
+}
+
+.area-mensagens h2 {
+    position: absolute;
+    width: 128px;
+    height: 23px;
+    left: 70%;
+    top: 170px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 32px;
+
+    color: #141414;
+}
+
+.area-mensagens h3 {
+    position: absolute;
+    width: 128px;
+    height: 23px;
+    left: 5%;
+    top: 200px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 32px;
+
+    color: #fff;
+}
+
+.area-mensagens hr{
+    position: absolute;
+    width: 100%;
+    top: 250px;
+    border: 1px solid rgba(50, 50, 50, 0.5);
+}
+
+.person-selector {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    height: 40px;
+    margin: 1em auto 1em;
+    max-width: 35em;
+
+    position: relative;
+    left: 13%;
+}
+
+.person-selector-button{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #141414;
+    font-size: 1.1em;
+    font-family: 'Lora';
+    
+}
+
+.active-person{
+    background: #00A878;
+    box-shadow: 0 0 0.5em 0.1em #c3c3c333;
+}
+
+.chat-container{
+    position:absolute;
+    border-radius: 20px;
+    width: 50%;
+    height: 570px;
+    left: 38%;
+    top: 140px;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    box-shadow: 0px 3px 10px #3b3b3b;
+
+    font-family: 'Lora';
+}
+
+
+.chat-header {
+    margin-bottom: 1em;
+    position: absolute;
+    left: 5%;
+    top: 5px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+
+    color: #141414;
+}
+
+.chat-status{
+    position: absolute;
+    left: 5%;
+    top: 30px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+
+    color: #141414;
+}
+
+.chat-container hr{
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    border: 1px solid rgba(50, 50, 50, 0.5);
+}
+
+.chat-messages {
+    position: relative;
+    top: 60px;
+    height: 23em;
+    overflow-y: scroll;
+}
+
+.chat-messages::-webkit-scrollbar{
+    display: none;
+}
+
+.message{
+    position: relative;
+    top: 4em;
+    padding: 0.625em;
+    border-radius: 1em;
+    margin-bottom: 0.625em;
+    display: flex;
+    flex-direction: column;
+    color: #141414;
+}
+
+.message-sender{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.31em;
+}
+
+.message-text{
+    font-size: 1em;
+    margin-bottom: 0.31em;
+    word-wrap: break-word;
+}
+
+.message-timestamp{
+    font-size: 0.75em;
+    text-align: right;
+}
+
+.white-bg{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    background-color: #ffffffd7;
+}
+
+.green-bg{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    background-color: #00a878c7;
+}
+
+.chat-input-form{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    width: 90%;
+    gap: 0.625em;
+
+    position: relative;
+    left: 5%;
+    top: 50px;
+}
+
+.chat-input{
+    padding: 0.625em;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 1em;
+    flex-grow: 1;
+}
+
+.button {
+    border: none;
+    padding: 0.625em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.button:hover{
+    filter: brightness(0.9);
+}
+
+.button:active{
+    transform: translateY(2px);
+}
+
+.send-button{
+    background-color: #00A878;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.clear-chat-button{
+    display: block;
+    margin:2.5em auto;
+
+    position: relative;
+    top: 35px;
+}
+
+/*.line1 {
     position: absolute;
     width: 100%;
     height: 0px;
@@ -145,15 +498,6 @@ a:hover {
     border: 1px solid rgba(50, 50, 50, 0.5);;
 }
 
-.line5 {
-    position: absolute;
-width: 385px;
-height: 0px;
-left: -1px;
-top: -102px;
-
-border: 1px solid rgba(50, 50, 50, 0.5);;
-}
 
 .mensagem-header h1 {
     position: absolute;
@@ -276,55 +620,6 @@ border: 1px solid rgba(50, 50, 50, 0.5);;
     height: 23px;
     left: 30px;
     top: 200px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 14px;
-    line-height: 32px;
-
-    color: #fff;
-}
-
-.area-mensagens h7 {
-    position: absolute;
-    width: 220px;
-    height: 23px;
-    left: 30px;
-    top: 270px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 32px;
-
-    color: #141414;
-    cursor: pointer;
-}
-
-.area-mensagens h8 {
-    position: absolute;
-    width: 128px;
-    height: 23px;
-    left: 280px;
-    top: 270px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 32px;
-
-    color: #141414;
-}
-
-.area-mensagens h9 {
-    position: absolute;
-    width: 220px;
-    height: 23px;
-    left: 30px;
-    top: 300px;
 
     font-family: 'Lora';
     font-style: normal;

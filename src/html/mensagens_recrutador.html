@@ -10,7 +10,6 @@
     <title>Caixa de Mensagens</title>
 
     <link rel="stylesheet" href="../css/pages/mensagens_recrutador.css">
-    <script src="../js/mensagens-recrutador.js"></script>
 </head>
 
 <body>
@@ -47,97 +46,85 @@
     <main>
         <div id="container">
             <div class="caixa-de-mensagem">
-                <div class="line1">
-                    <div class="line2">
-                        <div class="line3">
-                            <div class="line4">
-                                <div class="line5">
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="mensagem-header">
                     <h1>Mensagens</h1>
                 </div>
 
+                <hr>
+
                 <div class="newmessage">
                     <img src="imagens/new.png" alt="Icon de nova mensagem">
+                </div>
+
+                <div class="searchbox">
+                    <div class="searchicon">
+                        <img src="imagens/search.png" alt="Icon de pesquisa">
+                    </div>
+                    <form id="caixa-de-pesquisa">
+                        <input class="caixapesquisa" type="text" name="pesquisa" placeholder="  Pesquisar mensagens">
+                    </form>
                 </div>
 
                 <div class="menu-mensagens">
                         <h1>Principais</h1>
                         <h2>Outras</h2>
+
+                        <hr>
                 </div>
+
 
                 <div class="area-mensagens">
-                    <h4>José da Silva</h4>
-                    <h5>15 de abri.</h5>
-                    <h6>Você: Olá, José!</h6>
-                    <h7>Carmen Miranda</h7>
-                    <h8>10 de abri.</h8>
-                    <h9>Carmen: Agradeço a chance...</h9>
-                </div>
-
-                <div class="chat">
                     <h1>José da Silva</h1>
-                    <h2>Disponível</h2>
-                    <h3>Olá, José!</h3>
-                    <h4>Enviar</h4>
+                    <h2>15 de abri.</h2>
+                    <h3>Você: Olá, José!</h3>
 
-                    <abbr title="Voltar para caixa de mensagens">
-                        <img src="imagens/back.png" alt="Icon de voltar">
-                    </abbr>
-                </div>
-
-                <div class="mainchat">
-                    <abbr title="Colocar na aba principal">
-                    <img src="imagens/principal.png" alt="Icon de conversa principal">
-                    </abbr>
+                    <hr>
                 </div>
 
             </div>
 
-
-            <div class="searchbox">
-                <div class="searchicon">
-                    <img src="imagens/search.png" alt="Icon de pesquisa">
+            <div class="chat">
+                <div class="person-selector">
+                    <button class="button person-selector-button active-person" id="joao-selector">João</button>
+                    <button class="button person-selector-button" id="ana-selector">Ana</button>
                 </div>
-            <form id="caixa-de-pesquisa">
-                <input class="caixapesquisa" type="text" name="pesquisa" placeholder="  Pesquisar mensagens">
-            </form>
+
+                <div class="chat-container">
+                    <h2 class="chat-header"> João da Silva</h2>
+                    <h2 class="chat-status"> Disponível</h2>
+                    <hr>
+
+                    <div class="chat-messages">
+                        <div class="message white-bg">
+                            <div class="message-sender">João</div>
+                            <div class="message-text">Oi, Ana!</div>
+                            <div class="message-timestamp">10:30 AM</div>
+                        </div>
+                        <div class="message green-bg">
+                            <div class="message-sender">Ana Campos</div>
+                            <div class="message-text">Olá, José</div>
+                            <div class="message-timestamp">10:35 AM</div>
+                        </div>
+                    </div>
+            
+            
+                    <form class="chat-input-form">
+                        <input type="text" class="chat-input" required placeholder="Escreva uma mensagem..."/>
+                        <button type="submit" class="button send-button">Enviar</button>
+                    </form>
+                    <button class="button clear-chat-button">Limpar o chat</button>
+                </div>
+
             </div>
 
-            <!--<div class="messagebox"></div>-->
-            <form id="caixa-de-texto">
-                <textarea class="caixatexto" name="texto" rows="10" cols="80" placeholder="  Escreva uma mensagem"></textarea>           
-            </form>
-
-            <div class="sendbutton"></div>
-            <div class="emojibutton"></div>
-            <div class="emoji">
-                <img src="imagens/emoji.png" alt="Icon de emoji">
-            </div>
-            <div class="filesbutton"></div>
-            <div class="files">
-                <img src="imagens/files.png" alt="Icon de anexos">
-            </div>
-            <div class="camerabutton"></div>
-            <div class="camera">
-                <img src="imagens/camera.png" alt="Icon de camera">
-            </div>
-            <div class="messagesent"></div>
-            <div class="icon1"></div>
-            <div class="icon2"></div>
         </div>
 
     </main>
 
 
 
-
+    <script src="../js/mensagens-recrutador.js"></script>
     <script src="../js/modules/logout.js"></script>
 </body>
 
