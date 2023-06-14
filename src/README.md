@@ -33,6 +33,6 @@
 #### Desenvolvimento da solução - parte II.
 - Nessa entrega, foram aprimorados alguns detalhes do layout tais como padronização do cabeçalho, das transições, das larguras e da logo, carrossel da página principal, entre outros. As páginas foram interligadas, os botões ganharam funcionalidades bem como a possibilidade de se cadastrar e efetuar o login no site.
 
-### [0.5.0] - DD/06/2023
+### [0.5.0] - 25/06/2023
 #### Implantação e apresentação da solução.
 - Entrega da versão final do projeto com a documentação completa, apresentação e funcionalidades implementadas.
