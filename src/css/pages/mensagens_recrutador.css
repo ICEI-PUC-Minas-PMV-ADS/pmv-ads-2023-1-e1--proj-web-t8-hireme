@@ -148,6 +148,7 @@ a:hover {
     left: 5%;
     top: 60px;
     border-radius: 10px;
+    font-family: 'Lora';
 }
 
 .searchicon img {
@@ -276,46 +277,19 @@ a:hover {
     border: 1px solid rgba(50, 50, 50, 0.5);
 }
 
-.person-selector {
-    display: flex;
-    justify-content: center;
-    gap: 1em;
-    height: 40px;
-    margin: 1em auto 1em;
-    max-width: 35em;
-
-    position: relative;
-    left: 13%;
-}
-
-.person-selector-button{
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
-    color: #141414;
-    font-size: 1.1em;
-    font-family: 'Lora';
-    
-}
-
-.active-person{
-    background: #00A878;
-    box-shadow: 0 0 0.5em 0.1em #c3c3c333;
-}
-
 .chat-container{
     position:absolute;
     border-radius: 20px;
     width: 50%;
     height: 570px;
     left: 38%;
-    top: 140px;
+    top: 100px;
     background-color: rgba(0, 0, 0, 0.25);
     margin: 0 auto;
     box-shadow: 0px 3px 10px #3b3b3b;
 
     font-family: 'Lora';
 }
-
 
 .chat-header {
     margin-bottom: 1em;
