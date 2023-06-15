@@ -129,7 +129,7 @@ a:hover {
     position: relative;
     width: 30px;
     height: 30px;
-    left: 280px;
+    left: 85%;
     top: 15px;
     cursor: pointer;
 }
@@ -171,7 +171,7 @@ a:hover {
 }
 
 .searchicon img:hover{
-    transform: scale(1.11)
+    transform: scale(1.11);
 }
 
 .menu-mensagens h1 {
@@ -246,6 +246,10 @@ a:hover {
     cursor: pointer;
 }
 
+.area-mensagens h1:hover{
+    color: #3b3b3b;
+}
+
 .area-mensagens h2 {
     position: absolute;
     width: 128px;
@@ -312,6 +316,11 @@ a:hover {
     top: 10px;
     cursor: pointer;
 }
+
+.chat-container img:hover{
+    transform: scale(1.11)
+}
+
 
 .chat-header {
     margin-bottom: 1em;
@@ -619,5 +628,88 @@ a:hover {
         height: 700px;
         display: flex;
     }
+
+    .mensagem-header h1 {
+        font-size: 19px;
+    }
+    
+    .newmessage img {
+        position: relative;
+        width: 22px;
+        height: 22px;
+        top: 20px;
+    }
+    
+    .searchicon img {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        top: 66px;
+    }
+    
+    
+    .menu-mensagens h1 {
+        position: absolute;
+        width: 115px;
+        left: 0%;
+        font-size: 17px;
+    }
+    
+    .menu-mensagens h2 {
+        position: absolute;
+        width: 115px;
+        font-size: 17px;
+    }
+
+    .area-mensagens h1 {
+        font-size: 15px;
+    }
+
+    .area-mensagens h2 {
+        font-size: 12px;
+    }
+    
+    .area-mensagens h3 {
+        font-size: 12px;
+    }
+
+    .chat-container img {
+        position: relative;
+        width: 25px;
+        height: 25px;
+        top: 15px;
+    }
+    
+    .chat-header {
+        font-size: 19px;
+    }
+    
+    .chat-status{
+        font-size: 13px;
+    }
+    
+    .message-sender{
+        font-size: 1em;
+    }
+    
+    .message-text{
+        font-size: 0.9em;
+    }
+    
+    
+    .chat-input{
+        font-size: 0.9em;
+    }
+    
+    .send-button{
+        font-size: 0.9em;
+    }
+    
+    .clear-chat-button{
+        font-size: 0.75em;
+        position: relative;
+        top: 25px;
+    }
+    
 }
 
