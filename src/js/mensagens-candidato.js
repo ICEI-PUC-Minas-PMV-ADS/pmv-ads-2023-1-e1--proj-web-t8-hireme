@@ -19,7 +19,7 @@ const clearChatBtn = document.querySelector('.clear-chat-button')
 const messages = JSON.parse(localStorage.getItem('messages')) || []
 
 const createChatMessageElement = (message) => `
-  <div class="message ${message.sender === 'João da Silva' ? 'orange-bg' : 'white-bg'}">
+  <div class="message ${message.sender === 'Você' ? 'orange-bg' : 'white-bg'}">
     <div class="message-sender">${message.sender}</div>
     <div class="message-text">${message.text}</div>
     <div class="message-timestamp">${message.timestamp}</div>
@@ -32,7 +32,7 @@ window.onload = () => {
   })
 }
 
-let messageSender = 'João da Silva'
+let messageSender = 'Você'
 
 const sendMessage = (e) => {
   e.preventDefault()
@@ -44,17 +44,13 @@ const sendMessage = (e) => {
     timestamp,
   }
 
-  /* Save message to local storage */
   messages.push(message)
   localStorage.setItem('messages', JSON.stringify(messages))
 
-  /* Add message to DOM */
   chatMessages.innerHTML += createChatMessageElement(message)
 
-  /* Clear input field */
   chatInputForm.reset()
 
-  /*  Scroll to bottom of chat messages */
   chatMessages.scrollTop = chatMessages.scrollHeight
 }
 
