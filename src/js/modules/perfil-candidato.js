@@ -1,40 +1,3 @@
-// DADOS PERFIL
-const container = document.getElementById('container');
-const cargo = document.getElementById('cargo');
-const email = document.getElementById('email');
-const phone = document.getElementById('phone');
-const residencia = document.getElementById('residencia');
-const emprego = document.getElementById('emprego');
-
-
-container.addEventListener('submit', function () {
-    let usuarioString = sessionStorage.getItem('usuario');
-    let usuariojson = JSON.parse(usuarioString);
-
-    console.log(usuariojson);
-
-    const infosJson = {
-        "cargo": cargo.value,
-        "email": email.value,
-        "phone": phone.value,
-        "residencia": residencia.value,
-        "emprego": emprego.value,
-    }
-    usuariojson.infos.push(infosJson) 
-    console.log(usuariojson)
-    sessionStorage.setItem('usuario', JSON.stringify(usuariojson))
-
-    let usuariosJson = JSON.parse(localStorage.getItem('db_usuarios'))
-    usuariosJson.usuarios.forEach(usuario => {
-        if (usuario.email == usuariojson.email && usuario.senha == usuariojson.senha) {
-            usuario.curriculos.push(curriculoJson)
-        }
-    })
-
-    localStorage.setItem('db_usuarios', JSON.stringify(usuariosJson));
-    console.log(usuariojson)
-});
-
 // RESPONSIVIDADE
 function menuShow(){
     let menuMobile = document.querySelector('.mobile-menu');
@@ -44,3 +7,26 @@ function menuShow(){
         menuMobile.classList.add('open');
     }
 }
+
+//FOTO
+let photo = document.getElementById('imgPhoto');
+let file = document.getElementById('flImage');
+
+photo.addEventListener('click', () => {
+    file.click();
+});
+
+file.addEventListener('change', () => {
+    
+    if (file.files.length <= 0) {
+        return;
+    }
+    
+    let reader = new FileReader();
+
+    reader.onload = () => {
+        photo.src = reader.result;
+    }
+
+    reader.readAsDataURL(file.files[0]);
+});

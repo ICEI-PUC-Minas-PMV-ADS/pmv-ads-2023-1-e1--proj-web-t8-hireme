@@ -80,6 +80,8 @@ a:hover {
     display: none;
 }
 
+/* PERFIL */
+
 #container {
     width: auto;
     background-color: #BDBDBD;
@@ -595,4 +597,31 @@ a:hover {
         top: -75px;
         line-height: 10px;
     }
+}
+
+/* FOTO */
+input[type='file']{
+    display: none;
+}
+
+.max-width {
+    max-width: 500px;
+    width: 100%;
+}
+
+#imgPhoto {
+    margin-top: 10%;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    background-color: #eee;
+    border: 5px solid #ccc;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background .3s;
+  }
+
+#imgPhoto:hover {
+    background-color: rgb(180, 180, 180);
+    border: 5px solid #111;
 }
