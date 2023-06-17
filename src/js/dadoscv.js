@@ -6,33 +6,30 @@ window.addEventListener('load', function(){
     document.getElementById("telefone").innerHTML = usuariojson.telefone;
     document.getElementById("email").innerHTML = usuariojson.email;
     document.getElementById("nome").innerHTML = usuariojson.nome;
-
-    usuariojson.curriculos.forEach(curriculo => {
-        document.getElementById("idioma" ).innerHTML  = curriculo.idioma ;
-        document.getElementById("proficiencia").innerHTML = curriculo.proficiencia;
-        document.getElementById("curso").innerHTML = curriculo.curso;
-        document.getElementById("grau").innerHTML = curriculo.grau;
-        document.getElementById("instituicao").innerHTML = curriculo.instituicao;
-        document.getElementById("inicio").innerHTML = curriculo.inicio;
-        document.getElementById("termino").innerHTML = curriculo.termino;
-        document.getElementById("cargo").innerHTML = curriculo.cargo;
-        document.getElementById("empresa").innerHTML = curriculo.empresa;
-        document.getElementById("descricao").innerHTML = curriculo.descricao;
-        document.getElementById("comeco").innerHTML = curriculo.comeco;
-        document.getElementById("saida").innerHTML = curriculo.saida;
-        document.getElementById("competencia1").innerHTML =  curriculo.competencia1;
-        document.getElementById("competencia2").innerHTML = curriculo.competencia2;
-        document.getElementById("competencia3").innerHTML = curriculo.competencia3;
-        document.getElementById("competencia4").innerHTML = curriculo.competencia4;
-        document.getElementById("competencia5").innerHTML = curriculo.competencia5;
-        document.getElementById("linkedin").innerHTML = curriculo.linkedin;
-        document.getElementById("links").innerHTML = curriculo.links;
-        document.getElementById("atual").innerHTML = curriculo.atual;
-        document.getElementById("cursando").innerHTML = curriculo.cursando;
-        document.getElementById("cursos").innerHTML = curriculo.cursos;
-        document.getElementById("resumo").innerHTML = curriculo.resumo;
-        document.getElementById("funcao").innerHTML = curriculo.funcao;
-    })
+    document.getElementById("idioma").innerHTML = usuariojson.curriculo.idioma;
+    document.getElementById("proficiencia").innerHTML = usuariojson.curriculo.proficiencia;
+    document.getElementById("curso").innerHTML = usuariojson.curriculo.curso;
+    document.getElementById("grau").innerHTML = usuariojson.curriculo.grau;
+    document.getElementById("instituicao").innerHTML = usuariojson.curriculo.instituicao;
+    document.getElementById("inicio").innerHTML = usuariojson.curriculo.inicio;
+    document.getElementById("termino").innerHTML = usuariojson.curriculo.termino;
+    document.getElementById("cargo").innerHTML = usuariojson.curriculo.cargo;
+    document.getElementById("empresa").innerHTML = usuariojson.curriculo.empresa;
+    document.getElementById("descricao").innerHTML = usuariojson.curriculo.descricao;
+    document.getElementById("comeco").innerHTML = usuariojson.curriculo.comeco;
+    document.getElementById("saida").innerHTML = usuariojson.curriculo.saida;
+    document.getElementById("competencia1").innerHTML = usuariojson.curriculo.competencia1;
+    document.getElementById("competencia2").innerHTML = usuariojson.curriculo.competencia2;
+    document.getElementById("competencia3").innerHTML = usuariojson.curriculo.competencia3;
+    document.getElementById("competencia4").innerHTML = usuariojson.curriculo.competencia4;
+    document.getElementById("competencia5").innerHTML = usuariojson.curriculo.competencia5;
+    document.getElementById("linkedin").innerHTML = usuariojson.curriculo.linkedin;
+    document.getElementById("links").innerHTML = usuariojson.curriculo.links;
+    document.getElementById("atual").innerHTML = usuariojson.curriculo.atual;
+    document.getElementById("cursando").innerHTML = usuariojson.curriculo.cursando;
+    document.getElementById("cursos").innerHTML = usuariojson.curriculo.cursos;
+    document.getElementById("resumo").innerHTML = usuariojson.curriculo.resumo;
+    document.getElementById("funcao").innerHTML = usuariojson.curriculo.funcao;
 });
 
 // RESPONSIVIDADE

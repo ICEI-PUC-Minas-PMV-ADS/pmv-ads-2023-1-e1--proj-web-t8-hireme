@@ -28,7 +28,7 @@ const dadosIniciais = {
             "endereco": "Rua qualquer rua",
             "senha": "candidato123",
             "tipoUsuario": "candidato",
-            "curriculos": []
+            "curriculo": {}
         },
         {
             "id": generateUUID(),

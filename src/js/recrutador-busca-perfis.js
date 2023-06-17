@@ -37,12 +37,12 @@ function criarCardUsuario(usuario) {
     `;
     perfilContainer.appendChild(btnPerfil);
 
-    let curriculoUsuario = usuario.curriculos[0];
+    let curriculoUsuario = usuario.curriculo;
     if (curriculoUsuario != undefined) {
         let perfilCorpo = document.createElement("div");
         perfilCorpo.classList.add("corpo");
         perfilCorpo.innerHTML = `
-        ${usuario.biografia}
+        ${curriculoUsuario.resumo}
         <p>Skills</p>
         <ul>
         <li>${curriculoUsuario.competencia1}</li>

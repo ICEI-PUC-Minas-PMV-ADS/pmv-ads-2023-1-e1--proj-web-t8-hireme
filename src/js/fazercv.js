@@ -169,8 +169,10 @@ formCV.addEventListener('submit', function () {
     let usuarioString = sessionStorage.getItem('usuario');
     let usuariojson = JSON.parse(usuarioString);
 
-    console.log(usuariojson);
-
+    const dataCriacao = new Date()
+    let dia = String(dataCriacao.getDate()).padStart(2, "0");
+    let mes = String(dataCriacao.getMonth()+1).padStart(2, "0");
+    let ano = dataCriacao.getFullYear();
     const curriculoJson = {
         "resumo": resumo.value,
         "funcao": funcao.value,
@@ -195,21 +197,20 @@ formCV.addEventListener('submit', function () {
         "competencia5": competencia5.value,
         "cursos": cursos.value,
         "idioma": idioma.value,
-        "proficiencia": proficiencia.value
+        "proficiencia": proficiencia.value,
+        "dataCriacao": `${dia}/${mes}/${ano}`
     }
-    usuariojson.curriculos.push(curriculoJson) 
-    console.log(usuariojson)
+    usuariojson.curriculo = curriculoJson; 
     sessionStorage.setItem('usuario', JSON.stringify(usuariojson))
 
     let usuariosJson = JSON.parse(localStorage.getItem('db_usuarios'))
     usuariosJson.usuarios.forEach(usuario => {
         if (usuario.email == usuariojson.email && usuario.senha == usuariojson.senha) {
-            usuario.curriculos.push(curriculoJson)
+            usuario.curriculo = curriculoJson;
         }
     })
 
     localStorage.setItem('db_usuarios', JSON.stringify(usuariosJson));
-    console.log(usuariojson)
 });
 
 // RESPONSIVIDADE

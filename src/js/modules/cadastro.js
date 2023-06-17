@@ -34,7 +34,7 @@ formCadastro.addEventListener('submit', function() {
             "endereco": null,
             "senha": senha.value,
             "tipoUsuario": usuarioOpts.value, 
-            "curriculos": []
+            "curriculo": {}
         }
     } else {
         novoUsuario = {
