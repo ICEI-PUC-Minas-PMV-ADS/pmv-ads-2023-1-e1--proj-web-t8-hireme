@@ -278,17 +278,17 @@ button a {
 
     .botao-dica img{
         position: absolute;
-        width: 38px;
-        height: 35px;
-        left: 60%;
-        top: 190px;
+        width: 30px;
+        height: 27px;
+        left: 40%;
+        top: 1740px;
     }
     
     .conteudo {
         position: absolute;
-        width: 300px;
-        top: 210px;
-        left: 35%;
+        width: 250px;
+        top: 1670px;
+        left: 42%;
         padding: 10px;
         font-size: 12px;
     }
@@ -382,17 +382,17 @@ button a {
 
     .botao-dica img{
         position: absolute;
-        width: 40px;
-        height: 37px;
-        left: 82%;
-        top: 130px;
+        width: 31px;
+        height: 28px;
+        left: 21%;
+        top: 1570px;
     }
     
     .conteudo {
         position: absolute;
         width: 320px;
-        top: 160px;
-        left: 65%;
+        top: 1500px;
+        left: 23%;
         padding: 10px;
         font-size: 14px;
     }
