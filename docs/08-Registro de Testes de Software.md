@@ -102,7 +102,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 - Ao escolher um currículo, clicar no botão Enviar mensagem.
 <div align="center">
-<img src="img\CT-05-mensagens.jpeg" width="50%"><br><br>
+<img src="img\CT-05-mensagens.jpg" width="50%"><br><br>
 </div>
   
 
