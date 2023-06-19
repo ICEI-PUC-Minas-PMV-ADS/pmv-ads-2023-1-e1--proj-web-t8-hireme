@@ -99,10 +99,10 @@ main h1{
 
 .botao-dica img{
     position: absolute;
-    width: 45px;
-    height: 42px;
-    left: 75%;
-    top: 140px;
+    width: 33px;
+    height: 30px;
+    left: 14%;
+    top: 1575px;
     cursor: pointer;
 }
 
@@ -117,8 +117,8 @@ main h1{
     box-sizing: border-box;
     place-items: center;
     width: 370px;
-    top: 175px;
-    left: 750px;
+    top: 1500px;
+    left: 15%;
     padding: 10px;
     font-family: "Gabriela", sans-serif;
     background: #BDBDBD;
