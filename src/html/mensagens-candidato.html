@@ -85,6 +85,7 @@
 
             </div>
 
+
             <div class="chat">
 
                 <div class="chat-container">
@@ -115,6 +116,38 @@
                     </form>
                     <button class="button clear-chat-button">Limpar o chat</button>
                 </div>
+
+                <button class="openChat" onmouseover="showModal()">Ana Campos</button>
+
+                <dialog>
+                        <button class="voltar">
+                            <img src="imagens/back.png" alt="voltar" onmouseover="closeModal()">
+                        </button>
+                        <h2 class="chat-header"> Ana Campos</h2>
+                        <h2 class="chat-status"> Disponível</h2>
+                        <abbr title="Favoritar conversa">
+                            <img src="imagens/principal.png" alt="principal">
+                        </abbr>
+                        <hr>
+    
+                        <div class="chat-messages">
+                            <div class="message orange-bg">
+                                <div class="message-sender">Você</div>
+                                <div class="message-text">Oi, Ana!</div>
+                                <div class="message-timestamp">10:30 AM</div>
+                            </div>
+                            <div class="message white-bg">
+                                <div class="message-sender">Ana Campos</div>
+                                <div class="message-text">Olá, João</div>
+                                <div class="message-timestamp">10:35 AM</div>
+                            </div>
+                        </div>
+                
+                
+                        <form class="chat-input-form">
+                            <input type="text" class="chat-input" required placeholder="Escreva uma mensagem..."/>
+                        </form>
+                </dialog>
 
             </div>
 

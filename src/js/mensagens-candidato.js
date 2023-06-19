@@ -60,3 +60,16 @@ clearChatBtn.addEventListener('click', () => {
   localStorage.clear()
   chatMessages.innerHTML = ''
 })
+
+//FUNCIONAMENTO DO CHAT DE MENSAGENS EM MODO MOBILE
+
+
+function showModal(){
+  let conteudo = document.querySelector("dialog");
+  conteudo.style.display = "block";
+}
+
+function closeModal(){
+  let conteudo = document.querySelector("dialog");
+  conteudo.style.display = "none";
+}
