@@ -87,7 +87,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 - Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para selecionar
 
 <div align="center">
-<img src="img\CT04-02.jpg" width="50%"><br><br>
+<img src="img\CT04-2.jpg" width="50%"><br><br>
 </div>
 
 ## CT05 - Caixa de mensagens
@@ -96,7 +96,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 - Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para pesquisar currículos.
 
 <div align="center">
-<img src="img\CT04-02.jpg" width="50%"><br><br>
+<img src="img\CT04-2.jpg" width="50%"><br><br>
 </div>
   
 
@@ -110,7 +110,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 - Acessar a página Buscar profissionais.
 - Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para pesquisar currículos.
 <div align="center">
-<img src="img\CT04-02.jpg" width="50%"><br><br>
+<img src="img\CT4-02.jpg" width="50%"><br><br>
 </div>
   
 - Quando um currículo chamar atenção, clicar no botão de favoritar, em forma de coração, presente no box do currículo.
