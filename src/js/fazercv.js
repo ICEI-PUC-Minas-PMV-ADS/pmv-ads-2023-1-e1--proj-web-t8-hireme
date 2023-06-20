@@ -233,3 +233,23 @@ function hideConteudo(){
     let conteudo = document.querySelector(".conteudo");
     conteudo.style.display = "none";
 }
+
+function showConteudoLink (){
+    let conteudoLink = document.querySelector(".conteudo-link");
+    conteudoLink.style.display = "inline-grid";
+}
+
+function hideConteudoLink(){
+    let conteudoLink = document.querySelector(".conteudo-link");
+    conteudoLink.style.display = "none";
+}
+
+function showConteudoCargo(){
+    let conteudoCargo = document.querySelector(".conteudo-cargo");
+    conteudoCargo.style.display = "inline-grid";
+}
+
+function hideConteudoCargo(){
+    let conteudoCargo = document.querySelector(".conteudo-cargo");
+    conteudoCargo.style.display = "none";
+}
