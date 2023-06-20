@@ -231,7 +231,7 @@ header {
     position: absolute;
     left: 24.94%;
     right: 24%;
-    top: 23%;
+    top: 20%;
     
 
     font-family: 'Lora';
@@ -251,7 +251,7 @@ header {
     position: absolute;
     left: 42.64%;
     right: 42.64%;
-    top: 40%;
+    top: 55%;
     
     font-family: 'Lora';
     font-style: normal;
@@ -592,7 +592,7 @@ header {
         position: absolute;
         width: 80%;
         left: 10%;
-        top: 45%;
+        top: 55%;
         font-size: 20px;
     }
     
