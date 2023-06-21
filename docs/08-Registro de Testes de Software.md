@@ -61,8 +61,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 - Preencher as informações pedidas para o currículo, como habilidades e experiências
 
 <div align="center">
-<img src="img\CT03-03-1.png" width="50%"><br><br>
-<img src="img\CT03-03-2.png" width="50%"><br><br>
+<img src="img/teste-responsividade-curriculo-desktop.jpg" width="50%"><br><br>
 </div>
  
 - Clicar em Salvar e ver currículo para ser redirecionado para a página com as informações do seu currículo
