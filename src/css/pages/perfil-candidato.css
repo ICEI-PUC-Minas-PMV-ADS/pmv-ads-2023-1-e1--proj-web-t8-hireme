@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-@media only screen and (max-width: 768px) { }
-@media (min-width: 1200px) {}
 
-/* Usando mobile firts responsive*/
-/* Gerais */
 html {
     font-family: 'Gabriela', sans-serif;
     background-color: #BDBDBD;
@@ -80,12 +76,10 @@ a:hover {
     display: none;
 }
 
-/* PERFIL */
-
 #container {
     background-color: #BDBDBD;
     width: auto;
-    height: 900px;
+    height: 800px;
     margin-bottom: 40px;
 }
 
@@ -98,12 +92,13 @@ a:hover {
     top: 115px;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
+    box-shadow: 0px 3px 10px #3b3b3b;
 }
 
 .bio h1{
     z-index: 1;
     position: absolute;
-    left: 380px;
+    left: 24%;
     top: 20px;
 
     font-family: 'Gabriela';
@@ -114,73 +109,73 @@ a:hover {
     color: #FF7A00;
 }
 
-.bio h2{
-    position: absolute;
-    left: 230px;
-    top: 80px;
-    
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 32px;
-    
-    
-    color: #141414;
+input[type='file']{
+    display: none;
 }
 
-.edit1{
+#customUpload {
+    display: inline-block;
+    overflow: hidden;
+
+    position: absolute;
+    left: 5%;
+    top: 37px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #ddd;
+    
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3b3b3b;
+    cursor: pointer;
+}
+  
+#customUpload img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#foto {
+    padding-left: 1px;
+}
+
+.edit-bio{
     z-index: 1;
     position: absolute;
-    left: 280px;
-    top: 100px;
-    font-family: 'Gabriela';
+    left: 24%;
+    top: 98px;
+}
+
+.edit-bio #biografia{
+    border-radius: 20px;
+    width: 300px;
+    height: 20px;
+
+    font-family: 'Lora';
     font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 15px;
 }
 
- 
-.edit1 .editP{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 260%;
-    top: -75px;
-    line-height: 10px;
-}
-
-.bio .icon {
-    position: absolute;
-    width: 125px;
-    height: 125px;
-    left: 67px;
-    top: 37px;
-
-    background: #3b3b3b;
-    border-radius: 70px;
-
-}
-
-.edit1 img {
+.bio .edit{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
 
-    position: relative;
-    width: 25px;
-    height: 25px;
-    left: 935px;
-    top: 20px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 93%;
+    top: 25px;
+    line-height: 10px;
     cursor: pointer;
 }
 
-.edit1 img:hover {
+.bio .edit:hover {
     transform: scale(1.11)
 }
-
 
 .informaçao {
     position: absolute;
@@ -188,27 +183,11 @@ a:hover {
     align-self: center;
     height: 55%;
     left: 12%;
-    top: 580px;
+    top: 490px;
     background: rgba(255, 255, 255, 0.51);
     border-radius: 20px;
+    box-shadow: 0px 3px 10px #3b3b3b;
 }
-
-
-.bio h1{
-    z-index: 1;
-    position: absolute;
-    left: 230px;
-    top: 20px;
-
-    font-family: 'Gabriela';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 45px;
-    color: #FF7A00;
-}
-
-
 
 .informaçao h1{
     z-index: 1;
@@ -224,51 +203,52 @@ a:hover {
     color: #FF7A00;
 }
 
+.edit-informaçoes .edit{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
 
-.edit2 .editP{
     position: absolute;
     width: 30px;
     height: 30px;
     left: 93%;
     top: 30px;
     line-height: 10px;
-}
-
-
-.edit2 img {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: relative;
-    width: 25px;
-    height: 25px;
-    left: 100%;
-    top: 20px;
     cursor: pointer;
 }
 
-.edit2 img:hover {
+.edit-informaçoes .edit:hover {
     transform: scale(1.11)
 }
 
-.informaçao h2{
-    position: absolute;
-    left: 90px;
-    top: 71px;
+.email-icon img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 10%;
+    top: 110px;
+}
+
+.email #email{
+    position: relative;
+    left: 14%;
+    top: 85px;
+
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
 
     font-family: 'Lora';
     font-style: normal;
-    font-weight: 400;
     font-size: 15px;
-    line-height: 32px;
-
-    color: #141414;
 }
 
-
-.email img {
+.phone-icon img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -276,142 +256,74 @@ a:hover {
     position: relative;
     width: 22px;
     height: 22px;
-    left: 225px;
-    top: 130px;
+    left: 10%;
+    top: 170px;
 }
 
-.informaçao h3 {
-    position: absolute;
-    left: 90px;
-    top: 182px;
+.phone #phone {
+    position: relative;
+    left: 14%;
+    top: 145px;
+
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
 
     font-family: 'Lora';
     font-style: normal;
-    font-weight: 400;
     font-size: 15px;
-    line-height: 32px;
-
-    color: #141414;
 }
 
-.email2{
+.residencia-icon img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     position: relative;
-    width: 22px;
+    width: 20px;
     height: 22px;
-    left: 285px;
-    top: 100px;
+    left: 50%;
+    top: 13px;
 }
 
-
-.emprego img{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
+.residencia #residencia{
     position: relative;
-    width: 22px;
-    height: 22px;
-    left: 225px;
-    top: 130px;
-}
+    left: 54%;
+    top: -10px;
 
-
-.informaçao h4{
-    position: absolute;
-    left: 540px;
-    top: 65px;
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
 
     font-family: 'Lora';
     font-style: normal;
-    font-weight: 400;
     font-size: 15px;
-    line-height: 32px;
-
-    color: #141414;
 }
 
-
-
-
-.phone img {
-
+.cargo-icon img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     position: relative;
-    width: 22px;
+    width: 20px;
     height: 22px;
-    left: 225px;
-    top: 130px;
+    left: 50%;
+    top: 75px;
 }
-.phone2 {
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
+.cargo #cargo {
     position: relative;
-    width: 22px;
-    height: 22px;
-    left: 285px;
-    top: 100px;
-}
-.residencia2{
+    left: 54%;
+    top: 50px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: relative;
-    width: 22px;
-    height: 22px;
-    left: 285px;
-    top: 100px;
-}
-
-.emprego2{
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: relative;
-    width: 22px;
-    height: 22px;
-    left: 285px;
-    top: 100px;
-}
-
-
-.informaçao h5{
-    position: absolute;
-    left: 540px;
-    top: 167px;
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
 
     font-family: 'Lora';
     font-style: normal;
-    font-weight: 400;
     font-size: 15px;
-    line-height: 32px;
-
-    color: #141414;
-}
-
-.residencia img{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: relative;
-    width: 22px;
-    height: 22px;
-    left: 225px;
-    top: 130px;
 }
 
 @media screen and (max-width:767px) {
@@ -469,6 +381,7 @@ a:hover {
 
     .mobile-menu ul {
         position: relative;
+        top: -40px;
         z-index: 1;
         display: flex;
         flex-direction: column;
@@ -479,7 +392,6 @@ a:hover {
     }
 
     .mobile-menu > ul > li {
-        z-index: 1;
         display: block;
         padding-top: 1.2rem;
         font-family: "Gabriela", sans-serif;
@@ -494,16 +406,122 @@ a:hover {
 
     #container {
         width: auto;
+        height: 1000px;
     }
 
-    .edit1 .editP{
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        left: 90%;
-        top: -75px;
-        line-height: 10px;
+    .bio {
+        display: flex;
+        width: 75%;
+        height: 340px;
     }
+    
+    .bio h1{
+        z-index: 0;
+        position: absolute;
+        left: 42%;
+        top: 170px;
+    
+        font-size: 18px;
+    }
+
+    #customUpload {
+        position: absolute;
+        left: 32%;
+        top: 37px;
+        width: 140px;
+        height: 140px;
+    }
+    
+    .bio img {
+        position: relative;
+        left: 13%;
+        top: 240px;
+    }
+     
+    .edit-bio {
+        position: absolute;
+        left: 25%;
+        top: 238px;
+    }
+    
+    .edit-bio #biografia{
+        z-index: 0;
+        width: 200px;
+        font-size: 12px;
+    }
+     
+    .bio .edit{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 85%;
+    }
+    
+    .informaçao {
+        position: absolute;
+        height: 520px;
+        top: 550px;
+    }
+    
+    .informaçao h1{
+        position: absolute;
+        left: 10%;
+        font-size: 18px;
+    }
+    
+    .edit-informaçoes .edit{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 85%;
+    }
+    
+    .email #email{
+        position: relative;
+        left: 20%;
+        width: 160px;
+        font-size: 12px;
+    }
+    
+    .phone #phone {
+        position: relative;
+        left: 20%;
+        width: 160px;
+        font-size: 12px;
+    }
+    
+    .residencia-icon img{
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        left: 10%;
+        top: 318px;
+    }
+    
+    .residencia #residencia{
+        position: relative;
+        left: 20%;
+        top: 220px;
+        width: 160px;
+        font-size: 12px;
+    }
+    
+    .cargo-icon img{
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        left: 10%;
+        top: 418px;
+    }
+    
+    .cargo #cargo{
+        position: relative;
+        left: 20%;
+        top: 295px;
+        width: 160px;
+        font-size: 12px;
+    }
+    
 }
 
 @media screen and (min-width:767px) and (max-width:1023px) {
@@ -561,7 +579,8 @@ a:hover {
 
     .mobile-menu ul {
         position: relative;
-        z-index: 1;
+        top: -40px;
+        z-index: 2;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -571,7 +590,6 @@ a:hover {
     }
 
     .mobile-menu > ul > li {
-        z-index: 1;
         display: block;
         padding-top: 1.2rem;
         font-family: "Gabriela", sans-serif;
@@ -587,41 +605,65 @@ a:hover {
     #container {
         width: auto;
     }
+    
+    .bio h1{
+        z-index: 0;
+        position: absolute;
+        left: 30%;
+        top: 20px;
+    }
 
-    .edit1 .editP{
+    #customUpload {
+        position: absolute;
+        left: 5%;
+        top: 40px;
+        width: 140px;
+        height: 140px;
+    }
+
+    .edit-bio{
+        position: absolute;
+        left: 30%;
+    }
+    
+    .edit-bio #biografia{
+        z-index: 0;
+        width: 250px;
+        font-size: 13px;
+    }
+    
+    .bio .edit{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
         position: absolute;
         width: 30px;
         height: 30px;
-        left: 150%;
-        top: -75px;
+        left: 93%;
+        top: 25px;
         line-height: 10px;
+        cursor: pointer;
+    }
+    
+    .email #email{
+        width: 170px;
+        font-size: 13px;
+    }
+    
+    .phone #phone {
+        width: 170px;
+        font-size: 13px;
+    }
+    
+    .residencia #residencia{
+        width: 170px;
+        font-size: 13px;
+    }
+    
+    .cargo #cargo {
+        width: 170px;
+        font-size: 13px;
     }
 }
-
-/* FOTO */
-input[type='file']{
-    display: none;
-}
-
-#customUpload {
-    display: inline-block;
-    overflow: hidden;
-    width: 200px;
-    height: 200px;
-    border-radius: 10%;
-    background: #ddd;
-    align-items: center;
-    justify-content: center;
-    border: 1px dashed currentcolor;
-    cursor: pointer;
-  }
-  
-  #customUpload img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  #foto {
-    padding-left: 1px;
-  }

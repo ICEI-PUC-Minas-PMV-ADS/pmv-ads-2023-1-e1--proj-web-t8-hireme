@@ -1,135 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!--
 
-    ESSA É A PERFIL DO CANDIDATO
--->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
+        <title>Meu perfil</title>
+        <link rel="stylesheet" href="../css/pages/perfil-candidato.css">
+    </head>
 
-    <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
-    <title>Meu perfil</title>
-    <link rel="stylesheet" href="../css/pages/perfil-candidato.css">
-</head>
+    <body>
+        <header>
+            <nav class="menu-principal">
+                <img src="imagens/handshakepequeno.png" alt="Logo HireMe">
+                <h1> HireMe</h1>
+                <ul>
+                    <li><a href="FazerCV.html">Criar um currículo</a></li>
+                    <li><a href="curriculos-candidato.html">Meus currículos</a></li>
+                    <li><a href="mensagens-candidato.html"> Mensagens </a></li>
+                    <li><a href="perfil-candidato.html"> Meu Perfil </a></li>
+                    <li><a id="logout">Sair</a></li>
+                </ul>
+                
+                
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="imagens/menu_white_36dp.svg"></button>
+                </div>
+            </nav>
 
-<body>
-    <header>
-        <nav class="menu-principal">
-            <img src="imagens/handshakepequeno.png" alt="Logo HireMe">
-            <h1> HireMe</h1>
-            <ul>
-                <li><a href="FazerCV.html">Criar um currículo</a></li>
-                <li><a href="curriculos-candidato.html">Meus currículos</a></li>
-                <li><a href="mensagens-candidato.html"> Mensagens </a></li>
-                <li><a href="perfil-candidato.html"> Meu Perfil </a></li>
-                <li><a id="logout">Sair</a></li>
-            </ul>
-            
-            
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="imagens/menu_white_36dp.svg"></button>
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="FazerCV.html">Criar um currículo</a></li>
+                    <li><a href="curriculos-candidato.html">Meus currículos</a></li>
+                    <li><a href="mensagens-candidato.html">Mensagens</a></li>
+                    <li><a href="perfil-candidato.html">Meu Perfil</a></li>
+                    <li><a id="logout">Sair</a></li>
+                </ul>
             </div>
-        </nav>
-
-        <div class="mobile-menu">
-            <ul>
-                <li><a href="FazerCV.html">Criar um currículo</a></li>
-                <li><a href="curriculos-candidato.html">Meus currículos</a></li>
-                <li><a href="mensagens-candidato.html">Mensagens</a></li>
-                <li><a href="perfil-candidato.html">Meu Perfil</a></li>
-                <li><a id="logout">Sair</a></li>
-            </ul>
-        </div>
-    </header>
-    
-    <div id="foto">
-    <label for="uploadInput" id="customUpload">
-        <img id="previewImage" src="imagens/photo-camera-icon.jpeg" alt="Preview da Imagem">
-        <input type="file" id="uploadInput" accept="image/*">
-    </label>
-    </div>
+        </header>
     
 
-    <div id="container">
-        <br> </br>
-        <div class="bio">
-            <h1 id="nome"></h1>
-            <h2 id="cargo"></h2>
-            <form class="edit1" action="javascript:void(0)">
-                <div>
-                    <input type="text" id="nome" required>
-
-                    <input class="editP" type="image" src="imagens/edit.png" /></input>
+        <div id="container">
+            <div class="bio">
+                <h1 id="nome">Nome</h1>
+                <div id="foto">
+                    <label for="uploadInput" id="customUpload">
+                        <img id="previewImage" src="imagens/photo-camera-icon.jpeg" alt="Preview da Imagem">
+                        <input type="file" id="uploadInput" accept="image/*">
+                    </label>
                 </div>
-            </form>
-        </div>
-        <div>
-
-            <br></br>
-            <br></br>
-            <br></br>
-
-
-        </div>
-
-        <div class="informaçao">
-            <h1>Informações</h1>
-            <br> </br>
-            <h2 id="cargo"></h2>
-            <div class="icon2"> </div>
-            <form class="edit2" action="javascript:void(0)">
-                <div>
-                    <input class="editP" type="image" src="imagens/edit.png" /></input>
-                </div>
-            </form>
-
-            <!--
-                Dados de contato
-            -->
-            <div class="email">
-                <img src="imagens/email.png" alt="Icon de email">
-            </div>
-            <div class="email2">
-                <form action="javascript:void(0)">
-                    <input type="text" id="email" required>
+                <form class="edit-bio" action="javascript:void(0)">
+                        <input type="text" id="biografia" placeholder="Escreva aqui sua biografia" required>
                 </form>
+                <input class="edit" type="image" src="imagens/edit.png"></input>
             </div>
 
-            <div class="phone">
-                <img src="imagens/phone.png" alt="Icon de telefone">
+            <div class="informaçao">
+                <h1>Informações</h1>
+                    <form class="edit-informaçoes" action="javascript:void(0)">
+                            <input class="edit" type="image" src="imagens/edit.png"></input>
+                    </form>
+
+                    <!-- Dados de contato-->
+                    <div class="email-icon">
+                        <img src="imagens/email.png" alt="Icon de email">
+                    </div>
+                    <div class="email">
+                        <form action="javascript:void(0)">
+                            <input type="text" id="email" placeholder="E-mail" required>
+                        </form>
+                    </div>
+
+                    <div class="phone-icon">
+                        <img src="imagens/phone.png" alt="Icon de telefone">
+                    </div>
+
+                    <div class="phone">
+                        <form action="javascript:void(0)">
+                            <input type="text" id="phone" placeholder="Telefone para contato" required>
+                        </form>
+                    </div>
+
+                    <div class="residencia-icon">
+                        <img src="imagens/residencia.png" alt="Icon de residencia">
+                    </div>
+
+                    <div class="residencia">
+                        <form action="javascript:void(0)">
+                            <input type="text" id="residencia" placeholder="Local de residência" required>
+                        </form>
+                    </div>
+
+                    <div class="cargo-icon">
+                        <img src="imagens/emprego.png" alt="Icon de cargo">
+                    </div>
+                    <div class="cargo">
+                        <form action="javascript:void(0)">
+                            <input type="text" id="cargo" placeholder="Cargo atual" required>
+                        </form>
+                    </div>
             </div>
 
-            <div class="phone2">
-                <form action="javascript:void(0)">
-                    <input type="text" id="phone" required>
-                </form>
-            </div>
 
-            <div class="residencia">
-                <img src="imagens/residencia.png" alt="Icon de residencia">
-            </div>
-
-            <div class=residencia2>
-                <form action="javascript:void(0)">
-                    <input type="text" id="residencia" required>
-                </form>
-            </div>
-
-            <div class="emprego">
-                <img src="imagens/emprego.png" alt="Icon de emprego">
-            </div>
-            <div class="emprego2">
-                <form action="javascript:void(0)">
-                    <input type="text" id="emprego" required>
-                </form>
-            </div>
             <script src="../js/modules/logout.js"></script>
             <script src="../js/modules/consulta-usuario.js"></script>
             <script src="../js/modules/perfil-candidato.js"></script>
-</body>
+        </div>
+
+    </body>
 
 
 

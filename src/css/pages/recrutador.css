@@ -99,7 +99,7 @@ a:hover {
 .bio h1{
     z-index: 1;
     position: absolute;
-    left: 22%;
+    left: 24%;
     top: 20px;
 
     font-family: 'Gabriela';
@@ -112,13 +112,13 @@ a:hover {
 
 .bio .icon2 {
     position: absolute;
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     left: 5%;
     top: 37px;
 
     background: #3b3b3b;
-    border-radius: 70px;
+    border-radius: 50%;
 }
 
 .bio img {
@@ -129,14 +129,14 @@ a:hover {
     position: relative;
     width: 22px;
     height: 22px;
-    left: 22%;
+    left: 24%;
     top: 100px;
 }
  
 .edit-bio{
     z-index: 1;
     position: absolute;
-    left: 27%;
+    left: 28%;
     top: 98px;
     font-family: 'Lora';
     font-style: normal;
@@ -149,7 +149,6 @@ a:hover {
     height: 20px;
 }
 
- 
 .bio .edit{
     display: flex;
     flex-direction: column;
@@ -195,7 +194,6 @@ a:hover {
     color: #00a878;
 }
 
-
 .edit-informaçoes .edit{
     display: flex;
     flex-direction: column;
@@ -210,7 +208,6 @@ a:hover {
     line-height: 10px;
     cursor: pointer;
 }
-
 
 .edit-informaçoes .edit:hover {
     transform: scale(1.11)
@@ -468,7 +465,7 @@ a:hover {
         z-index: 0;
         position: absolute;
         left: 40%;
-        top: 160px;
+        top: 170px;
     
         font-size: 18px;
     }
@@ -477,6 +474,8 @@ a:hover {
         position: absolute;
         left: 30%;
         top: 37px;
+        width: 140px;
+        height: 140px;
     }
     
     .bio img {
@@ -686,10 +685,10 @@ a:hover {
 
     .bio .icon2 {
         position: absolute;
-        left: 10%;
+        left: 5%;
         top: 40px;
-        width: 115px;
-        height: 115px;
+        width: 140px;
+        height: 140px;
     }
     
     .bio img {
