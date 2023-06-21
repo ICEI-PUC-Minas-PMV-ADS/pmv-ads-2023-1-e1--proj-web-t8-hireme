@@ -9,7 +9,7 @@ function menuShow(){
 }
 
 //FOTO
-let photo = document.getElementById('imgPhoto');
+/*let photo = document.getElementById('imgPhoto');
 let file = document.getElementById('flImage');
 
 photo.addEventListener('click', () => {
@@ -28,5 +28,34 @@ file.addEventListener('change', () => {
         photo.src = reader.result;
     }
 
-    reader.readAsDataURL(file.files[0]);
+    reader.readAsDataURL(file.files[1]);
+}); */
+
+const previewImage = document.getElementById('previewImage');
+const customUpload = document.getElementById('customUpload');
+
+uploadInput.addEventListener('change', function(event) {
+  const file = event.target.files[0];
+  const reader = new FileReader();
+
+  reader.onload = function(e) {
+    previewImage.src = e.target.result;
+    customUpload.src = e.target.result;
+  };
+
+  reader.readAsDataURL(file);
+});
+
+customUpload.addEventListener('click', function() {
+  uploadInput.click();
+});
+
+
+//
+let usuarioString = sessionStorage.getItem('usuario');
+let usuariojson = JSON.parse(usuarioString);
+
+window.addEventListener('load', function(){
+    document.getElementById("nome-candidato").innerHTML = usuariojson.nome;
+    document.getElementById("email").innerHTML = usuariojson.email;
 });

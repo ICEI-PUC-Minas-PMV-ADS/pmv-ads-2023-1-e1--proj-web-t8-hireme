@@ -12,11 +12,7 @@
 
     <link rel="shortcut icon" href="imagens/handshakepequeno.png" type="image/png">
     <title>Meu perfil</title>
-
     <link rel="stylesheet" href="../css/pages/perfil-candidato.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -49,18 +45,27 @@
         </div>
     </header>
     
-    <div class="max-width">
+    <!-- <div class="max-width">
         <div class="imageContainer">
             <img src="imagens/handshakepequeno.png" alt="Escolha uma foto" id="imgPhoto">
         </div>
     </div>    
       
-    <input type="file" name="flImage" id="flImage" accept="image/*">
+    <input type="file" name="flImage" id="flImage" accept="image/*"> -->
+
+    <form id="picture">
+    <label for="uploadInput" id="customUpload">
+        <img id="previewImage" src="#" alt="Preview da Imagem">
+        <span>Carregar Imagem</span>
+        <input type="file" id="uploadInput" name="picture" accept="image/*">
+    </label>
+    </form>
+    
 
     <div id="container">
         <br> </br>
         <div class="bio">
-            <h1>Nome</h1>
+            <h1 id="nome-candidato">Nome</h1>
             <h2 id="cargo"></h2>
             <form class="edit1" action="javascript:void(0)">
                 <div>
@@ -132,7 +137,7 @@
             </div>
             <script src="../js/modules/logout.js"></script>
             <script src="../js/modules/consulta-usuario.js"></script>
-            <script src="../js/perfil-candidato.js"></script>
+            <script src="../js/modules/perfil-candidato.js"></script>
 </body>
 
 
