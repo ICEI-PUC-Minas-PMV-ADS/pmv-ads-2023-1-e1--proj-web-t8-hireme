@@ -16,8 +16,8 @@ window.addEventListener('load', function() {
     }
 })
 
-function popularElemento(elemento, propiedade) {
-    elemento.innerHTML = usuarioLogado[propiedade];
+function popularElemento(elemento, propriedade) {
+    elemento.innerHTML = usuarioLogado[propriedade];
 }
 
 function consultarCandidato() {

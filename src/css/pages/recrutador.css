@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-@media only screen and (max-width: 768px) { }
-@media (min-width: 1200px) {}
-/* Usando mobile firts responsive*/
-/* Gerais */
+
 html {
     font-family: 'Gabriela', sans-serif;
     background-color: #BDBDBD;
@@ -79,7 +76,6 @@ a:hover {
     display: none;
 }
 
-
 #container {
     width: auto;
     background-color: #BDBDBD;
@@ -97,12 +93,13 @@ a:hover {
     top: 115px;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
+    box-shadow: 0px 3px 10px #3b3b3b;
 }
 
 .bio h1{
     z-index: 1;
     position: absolute;
-    left: 230px;
+    left: 22%;
     top: 20px;
 
     font-family: 'Gabriela';
@@ -111,117 +108,78 @@ a:hover {
     font-size: 20px;
     line-height: 45px;
     color: #00a878;
-}
-
-.bio h2{
-    position: absolute;
-    left: 230px;
-    top: 80px;
-    
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 32px;
-    
-    
-    color: #141414;
-}
-
-
-.bio .icon1{
-    position: absolute;
-    width: 140px;
-    height: 140px;
-    left: 60px;
-    top: 30px;
-
-    background: rgba(0, 0, 0, 0.25);
-    border-radius: 70px;
-}
-
-
- 
-.edit1{
-    z-index: 1;
-    position: absolute;
-    left: 280px;
-    top: 100px;
-    font-family: 'Gabriela';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 20px;
-}
-
- 
-.edit1 .editP{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 260%;
-    top: -75px;
-    line-height: 10px;
 }
 
 .bio .icon2 {
     position: absolute;
     width: 125px;
     height: 125px;
-    left: 67px;
+    left: 5%;
     top: 37px;
 
     background: #3b3b3b;
     border-radius: 70px;
-
 }
 
-.edit1 img {
+.bio img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 22%;
+    top: 100px;
+}
+ 
+.edit-bio{
+    z-index: 1;
+    position: absolute;
+    left: 27%;
+    top: 98px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-size: 15px;
+}
+
+.edit-bio #cargo{
+    border-radius: 20px;
+    width: 300px;
+    height: 20px;
+}
+
+ 
+.bio .edit{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
 
-    position: relative;
-    width: 25px;
-    height: 25px;
-    left: 935px;
-    top: 20px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 93%;
+    top: 25px;
+    line-height: 10px;
     cursor: pointer;
 }
 
-.edit1 img:hover {
+.bio .edit:hover {
     transform: scale(1.11)
 }
-
 
 .informaçao {
     position: absolute;
     width: 75%;
     align-self: center;
-    height: 55%;
+    height: 60%;
     left: 12%;
-    top: 580px;
+    top: 490px;
     background: rgba(255, 255, 255, 0.51);
     border-radius: 20px;
+    box-shadow: 0px 3px 10px #3b3b3b;
 }
-
-
-.bio h1{
-    z-index: 1;
-    position: absolute;
-    left: 230px;
-    top: 20px;
-
-    font-family: 'Gabriela';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 45px;
-    color: #00a878;
-}
-
-
 
 .informaçao h1{
     z-index: 1;
@@ -238,49 +196,27 @@ a:hover {
 }
 
 
- 
-.edit2 .editP{
+.edit-informaçoes .edit{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
     position: absolute;
     width: 30px;
     height: 30px;
     left: 93%;
     top: 30px;
     line-height: 10px;
-}
-
-.edit2 img {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: relative;
-    width: 25px;
-    height: 25px;
-    left: 935px;
-    top: 20px;
     cursor: pointer;
 }
 
-.edit2 img:hover {
+
+.edit-informaçoes .edit:hover {
     transform: scale(1.11)
 }
 
-.informaçao h2{
-    position: absolute;
-    left: 90px;
-    top: 71px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 32px;
-
-    color: #141414;
-}
-
-.email img {
+.email-icon img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -288,53 +224,25 @@ a:hover {
     position: relative;
     width: 22px;
     height: 22px;
-    left: 225px;
-    top: 130px;
-}
-
-
-.informaçao h3 {
-    position: absolute;
-    left: 90px;
-    top: 162px;
-
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 32px;
-
-    color: #141414;
-}
-
-.empresa img{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: relative;
-    width: 22px;
-    height: 22px;
-    left: 50px;
+    left: 10%;
     top: 90px;
 }
 
-.informaçao h4{
-    position: absolute;
-    left: 540px;
+.email #email{
+    position: relative;
+    left: 14%;
     top: 65px;
 
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
+
     font-family: 'Lora';
     font-style: normal;
-    font-weight: 400;
     font-size: 15px;
-    line-height: 32px;
-
-    color: #141414;
 }
 
-.email2{
+.phone-icon img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -342,118 +250,130 @@ a:hover {
     position: relative;
     width: 22px;
     height: 22px;
-    left: 285px;
-    top: 100px;
-}
-
-
-.emprego img{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: relative;
-    width: 22px;
-    height: 22px;
-    left: 225px;
+    left: 10%;
     top: 130px;
 }
 
+.phone #phone {
+    position: relative;
+    left: 14%;
+    top: 105px;
 
-.informaçao h4{
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-size: 15px;
+}
+
+.linkedin-icon img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 10%;
+    top: 180px;
+}
+
+.linkedin #linkedin {
+    position: relative;
+    left: 14%;
+    top: 155px;
+
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-size: 15px;
+}
+
+.empresa-icon img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
     position: absolute;
-    left: 540px;
-    top: 65px;
+    width: 22px;
+    height: 22px;
+    left: 50%;
+    top: 90px;
+}
+
+.empresa #empresa{
+    position: relative;
+    left: 54%;
+    top: -55px;
+
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
 
     font-family: 'Lora';
     font-style: normal;
-    font-weight: 400;
     font-size: 15px;
-    line-height: 32px;
-
-    color: #141414;
 }
 
-
-
-
-.phone img {
-
+.cnpj-icon img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    position: relative;
-    width: 22px;
-    height: 22px;
-    left: 225px;
-    top: 130px;
-}
-.phone2 {
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: relative;
-    width: 22px;
-    height: 22px;
-    left: 285px;
-    top: 100px;
-}
-.residencia2{
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: relative;
-    width: 22px;
-    height: 22px;
-    left: 285px;
-    top: 100px;
-}
-
-.emprego2{
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: relative;
-    width: 22px;
-    height: 22px;
-    left: 285px;
-    top: 100px;
-}
-
-
-.informaçao h5{
     position: absolute;
-    left: 540px;
-    top: 167px;
+    width: 22px;
+    height: 22px;
+    left: 50%;
+    top: 180px;
+}
+
+.cnpj #cnpj{
+    position: relative;
+    left: 54%;
+    top: 8px;
+
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
 
     font-family: 'Lora';
     font-style: normal;
-    font-weight: 400;
     font-size: 15px;
-    line-height: 32px;
-
-    color: #141414;
 }
 
-.residencia img{
+.site-icon img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    position: relative;
+
+    position: absolute;
     width: 22px;
     height: 22px;
-    left: 225px;
-    top: 130px;
+    left: 50%;
+    top: 277px;
 }
 
+.site #site{
+    position: relative;
+    left: 54%;
+    top: 77px;
+
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-size: 15px;
+}
 
 @media screen and (max-width:767px) {
     header {
@@ -510,6 +430,7 @@ a:hover {
 
     .mobile-menu ul {
         position: relative;
+        top: -40px;
         z-index: 1;
         display: flex;
         flex-direction: column;
@@ -520,7 +441,6 @@ a:hover {
     }
 
     .mobile-menu > ul > li {
-        z-index: 1;
         display: block;
         padding-top: 1.2rem;
         font-family: "Gabriela", sans-serif;
@@ -535,16 +455,144 @@ a:hover {
 
     #container {
         width: auto;
+        height: 1200px;
     }
 
-    .edit1 .editP{
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        left: 90%;
-        top: -75px;
-        line-height: 10px;
+    .bio {
+        display: flex;
+        width: 75%;
+        height: 340px;
     }
+    
+    .bio h1{
+        z-index: 0;
+        position: absolute;
+        left: 40%;
+        top: 160px;
+    
+        font-size: 18px;
+    }
+    
+    .bio .icon2 {
+        position: absolute;
+        left: 30%;
+        top: 37px;
+    }
+    
+    .bio img {
+        position: relative;
+        left: 13%;
+        top: 240px;
+    }
+     
+    .edit-bio{
+        position: absolute;
+        left: 25%;
+        top: 238px;
+        font-size: 12px;
+    }
+    
+    .edit-bio #cargo{
+        z-index: 0;
+        width: 200px;
+    }
+     
+    .bio .edit{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 85%;
+    }
+    
+    .informaçao {
+        position: absolute;
+        height: 650px;
+        top: 550px;
+    }
+    
+    .informaçao h1{
+        position: absolute;
+        left: 10%;
+        font-size: 18px;
+    }
+    
+    .edit-informaçoes .edit{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 85%;
+    }
+    
+    .email #email{
+        position: relative;
+        left: 20%;
+        width: 160px;
+        font-size: 12px;
+    }
+    
+    .phone #phone {
+        position: relative;
+        left: 20%;
+        width: 160px;
+        font-size: 12px;
+    }
+    
+    .linkedin #linkedin {
+        position: relative;
+        left: 20%;
+        width: 160px;
+        font-size: 12px;
+    }
+    
+    .empresa-icon img{
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        left: 10%;
+        top: 360px;
+    }
+    
+    .empresa #empresa{
+        position: relative;
+        left: 20%;
+        top: 215px;
+        width: 160px;
+        font-size: 12px;
+    }
+    
+    .cnpj-icon img{
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        left: 10%;
+        top: 450px;
+    }
+    
+    .cnpj #cnpj{
+        position: relative;
+        left: 20%;
+        top: 275px;
+        width: 160px;
+        font-size: 12px;
+    }
+    
+    .site-icon img{
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        left: 10%;
+        top: 540px;
+    }
+    
+    .site #site{
+        position: relative;
+        left: 20%;
+        top: 340px;
+        width: 160px;
+        font-size: 12px;
+    }
+
+
 }
 
 @media screen and (min-width:767px) and (max-width:1023px) {
@@ -602,7 +650,8 @@ a:hover {
 
     .mobile-menu ul {
         position: relative;
-        z-index: 1;
+        top: -40px;
+        z-index: 2;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -612,7 +661,6 @@ a:hover {
     }
 
     .mobile-menu > ul > li {
-        z-index: 1;
         display: block;
         padding-top: 1.2rem;
         font-family: "Gabriela", sans-serif;
@@ -629,12 +677,65 @@ a:hover {
         width: auto;
     }
 
-    .edit1 .editP{
+    .bio h1{
+        z-index: 0;
         position: absolute;
-        width: 30px;
-        height: 30px;
-        left: 150%;
-        top: -75px;
-        line-height: 10px;
+        left: 30%;
+        top: 20px;
     }
+
+    .bio .icon2 {
+        position: absolute;
+        left: 10%;
+        top: 40px;
+        width: 115px;
+        height: 115px;
+    }
+    
+    .bio img {
+        position: relative;
+        left: 30%;
+    }
+     
+    .edit-bio{
+        position: absolute;
+        left: 36%;
+        font-size: 13px;
+    }
+    
+    .edit-bio #cargo{
+        z-index: 0;
+        width: 250px;
+    }
+    
+    .email #email{
+        width: 170px;
+        font-size: 13px;
+    }
+    
+    .phone #phone {
+        width: 170px;
+        font-size: 13px;
+    }
+    
+    .linkedin #linkedin {
+        width: 170px;
+        font-size: 13px;
+    }
+    
+    .empresa #empresa{
+        width: 170px;
+        font-size: 13px;
+    }
+    
+    .cnpj #cnpj{
+        width: 170px;
+        font-size: 13px;
+    }
+    
+    .site #site{
+        width: 170px;
+        font-size: 13px;
+    }
+
 }
