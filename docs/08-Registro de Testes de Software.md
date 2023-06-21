@@ -55,7 +55,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 - Clicar no menu principal na opção Criar um currículo.
 
 <div align="center">
-<img src="img\CT03-02.jpg" width="50%"><br><br>
+<img src="img/teste-perfil-candidato.jpg" width="50%"><br><br>
 </div>
 
 - Preencher as informações pedidas para o currículo, como habilidades e experiências
