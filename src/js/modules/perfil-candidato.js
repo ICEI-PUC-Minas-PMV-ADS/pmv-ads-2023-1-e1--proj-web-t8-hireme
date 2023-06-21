@@ -34,6 +34,6 @@ let usuarioString = sessionStorage.getItem('usuario');
 let usuariojson = JSON.parse(usuarioString);
 
 window.addEventListener('load', function(){
-    document.getElementById("nome-candidato").innerHTML = usuariojson.nome;
+    document.getElementById("nome").innerHTML = usuariojson.nome;
     document.getElementById("email").innerHTML = usuariojson.email;
 });

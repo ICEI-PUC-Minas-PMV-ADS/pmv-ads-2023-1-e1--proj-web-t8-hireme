@@ -83,7 +83,6 @@ a:hover {
 /* PERFIL */
 
 #container {
-    width: auto;
     background-color: #BDBDBD;
     width: auto;
     height: 900px;
@@ -600,32 +599,6 @@ a:hover {
 }
 
 /* FOTO */
-/*input[type='file']{
-    display: none;
-}
-
-.max-width {
-    max-width: 500px;
-    width: 100%;
-}
-
-/*#imgPhoto {
-    margin-top: 10%;
-    height: 200px;
-    width: 200px;
-    padding: 10px;
-    background-color: #eee;
-    border: 5px solid #ccc;
-    cursor: pointer;
-    border-radius: 50%;
-    transition: background .3s;
-  }
-
-#imgPhoto:hover {
-    background-color: rgb(180, 180, 180);
-    border: 5px solid #111;
-} */
-
 input[type='file']{
     display: none;
 }
@@ -636,16 +609,11 @@ input[type='file']{
     width: 200px;
     height: 200px;
     border-radius: 10%;
-    border: 1px dashed #ccc;
-    text-align: center;
-    cursor: pointer;
     background: #ddd;
     align-items: center;
     justify-content: center;
-    color: #aaa;
-    border: 2px dashed currentcolor;
+    border: 1px dashed currentcolor;
     cursor: pointer;
-    font-family: sans-serif;
   }
   
   #customUpload img {
@@ -653,10 +621,7 @@ input[type='file']{
     height: 100%;
     object-fit: cover;
   }
-  
-  #customUpload span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+  #foto {
+    padding-left: 1px;
   }
