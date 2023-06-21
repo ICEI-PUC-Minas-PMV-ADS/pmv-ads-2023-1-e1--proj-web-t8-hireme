@@ -70,7 +70,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="img\CT03-04.png" width="50%"><br><br>
 </div>
   
-- Escolher se irá compartilhar o currículo na plataforma HireMe, fazer download do currículo com o layout escolhido e/ou copiar o link do currículo.
+- Fazer download do currículo com o layout escolhido.
 
 <div align="center">
 <img src="img\preencher-modelo-curriculo.jpg" width="50%"><br><br>
