@@ -8,25 +8,32 @@ function menuShow(){
     }
 }
 
-//FOTO
-let photo = document.getElementById('imgPhoto');
-let file = document.getElementById('flImage');
 
-photo.addEventListener('click', () => {
-    file.click();
+//FOTO
+const previewImage = document.getElementById('previewImage');
+const customUpload = document.getElementById('customUpload');
+
+uploadInput.addEventListener('change', function(event) {
+  const file = event.target.files[0];
+  const reader = new FileReader();
+
+  reader.onload = function(e) {
+    previewImage.src = e.target.result;
+  };
+
+  reader.readAsDataURL(file);
 });
 
-file.addEventListener('change', () => {
-    
-    if (file.files.length <= 0) {
-        return;
-    }
-    
-    let reader = new FileReader();
+customUpload.addEventListener('click', function() {
+  uploadInput.click();
+});
 
-    reader.onload = () => {
-        photo.src = reader.result;
-    }
 
-    reader.readAsDataURL(file.files[0]);
+//RETORNO DADOS CADASTRO
+let usuarioString = sessionStorage.getItem('usuario');
+let usuariojson = JSON.parse(usuarioString);
+
+window.addEventListener('load', function(){
+    document.getElementById("nome").innerHTML = usuariojson.nome;
+    document.getElementById("email").innerHTML = usuariojson.email;
 });
