@@ -738,3 +738,31 @@ a:hover {
     }
 
 }
+
+input[type='file']{
+    display: none;
+}
+
+#customUpload {
+    display: inline-block;
+    overflow: hidden;
+
+    position: absolute;
+    left: 5%;
+    top: 37px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #ddd;
+    
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3b3b3b;
+    cursor: pointer;
+}
+  
+#customUpload img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

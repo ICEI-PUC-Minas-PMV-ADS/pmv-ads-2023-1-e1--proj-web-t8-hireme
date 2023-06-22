@@ -137,10 +137,6 @@ input[type='file']{
     object-fit: cover;
 }
 
-#foto {
-    padding-left: 1px;
-}
-
 .edit-bio{
     z-index: 1;
     position: absolute;
@@ -150,9 +146,7 @@ input[type='file']{
 
 .edit-bio #biografia{
     border-radius: 20px;
-    width: 300px;
-    height: 20px;
-
+    padding: 5px;
     font-family: 'Lora';
     font-style: normal;
     font-size: 15px;
