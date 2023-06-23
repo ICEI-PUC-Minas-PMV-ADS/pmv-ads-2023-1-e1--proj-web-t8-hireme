@@ -268,13 +268,13 @@ input[type='file']{
     width: 22px;
     height: 22px;
     left: 10%;
-    top: 130px;
+    top: 120px;
 }
 
 .phone #phone {
     position: relative;
     left: 14%;
-    top: 105px;
+    top: 95px;
 
     border-radius: 20px;
     width: 200px;
@@ -294,13 +294,13 @@ input[type='file']{
     width: 22px;
     height: 22px;
     left: 10%;
-    top: 180px;
+    top: 170px;
 }
 
 .linkedin #linkedin {
     position: relative;
     left: 14%;
-    top: 155px;
+    top: 145px;
 
     border-radius: 20px;
     width: 200px;
@@ -327,7 +327,7 @@ input[type='file']{
 .empresa #empresa{
     position: relative;
     left: 54%;
-    top: -55px;
+    top: -75px;
 
     border-radius: 20px;
     width: 200px;
@@ -348,13 +348,13 @@ input[type='file']{
     width: 22px;
     height: 22px;
     left: 50%;
-    top: 180px;
+    top: 185px;
 }
 
 .cnpj #cnpj{
     position: relative;
     left: 54%;
-    top: 8px;
+    top: -5px;
 
     border-radius: 20px;
     width: 200px;
@@ -375,13 +375,13 @@ input[type='file']{
     width: 22px;
     height: 22px;
     left: 50%;
-    top: 277px;
+    top: 285px;
 }
 
 .site #site{
     position: relative;
     left: 54%;
-    top: 77px;
+    top: 67px;
 
     border-radius: 20px;
     width: 200px;
@@ -568,13 +568,13 @@ input[type='file']{
         width: 22px;
         height: 22px;
         left: 10%;
-        top: 360px;
+        top: 370px;
     }
     
     .empresa #empresa{
         position: relative;
         left: 20%;
-        top: 215px;
+        top: 210px;
         width: 160px;
         font-size: 12px;
     }
@@ -584,7 +584,7 @@ input[type='file']{
         width: 22px;
         height: 22px;
         left: 10%;
-        top: 450px;
+        top: 460px;
     }
     
     .cnpj #cnpj{
@@ -600,13 +600,13 @@ input[type='file']{
         width: 22px;
         height: 22px;
         left: 10%;
-        top: 540px;
+        top: 550px;
     }
     
     .site #site{
         position: relative;
         left: 20%;
-        top: 340px;
+        top: 335px;
         width: 160px;
         font-size: 12px;
     }

@@ -252,13 +252,13 @@ input[type='file']{
     width: 22px;
     height: 22px;
     left: 10%;
-    top: 170px;
+    top: 150px;
 }
 
 .phone #phone {
     position: relative;
     left: 14%;
-    top: 145px;
+    top: 125px;
 
     border-radius: 20px;
     width: 200px;
@@ -278,13 +278,13 @@ input[type='file']{
     width: 20px;
     height: 22px;
     left: 50%;
-    top: 13px;
+    top: 0px;
 }
 
 .residencia #residencia{
     position: relative;
     left: 54%;
-    top: -10px;
+    top: -23px;
 
     border-radius: 20px;
     width: 200px;
@@ -304,13 +304,13 @@ input[type='file']{
     width: 20px;
     height: 22px;
     left: 50%;
-    top: 75px;
+    top: 55px;
 }
 
 .cargo #cargo {
     position: relative;
     left: 54%;
-    top: 50px;
+    top: 30px;
 
     border-radius: 20px;
     width: 200px;
@@ -502,7 +502,7 @@ input[type='file']{
     .residencia #residencia{
         position: relative;
         left: 20%;
-        top: 220px;
+        top: 208px;
         width: 160px;
         font-size: 12px;
     }
@@ -518,7 +518,7 @@ input[type='file']{
     .cargo #cargo{
         position: relative;
         left: 20%;
-        top: 295px;
+        top: 280px;
         width: 160px;
         font-size: 12px;
     }
