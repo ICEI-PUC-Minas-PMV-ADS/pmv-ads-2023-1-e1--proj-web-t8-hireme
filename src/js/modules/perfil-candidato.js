@@ -33,7 +33,60 @@ customUpload.addEventListener('click', function() {
 let usuarioString = sessionStorage.getItem('usuario');
 let usuariojson = JSON.parse(usuarioString);
 
-window.addEventListener('load', function(){
-    document.getElementById("nome").innerHTML = usuariojson.nome;
-    document.getElementById("email").innerHTML = usuariojson.email;
+window.addEventListener('load', carregarInfosCandidato());
+
+//FORMULARIO MODAL
+const modal = document.getElementById("modal-form-candidato");
+const btnEditCandidato = document.getElementById("edit");
+const btnFecharModal = document.getElementsByClassName("close")[0];
+const formEditCandidato = document.getElementById("form-edit-candidato");
+
+btnEditCandidato.addEventListener('click', function() {
+  modal.style.display = "block";
 });
+
+btnFecharModal.addEventListener('click', function() {
+  modal.style.display = "none";
+});
+
+window.addEventListener('click', function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+});
+
+let formBiografia = document.getElementById("form-biografia");
+let formTelefone = document.getElementById("form-phone");
+let formResidencia = document.getElementById("form-residencia");
+let formCargo = document.getElementById("form-cargo");
+
+formEditCandidato.addEventListener('submit', function() {
+  usuariojson.biografia = formBiografia.value
+  usuariojson.telefone = formTelefone.value;
+  usuariojson.endereco = formResidencia.value;
+  usuariojson.cargo = formCargo.value;
+
+  usuarioString = JSON.stringify(usuariojson);
+  sessionStorage.setItem("usuario", usuarioString);
+
+  let banco = JSON.parse(localStorage.getItem("db_usuarios"));
+  banco.usuarios.forEach(usuario => {
+    if (usuario.email == usuariojson.email && usuario.senha == usuariojson.senha) {
+      usuario = usuariojson;
+    }
+  });
+  localStorage.setItem("db_usuarios", JSON.stringify(banco));
+
+  document.getElementById("form-edit-candidato").reset();
+  modal.style.display = "none";
+  carregarInfosCandidato();
+});
+
+function carregarInfosCandidato() {
+  document.getElementById("nome").innerHTML = usuariojson.nome;
+  document.getElementById("email").innerHTML = usuariojson.email;
+
+  document.getElementById("phone").innerHTML = usuariojson.telefone;
+  document.getElementById("residencia").innerHTML = usuariojson.endereco;
+  document.getElementById("cargo").innerHTML = usuariojson.cargo;
+}

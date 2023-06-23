@@ -52,16 +52,13 @@
                     </label>
                 </div>
                 <form class="edit-bio" action="javascript:void(0)">
-                        <textarea rows="5" cols="70" id="biografia" placeholder="Escreva aqui sua biografia" required></textarea>
+                        <textarea rows="5" cols="70" id="biografia" placeholder="Escreva aqui sua biografia" required disabled></textarea>
                 </form>
-                <input class="edit" type="image" src="imagens/edit.png"></input>
+                <input id="edit" class="edit" type="image" src="imagens/edit.png"></input>
             </div>
 
             <div class="informaçao">
                 <h1>Informações</h1>
-                    <form class="edit-informaçoes" action="javascript:void(0)">
-                            <input class="edit" type="image" src="imagens/edit.png"></input>
-                    </form>
 
                     <!-- Dados de contato-->
                     <div class="email-icon">
@@ -76,9 +73,7 @@
                     </div>
 
                     <div class="phone">
-                        <form action="javascript:void(0)">
-                            <input type="text" id="phone" placeholder="Telefone para contato" required>
-                        </form>
+                        <h2 id="phone"></h2>
                     </div>
 
                     <div class="residencia-icon">
@@ -86,19 +81,38 @@
                     </div>
 
                     <div class="residencia">
-                        <form action="javascript:void(0)">
-                            <input type="text" id="residencia" placeholder="Local de residência" required>
-                        </form>
+                        <h2 id="residencia"></h2>
                     </div>
 
                     <div class="cargo-icon">
                         <img src="imagens/emprego.png" alt="Icon de cargo">
                     </div>
                     <div class="cargo">
-                        <form action="javascript:void(0)">
-                            <input type="text" id="cargo" placeholder="Cargo atual" required>
-                        </form>
+                        <h2 id="cargo"></h2>
                     </div>
+            </div>
+
+            <div id="modal-form-candidato" class="modal">
+                <div class="modal-container">
+                    <span class="close">&times;</span>
+                    <h2>Edição candidato</h2>
+                    <form id="form-edit-candidato">
+
+                        <label for="form-biografia">Biografia:</label>
+                        <textarea rows="5" cols="70" id="form-biografia" placeholder="Escreva aqui sua biografia" required></textarea><br>
+
+                        <label for="form-phone">Telefone:</label>
+                        <input type="text" id="form-phone" placeholder="Telefone para contato" required><br>
+
+                        <label for="form-residencia">Residencia:</label>
+                        <input type="text" id="form-residencia" placeholder="Local de residência" required><br>
+
+                        <label for="form-cargo">Cargo:</label>
+                        <input type="text" id="form-cargo" placeholder="Cargo atual" required><br>
+            
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
             </div>
 
 
