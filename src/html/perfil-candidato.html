@@ -51,13 +51,12 @@
                         <input type="file" id="uploadInput" accept="image/*">
                     </label>
                 </div>
-                <textarea rows="5" cols="70" id="biografia" placeholder="Escreva aqui sua biografia" required disabled></textarea>
+                <h2 class="edit-bio">Escreva aqui sua biografia</h2>
                 <input class="edit" type="image" src="imagens/edit.png"></input>
             </div>
 
             <div class="informaçao">
                 <h1>Informações</h1>
-
                     <!-- Dados de contato-->
                     <div class="email-icon">
                         <img src="imagens/email.png" alt="Icon de email">
@@ -70,43 +69,43 @@
                         <img src="imagens/phone.png" alt="Icon de telefone">
                     </div>
                     <div class="phone">
-                        <h2 id="phone">(21) 99999-6666</h2>
+                        <h2 id="phone">Telefone para contato</h2>
                     </div>
 
                     <div class="residencia-icon">
                         <img src="imagens/residencia.png" alt="Icon de residencia">
                     </div>
                     <div class="residencia">
-                        <h2 id="residencia">Rio de Janeiro - RJ</h2>
+                        <h2 id="residencia">Local de residência</h2>
                     </div>
 
                     <div class="cargo-icon">
                         <img src="imagens/emprego.png" alt="Icon de cargo">
                     </div>
                     <div class="cargo">
-                        <h2 id="cargo">Desempregado</h2>
+                        <h2 id="cargo">Cargo atual</h2>
                     </div>
             </div>
 
             <div id="modal-form-candidato" class="modal">
                 <div class="modal-container">
                     <span class="close">&times;</span>
-                    <h2>Edição candidato</h2>
+                    <h2>Editar perfil</h2>
                     <form id="form-edit-candidato">
 
-                        <label for="form-biografia">Biografia:</label>
-                        <textarea rows="5" cols="70" id="form-biografia" placeholder="Escreva aqui sua biografia" required></textarea><br>
+                        <h3 class="form-biografia">Biografia:</h3>
+                        <textarea rows="5" cols="50" id="form-biografia" placeholder="  Escreva aqui sua biografia" required></textarea><br>
 
-                        <label for="form-phone">Telefone:</label>
+                        <h3 class="form-phone">Telefone:</h3>
                         <input type="text" id="form-phone" placeholder="Telefone para contato" required><br>
 
-                        <label for="form-residencia">Residencia:</label>
+                        <h3 class="form-residencia">Residencia:</h3>
                         <input type="text" id="form-residencia" placeholder="Local de residência" required><br>
 
-                        <label for="form-cargo">Cargo:</label>
+                        <h3 class="form-cargo">Cargo:</h3>
                         <input type="text" id="form-cargo" placeholder="Cargo atual" required><br>
             
-                        <input type="submit" value="Enviar">
+                        <input type="submit" id="enviar" value="Enviar">
                     </form>
                 </div>
             </div>

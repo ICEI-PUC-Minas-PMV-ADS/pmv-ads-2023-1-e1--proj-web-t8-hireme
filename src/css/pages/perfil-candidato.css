@@ -328,10 +328,13 @@ input[type='file']{
 
 .modal-container {
     background-color: #fefefe;
-    margin: 15% auto; /* Centraliza o modal verticalmente e o coloca 15% de distância do topo */
+    margin: 10% auto; /* Centraliza o modal verticalmente e o coloca 15% de distância do topo */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    border-radius: 20px;
+    width: 75%;
+    height: 450px;
+    font-family: 'Lora';
 }
 
 .close {
@@ -339,6 +342,7 @@ input[type='file']{
     float: right;
     font-size: 28px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .close:hover,
@@ -346,6 +350,86 @@ input[type='file']{
     color: black;
     text-decoration: none;
 }
+
+.form-biografia{
+    position: relative;
+    top: 5px;
+    font-size: 14px;
+}
+
+#form-biografia{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Lora';
+}
+
+.form-phone{
+    position: relative;
+    top: 5px;
+    font-size: 14px; 
+}
+
+#form-phone{
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Lora';
+
+    position: relative;
+    top: -27px;
+    left: 7%;
+}
+
+.form-residencia{
+    position: relative;
+    top: 5px;
+    font-size: 14px; 
+}
+
+#form-residencia{
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Lora';
+
+    position: relative;
+    top: -27px;
+    left: 8.5%;
+}
+
+.form-cargo{
+    position: relative;
+    top: 5px;
+    font-size: 14px; 
+}
+
+#form-cargo{
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Lora';
+
+    position: relative;
+    top: -27px;
+    left: 5.5%;
+}
+
+#enviar{
+    position: absolute;
+    top: 560px;
+    left: 80%;
+    border-radius: 10px;
+    padding: 5px;
+
+    font-size: 17px; 
+    font-family: 'Lora';
+    cursor: pointer;
+}
+
+#enviar:hover{
+    color: #00A878;
+}
+
 
 @media screen and (max-width:767px) {
     header {
@@ -543,6 +627,69 @@ input[type='file']{
         top: 268px;
         font-size: 12px;
     }
+
+    .modal-container h2{
+        font-size: 20px;
+    }
+
+    .form-biografia{
+        position: relative;
+        top: 5px;
+        font-size: 12px;
+    }
+    
+    #form-biografia{
+        width: 80%;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        font-family: 'Lora';
+    }
+    
+    .form-phone{
+        position: relative;
+        font-size: 12px; 
+    }
+    
+    #form-phone{
+        width: 150px;
+        position: relative;
+        top: -25px;
+        left: 17%;
+        font-size: 12px; 
+    }
+    
+    .form-residencia{
+        position: relative;
+        font-size: 12px; 
+    }
+    
+    #form-residencia{
+        width: 150px;
+        position: relative;
+        top: -25px;
+        left: 20%;
+        font-size: 12px; 
+    }
+    
+    .form-cargo{
+        position: relative;
+        font-size: 12px; 
+    }
+    
+    #form-cargo{
+        width: 150px;
+        position: relative;
+        top: -25px;
+        left: 12%;
+        font-size: 12px; 
+    }
+    
+    #enviar{
+        position: absolute;
+        top: 485px;
+        left: 75%;
+        font-size: 13px; 
+    }
     
 }
 
@@ -687,4 +834,32 @@ input[type='file']{
     .cargo #cargo {
         font-size: 13px;
     }
+
+    
+    #form-phone{
+        width: 170px;
+        position: relative;
+        left: 10%;
+    }
+    
+    #form-residencia{
+        width: 170px;
+        position: relative;
+        left: 12%;
+    }
+    
+    #form-cargo{
+        width: 170px;
+        position: relative;
+        left: 8%;
+    }
+    
+    #enviar{
+        position: absolute;
+        top: 515px;
+        left: 80%;
+    
+        font-size: 15px; 
+    }
+
 }
