@@ -32,7 +32,66 @@ customUpload.addEventListener('click', function() {
 let usuarioString = sessionStorage.getItem('usuario');
 let usuariojson = JSON.parse(usuarioString);
 
-window.addEventListener('load', function(){
-    document.getElementById("nome").innerHTML = usuariojson.nome;
-    document.getElementById("email").innerHTML = usuariojson.email;
+window.addEventListener('load', carregarInfosRecrutador());
+
+//FORMULARIO MODAL
+const modal = document.getElementById("modal-form-recrutador");
+const btnEditRecrutador = document.getElementById("edit");
+const btnFecharModal = document.getElementsByClassName("close")[0];
+const formEditRecrutador = document.getElementById("form-edit-recrutador");
+
+btnEditRecrutador.addEventListener('click', function() {
+  modal.style.display = "block";
 });
+
+btnFecharModal.addEventListener('click', function() {
+  modal.style.display = "none";
+});
+
+window.addEventListener('click', function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+});
+
+let formBiografia = document.getElementById("form-biografia");
+let formTelefone = document.getElementById("form-phone");
+let formLinkedin = document.getElementById("form-linkedin");
+let formEmpresa = document.getElementById("form-empresa");
+let formCnpj = document.getElementById("form-cnpj");
+let formSite = document.getElementById("form-site");
+
+formEditRecrutador.addEventListener('submit', function() {
+  usuariojson.biografia = formBiografia.value
+  usuariojson.telefone = formTelefone.value;
+  usuariojson.linkedin = formLinkedin.value;
+  usuariojson.empresa = formEmpresa.value;
+  usuariojson.cnpj = formCnpj.value;
+  usuariojson.site = formSite.value;
+
+  usuarioString = JSON.stringify(usuariojson);
+  sessionStorage.setItem("usuario", usuarioString);
+
+  let banco = JSON.parse(localStorage.getItem("db_usuarios"));
+  banco.usuarios.forEach(usuario => {
+    if (usuario.email == usuariojson.email && usuario.senha == usuariojson.senha) {
+      usuario = usuariojson;
+    }
+  });
+  localStorage.setItem("db_usuarios", JSON.stringify(banco));
+
+  document.getElementById("form-edit-candidato").reset();
+  modal.style.display = "none";
+  carregarInfosRecrutador();
+});
+
+function carregarInfosRecrutador() {
+  document.getElementById("nome").innerHTML = usuariojson.nome;
+  document.getElementById("email").innerHTML = usuariojson.email;
+  document.getElementById("bio").innerHTML = usuariojson.biografia;
+  document.getElementById("phone").innerHTML = usuariojson.telefone;
+  document.getElementById("linkedin").innerHTML = usuariojson.linkedin;
+  document.getElementById("empresa").innerHTML = usuariojson.empresa;
+  document.getElementById("cnpj").innerHTML = usuariojson.cnpj;
+  document.getElementById("site").innerHTML = usuariojson.site;
+}
