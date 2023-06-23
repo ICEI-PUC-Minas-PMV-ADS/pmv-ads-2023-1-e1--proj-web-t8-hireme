@@ -92,20 +92,15 @@ a:hover {
 /* currículo */ 
 
 #container {
-  display: flex;
+   display: flex;
    margin-top: 20px;
    margin-left: 20px;
    margin-right: 350px; 
 }
 
-.column {
-    align-items: stretch
-}
 #dados-pequenos {
     background-color: #BBD8CF;
-    width: 450px;
-    overflow: auto;
-    display: block;
+    max-width: 350px;
     float: left;
     padding-top: 10px;
     padding-left: 10px;
@@ -116,7 +111,6 @@ a:hover {
 #dados-principais {
     background-color: #fff;
     width: 900px;
- 
     padding-left: 10px;
     font-family: 'Lora';
 }
