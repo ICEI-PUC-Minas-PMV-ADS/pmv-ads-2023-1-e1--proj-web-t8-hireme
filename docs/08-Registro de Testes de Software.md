@@ -76,14 +76,14 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="img\preencher-modelo-curriculo.jpg" width="50%"><br><br>
 </div>
 
-## CT04 - Testar filtros de busca de pessoas de acordo com as experiências
+## CT04 - Buscar profissionais
 - Acessar a página Buscar profissionais
 
 <div align="center">
 <img src="img/teste-perfil-recrutador.jpg" width="50%"><br><br>
 </div>
 
-- Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para selecionar
+- Digitar no campo de pesquisa características que está buscando e clicar Enter para selecionar
 
 <div align="center">
 <img src="img\CT04-2.jpg" width="50%"><br><br>
@@ -103,21 +103,8 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <div align="center">
 <img src="img\CT-05-mensagens.jpg" width="50%"><br><br>
 </div>
-  
 
-## CT06 - Currículos favoritados
-- Acessar a página Buscar profissionais.
-- Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para pesquisar currículos.
-<div align="center">
-<img src="img\CT04-2.jpg" width="50%"><br><br>
-</div>
-  
-- Quando um currículo chamar atenção, clicar no botão de favoritar, em forma de coração, presente no box do currículo.
-<div align="center">
-<img src="img\CT06-03.png" width="50%"><br><br>
-</div>
-
-## CT07 - Botão de dicas
+## CT06 - Botão de dicas
 
 - Testar o botão de dicas na página de Criar um currículo.
 <div align="center">
@@ -128,7 +115,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
   </div>
 
 
-## CT08 - Compatibilidade e Responsividade
+## CT07 - Compatibilidade e Responsividade
 
 - Testar compatibilidade com os principais navegadores do mercado.
 <div align="center">
