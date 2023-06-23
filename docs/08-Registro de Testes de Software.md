@@ -64,17 +64,12 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="img/teste-responsividade-curriculo-desktop.jpg" width="50%"><br><br>
 </div>
  
-- Clicar em Salvar e ver currículo para ser redirecionado para a página com as informações do seu currículo
+- Clicar em 'Salvar e ver currículo' para ser redirecionado para a página com uma prévia do seu currículo, onde se pode fazer dowload dele.
 
 <div align="center">
-<img src="img\CT03-04.png" width="50%"><br><br>
+<img src="img/teste-curriculp.jpeg" width="50%"><br><br>
 </div>
   
-- Fazer download do currículo com o layout escolhido.
-
-<div align="center">
-<img src="img\preencher-modelo-curriculo.jpg" width="50%"><br><br>
-</div>
 
 ## CT04 - Buscar profissionais
 - Acessar a página Buscar profissionais
