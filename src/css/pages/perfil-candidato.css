@@ -20,7 +20,6 @@ header {
 }
 
 a{
-
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -140,14 +139,8 @@ input[type='file']{
 .edit-bio{
     z-index: 1;
     position: absolute;
-    left: 26%;
+    left: 25%;
     top: 85px;
-}
-
-.edit-bio #biografia{
-    width: 400px;
-    border-radius: 20px;
-    padding: 5px;
     font-family: 'Lora';
     font-style: normal;
     font-size: 15px;
@@ -258,7 +251,7 @@ input[type='file']{
 .phone #phone {
     position: relative;
     left: 14%;
-    top: 125px;
+    top: 115px;
 
     border-radius: 20px;
     width: 200px;
@@ -275,16 +268,16 @@ input[type='file']{
     align-items: flex-start;
     padding: 0px;
     position: relative;
-    width: 20px;
+    width: 18px;
     height: 22px;
     left: 50%;
-    top: 0px;
+    top: -25px;
 }
 
 .residencia #residencia{
     position: relative;
     left: 54%;
-    top: -23px;
+    top: -55px;
 
     border-radius: 20px;
     width: 200px;
@@ -304,13 +297,13 @@ input[type='file']{
     width: 20px;
     height: 22px;
     left: 50%;
-    top: 55px;
+    top: 20px;
 }
 
 .cargo #cargo {
     position: relative;
     left: 54%;
-    top: 30px;
+    top: -12px;
 
     border-radius: 20px;
     width: 200px;
@@ -441,14 +434,11 @@ input[type='file']{
      
     .edit-bio {
         position: relative;
-        left: 18%;
+        left: 20%;
         top: 238px;
-    }
-    
-    .edit-bio #biografia{
         z-index: 0;
-        width: 250px;
         font-size: 12px;
+        width: 250px;
     }
      
     .bio .edit{
@@ -480,20 +470,20 @@ input[type='file']{
     .email #email{
         position: relative;
         left: 20%;
-        width: 160px;
+        top: 80px;
         font-size: 12px;
     }
     
     .phone #phone {
         position: relative;
         left: 20%;
-        width: 160px;
+        top: 120px;
         font-size: 12px;
     }
     
     .residencia-icon img{
         position: absolute;
-        width: 22px;
+        width: 18px;
         height: 22px;
         left: 10%;
         top: 318px;
@@ -502,8 +492,7 @@ input[type='file']{
     .residencia #residencia{
         position: relative;
         left: 20%;
-        top: 208px;
-        width: 160px;
+        top: 198px;
         font-size: 12px;
     }
     
@@ -518,8 +507,7 @@ input[type='file']{
     .cargo #cargo{
         position: relative;
         left: 20%;
-        top: 280px;
-        width: 160px;
+        top: 268px;
         font-size: 12px;
     }
     
@@ -624,12 +612,8 @@ input[type='file']{
 
     .edit-bio{
         position: absolute;
-        left: 32%;
-    }
-    
-    .edit-bio #biografia{
+        left: 31%;
         z-index: 0;
-        width: 300px;
         font-size: 13px;
     }
     
@@ -647,24 +631,27 @@ input[type='file']{
         line-height: 10px;
         cursor: pointer;
     }
+
+    .email-icon{
+        position: relative;
+        top: -5px;
+    }
     
     .email #email{
-        width: 170px;
+        position: relative;
+        top: 75px;
         font-size: 13px;
     }
     
     .phone #phone {
-        width: 170px;
         font-size: 13px;
     }
     
     .residencia #residencia{
-        width: 170px;
         font-size: 13px;
     }
     
     .cargo #cargo {
-        width: 170px;
         font-size: 13px;
     }
 }
