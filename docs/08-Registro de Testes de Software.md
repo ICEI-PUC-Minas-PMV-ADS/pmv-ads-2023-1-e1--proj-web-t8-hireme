@@ -67,7 +67,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 - Clicar em 'Salvar e ver currículo' para ser redirecionado para a página com uma prévia do currículo.
 
 <div align="center">
-<img src="img/CT03-04.png.png" width="50%"><br><br>
+<img src="img/CT03-04.png" width="50%"><br><br>
 </div>
 
 - Após ser redirecionado para prévia do currículo, você pode escolher fazer download dele para seu computador.
