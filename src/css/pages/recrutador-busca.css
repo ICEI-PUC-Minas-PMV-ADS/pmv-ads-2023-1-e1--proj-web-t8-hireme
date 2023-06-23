@@ -88,18 +88,18 @@ a:hover {
 
 #container {
     width: auto;
-    height: 900px;
+    height: 450px;
     margin-bottom: 40px;
 }
 
 .filtros {
     position: absolute;
-    padding-top: 10px;
+    padding-top: 20px;
     left: 4%;
     top: 25%;
     background: #FFFFFF;
     border-radius: 10px;
-    height: 420px;
+    height: 300px;
     width: 18%;
 }
 
@@ -110,7 +110,7 @@ a:hover {
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
-    top: 15px;
+    top: 27px;
     left: 20px;
     color: #000000;
 }
@@ -125,7 +125,7 @@ textarea {
 
     position: absolute;
     left: 5%;
-    top: 11%;
+    top: 20%;
     right: 66.09%;
     background: #FFFFFF;
     border: 1px solid #797979;
@@ -137,35 +137,16 @@ textarea {
     font-size: 15px;
 }
 
-.itens {
-    position: absolute;
-    top: 23%}
-
-.itens p {
-    display: block;
-    margin-bottom: 10px;
-    margin-left: 25px;
-    margin-right: 0;
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 26px;
-    color: #797979;
-    cursor: pointer;
-}
-
-
 .resultados h1 {
     position: absolute;
-    left: 31%;
+    left: 29%;
     right: 25.56%;
-    top: 15%;
+    top: 19%;
     bottom: 73.93%;
-    font-family: 'Gabriela';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
+    font-family: 'Lora';
+    font-style:normal;
+    font-weight: 600;
+    font-size: 18px;
     line-height: 32px;
     color: #000000;
 }
@@ -561,7 +542,7 @@ textarea {
 
     #container{
         width: auto;
-        height: 900px;
+        height: 90px;
         display: flex;
     }
 
@@ -587,11 +568,7 @@ textarea {
         font-size: 12px;
     }
     
-    .itens p {
-        font-size: 12px;
-    }
-    
-    
+   
     .resultados h1 {
         font-size: 14px;
     }
