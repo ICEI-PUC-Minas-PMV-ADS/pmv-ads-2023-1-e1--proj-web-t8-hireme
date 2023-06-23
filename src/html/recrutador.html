@@ -52,15 +52,12 @@
                         <input type="file" id="uploadInput" accept="image/*">
                     </label>
                 </div>
-                <h2 class="edit-bio">Tech Recruiter</h2>
-                <input class="edit" type="image" src="imagens/greenedit.png"></input>
+                <h2 id="bio" class="edit-bio">Tech Recruiter</h2>
+                <input id="edit" class="edit" type="image" src="imagens/greenedit.png"></input>
             </div>
         
             <div class="informaçao">
                 <h1>Informações</h1>
-                    <form class="edit-informaçoes" action="javascript:void(0)">
-                            <input class="edit" type="image" src="imagens/greenedit.png"/></input>
-                    </form>
                     <!-- Dados de contato-->
                         <div class="email-icon">
                             <img src="imagens/email.png" alt="Icon de email">
@@ -106,9 +103,37 @@
 
             </div>
 
-        </div>
+            <div id="modal-form-recrutador" class="modal">
+                <div class="modal-container">
+                    <span class="close">&times;</span>
+                    <h2>Edição candidato</h2>
+                    <form id="form-edit-recrutador">
+
+                        <label for="form-biografia">Biografia:</label>
+                        <textarea rows="5" cols="70" id="form-biografia" placeholder="Escreva aqui sua biografia" required></textarea><br>
+
+                        <label for="form-phone">Telefone:</label>
+                        <input type="text" id="form-phone" placeholder="Telefone para contato" required><br>
+
+                        <label for="form-linkedin">Linkedin:</label>
+                        <input type="text" id="form-linkedin" placeholder="Local de residência" required><br>
+
+                        <label for="form-empresa">Empresa:</label>
+                        <input type="text" id="form-empresa" placeholder="Cargo atual" required><br>
+
+                        <label for="form-cnpj">CNPJ:</label>
+                        <input type="text" id="form-cnpj" placeholder="Cargo atual" required><br>
+
+                        <label for="form-site">empresa:</label>
+                        <input type="text" id="form-site" placeholder="Cargo atual" required><br>
+            
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+
+        </div>s
         <script src="../js/modules/logout.js"></script>
-        <script src="../js/modules/consulta-usuario.js"></script>
         <script src="../js/recrutador.js"></script>
     </body>
 </html>
