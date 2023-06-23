@@ -67,7 +67,6 @@ formEditCandidato.addEventListener('submit', function() {
   usuariojson.endereco = formResidencia.value;
   usuariojson.curriculo.cargo = formCargo.value;
 
-  usuariojson.curriculo = JSON.stringify(usuarioCurriculo);
   usuarioString = JSON.stringify(usuariojson);
   sessionStorage.setItem("usuario", usuarioString);
 
@@ -87,7 +86,7 @@ formEditCandidato.addEventListener('submit', function() {
 function carregarInfosCandidato() {
   document.getElementById("nome").innerHTML = usuariojson.nome;
   document.getElementById("email").innerHTML = usuariojson.email;
-
+  document.getElementById("biografia").innerHTML = usuariojson.biografia
   document.getElementById("phone").innerHTML = usuariojson.telefone;
   document.getElementById("residencia").innerHTML = usuariojson.endereco;
   document.getElementById("cargo").innerHTML = usuariojson.curriculo.cargo;
@@ -97,5 +96,5 @@ function carregarCamposForm() {
   formBiografia.value = usuariojson.biografia;
   formTelefone.value = usuariojson.telefone;
   formResidencia.value = usuariojson.endereco;
-  formCargo = usuariojson.cargo;
+  formCargo.value = usuariojson.curriculo.cargo;
 }
