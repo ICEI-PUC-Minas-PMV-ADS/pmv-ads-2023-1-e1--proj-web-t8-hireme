@@ -44,13 +44,13 @@
 |</br>||
 
 
-| Caso de teste        | CT04 - Testar filtros de busca de pessoas de acordo com as experiências                                                                                               |
+| Caso de teste        | CT04 - Buscar profissionais                                                                                             |
 | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | 
 | Requisitos Associados        | RF-08  O site deve permitir que os recrutadores façam filtros de busca de pessoas de acordo com as experiências. |        
-| Objetivo do Teste        | Verificar se o site oferece a opção de filtrar currículos de acordo com o que o recrutador está procurando.                                                                   |
+| Objetivo do Teste        | Verificar se o site oferece a opção de buscar profissionais cadastrados na plataforma de acordo com o que o recrutador está procurando.                                                                   |
 | Passos        |1) Acessar a página Buscar profissionais;                                                                                                                     |
-|               |2) Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para selecionar;                                                                                                              |
-| Critérios de Êxito        | Após escolher todos os filtros de busca que achar necessário, o site deve atualizar a página de pesquisa para mostrar apenas currículos com aquelas características selecionadas.                         |
+|               |2) Digitar no campo de pesquisa características que está buscando e clicar Enter para selecionar;                                                                                                              |
+| Critérios de Êxito        | Após escolher, o site deve atualizar a página de pesquisa para mostrar apenas currículos com aquelas características selecionadas.                         |
 </br>
 </br>
 
@@ -65,19 +65,7 @@
 </br>
 </br>
 
-| Caso de teste        | CT06 - Currículos favoritados                                                                                                    |
-| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | 
-| Requisitos Associados        | RF-07  O site deve permitir que o recrutador salve currículos em pastas separadas de acordo com perfis diferentes. |        
-| Objetivo do Teste        | Verificar se o site fornece a opção de favoritar os currículos que mais chamam a atenção do recrutador durante a pequisa.                                                                    |
-| Passos        |1) Acessar a página Buscar profissionais;                                                                                                                     |
-|               |2) Digitar no campo de pesquisa os filtros profissionais que está buscando e clicar Enter para pesquisar currículos;                                                                                                                 |
-|               |3) Quando um currículo chamar atenção, clicar no botão de favoritar, em forma de coração, presente no box do currículo.
-| Critérios de Êxito        | Após clicar no botão de favoritar, o currículo deve ser encaminhado para a página de Favoritos na conta do recrutador, para que ele possa revisitar currículos que mais o agradaram e também possa guardar para o caso de que apareça outra vaga que combine mais com aquele perfil.                          |
-</br>
-</br>
-
-
-| Caso de teste        | CT07 - Botão de dicas                                                                                                   |
+| Caso de teste        | CT06 - Botão de dicas                                                                                                   |
 | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | 
 | Requisitos Associados        | RF-10  O site deve ter um botão de dicas em cada campo para preenchimento das informações do currículo. |        
 | Objetivo do Teste        | Verificar se o botão de Dica presente em algumas páginas durante a criação e edição do currículo funciona e aparece a mensagem adequada para cada página.                                                                  |
@@ -90,7 +78,7 @@
 </br>
 
 
-| Caso de teste        | CT08 - Compatibilidade e Responsividade                                                                                                 |
+| Caso de teste        | CT07 - Compatibilidade e Responsividade                                                                                                 |
 | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | 
 | Requisitos Associados        | RNF-02  O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |   
 |                              | RNF-07  O site deve ser responsivo permitindo a visualização tanto em desktops e notebooks, quanto em celulares com telas de variados tamanhos. |        

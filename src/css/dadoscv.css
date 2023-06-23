@@ -92,26 +92,26 @@ a:hover {
 /* currículo */ 
 
 #container {
+   display: flex;
    margin-top: 20px;
    margin-left: 20px;
-   margin-right: 145px; 
 }
 
 #dados-pequenos {
     background-color: #BBD8CF;
-    width: 350px;
-    height: 100vh;
+    width: 400px;
     float: left;
     padding-top: 10px;
     padding-left: 10px;
     font-family: 'Lora';
+    word-wrap: break-word;
+    overflow: auto;
 }
 
 #dados-principais {
     background-color: #fff;
-    width: 1050px;
-    height: 100vh;
-    padding-left: 360px;
+    width: 900px;
+    padding-left: 10px;
     font-family: 'Lora';
 }
 
@@ -169,4 +169,8 @@ button {
     margin-right: 15px;
     padding: 10px;
     font-size: 1px;
+}
+
+button:hover {
+    background-color: #00a878;
 }
