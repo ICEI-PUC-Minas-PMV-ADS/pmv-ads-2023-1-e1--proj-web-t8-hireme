@@ -95,17 +95,17 @@ a:hover {
    display: flex;
    margin-top: 20px;
    margin-left: 20px;
-   margin-right: 350px; 
 }
 
 #dados-pequenos {
     background-color: #BBD8CF;
-    max-width: 350px;
+    width: 400px;
     float: left;
     padding-top: 10px;
     padding-left: 10px;
     font-family: 'Lora';
     word-wrap: break-word;
+    overflow: auto;
 }
 
 #dados-principais {
@@ -169,4 +169,8 @@ button {
     margin-right: 15px;
     padding: 10px;
     font-size: 1px;
+}
+
+button:hover {
+    background-color: #00a878;
 }
