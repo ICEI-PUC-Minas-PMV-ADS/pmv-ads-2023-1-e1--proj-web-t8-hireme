@@ -41,8 +41,14 @@ const btnEditCandidato = document.getElementById("edit");
 const btnFecharModal = document.getElementsByClassName("close")[0];
 const formEditCandidato = document.getElementById("form-edit-candidato");
 
+let formBiografia = document.getElementById("form-biografia");
+let formTelefone = document.getElementById("form-phone");
+let formResidencia = document.getElementById("form-residencia");
+let formCargo = document.getElementById("form-cargo");
+
 btnEditCandidato.addEventListener('click', function() {
   modal.style.display = "block";
+  carregarCamposForm();
 });
 
 btnFecharModal.addEventListener('click', function() {
@@ -55,16 +61,11 @@ window.addEventListener('click', function(event) {
   }
 });
 
-let formBiografia = document.getElementById("form-biografia");
-let formTelefone = document.getElementById("form-phone");
-let formResidencia = document.getElementById("form-residencia");
-let formCargo = document.getElementById("form-cargo");
-
 formEditCandidato.addEventListener('submit', function() {
   usuariojson.biografia = formBiografia.value
   usuariojson.telefone = formTelefone.value;
   usuariojson.endereco = formResidencia.value;
-  usuariojson.cargo = formCargo.value;
+  usuariojson.curriculo.cargo = formCargo.value;
 
   usuarioString = JSON.stringify(usuariojson);
   sessionStorage.setItem("usuario", usuarioString);
@@ -85,8 +86,15 @@ formEditCandidato.addEventListener('submit', function() {
 function carregarInfosCandidato() {
   document.getElementById("nome").innerHTML = usuariojson.nome;
   document.getElementById("email").innerHTML = usuariojson.email;
-
+  document.getElementById("biografia").innerHTML = usuariojson.biografia
   document.getElementById("phone").innerHTML = usuariojson.telefone;
   document.getElementById("residencia").innerHTML = usuariojson.endereco;
-  document.getElementById("cargo").innerHTML = usuariojson.cargo;
+  document.getElementById("cargo").innerHTML = usuariojson.curriculo.cargo;
+}
+
+function carregarCamposForm() {
+  formBiografia.value = usuariojson.biografia;
+  formTelefone.value = usuariojson.telefone;
+  formResidencia.value = usuariojson.endereco;
+  formCargo.value = usuariojson.curriculo.cargo;
 }
