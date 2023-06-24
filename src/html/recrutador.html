@@ -52,7 +52,7 @@
                         <input type="file" id="uploadInput" accept="image/*">
                     </label>
                 </div>
-                <h2 id="bio" class="edit-bio">Tech Recruiter</h2>
+                <h2 id="bio" class="edit-bio">Cargo</h2>
                 <input id="edit" class="edit" type="image" src="imagens/greenedit.png"></input>
             </div>
         
@@ -70,35 +70,35 @@
                             <img src="imagens/phone.png" alt="Icon de telefone">
                         </div>
                         <div class="phone">
-                            <h2 id="phone">(31) 9999-2222</h2>
+                            <h2 id="phone">Telefone para contato</h2>
                         </div>
 
                         <div class="linkedin-icon">
                             <img src="imagens/linkedin.png" alt="Icon de linkedin">
                         </div>
                         <div class= "linkedin">
-                            <h2 id="linkedin"><u>Ana Campos</u></h2>
+                            <h2 id="linkedin">Linkedin</h2>
                         </div>
 
                         <div class="empresa-icon">
                             <img src="imagens/empresa.png" alt="Icon de empresa">
                         </div>
                         <div class= "empresa">
-                            <h2 id="empresa">PUC Tech</h2>
+                            <h2 id="empresa">Empresa para qual trabalha</h2>
                         </div>
 
                         <div class="cnpj-icon">
                             <img src="imagens/empresa.png" alt="Icon de empresa">
                         </div>
                         <div class="cnpj">
-                            <h2 id="cnpj">44.222.333/0001-22</h2>
+                            <h2 id="cnpj">CNPJ</h2>
                         </div>
 
                         <div class="site-icon">
                             <img src="imagens/site.png" alt="Icon de site-icon">
                         </div>
                         <div class="site">
-                            <h2 id="site"><u>PUC Tech</u></h2>
+                            <h2 id="site">Site da empresa</h2>
                         </div>
 
             </div>
@@ -106,28 +106,28 @@
             <div id="modal-form-recrutador" class="modal">
                 <div class="modal-container">
                     <span class="close">&times;</span>
-                    <h2>Edição candidato</h2>
+                    <h2>Editar perfil</h2>
                     <form id="form-edit-recrutador">
 
-                        <label for="form-biografia">Biografia:</label>
-                        <textarea rows="5" cols="70" id="form-biografia" placeholder="Escreva aqui sua biografia" required></textarea><br>
+                        <h3 class="form-cargo">Cargo:</h3>
+                        <input type="text" id="form-cargo" placeholder="Cargo" required><br>
 
-                        <label for="form-phone">Telefone:</label>
+                        <h3 class="form-phone">Telefone:</h3>
                         <input type="text" id="form-phone" placeholder="Telefone para contato" required><br>
 
-                        <label for="form-linkedin">Linkedin:</label>
-                        <input type="text" id="form-linkedin" placeholder="Local de residência" required><br>
+                        <h3 class="form-linkedin">Linkedin:</h3>
+                        <input type="text" id="form-linkedin" placeholder="Linkedin" required><br>
 
-                        <label for="form-empresa">Empresa:</label>
-                        <input type="text" id="form-empresa" placeholder="Cargo atual" required><br>
+                        <h3 class="form-empresa">Empresa:</h3>
+                        <input type="text" id="form-empresa" placeholder="Empresa para qual trabalha" required><br>
 
-                        <label for="form-cnpj">CNPJ:</label>
-                        <input type="text" id="form-cnpj" placeholder="Cargo atual" required><br>
+                        <h3 class="form-cnpj">CNPJ:</h3>
+                        <input type="text" id="form-cnpj" placeholder="CNPJ" required><br>
 
-                        <label for="form-site">empresa:</label>
-                        <input type="text" id="form-site" placeholder="Cargo atual" required><br>
+                        <h3 class="form-site">Site:</h3>
+                        <input type="text" id="form-site" placeholder="Site da empresa" required><br>
             
-                        <input type="submit" value="Enviar">
+                        <input type="submit" id="enviar" value="Enviar">
                     </form>
                 </div>
             </div>

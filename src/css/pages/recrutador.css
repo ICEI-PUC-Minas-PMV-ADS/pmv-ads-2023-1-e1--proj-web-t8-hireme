@@ -404,10 +404,16 @@ input[type='file']{
 
 .modal-container {
     background-color: #fefefe;
-    margin: 15% auto; /* Centraliza o modal verticalmente e o coloca 15% de distância do topo */
+    margin: 10% auto; /* Centraliza o modal verticalmente e o coloca 15% de distância do topo */
     padding: 20px;
     border: 1px solid #888;
+    border-radius: 20px;
     width: 80%;
+    font-family: 'Lora';
+}
+
+.modal-container h2{
+    margin-bottom: 40px;
 }
 
 .close {
@@ -415,12 +421,131 @@ input[type='file']{
     float: right;
     font-size: 28px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .close:hover,
 .close:focus {
     color: black;
     text-decoration: none;
+}
+
+.form-cargo{
+    position: relative;
+    top: 5px;
+    font-size: 14px;
+}
+
+#form-cargo{
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Lora';
+
+    position: relative;
+    top: -27px;
+    left: 5%;
+}
+
+.form-phone{
+    position: relative;
+    top: 5px;
+    font-size: 14px; 
+}
+
+#form-phone{
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Lora';
+
+    position: relative;
+    top: -27px;
+    left: 6.5%;
+}
+
+.form-linkedin{
+    position: relative;
+    top: 5px;
+    font-size: 14px; 
+}
+
+#form-linkedin{
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Lora';
+
+    position: relative;
+    top: -27px;
+    left: 6.5%;
+}
+
+.form-empresa{
+    position: relative;
+    top: 5px;
+    font-size: 14px; 
+}
+
+#form-empresa{
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Lora';
+
+    position: relative;
+    top: -27px;
+    left: 6.5%;
+}
+
+.form-cnpj{
+    position: relative;
+    top: 5px;
+    font-size: 14px; 
+}
+
+#form-cnpj{
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Lora';
+
+    position: relative;
+    top: -27px;
+    left: 4.5%;
+}
+
+.form-site{
+    position: relative;
+    top: 5px;
+    font-size: 14px; 
+}
+
+#form-site{
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Lora';
+
+    position: relative;
+    top: -27px;
+    left: 4%;
+}
+
+#enviar{
+    position: relative;
+    top: 0px;
+    left: 90%;
+    border-radius: 10px;
+    padding: 5px;
+
+    font-size: 17px; 
+    font-family: 'Lora';
+    cursor: pointer;
+}
+
+#enviar:hover{
+    color: #00A878;
 }
 
 @media screen and (max-width:767px) {
@@ -635,6 +760,106 @@ input[type='file']{
         font-size: 12px;
     }
 
+    .modal-container h2{
+        font-size: 20px;
+    }
+
+    .form-cargo{
+        position: relative;
+        top: 5px;
+        font-size: 12px;
+    }
+    
+    #form-cargo{
+        width: 150px;
+        font-size: 12px;
+    
+        position: relative;
+        top: -25px;
+        left: 10%;
+    }
+    
+    .form-phone{
+        position: relative;
+        top: 5px;
+        font-size: 12px; 
+    }
+    
+    #form-phone{
+        width: 150px;
+        font-size: 12px;
+    
+        position: relative;
+        top: -25px;
+        left: 14%;
+    }
+    
+    .form-linkedin{
+        position: relative;
+        top: 5px;
+        font-size: 12px; 
+    }
+    
+    #form-linkedin{
+        width: 150px;
+        font-size: 12px;
+    
+        position: relative;
+        top: -24px;
+        left: 14%;
+    }
+    
+    .form-empresa{
+        position: relative;
+        top: 5px;
+        font-size: 12px; 
+    }
+    
+    #form-empresa{
+        width: 150px;
+        font-size: 12px;
+    
+        position: relative;
+        top: -24px;
+        left: 14%;
+    }
+    
+    .form-cnpj{
+        position: relative;
+        top: 5px;
+        font-size: 12px; 
+    }
+    
+    #form-cnpj{
+        width: 150px;
+        font-size: 12px;
+    
+        position: relative;
+        top: -24px;
+        left: 9%;
+    }
+    
+    .form-site{
+        position: relative;
+        top: 5px;
+        font-size: 12px; 
+    }
+    
+    #form-site{
+        width: 150px;
+        font-size: 12px;
+    
+        position: relative;
+        top: -24px;
+        left: 8%;
+    }
+    
+    #enviar{
+        position: relative;
+        left: 88%;
+        font-size: 13px; 
+    }
+
 
 }
 
@@ -786,6 +1011,51 @@ input[type='file']{
         top: 35px;
         width: 170px;
         font-size: 13px;
+    }
+
+
+    #form-cargo{
+        width: 170px;
+        position: relative;
+        left: 7%;
+    }
+
+    #form-phone{
+        width: 170px;
+        position: relative;
+        left: 9%;
+    }
+
+    #form-linkedin{
+        width: 170px;
+
+        position: relative;
+        left: 9%;
+    }
+
+    #form-empresa{
+        width: 170px;
+
+        position: relative;
+        left: 9.5%;
+    }
+
+    #form-cnpj{
+        width: 170px;
+
+        position: relative;
+        left: 6%;
+    }
+
+    #form-site{
+        width: 170px;
+
+        position: relative;
+        left: 5%;
+    }
+
+    #enviar{
+        font-size: 15px; 
     }
 
 }
