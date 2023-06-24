@@ -40,8 +40,16 @@ const btnEditRecrutador = document.getElementById("edit");
 const btnFecharModal = document.getElementsByClassName("close")[0];
 const formEditRecrutador = document.getElementById("form-edit-recrutador");
 
+let formTelefone = document.getElementById("form-phone");
+let formCargo = document.getElementById("form-cargo");
+let formLinkedin = document.getElementById("form-linkedin");
+let formEmpresa = document.getElementById("form-empresa");
+let formCnpj = document.getElementById("form-cnpj");
+let formSite = document.getElementById("form-site");
+
 btnEditRecrutador.addEventListener('click', function() {
   modal.style.display = "block";
+  carregarCamposForm();
 });
 
 btnFecharModal.addEventListener('click', function() {
@@ -54,15 +62,8 @@ window.addEventListener('click', function(event) {
   }
 });
 
-let formBiografia = document.getElementById("form-biografia");
-let formTelefone = document.getElementById("form-phone");
-let formLinkedin = document.getElementById("form-linkedin");
-let formEmpresa = document.getElementById("form-empresa");
-let formCnpj = document.getElementById("form-cnpj");
-let formSite = document.getElementById("form-site");
-
 formEditRecrutador.addEventListener('submit', function() {
-  usuariojson.biografia = formBiografia.value
+  usuariojson.cargo = formCargo.value;
   usuariojson.telefone = formTelefone.value;
   usuariojson.linkedin = formLinkedin.value;
   usuariojson.empresa = formEmpresa.value;
@@ -88,10 +89,19 @@ formEditRecrutador.addEventListener('submit', function() {
 function carregarInfosRecrutador() {
   document.getElementById("nome").innerHTML = usuariojson.nome;
   document.getElementById("email").innerHTML = usuariojson.email;
-  document.getElementById("bio").innerHTML = usuariojson.biografia;
+  document.getElementById("cargo").innerHTML = usuariojson.cargo;
   document.getElementById("phone").innerHTML = usuariojson.telefone;
   document.getElementById("linkedin").innerHTML = usuariojson.linkedin;
   document.getElementById("empresa").innerHTML = usuariojson.empresa;
   document.getElementById("cnpj").innerHTML = usuariojson.cnpj;
   document.getElementById("site").innerHTML = usuariojson.site;
+}
+
+function carregarCamposForm() {
+  formCargo.value = usuariojson.cargo;
+  formTelefone.value = usuariojson.telefone;
+  formLinkedin.value = usuariojson.linkedin;
+  formEmpresa.value = usuariojson.empresa;
+  formCnpj.value = usuariojson.cnpj;
+  formSite.value = usuariojson.site;
 }
