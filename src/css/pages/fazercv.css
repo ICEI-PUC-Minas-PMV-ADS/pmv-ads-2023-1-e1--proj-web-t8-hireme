@@ -117,7 +117,7 @@ main h1{
     box-sizing: border-box;
     place-items: center;
     width: 370px;
-    top: 360px;
+    top: 400px;
     left: 24.5%;
     padding: 10px;
     font-family: "Gabriela", sans-serif;
@@ -340,14 +340,14 @@ button a {
         position: absolute;
         width: 30px;
         height: 27px;
-        left: 46%;
-        top: 255px;
+        left: 51%;
+        top: 445px;
     }
     
     .conteudo-cargo {
         width: 260px;
-        top: 180px;
-        left: 48%;
+        top: 400px;
+        left: 53%;
         padding: 10px;
         font-size: 12px;
 
@@ -357,14 +357,14 @@ button a {
         position: absolute;
         width: 30px;
         height: 27px;
-        left: 15%;
-        top: 1500px;
+        left: 13%;
+        top: 1385px;
     }
     
     .conteudo-link {
         width: 300px;
-        top: 1460px;
-        left: 18%;
+        top: 1340px;
+        left: 15%;
         padding: 10px;
         font-size: 12px;
     }
@@ -373,15 +373,15 @@ button a {
         position: absolute;
         width: 30px;
         height: 27px;
-        left: 35%;
-        top: 1720px;
+        left: 30%;
+        top: 1610px;
     }
     
     .conteudo {
         position: absolute;
         width: 250px;
-        top: 1660px;
-        left: 38%;
+        top: 1550px;
+        left: 32%;
         padding: 10px;
         font-size: 12px;
     }
@@ -478,14 +478,14 @@ button a {
         position: absolute;
         width: 31px;
         height: 28px;
-        left: 32%;
+        left: 37%;
         top: 445px;
     }
     
     .conteudo-cargo {
         width: 300px;
-        top: 370px;
-        left: 34%;
+        top: 400px;
+        left: 39%;
         padding: 10px;
         font-size: 14px;
 
@@ -495,14 +495,14 @@ button a {
         position: absolute;
         width: 31px;
         height: 28px;
-        left: 8%;
+        left: 9%;
         top: 1345px;
     }
     
     .conteudo-link {
         width: 300px;
-        top: 1280px;
-        left: 9.5%;
+        top: 1285px;
+        left: 11%;
         padding: 10px;
         font-size: 14px;
     }
@@ -511,7 +511,7 @@ button a {
         position: absolute;
         width: 31px;
         height: 28px;
-        left: 18.5%;
+        left: 21%;
         top: 1570px;
     }
     
@@ -519,7 +519,7 @@ button a {
         position: absolute;
         width: 320px;
         top: 1510px;
-        left: 20%;
+        left: 23%;
         padding: 10px;
         font-size: 14px;
     }
