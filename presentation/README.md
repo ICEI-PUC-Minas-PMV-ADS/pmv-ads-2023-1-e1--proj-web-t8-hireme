@@ -1,7 +1,5 @@
 # Apresentação da Solução
 
-<a href="../docs/10-Apresentação do Projeto.md"> Orientações sobre os artefatos de apresentação do projeto</a>
+Nesta pasta, disponibilizamos uma apresentação resumida do projeto completo, abrangendo desde a contextualização até a solução final desenvolvida, apresentada em um breve vídeo de 3 minutos. Embora não tenhamos conseguido mostrar todas as telas do projeto nesse vídeo, fizemos o máximo possível dentro do tempo disponível. O site oferece dois tipos de acesso: o acesso para recrutadores e o acesso para candidatos. No vídeo, focamos nas páginas destinadas aos usuários que desejam montar um currículo, mas não tivemos tempo suficiente para mostrar as telas destinadas aos recrutadores.
 
-Faça uma apresentação resumida de todo o projeto, desde a contextualização até a solução final desenvolvida, usando um pequeno vídeo.
-
-Faça o upload do arquivo de vídeo e dos slides usados na apresentação no formato PDF (caso tenha feito uso de slides).
+Além disso, disponibilizamos os slides utilizados na apresentação final do projeto em formato PDF.
