@@ -7,6 +7,6 @@
 
 ## Apresentação
 
-<a href="../presentation/"> Clique aqui para fazer os uploads dos arquivos de apresentação da solução.</a>
+<a href="../presentation/"> Apresentação da solução HirMe.</a>
 
 
