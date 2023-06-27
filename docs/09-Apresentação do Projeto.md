@@ -7,6 +7,6 @@
 
 ## Apresentação
 
-<a href="../presentation/"> Apresentação da solução HirMe.</a>
+<a href="../presentation/"> Apresentação da solução HireMe</a>.
 
 
